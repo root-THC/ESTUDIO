@@ -56,5 +56,5 @@ CREATE TABLE actorxtema (
     CONSTRAINT actorxtema_IdActor_IdTema_pk PRIMARY KEY (IdPeli,IdDirector),
     CONSTRAINT actorxtema_IdActor_fk FOREIGN KEY (IdActor) REFERENCES actor(IdActor),
     CONSTRAINT actorxtema_IdTema_fk FOREIGN KEY (IdTema) REFERENCES tema(IdTema)
-
+);
 
