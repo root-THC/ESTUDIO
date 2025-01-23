@@ -54,5 +54,5 @@ CREATE TABLE actorxtema (
     IdActor SMALLINT,
     IdTema SMALLINT,
     CONSTRAINT actorxtema_IdActor_IdTema_pk PRIMARY KEY (IdPeli,IdDirector),
-    CONSTRAINT actorxtema_IdActor_fk FOREIGN KEY 
+    CONSTRAINT actorxtema_IdActor_fk FOREIGN KEY ()
 
