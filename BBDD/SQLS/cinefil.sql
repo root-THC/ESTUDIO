@@ -58,3 +58,4 @@ CREATE TABLE actorxtema (
     CONSTRAINT actorxtema_IdTema_fk FOREIGN KEY (IdTema) REFERENCES tema(IdTema)
 );
 
+
