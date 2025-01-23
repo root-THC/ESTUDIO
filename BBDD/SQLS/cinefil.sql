@@ -43,14 +43,14 @@ CREATE TABLE tema (
     CONSTRAINT tema_id_pk PRIMARY KEY (IdTema)
 );
 
-CREATE TABLE actors (
+CREATE TABLE actor (
     IdActor SMALLINT,
     Nombre VARCHAR(40),
     FechaNacimiento DATE,
     CONSTRAINT director_id_pk PRIMARY KEY (IdActor)
 );
 
-CREATE TABLE actorsxtema (
+CREATE TABLE actorxtema (
     IdActor SMALLINT,
     IdTema SMALLINT,
 
