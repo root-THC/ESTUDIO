@@ -73,7 +73,7 @@ CREATE TABLE ciutat (
 CREATE TABLE ciutatxcompanyia (
     IdCiutat SMALLINT,
     IdCompanyia SMALLINT,
-    CONS
+    CONSTRAINT ciutatxcompanyia
 
 
 );
