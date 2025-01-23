@@ -23,7 +23,7 @@ CREATE TABLE pelicula (
     CONSTRAINT pelicula_id_pk PRIMARY KEY (IdPeli),
     CONSTRAINT pelicula_uk UNIQUE(Titol),
     CONSTRAINT pelicula_companyia_fk FOREIGN KEY (IdCompanyia) REFERENCES Companyia, --Seran alters luego
-    CONSTRAINT pelicula_tema_fk FOREIGN KEY (IdTema) REFERENCES tema()) --Seran alters luego
+    CONSTRAINT pelicula_tema_fk FOREIGN KEY (IdTema) REFERENCES tema(IdTema) --Seran alters luego
 );
 CREATE TABLE director (
     IdDirector SMALLINT,
