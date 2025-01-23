@@ -22,7 +22,7 @@ CREATE TABLE pelicula (
     Presupuesto NUMERIC(7, 2),
     CONSTRAINT pelicula_id_pk PRIMARY KEY (IdPeli),
     CONSTRAINT pelicula_uk UNIQUE(Titol),
-    CONSTRAINT pelicula_companyia_fk FOREIGN KEY (IdCompanyia) REFERENCES companyia(IdCi), --Seran alters luego
+    CONSTRAINT pelicula_companyia_fk FOREIGN KEY (IdCompanyia) REFERENCES companyia(IdCompanyia), --Seran alters luego
     CONSTRAINT pelicula_tema_fk FOREIGN KEY (IdTema) REFERENCES tema(IdTema) --Seran alters luego
 );
 CREATE TABLE director (
