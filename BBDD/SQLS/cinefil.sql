@@ -71,9 +71,9 @@ CREATE TABLE ciutat (
     CONSTRAINT idciutat_pk PRIMARY KEY (IdCiutat)
 );
 CREATE TABLE ciutatxcompanyia (
-    IdCiutat S
-    IdCompanyia
-
+    IdCiutat SMALLINT,
+    IdCompanyia SMALLINT,
+    CONS
 
 
 );
