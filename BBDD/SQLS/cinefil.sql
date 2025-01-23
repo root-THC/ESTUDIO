@@ -80,5 +80,5 @@ CREATE TABLE ciutatxcompanyia (
 CREATE TABLE paper (
     IdPaper SMALLINT,
     NomPaper VARCHAR (40),
-    CONSTRAINT id_paper_pk PRIMARY KEY
+    CONSTRAINT id_paper_pk PRIMARY KEY (Id)
 );
