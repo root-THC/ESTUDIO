@@ -61,6 +61,7 @@ CREATE TABLE actorxtema (
 
 CREATE TABLE companyia (
     IdCompanyia 
+    NomCOm
 
 
 
