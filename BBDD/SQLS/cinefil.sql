@@ -53,5 +53,5 @@ CREATE TABLE actor (
 CREATE TABLE actorxtema (
     IdActor SMALLINT,
     IdTema SMALLINT,
-CONSTRAINT directorxpelicula_IdPeli_IdDirector_pk PRIMARY KEY (IdPeli,IdDirector),
+    CONSTRAINT directorxpelicula_IdPeli_IdDirector_pk PRIMARY KEY (IdPeli,IdDirector),
 
