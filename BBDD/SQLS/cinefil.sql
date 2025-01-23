@@ -78,6 +78,6 @@ CREATE TABLE ciutatxcompanyia (
     CONSTRAINT ciutatxcompanyia_IdCompanyia_fk FOREIGN KEY (IdCompanyia) REFERENCES (IdCompanyia)
 );
 CREATE TABLE paper (
-
+    
 
 );
