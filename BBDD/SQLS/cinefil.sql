@@ -75,4 +75,4 @@ CREATE TABLE ciutatxcompanyia (
 
 
 
-),
+);
