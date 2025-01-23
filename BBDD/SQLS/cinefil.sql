@@ -60,8 +60,8 @@ CREATE TABLE actorxtema (
 
 
 CREATE TABLE companyia (
-    IdCompanyia SMALLINT
-    NomCompanyia
+    IdCompanyia SMALLINT,
+    NomCompanyia VARCHAR()
 
 
 
