@@ -62,7 +62,7 @@ CREATE TABLE actorxtema (
 CREATE TABLE companyia (
     IdCompanyia SMALLINT,
     NomCompanyia VARCHAR(40),   
-    CONSTRAINT IdCompanyia PRIM
+    CONSTRAINT IdCompanyia_pk PRIMARY KEY
 
 
 
