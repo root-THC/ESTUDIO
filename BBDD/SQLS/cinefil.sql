@@ -27,7 +27,7 @@ CREATE TABLE pelicula (
 );
 CREATE TABLE director (
     IdDirector SMALLINT,
-    NombreDirector VARCHAR(40),
+    NomDirector VARCHAR(40),
     CONSTRAINT director_id_pk PRIMARY KEY (IdDirector)
 );
 CREATE TABLE directorxpelicula (
