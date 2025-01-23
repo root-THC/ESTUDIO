@@ -68,6 +68,6 @@ CREATE TABLE companyia (
 CREATE TABLE ciutat (
     IdCiutat SMALLINT,
     NomCiutat VARCHAR(40),
-    CONSTRAINT idciutat_pk PRIMARY KEY (IdCiutat)
+    CONSTRAINT idciutat_pk PRIMARY KEY (IdCiutat),
 
 );
