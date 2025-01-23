@@ -82,6 +82,9 @@ CREATE TABLE paper (
     NomPaper VARCHAR (40),
     CONSTRAINT id_paper_pk PRIMARY KEY (IdPaper)
 );
+CREATE TABLE 
+
+
 
 
 
