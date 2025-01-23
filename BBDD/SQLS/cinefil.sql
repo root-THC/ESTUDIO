@@ -79,6 +79,6 @@ CREATE TABLE ciutatxcompanyia (
 );
 CREATE TABLE paper (
     IdPaper SMALLINT,
-    Nom
+    Nombre VARCHAR (40)
 
 );
