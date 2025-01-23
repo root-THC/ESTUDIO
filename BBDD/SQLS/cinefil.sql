@@ -45,7 +45,7 @@ CREATE TABLE tema (
 
 CREATE TABLE actor (
     IdActor SMALLINT,
-    NomAc VARCHAR(40),
+    NomActor VARCHAR(40),
     FechaNacimiento DATE,
     CONSTRAINT director_id_pk PRIMARY KEY (IdActor)
 );
