@@ -72,7 +72,7 @@ CREATE TABLE ciutat (
 );
 CREATE TABLE ciutatxcompanyia (
     IdCiutat
-    
+    IdActor
 
 
 
