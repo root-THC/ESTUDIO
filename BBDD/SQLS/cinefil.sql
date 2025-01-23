@@ -67,6 +67,7 @@ CREATE TABLE companyia (
 
 CREATE TABLE ciutat (
     IdCiutat SMALLINT,
-    NomCiutat VARCHAR()
+    NomCiutat VARCHAR(40),
+    CONSTRAINT
 
 );
