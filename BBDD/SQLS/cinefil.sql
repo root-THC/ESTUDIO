@@ -74,7 +74,7 @@ CREATE TABLE ciutatxcompanyia (
     IdCiutat SMALLINT,
     IdCompanyia SMALLINT,
     CONSTRAINT id_ciutatxcompanyia_pk PRIMARY KEY (IdCiutat,IdCompanyia)
-    CONSTRAINT ciutatxcompanyia_IdCiutat_fk FOREIGN KEY (IdCiutat) REFERENCES (IdC)
+    CONSTRAINT ciutatxcompanyia_IdCiutat_fk FOREIGN KEY (IdCiutat) REFERENCES (IdCiutat),
 
 
 );
