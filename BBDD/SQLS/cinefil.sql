@@ -60,7 +60,7 @@ CREATE TABLE actorxtema (
 
 
 CREATE TABLE companyia (
-    IdCompanyia 
+    IdCompanyia SMALLINT
     NomCompanyia
 
 
