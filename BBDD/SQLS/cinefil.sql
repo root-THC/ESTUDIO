@@ -65,4 +65,7 @@ CREATE TABLE companyia (
     CONSTRAINT idcompanyia_pk PRIMARY KEY (IdCompanyia),   
 );
 
-CREATE TABLE ciut (
+CREATE TABLE ciutat (
+
+
+);
