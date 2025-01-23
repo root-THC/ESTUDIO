@@ -63,8 +63,5 @@ CREATE TABLE companyia (
     IdCompanyia SMALLINT,
     NomCompanyia VARCHAR(40),   
     CONSTRAINT idcompanyia_pk PRIMARY KEY (IdCompanyia),   
-
-
-
-
 );
+
