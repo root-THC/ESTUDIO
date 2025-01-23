@@ -66,6 +66,7 @@ CREATE TABLE companyia (
 );
 
 CREATE TABLE ciutat (
-    ID
+    IdCiutat
+        
 
 );
