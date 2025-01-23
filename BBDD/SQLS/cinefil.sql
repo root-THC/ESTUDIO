@@ -70,4 +70,4 @@ CREATE TABLE ciutat (
     NomCiutat VARCHAR(40),
     CONSTRAINT idciutat_pk PRIMARY KEY (IdCiutat)
 );
-CREATE TABLE ciutatxcompanyia
+CREATE TABLE ciutatxcompanyia ()
