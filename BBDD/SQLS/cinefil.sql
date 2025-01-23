@@ -17,7 +17,7 @@ CREATE SEQUENCE tema_seq
 
 CREATE TABLE pelicula (
     IdPeli SMALLINT,
-    Titol VARCHAR(20),
+    Titol VARCHAR(20),sdff 
     Estreno DATE,
     Presupuesto NUMERIC(7, 2),
     CONSTRAINT pelicula_id_pk PRIMARY KEY (IdPeli),
