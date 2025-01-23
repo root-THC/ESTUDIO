@@ -59,4 +59,4 @@ CREATE TABLE actorxtema (
 );
 
 
-CREATE TABLE acto (
+CREATE TABLE act (
