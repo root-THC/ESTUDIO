@@ -47,7 +47,7 @@ CREATE TABLE actor (
     IdActor SMALLINT,
     NomActor VARCHAR(40),
     FechaNacimiento DATE,
-    CONSTRAINT director_id_pk PRIMARY KEY (IdActor)
+    CONSTRAINT actor_id_pk PRIMARY KEY (IdActor)
 );
 
 CREATE TABLE actorxtema (
@@ -62,30 +62,74 @@ CREATE TABLE actorxtema (
 CREATE TABLE companyia (
     IdCompanyia SMALLINT,
     NomCompanyia VARCHAR(40),   
-    CONSTRAINT idcompanyia_pk PRIMARY KEY (IdCompanyia)   
+    CONSTRAINT companyia_id_pk PRIMARY KEY (IdCompanyia)   
 );
 
 CREATE TABLE ciutat (
     IdCiutat SMALLINT,
     NomCiutat VARCHAR(40),
-    CONSTRAINT idciutat_pk PRIMARY KEY (IdCiutat)
+    CONSTRAINT ciutat_id_pk PRIMARY KEY (IdCiutat)
 );
 CREATE TABLE ciutatxcompanyia (
     IdCiutat SMALLINT,
     IdCompanyia SMALLINT,
-    CONSTRAINT id_ciutatxcompanyia_pk PRIMARY KEY (IdCiutat,IdCompanyia),
-    CONSTRAINT ciutatxcompanyia_IdCiutat_fk FOREIGN KEY (IdCiutat) REFERENCES (IdCiutat),
-    CONSTRAINT ciutatxcompanyia_IdCompanyia_fk FOREIGN KEY (IdCompanyia) REFERENCES (IdCompanyia)
+    CONSTRAINT ciutatxcompanyia_id_pk PRIMARY KEY (IdCiutat,IdCompanyia),
+    CONSTRAINT ciutatxcompanyia_IdCiutat_fk FOREIGN KEY (IdCiutat) REFERENCES ciutat(IdCiutat),
+    CONSTRAINT ciutatxcompanyia_IdCompanyia_fk FOREIGN KEY (IdCompanyia) REFERENCES companyia(IdCompanyia)
 );
 CREATE TABLE paper (
     IdPaper SMALLINT,
     NomPaper VARCHAR (40),
-    CONSTRAINT id_paper_pk PRIMARY KEY (IdPaper)
+    CONSTRAINT paper_id_pk PRIMARY KEY (IdPaper)
 );
-CREATE TABLE 
+CREATE TABLE actorxsubstitucio (
+    IdActor SMALLINT,
+    IdActorSubsitut SMALLINT,
+    Grau ENUM('1', '2', '3', '4', '5', '6', '7', '8', '9', '10') NOT NULL,
+    CONSTRAINT actorxsubstitucio_id_pk PRIMARY KEY (IdActor,IdActorSubsitut),
+    CONSTRAINT actorxsubstitucio_IdActor_fk FOREIGN KEY (IdActor) REFERENCES actor(IdActor)
+);
+CREATE TABLE actorxcompatibilitat (
+    IdActor SMALLINT,
+    IdActorCompatible SMALLINT,
+    Compatible BOOLEAN,
+    CONSTRAINT actorxcomptabilitat_id_pk PRIMARY KEY (IdActor,IdActorCompatible)
+);
 
+CREATE TABLE data (
+    DataInici DATE DEFAULT CURRENT_DATE,
+    CONSTRAINT data_DataInici_pk PRIMARY KEY (DataInici)
+);
+CREATE TABLE actorxcompanyiaxdata (
+    IdActor SMALLINT,
+    DataInici DATE DEFAULT CURRENT_DATE,
+    IdCompanyia SMALLINT,
+    DataFi DATE,
+    CONSTRAINT actorxcompanyiaxdata_pk PRIMARY KEY (IdActor,DataInici,IdCompanyia),
+    CONSTRAINT actorxcompanyiaxdata_IdActor_fk FOREIGN KEY (IdActor) REFERENCES actor(IdActor),
+    CONSTRAINT actorxcompanyiaxdata_DataInici_fk FOREIGN KEY (DataInici) REFERENCES data(DataInici),
+    CONSTRAINT actorxcompanyiaxdata_IdCompanyia_fk FOREIGN KEY (IdCompanyia) REFERENCES companyia(IdCompanyia)
+);
+CREATE TABLE actorxpaperxpelicula (
+    IdActor SMALLINT,
+    IdPeli SMALLINT,
+    IdPaper SMALLINT,
+    CONSTRAINT actorxpaperxpelicula_pk PRIMARY KEY (IdActor,IdPeli,IdPaper),
+    CONSTRAINT actorxpaperxpelicula_IdActor_fk FOREIGN KEY (IdActor) REFERENCES actor(IdActor),
+    CONSTRAINT actorxpaperxpelicula_IdPeli_fk FOREIGN KEY (IdPeli)  REFERENCES  pelicula(IdPeli),
+    CONSTRAINT actorxpaperxpelicula_IdPaper_fk FOREIGN KEY (IdPaper) REFERENCES paper(IdPaper)
+);
+CREATE TABLE datarodatje (
+    DataIniciRodatje DATE,
+    CONSTRAINT datarodatje_DataIniciRodatje_pk PRIMARY  KEY (DataIniciRodatje)
+);
+CREATE TABLE faserodatje (
+    IdPeli SMALLINT,
+    IdCiutat SMALLINT,
+    DataIniciRodatje DATE,
+    CONSTRAINT faserodatje_pk PRIMARY  KEY (IdPeli,IdCiutat,DataIniciRodatje),
+    CONSTRAINT faserodatje_IdPeli_fk FOREIGN KEY (IdPeli)  REFERENCES  pelicula(IdPeli),
+    CONSTRAINT faserodatje_IdCiutat_fk FOREIGN KEY (IdCiutat)  REFERENCES  ciutat(IdCiutat),
+    CONSTRAINT faserodatje_DataIniciRodatje_fk FOREIGN KEY (IdPeli)  REFERENCES  datarodatje(DataIniciRodatje)
 
-
-
-
-
+);
