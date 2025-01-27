@@ -1,0 +1,13 @@
+function push (){
+        cd /home/users/inf/hisx1/a241535rm/Downloads/postgres-docker-arreglat/s>
+        git config --global pull.rebase false
+        while true; do
+        git pull 
+        git add -A
+        git commit -m "PUSH SQL"
+        git push
+        sleep 1
+        clear
+        done
+} 
+
