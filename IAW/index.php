@@ -5,39 +5,58 @@
     <title>PRUEBAS PHP</title>
 </head>
 <style>
-    tr , th , td {
+    tr , td {
         border: 1px solid black;
         text-align: center;
+        background-color:  	lightgray;
     }
+    th {
 
-
-</style>
+        border: 1px solid black;
+        text-align: center;
+        background-color:  	Violet;
+    }
+</style>    
 <body>
+<!-- link colores https://htmlcolorcodes.com/es/nombres-de-los-colores/ --> 
 <!-- contenido  -->
     <h1><?php echo "TABLA DE MULTIPLICAR CON SIFILIS"; ?></h1>
-    <ul>
-    <table>
+<ul>
+        
+<table>
+    
+    
     <?php
-
+    
     $maxTaules = 10;
     $maxDinsLaTaula = 10;
-    
-    for ($taulaDel = 1; $taulaDel <= $maxTaules; $taulaDel++) {
-        echo "<tr>";  
-        for ($i = 1; $i <= $maxDinsLaTaula; $i++ ){
-            $resultado = $i * $taulaDel;        
-            echo "<th> $resultado</th>";
-        }
-
-        echo "</tr>";
-
+    echo "<th>X</th>";
+    for ($x=1;$x <= $maxTaules; $x++){   
+        echo "<th>$x</th>";   
     }
 
+    for ($taulaDel = 1; $taulaDel <= $maxTaules; $taulaDel++){
+        echo "<tr>";  
+        echo "<th>$taulaDel</th>";
+    
 
+        for ($i = 1; $i <= $maxDinsLaTaula; $i++ ){
+            $resultado = $i * $taulaDel;        
+            echo "<td> $resultado</td>";
+            
+        }
+        
+        
+
+    }
     ?>
-    </table>
-    </ul>
+     
+    
 
+</table>
+    
+      
+</ul>
 
 
 
