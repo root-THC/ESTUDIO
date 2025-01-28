@@ -96,7 +96,7 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 SELECT ename FROM emp WHERE LOWER(ename) LIKE '_l%'; -- MOSTRAR LOS QUE DE SEGUNDO CARACTER TENGAN LA L _ = CARACTER %=CONJUNTO DE CARACTERES ALEATORIOS
 
-SELECT ename,sal, COALESCE(comm::TEXT,'-'),  
+SELECT ename,sal, COALESCE(comm::TEXT,'-') comm,  -- el comm es la etiqueta que quiero que aparezca
 sal+COALESCE(comm,0) 
 "sal+comm"
 FROM emp;
