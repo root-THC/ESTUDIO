@@ -25,9 +25,9 @@
         
 <table>
     
-    
+   
     <?php
-    
+     echo "1+1 es =". 1+1 ."";
     $maxTaules = 10;
     $maxDinsLaTaula = 10;
     echo "<th>X</th>";
