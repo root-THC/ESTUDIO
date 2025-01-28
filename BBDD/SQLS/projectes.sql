@@ -51,3 +51,4 @@ INSERT INTO empleat VALUES ('55667788D', 'David Sánchez', 'Calle Libertad 20', 
 INSERT INTO projecte VALUES (NEXTVAL('seq_idProjecte'), 'Campaña Publicitaria', '2024-09-01', '20000', '11223344C');
 INSERT INTO projecte VALUES (NEXTVAL('seq_idProjecte'), 'Análisis Financiero', '2025-01-15', '25000', '55667788D');
 
+SELECT
