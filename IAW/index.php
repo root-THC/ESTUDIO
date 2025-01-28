@@ -27,7 +27,7 @@
     
    
     <?php
-     echo "1+1 es =". 1+1 ."";
+     // echo "1+1 es =". 1+1 .""; los . . son para hacer operacion con por ejemplo con variables $xxx
     $maxTaules = 10;
     $maxDinsLaTaula = 10;
     echo "<th>X</th>";
