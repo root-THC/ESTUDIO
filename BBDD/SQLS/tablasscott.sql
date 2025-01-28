@@ -91,3 +91,15 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --que todo el texto del campo sea igual y el texto entre comillas tiene si fuera UPPER(ename) = 'SMITH'  
 --DELETE FROM emp WHERE job= 'CLERK';
 --UPDATE emp SET sal = sal + sal*0.1 WHERE job = 'SALESMAN';
+
+
+
+--MOSTRAR NOM SALARI COMM SUMA SAL+COMM
+
+SELECT ename FROM emp WHERE LOWER(ename) LIKE '_l%'; -- MOSTRAR LOS QUE DE SEGUNDO CARACTER TENGAN LA L _ = CARACTER %=CONJUNTO DE CARACTERES ALEATORIOS
+
+SELECT ename,sal, COALESCE(comm::TEXT,'-'),  
+sal+COALESCE(comm,0) 
+"sal+comm"
+FROM emp;
+ -- MOSTRAR NOMBRE SALARIO Y COMISION COALESCE para que los valores NULL sean = 0 
