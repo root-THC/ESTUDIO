@@ -91,3 +91,5 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --que todo el texto del campo sea igual y el texto entre comillas tiene si fuera UPPER(ename) = 'SMITH'  
 --DELETE FROM emp WHERE job= 'CLERK';
 --UPDATE emp SET sal = sal + sal*0.1 WHERE job = 'SALESMAN';
+
+N
