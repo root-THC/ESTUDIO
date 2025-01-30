@@ -21,7 +21,9 @@
 <!-- link colores https://htmlcolorcodes.com/es/nombres-de-los-colores/ --> 
 <!-- contenido  -->
     <h1><?php echo "EXPLORADOR DE ARCHIVOS PHP EN IAW ;)"; ?></h1>
-<
+    <?php
+$archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
+?>
 
 
 
