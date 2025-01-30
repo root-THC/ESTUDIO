@@ -92,6 +92,17 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --DELETE FROM emp WHERE job= 'CLERK';
 --UPDATE emp SET sal = sal + sal*0.1 WHERE job = 'SALESMAN';
 
+
+
 --MOSTRAR NOM SALARI COMM SUMA SAL+COMM
 
-SELECT ename FROM emp WHERE LOWER(ename) LIKE '_l%';
+SELECT ename FROM emp WHERE LOWER(ename) LIKE '_l%'; -- MOSTRAR LOS QUE DE SEGUNDO CARACTER TENGAN LA L _ = CARACTER %=CARACTERES ...
+
+
+--SELECT ename,sal, COALESCE(comm::TEXT,'-')  
+
+SELECT ename,sal, COALESCE(comm::TEXT,'-') comm,  -- el comm despues de los parentesis es la etiqueta que quiero que aparezca
+sal+COALESCE(comm,0) 
+"sal+comm"
+FROM emp;
+ -- MOSTRAR NOMBRE SALARIO Y COMISION COALESCE para que los valores NULL sean = 0 
