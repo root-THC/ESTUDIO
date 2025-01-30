@@ -11,4 +11,5 @@ function push (){
         done
 } 
 
+#LUEGO TENGO QUE HACER $SHELL para reiniciar la shell
 
