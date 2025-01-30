@@ -1,13 +1,14 @@
 function push (){
-        cd /home/users/inf/hisx1/a241535rm/Downloads/postgres-docker-arreglat/s>
+        cd ~/Downloads/php-modified/src/ESTUDIO
         git config --global pull.rebase false
+        git pull
         while true; do
-        git pull 
         git add -A
-        git commit -m "PUSH SQL"
+        git commit -m "php-push"
         git push
         sleep 1
         clear
         done
 } 
+
 
