@@ -102,7 +102,7 @@ SELECT ename FROM emp WHERE LOWER(ename) LIKE '_l%'; -- MOSTRAR LOS QUE DE SEGUN
 SELECT ename,sal, COALESCE(comm::TEXT,'-'),  
 =======
 SELECT ename,sal, COALESCE(comm::TEXT,'-') comm,  -- el comm es la etiqueta que quiero que aparezca
->>>>>>> 9913d011f2f8418b8258ae3a5dbff3ec2c5979c6
+
 sal+COALESCE(comm,0) 
 "sal+comm"
 FROM emp;
