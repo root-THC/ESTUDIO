@@ -1,0 +1,4 @@
+docker compose up -d
+docker ps 
+docker exec -it id_contenedor_donde_pone entry point bash
+psql --username=usuario template1
