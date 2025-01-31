@@ -87,6 +87,6 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 --SELECT ename,job, sal FROM emp WHERE ( job='SALESMAN' OR  job='PRESIDENT') AND sal>1500; LOS PARENTESIS HACEN QUE SE PRIORIZE ESO 
 
-SELECT ename, job, deptno, hiredate FROM emp ORDER BY hiredate DESC; -- DESC (Muestre valores de mayor a menor ) O ASC (Es lo que hace por defecto que es de)
+SELECT ename, job, deptno, hiredate FROM emp ORDER BY hiredate DESC; -- DESC (Muestre valores de mayor a menor ) O ASC (Es lo que hace por defecto que es de ,e)
 
 
