@@ -228,9 +228,9 @@ A. Consultes simples
 
 6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
 
---7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
+7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
 
---8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
+8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
 
 --9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
 
