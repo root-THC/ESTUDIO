@@ -228,7 +228,7 @@ SELECT fabcod, prodcod, descrip, exist FROM producto WHERE exist BETWEEN 25 AND 
 /*
 
 3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
-
+/*
 4. Obtenir les dades de les comandes realitzades pel client el codi és el 2111 i que han estat presos pel representant el codi és el 103.
 
 5. Obtenir les dades de les comandes realitzades pel client el codi és el 2111, que han estat presos pel representant el codi del qual és el 103 i que sol·liciten articles del fabricant el codi del qual és ACI.
