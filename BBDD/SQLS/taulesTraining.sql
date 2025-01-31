@@ -217,7 +217,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 
 --1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
---SELECT fabcod, prodcod, descrip, exist FROM producto WHERE exist BETWEEN 25 AND 40;
+--SELECT fabcod, prodcod, descrip, exis FROM producto WHERE exist BETWEEN 25 AND 40;
 
 
 --2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
