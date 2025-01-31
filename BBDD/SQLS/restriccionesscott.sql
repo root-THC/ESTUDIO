@@ -87,3 +87,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 SELECT ename,job, sal 
 FROM emp 
+WHERE 
