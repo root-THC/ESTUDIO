@@ -220,12 +220,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 SELECT fabcod, prodcod, descrip, exist FROM producto WHERE exist BETWEEN 25 AND 40;
 
 
-
-
-
-
-
-2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
+--2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
 /*
 
