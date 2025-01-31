@@ -232,6 +232,6 @@ A. Consultes simples
 
 8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
 
---9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
+9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
 
---10. Mostrar el nom i els dies que porta contractats els representants
+10. Mostrar el nom i els dies que porta contractats els representants
