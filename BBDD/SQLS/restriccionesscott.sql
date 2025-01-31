@@ -89,4 +89,4 @@ SELECT ename,job, sal
 FROM emp 
 WHERE ( job='SALESMAN'
 OR  job='PRESIDENT')
-AND sal>
+AND sal>1
