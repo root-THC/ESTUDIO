@@ -246,7 +246,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 --7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
 
-SELECT * F
+SELECT * FROM repv
 
 
 
