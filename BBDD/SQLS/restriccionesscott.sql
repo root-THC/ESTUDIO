@@ -112,5 +112,5 @@ SELECT empno, ename, sal*12 "salari anual" FROM emp ORDER BY "salari anual"; -- 
 
 -- Mostrar nom del empleat el salari, el salari incrementat 20% , de qui mes cobra a menys
 
-SELECT empno, sal, sal*1.20 "salari +20%" FROM emp ORDER BY "salari "; 
+SELECT empno, sal, sal*1.20 "salari +20%" FROM emp ORDER BY "salari +20%"; 
 
