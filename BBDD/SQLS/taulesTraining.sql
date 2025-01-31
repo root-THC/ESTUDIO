@@ -225,8 +225,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 
 --3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
-
--SELECT pednum,fecha,cliecod,repcod,fabcod,prodcod,cant,importe FROM pedido WHERE cliecod = '2111';
+--SELECT pednum,fecha,cliecod,repcod,fabcod,prodcod,cant,importe FROM pedido WHERE cliecod = '2111';
 
 
 
