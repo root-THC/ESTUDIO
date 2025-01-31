@@ -114,7 +114,7 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 --(
 -- Mostrar nom del empleat el salari, el salari incrementat 20% , de qui mes cobra a menys los que tengan el mismo salrio ordena por nombre
-SELECT ename, job, sal, sal*1.20 "salari +20%" FROM emp WHERE job NOT IN "SALESMAN" ORDER BY 3 DESC, ename DESC; 
+SELECT ename, job, sal, sal*1.20 "salari +20%" FROM emp WHERE job NOT IN job="SALESMAN" ORDER BY 3 DESC, ename DESC; 
 -- 3 A que campo afecta por ej ename despues del SELECT es el 1 o sea que me ordenaria el nombre
 -- WHERE sal NOT IN donde el salario no sea 1250
 --)
