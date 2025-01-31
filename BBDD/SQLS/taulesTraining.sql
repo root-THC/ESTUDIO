@@ -241,7 +241,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 --6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
 
-SELECT  "Fecha Ordenada" FROM pedido ORDER BY 2;
+SELECT * "Fecha Ordenada" FROM pedido ORDER BY 2;
 
 /*
 7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
