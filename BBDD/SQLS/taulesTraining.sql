@@ -216,11 +216,11 @@ ALTER TABLE ONLY OFICINA ADD CONSTRAINT FK_OFICINA_DIRECTOR FOREIGN KEY(DIRECTOR
 ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFERENCES REPVENTA(REPCOD);
 
 --A. Consultes simples
-1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
+--1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
 
-2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
+--2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
-3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
+3-. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
 
 4. Obtenir les dades de les comandes realitzades pel client el codi és el 2111 i que han estat presos pel representant el codi és el 103.
 
