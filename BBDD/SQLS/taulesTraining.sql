@@ -225,7 +225,6 @@ SELECT fabcod, prodcod, descrip, exist FROM producto WHERE exist BETWEEN 25 AND 
 
 
 
-/*
 2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
 3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
