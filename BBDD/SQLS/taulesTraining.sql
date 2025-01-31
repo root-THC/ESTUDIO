@@ -238,9 +238,9 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 --SELECT pednum,fecha,cliecod,repcod,fabcod,prodcod,cant,importe FROM pedido WHERE cliecod = '2111' AND repcod=103 AND fabcod='aci';
 
 
-/*
-6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
 
+6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
+/*
 7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
 
 8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
