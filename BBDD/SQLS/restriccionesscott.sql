@@ -109,3 +109,6 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 
 SELECT empno, ename, sal*12 "salari anual" FROM emp ORDER BY "salari anual"; -- annsal son una especie de etiqueta sera el nombre del campo que aparezca
+
+
+
