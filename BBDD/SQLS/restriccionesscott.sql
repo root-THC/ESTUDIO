@@ -101,5 +101,5 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --Hay que pones ASC o DESC al lado del campo sino no lo coje en este caso ordenara los nombres de ultimas letras del abecedario 
 --hasta las del principio del abecedario de ename solamente 
 --)
-SELECT empno, ename, sal*12 AS "salari anual" FROM emp ORDER BY 3 ; 
+SELECT empno, ename, sal*12 AS "salari anual" FROM emp ORDER BY 3 ; -- annsal son una especie de etiqueta sera el nombre del campo que aparezca OR
 -- annsal son una especie de etiqueta sera el nombre del campo que aparezca
