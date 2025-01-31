@@ -110,4 +110,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 
 
-SELECT empno, ename, sal*12 AS "salari anual" FROM emp ORDER BY "salari";
+SELECT empno, ename, sal*12 AS "salari anual" FROM emp ORDER BY "salari anual";
