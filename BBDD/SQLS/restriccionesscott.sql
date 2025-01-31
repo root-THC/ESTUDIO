@@ -85,9 +85,6 @@ INSERT INTO salgrade VALUES
 ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES dept;
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
---SELECT ename,job, sal FROM emp WHERE ( job='SALESMAN' OR  job='PRESIDENT') AND sal>1500;
+--SELECT ename,job, sal FROM emp WHERE ( job='SALESMAN' OR  job='PRESIDENT') AND sal>1500; LOS PARE
 
-FROM emp 
-WHERE ( job='SALESMAN'
-OR  job='PRESIDENT')
-AND sal>1500;
+
