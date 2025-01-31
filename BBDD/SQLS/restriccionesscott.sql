@@ -89,6 +89,6 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 --SELECT ename, job, deptno, hiredate FROM emp ORDER BY hiredate DESC; 
 -- DESC (Muestre valores de mayor a menor ) O ASC (Es lo que hace por defecto que es de menor a mayor)
-SELECT ename, job, deptno, hiredate FROM emp ORDER BY deptno, ename DESC; 
+SELECT ename, job, deptno, hiredate FROM emp ORDER BY deptno, ename DESC;  
 
 
