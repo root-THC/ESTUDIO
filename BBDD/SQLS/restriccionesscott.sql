@@ -93,6 +93,6 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 
 SELECT ename, job, deptno, hiredate FROM emp ORDER BY deptno, ename DESC; 
---Hay que pones ASC o DESC al lado del campo sino no lo coje en este caso ordenara los nombres de ultimas letras del abecedario hasta las d del abecedario de ename solamente 
+--Hay que pones ASC o DESC al lado del campo sino no lo coje en este caso ordenara los nombres de ultimas letras del abecedario hasta las del principio del abecedario de ename solamente 
 
 
