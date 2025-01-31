@@ -239,7 +239,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 
 
-6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
+-6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
 
 
 
