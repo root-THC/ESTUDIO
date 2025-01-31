@@ -226,7 +226,7 @@ SELECT fabcod, prodcod, descrip, exist FROM producto WHERE exist BETWEEN 25 AND 
 
 --3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
 
-SELECT cliecod, nombr FROM cliente WHERE cliecod = '2111';
+SELECT cliecod, nombre FROM cliente WHERE cliecod = '2111';
 
 
 
