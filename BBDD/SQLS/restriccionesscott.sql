@@ -89,4 +89,3 @@ SELECT ename,job, sal
 FROM emp 
 WHERE ( 
 OR
-)
