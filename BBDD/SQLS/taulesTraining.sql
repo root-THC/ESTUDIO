@@ -251,7 +251,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 
 
-8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
+--8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
 
 
 
