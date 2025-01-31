@@ -237,6 +237,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 5. Obtenir les dades de les comandes realitzades pel client el codi és el 2111, que han estat presos pel representant el codi del qual és el 103 i que sol·liciten articles del fabricant el codi del qual és ACI.
 
+/*
 6. Obtenir una llista de totes les comandes ordenades per client i, per cada client, ordenats per la data de la comanda (ascendentment)
 
 7. Obtenir les dades dels representants que pertanyen a loficina de codi 12 i 13 (cada representant només pertany a una oficina).
