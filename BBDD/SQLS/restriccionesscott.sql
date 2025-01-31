@@ -86,4 +86,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES de
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 SELECT ename,job, sal 
-FORD
+FROM em
