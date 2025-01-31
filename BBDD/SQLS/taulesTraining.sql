@@ -215,7 +215,7 @@ COPY pedido (pednum, fecha, cliecod, repcod, fabcod, prodcod, cant, importe) FRO
 ALTER TABLE ONLY OFICINA ADD CONSTRAINT FK_OFICINA_DIRECTOR FOREIGN KEY(DIRECTOR) REFERENCES REPVENTA(REPCOD);
 ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFERENCES REPVENTA(REPCOD);
 
-/*
+
 1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
 
 
