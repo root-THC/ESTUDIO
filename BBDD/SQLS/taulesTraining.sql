@@ -222,7 +222,7 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 --2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
-
+SELECT repcod FROM pedido WHERE ventas>1;
 
 --3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
 --SELECT * FROM pedido WHERE cliecod = '2111';
@@ -252,12 +252,18 @@ ALTER TABLE ONLY REPVENTA ADD CONSTRAINT FK_REPVENTA_JEFE FOREIGN KEY(JEFE) REFE
 
 
 --8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
+--SELECT * FROM producto WHERE exist=0 OR exist= NULL;
 
 
+
+--9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
+
+--SELECT *, fcontrato + INTERVAL '5000 days' AS "fecha contrato +" FROM repventa WHERE EXTRACT(YEAR FROM fcontrato) = 2003;
+
+--10. Mostrar el nom i els dies que porta contractats els representants
+
+--SELECT nombre , fcontrato AS "dias contratado" 
 
 /*
-9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
-
-10. Mostrar el nom i els dies que porta contractats els representants
 */
 
