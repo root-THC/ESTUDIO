@@ -20,7 +20,7 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
         background-color:  	Violet;
     }
 </style>   
-
+<!-- link colores https://htmlcolorcodes.com/es/nombres-de-los-colores/ --> 
 
 
 <body>
