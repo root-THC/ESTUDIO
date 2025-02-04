@@ -1,4 +1,4 @@
 docker compose up -d
 docker ps 
-docker exec -it id_contenedor point bash
+docker exec -it container_id_del_postgres /bin/bash
 psql --username=usuario template1
