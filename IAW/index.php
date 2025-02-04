@@ -8,8 +8,7 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
     <title>Selecciona un archivo PHP</title>
 </head>
 <body>
-    <h1>Archivos disponibles</h1>
-    <body
+
     <h1>Archivos disponibles</h1>
     <ul>
         <?php foreach ($archivos as $archivo): ?>
