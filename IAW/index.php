@@ -5,31 +5,7 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>PRUEBAS PHP</title>
+    <title>Selecciona un archivo PHP</title>
 </head>
-<style>
-    tr , td {
-        border: 1px solid black;
-        text-align: center;
-        background-color:  	lightgray;
-    }
-    th {
-
-        border: 1px solid black;
-        text-align: center;
-        background-color:  	Violet;
-    }
-</style>   
-<!-- link colores https://htmlcolorcodes.com/es/nombres-de-los-colores/ --> 
-
-
 <body>
-<!-- contenido  -->
-    <h1><?php echo "EXPLORADOR DE ARCHIVOS PHP EN IAW ;)"; ?></h1>
-   
-
-
-
-
-</body>
-</html>
+    <h1>Archivos disponibles</h1>
