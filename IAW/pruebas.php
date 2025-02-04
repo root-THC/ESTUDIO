@@ -1,7 +1,7 @@
 --ARCHIVO DE PRUEBAS PHP
 
 <?php 
-$array = array()
+$array = array(Ribi)
 
 
 
