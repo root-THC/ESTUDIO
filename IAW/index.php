@@ -19,7 +19,10 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
         text-align: center;
         background-color:  	Violet;
     }
-</style>    
+</style>   
+
+
+
 <body>
 <!-- link colores https://htmlcolorcodes.com/es/nombres-de-los-colores/ --> 
 <!-- contenido  -->
