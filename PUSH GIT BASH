@@ -1,4 +1,20 @@
 function push (){
+ function check_config(){
+                clear
+                read -p "Cual es tu usuario: " user
+                clear
+                read -p "Cual es tu correo: " email
+                clear
+        }
+        if git config --list | grep -q '^user.name='; then
+                clear
+        else
+                check_config
+                git config --global user.name "$user"
+                git config --global user.email "$email"
+
+        fi
+
         cd ~/Downloads/php-modified/src/ESTUDIO
         git config --global pull.rebase false
         git pull
