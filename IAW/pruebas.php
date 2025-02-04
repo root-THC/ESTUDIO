@@ -3,7 +3,10 @@
 <?php 
 $array = array(Richi,Jan,Ayman,Elena,Davidad,Dani);
 
-foreach (array as $personas) 
+foreach (array as $personas) {
+
+    
+}
 
 
 
