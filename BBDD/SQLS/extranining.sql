@@ -44,7 +44,7 @@
 
 --10. Mostrar el nom i els dies que porta contractats els representants
 
-SELECT nombre , (CURRENT_DATE - fcontrato) AS "dias contratado" FROM repventa; 
+--SELECT nombre , (CURRENT_DATE - fcontrato) AS "dias contratado" FROM repventa; 
 
 /*
 */
