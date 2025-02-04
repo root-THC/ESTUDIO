@@ -40,7 +40,7 @@
 
 --9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
 
-SELECT * FROM repventa WHERE fcontrato + 5000 B
+SELECT * FROM repventa WHERE fcontrato + 5000 BETWEEN 
 
 --10. Mostrar el nom i els dies que porta contractats els representants
 
