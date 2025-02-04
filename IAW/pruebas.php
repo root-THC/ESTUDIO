@@ -3,7 +3,7 @@
 <?php 
 $array = array(Richi,Jan,Ayman,Elena,Davidad,Dani);
 
-foreach (array)
+foreach (array as )
 
 
 
