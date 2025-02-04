@@ -4,7 +4,7 @@
 
 --2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
-SELECT repcod FROM pedido WHERE (SELECT * FROM pedido WHERE repc);
+SELECT repcod FROM pedido WHERE (SELECT * FROM pedido WHERE repcod IS );
 
 --3. Obtenir les dades de les comandes realitzades pel client el codi és el 2111.
 --SELECT * FROM pedido WHERE cliecod = '2111';
