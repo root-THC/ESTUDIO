@@ -1,4 +1,13 @@
 --ARCHIVO DE PRUEBAS PHP
 
+<?php 
+$array = array(Richi,Jan,Ayman,Elena,Davidad,Dani)
 
-php
+echo "$array";
+
+
+
+
+
+
+?>
