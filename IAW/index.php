@@ -9,3 +9,13 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
 </head>
 <body>
     <h1>Archivos disponibles</h1>
+    <body>
+    <h1>Archivos disponibles</h1>
+    <ul>
+        <?php foreach ($archivos as $archivo): ?>
+            <?php if ($archivo !== 'index.php'): // Evita mostrar index.php ?>
+                <li><a href="<?php echo $archivo; ?>"><?php echo $archivo; ?></a></li>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </ul>
+</body>
