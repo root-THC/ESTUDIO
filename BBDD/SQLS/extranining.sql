@@ -48,4 +48,3 @@ SELECT repcod FROM pedido WHERE ventas>1;
 
 /*
 */
-
