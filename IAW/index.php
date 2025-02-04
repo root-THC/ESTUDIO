@@ -1,5 +1,6 @@
-
-
+<?php
+$archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
