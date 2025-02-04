@@ -16,5 +16,4 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
             <?php endif; ?>
         <?php endforeach; ?>
     </ul>
-
 </body>
