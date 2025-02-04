@@ -25,7 +25,7 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
 
 <body>
 <!-- contenido  -->
-    <h1><?php echo "EXPLORADOR DE ARCHIVOS PHP EN IAW ;)"; ?></h1>
+    <h1><?php echo "EXPLORADOR DE ARCHIVOS PHP EN IAW ;)"; ?</h1>
    
 
 
