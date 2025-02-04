@@ -44,7 +44,7 @@ SELECT *, fcontrato + 5000 AS "fechanueva" FROM repventa WHERE fcontrato + 5000 
 
 --10. Mostrar el nom i els dies que porta contractats els representants
 
-SELECT nombre , (fcontrato AS "dias contratado" 
+SELECT nombre , (CUfcontrato) AS "dias contratado" 
 
 /*
 */
