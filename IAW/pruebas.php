@@ -5,7 +5,7 @@ $array = array("Richi, Jan, Ayman, Elena, Davidad, Dani");
 
 foreach ($array as $personas) {
 
-    echo  <ul>"$personas"<ul>
+    echo  <ul>"$personas"<ul>;
 }
 
 
