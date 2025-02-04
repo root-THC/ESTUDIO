@@ -1,7 +1,7 @@
 --ARCHIVO DE PRUEBAS PHP
 
 <?php 
-$array = array(Richi,Jan,Aym)
+$array = array(Richi,Jan,Ayman,Elena,)
 
 
 
