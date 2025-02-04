@@ -8,4 +8,6 @@ $array = array(Richi,Jan,Ayman,Elena,Davidad,Dani)
 
 
 
+
+
 ?>
