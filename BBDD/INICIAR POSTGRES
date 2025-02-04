@@ -2,3 +2,4 @@ docker compose up -d
 docker ps 
 docker exec -it container_id_del_postgres /bin/bash
 psql --username=usuario template1
+docker compose down --remove-orphans
