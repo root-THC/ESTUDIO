@@ -9,6 +9,11 @@ foreach ($array as $personas) {
 }
 echo "</ul>";
 
+$i = 1;
+while ($i <= 10):
+    echo $i;
+    $i++;
+endwhile;
 ?>
 <ul> MARICONES
 <li>jan</li>
