@@ -59,4 +59,4 @@
 --1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
 
 SELECT nombre, ciudad, region
-FROM repventa r JOIN oficina ON r.ofinum = oficina.ofinum;
+FROM repventa r JOIN oficina o ON r.ofinum = oficina.ofinum;
