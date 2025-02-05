@@ -117,8 +117,8 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --SELECT CURRENT_TIMESTAMP - interval '1 hours 30 minutes';
 
 
-SELECT ename, dname , emp.deptno
-FROM emp JOIN dept ON emp.deptno = dept.deptno;
+--SELECT ename, dname , emp.deptno
+--FROM emp JOIN dept ON emp.deptno = dept.deptno;
 
 -- JOIN UTILIZA EL INNER QUE ES PARA LOS VALORES QUE TIENEN UN VALOR ASIGNADO
 --TAMBIÑEN ESTA EL OUTER QUE SIRVE PARA LOS QUE TIENEN VALORES NULOS
