@@ -51,5 +51,5 @@
 /*
 */
 
-SELECT repventa 
+SELECT 
 FROM 
