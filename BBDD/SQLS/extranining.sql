@@ -63,5 +63,5 @@
 
 --2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
-SELECT DISTINCT repcod
+SELECT DISTINCT rrepcod
 FROM pedido p JOIN repventa r ON p.repcod = r.repcod;
