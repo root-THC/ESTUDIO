@@ -52,4 +52,4 @@
 */
 
 SELECT nombre,ciudad región
-FROM repventa JOIN oficina ON repventa.ofinum = of
+FROM repventa JOIN oficina ON repventa.ofinum = oficina
