@@ -51,5 +51,5 @@
 /*
 */
 
-SELECT nombre,
+SELECT nombre,ciudad
 FROM 
