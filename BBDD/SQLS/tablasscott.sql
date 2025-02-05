@@ -109,3 +109,5 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 
 --Mostrar el nombre y numero de dias que lleva contratado un empleado.
+
+SELECT nombre , (CURRENT_DATE - fcontrato) AS "dias contratado" FROM repventa; 
