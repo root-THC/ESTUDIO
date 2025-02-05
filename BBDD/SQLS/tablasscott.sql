@@ -108,4 +108,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
  -- MOSTRAR NOMBRE SALARIO Y COMISION COALESCE para que los valores NULL sean = 0 
 
 
-Mostrar el nombre y numero de dias que lleva contratado un emplea
+Mostrar el nombre y numero de dias que lleva contratado un empleado.
