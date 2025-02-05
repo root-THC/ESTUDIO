@@ -61,4 +61,4 @@
 SELECT nombre, ciudad, region
 FROM repventa r JOIN oficina o ON r.ofinum = o.ofinum;
 
-2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
+--2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
