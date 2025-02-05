@@ -52,4 +52,4 @@
 */
 
 SELECT nombre,ciudad región
-FROM 
+FROM repvent
