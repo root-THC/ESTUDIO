@@ -118,4 +118,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
 
 SELECT ename, dname
-FROM emp JOIN dept ON deptno = deptno
+FROM emp JOIN dept ON deptno = deptno;
