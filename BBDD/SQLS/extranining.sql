@@ -52,4 +52,4 @@
 */
 
 SELECT repventa 
-FDR
+FROM 
