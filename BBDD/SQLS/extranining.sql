@@ -35,7 +35,7 @@
 
 
 --8. Obtenir les dades de productes dels quals no hi ha existències o bé aquestes són desconegudes.
---SELECT * FROM producto WHERE exist=0 OR exist= NULL;
+--SELECT * FROM producto WHERE exist=0 OR exist NULL;
 
 
 --9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
