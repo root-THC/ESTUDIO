@@ -113,4 +113,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --SELECT *, (CURRENT_DATE - hiredate)/365.0 AS "años contratado" FROM emp; 
 --timestamp
 
-SELECT CURRENT_DATE - interval '1 hours 30 minu'
+SELECT CURRENT_DATE - interval '1 hours 30 minutes';
