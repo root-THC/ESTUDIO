@@ -1,3 +1,5 @@
+
+
 --1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
 --SELECT * FROM producto WHERE exist BETWEEN 25 AND 40;
 
