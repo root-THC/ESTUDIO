@@ -52,4 +52,4 @@
 */
 
 SELECT nombre,ciudad región
-FROM repventa JOIN ofici
+FROM repventa JOIN oficina 
