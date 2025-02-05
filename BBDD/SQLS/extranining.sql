@@ -42,7 +42,7 @@
 
 --SELECT *, fcontrato + 5000 AS "fechanueva" FROM repventa WHERE fcontrato + 5000 BETWEEN '2003-01-01' AND '2003-12-31';
 SELECT * FROM repventa 
-WHERE TO_CHAR(fcontrato +5000,'YYYY')='2003';
+WHERE TO_CHAR(fcontrato +5000 ,'YYYY')='2003';
 
 --10. Mostrar el nom i els dies que porta contractats els representants
 
