@@ -114,4 +114,4 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 --timestamp
 
 SELECT CURRENT_DATE - interval '1 hours 30 minutes';
-SELECT CURRENT_DATE - interval '1 hours 30 minutes';
+SELECT CURRENT_ - interval '1 hours 30 minutes';
