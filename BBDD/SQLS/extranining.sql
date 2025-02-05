@@ -57,5 +57,6 @@
 --B CONSULTA MULTITAULA
 
 --1. Obtenir les dades dels productes les existències dels quals estiguin entre 25 i 40 unitats.
+
 SELECT nombre, ciudad, region
 FROM repventa JOIN oficina ON repventa.ofinum = oficina.ofinum;
