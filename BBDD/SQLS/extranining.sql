@@ -51,5 +51,5 @@
 /*
 */
 
-SELECT nomb
+SELECT nombre,
 FROM 
