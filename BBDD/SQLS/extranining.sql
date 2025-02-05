@@ -64,4 +64,4 @@ FROM repventa r JOIN oficina o ON r.ofinum = o.ofinum;
 --2. Obtenir els codis dels representants que han pres alguna comanda (evitant-ne la repetició).
 
 SELECT DISTINCT * , repcod
-FROM pedido p JOIN 
+FROM pedido p JOIN repcod
