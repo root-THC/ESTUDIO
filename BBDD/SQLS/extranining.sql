@@ -51,5 +51,5 @@
 /*
 */
 
-SELECT nombre, ciudad ,región
+SELECT nombre, ciudad, región
 FROM repventa JOIN oficina ON repventa.ofinum = oficina.ofinum;
