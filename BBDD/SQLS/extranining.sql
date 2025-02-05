@@ -63,4 +63,4 @@
 
 --Obtenir una llista de totes les comandes, mostrant el número de comanda, el seu import, el nom del client que el va fer i el límit de crèdit del client.
 SELECT DISTINCT p.pednum, p.import, c.nombre
-FROM pedido p JOIN clie r ON p.repcod = r.repcod;
+FROM pedido p JOIN cliente c ON p.repcod = r.repcod;
