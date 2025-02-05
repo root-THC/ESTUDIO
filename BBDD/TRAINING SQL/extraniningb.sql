@@ -19,8 +19,9 @@
 
 --4. Obtenir una llista de les oficines (ciutats, no codis) que tenen un objectiu superior a 360.000 euros. Per a cada oficina mostrar la ciutat, el seu objectiu, el nom del director i lloc del mateix.
 
-SELECT ciudad, objetivo, nombre, puesto
-FROM repventa r JOIN 
+SELECT o.ciudad, o.objetivo, r.nombre, r.puesto
+FROM oficina o JOIN repventa r ON r.ofinum = o.ofinum
+WHERE objetivo > 360000;
 
 
 --5. Obtenir una llista de totes les comandes mostrant el seu número, el import i la descripció dels productes sol·licitats.
