@@ -61,6 +61,6 @@
 --SELECT nombre, ciudad, region
 --FROM repventa r JOIN oficina o ON r.ofinum = o.ofinum;
 
-Obtenir una llista de totes les comandes, mostrant el número de comanda, el seu import, el nom del client que el va fer i el límit de crèdit del client.
+--Obtenir una llista de totes les comandes, mostrant el número de comanda, el seu import, el nom del client que el va fer i el límit de crèdit del client.
 SELECT DISTINCT p.repcod
 FROM pedido p JOIN repventa r ON p.repcod = r.repcod;
