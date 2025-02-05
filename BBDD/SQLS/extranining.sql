@@ -41,6 +41,8 @@
 --9. Mostrar els representants que van ser contractats el 2003 (sumem 5000 a la data de contracte)
 
 --SELECT *, fcontrato + 5000 AS "fechanueva" FROM repventa WHERE fcontrato + 5000 BETWEEN '2003-01-01' AND '2003-12-31';
+SELECT * FROM repventa 
+WHERE TO_CHAR(fcontrato,'YYYY')='2003';
 
 --10. Mostrar el nom i els dies que porta contractats els representants
 
