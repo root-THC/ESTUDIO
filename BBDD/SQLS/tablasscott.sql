@@ -121,4 +121,4 @@ SELECT ename, dname , emp.deptno
 FROM emp JOIN dept ON emp.deptno = dept.deptno;
 
 -- JOIN UTILIZA EL INNER QUE ES PARA LOS VALORES QUE NO SEAN NULOS
---TAMBIÑEN ESTA EL OUT
+--TAMBIÑEN ESTA EL OUTER QUE
