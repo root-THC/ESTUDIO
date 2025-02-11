@@ -27,11 +27,7 @@
 --5. Obtenir una llista de totes les comandes mostrant el seu número, el import i la descripció dels productes sol·licitats.
 
 --SELECT p.pednum , p.importe , pr.descrip 
---FROM pedido p JOIN producto pr ON  p.prodcod = pr.prodcod;
-
-
---SELECT p.pednum , p.importe , pr.descrip
---FROM pedido p JOIN producto pr ON  p.prodcod = pr.prodcod;
+--FROM pedido p JOIN producto pr ON  p.prodcod = pr.prodcod AND p.fabcod = pr.fabcod;
 
 
 /*
