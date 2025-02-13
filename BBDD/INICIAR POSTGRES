@@ -3,3 +3,6 @@ docker ps
 docker exec -it container_id_del_postgres /bin/bash
 psql --username=usuario template1
 docker compose down --remove-orphans
+#Por si entramos desde admin y hay que crear usuario desde admin conectado a template1
+CREATE USER usuario CREATEDB; 
+
