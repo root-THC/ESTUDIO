@@ -3,6 +3,8 @@
 
 -- Lineas de comando sql 
 
+\d tabla para ver 
+
 --SELECTS :
 SELECT UPPER (‘hOlA’);
 resultado todo en mayúscula
