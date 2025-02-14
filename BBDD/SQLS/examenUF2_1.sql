@@ -31,7 +31,7 @@ CREATE TABLE Usuari (
     CONSTRAINT usuari_dni_pk PRIMARY KEY (DNI)
 );
 CREATE TABLE Sortida (
-        dataSortida DATE CONSTRAINT dataSortida_dataRetorn_ck CHECK (dataSortida < dataRetorn), 
+        dataSortida TIMESTAMP CONSTRAINT dataSortida_dataRetorn_ck CHECK (dataSortida < dataRetorn), 
         Vaixell SMALLINT,
         Patro VARCHAR(40),
         dataRetorn DATE,
