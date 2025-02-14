@@ -37,7 +37,7 @@ import de la mateixa, la descripció del producte sol·licitat i el nom del repr
 Ordeneu la llista per client alfabèticament i després per import de més gran a més petit.
 
 
-SELECT c.nombre "Cliente Nombre", p.pednum  ,  p.importe , pr.descrip , r.nombre
+SELECT c.nombre "Cliente Nombre", p.pednum  ,  p.importe , pr.descrip , r.nombre Nombre Representante
 FROM pedido p
 INNER JOIN cliente c ON p.cliecod = c.cliecod
 JOIN producto pr ON p.fabcod = pr.fabcod AND p.prodcod = pr.prodcod
