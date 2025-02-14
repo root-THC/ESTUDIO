@@ -1,7 +1,7 @@
 
 --APUNTES SQL
 
-
+-- Lineas de comando sql 
 
 --SELECTS :
 SELECT UPPER (‘hOlA’);
