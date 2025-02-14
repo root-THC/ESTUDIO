@@ -3,7 +3,7 @@
 
 -- Lineas de comando sql 
 
-\d tabla para ver 
+\d tabla para ver información de la tablla
 
 --SELECTS :
 SELECT UPPER (‘hOlA’);
