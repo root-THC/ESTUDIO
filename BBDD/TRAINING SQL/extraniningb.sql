@@ -39,7 +39,7 @@ Ordeneu la llista per client alfabèticament i després per import de més gran 
 
 SELECT c.nombre , p.pednum  ,  p.importe , pr.descrip , r.nombre
 FROM pedido p
-JOIN cliente c ON p.cliecod = c.cliecod
+INNER JOIN cliente c ON p.cliecod = c.cliecod
 JOIN producto pr ON p.fabcod = pr.fabcod AND p.prodcod = pr.prodcod
 JOIN repventa r ON p.repcod = r.repcod
 WHERE p.importe > 4000
