@@ -49,5 +49,5 @@ INSERT INTO usuari VALUES ('45155090F','656764234+32','x@gmail.com','B',TO_DATE(
 DELETE FROM usuari WHERE lower(ciutat) = 'barcelona' AND (tipus = 'A' OR tipus = 'C') ;
 
 
-UPDATE SET cuota = cuota * 1.20 W
+UPDATE SET cuota = cuota * 1.20 WHERE 
 --DELETE FROM Usuari WHERE tipus = 'A'
