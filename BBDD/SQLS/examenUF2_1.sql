@@ -46,5 +46,5 @@ CREATE TABLE Sortida (
 INSERT INTO usuari VALUES ('42234565H','656764234+32','a@gmail.com','A',TO_DATE('17-10-1980', 'DD-MM-YYYY'),NEXTVAL('numSoci_seq'),'Barcelona');
 INSERT INTO usuari VALUES ('45155090F','656764234+32','x@gmail.com','B',TO_DATE('06-12-2000', 'DD-MM-YYYY'),NEXTVAL('numSoci_seq'),'Barcelona');
 
-DELETE FROM usuari WHERE lower(ciutat) = 'barcelona' AND (tipus = 'A' OR tipus = '') ;
+DELETE FROM usuari WHERE lower(ciutat) = 'barcelona' AND (tipus = 'A' OR tipus = 'C') ;
 --DELETE FROM Usuari WHERE tipus = 'A'
