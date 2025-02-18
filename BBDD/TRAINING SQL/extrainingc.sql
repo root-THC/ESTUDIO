@@ -26,14 +26,16 @@ client que ho va sol·licitar, el nom del representant que va contactar
 amb ell per primera vegada i la ciutat de loficina on el
 representant treballa.
 
-
-SELECT p.pednum , p.importe , c.nombre , r.nombre 
+SELECT pednum, 
+       importe, 
+       c.nombre AS "Nombre Cliente", 
+       p.fecha, 
+       r.nombre AS "Representante que contacto por primera vez"
 FROM pedido p 
-JOIN 
+JOIN cliente c ON p.cliecod = c.cliecod
+JOIN repventa r ON c.repcod = r.repcod 
+WHERE p.importe > 2000;
 
-
-
-WHERE importe > 150;
 
 
 
