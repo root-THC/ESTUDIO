@@ -12,8 +12,7 @@ SELECT p.pednum , p.importe , c.nombre , r.nombre , p.fecha
 FROM pedido p 
 JOIN repventa r ON p.repcod = r.repcod
 JOIN cliente c ON p.cliecod = c.cliecod
-JOIN (
-) sub ON p.cliecod = sub.cliecod AND p.fecha = sub.primera_fecha
+JOIN 
 WHERE p.importe > 2000;
 
 
