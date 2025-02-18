@@ -36,7 +36,7 @@ SELECT pednum,
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod
-JOIN  
+JOIN oficina 
 WHERE p.importe > 2000;
 
 
