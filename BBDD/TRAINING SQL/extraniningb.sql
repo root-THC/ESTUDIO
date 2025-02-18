@@ -45,7 +45,7 @@ JOIN repventa r ON p.repcod = r.repcod
 WHERE p.importe > 4000
 ORDER BY c.nombre ASC, p.importe DESC;
 
-
+*/
 
 
 7. Obtenir una llista de les comandes amb imports superiors
