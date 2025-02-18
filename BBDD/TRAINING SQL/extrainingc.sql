@@ -12,7 +12,7 @@ SELECT pednum , importe , c.nombre AS "Nombre Cliente", p.fecha , r.nombre AS "R
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod 
-WHERE p.importe > 2000 ;
+WHERE p.importe > 2000;
 
 
 
