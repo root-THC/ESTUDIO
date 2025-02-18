@@ -13,7 +13,7 @@ FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod 
 WHERE p.importe > 2000 
-ORD;
+ORDER BY DESC;
 
 
 
