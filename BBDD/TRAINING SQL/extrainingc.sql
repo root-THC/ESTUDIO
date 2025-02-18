@@ -9,7 +9,7 @@ amb el client per primera vegada.
 
 
 SELECT pednum, 
-importe, 
+        importe, 
 c.nombre AS "Nombre Cliente", 
 p.fecha, 
 r.nombre AS "Representante que contacto por primera vez"
