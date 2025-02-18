@@ -19,10 +19,6 @@ JOIN repventa r ON c.repcod = r.repcod
 WHERE p.importe > 2000;
 
 
-
-
-
-
 /*
 8. Obtenir una llista de les comandes amb imports superiors a 150 euros, 
 mostrant el codi de la comanda, l'import, el nom del
