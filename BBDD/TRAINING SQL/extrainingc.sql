@@ -5,6 +5,7 @@
 a 2000 euros, mostrant el número de comanda, import, nom del
 client que ho va sol·licitar i el nom del representant que va contactar
 amb el client per primera vegada.
+*/
 
 
 SELECT p.pednum , p.importe , c.nombre , r.nombre , p.fecha
