@@ -26,7 +26,7 @@ client que ho va sol·licitar, el nom del representant que va contactar
 amb ell per primera vegada i la ciutat de loficina on el
 representant treballa.
 
-*/
+
 
 SELECT pednum, 
        importe, 
@@ -42,7 +42,7 @@ WHERE p.importe > 150;
 
 
 
-
+*/
 
 
 /*
