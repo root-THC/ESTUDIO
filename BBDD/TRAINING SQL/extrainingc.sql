@@ -4,8 +4,8 @@ mostrant el codi de la comanda, l'import, el nom del
 client que ho va sol·licitar, el nom del representant que va contactar
 amb ell per primera vegada i la ciutat de loficina on el
 representant treballa.
-*/
-/*
+
+
 SELECT p.pednum , p.importe , c.nombre , r.nombre 
 FROM pedido p 
 JOIN 
