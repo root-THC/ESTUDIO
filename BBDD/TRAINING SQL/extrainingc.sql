@@ -1,6 +1,4 @@
 
-
-
 /*
 8. Obtenir una llista de les comandes amb imports superiors a 150 euros, 
 mostrant el codi de la comanda, l'import, el nom del
