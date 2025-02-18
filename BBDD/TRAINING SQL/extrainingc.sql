@@ -27,7 +27,7 @@ amb ell per primera vegada i la ciutat de loficina on el
 representant treballa.
 
 
-*/
+
 SELECT pednum, 
        importe, 
        c.nombre AS "Nombre Cliente", 
@@ -43,7 +43,7 @@ WHERE p.importe > 150;
 
 
 
-/*
+
 
 
 
