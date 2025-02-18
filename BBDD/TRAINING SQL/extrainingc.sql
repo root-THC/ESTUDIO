@@ -45,7 +45,7 @@ WHERE p.importe > 150;
 
 
 
-*/
+/*
 
 9. Llista les comandes preses durant el mes d'octubre de l'any 2003 ,
 mostrant només el número de la comanda, el seu import, el nom del
