@@ -33,7 +33,7 @@ JOIN
 
 
 
-WHERE p.importe > 150;
+WHERE importe > 150;
 
 
 
