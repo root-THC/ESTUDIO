@@ -11,8 +11,7 @@ amb el client per primera vegada.
 SELECT pednum , importe , c.nombre AS "Cliente", r.nombre , p.fecha , p.repcod
 FROM pedido p 
 JOIN repventa r ON p.repcod = r.repcod 
-JOIN cliente c ON p.cliecod = c.cliecod
-JOIN 
+JOIN cliente c ON p.cliecod = c.clie
 WHERE p.importe > 2000;
 
 
