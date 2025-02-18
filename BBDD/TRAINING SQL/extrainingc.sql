@@ -39,7 +39,7 @@ JOIN repventa r ON c.repcod = r.repcod
 WHERE p.importe > 2000;
 
 
-*/
+
 
 /*
 
