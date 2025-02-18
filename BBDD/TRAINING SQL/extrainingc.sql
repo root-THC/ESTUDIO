@@ -13,7 +13,7 @@ JOIN
 
 
 WHERE p.importe > 150;
-*/
+
 
 
 
