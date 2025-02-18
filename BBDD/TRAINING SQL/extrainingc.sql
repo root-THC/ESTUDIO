@@ -17,7 +17,7 @@ FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod 
 WHERE p.importe > 2000;
-
+/*
 
 /*
 8. Obtenir una llista de les comandes amb imports superiors a 150 euros, 
