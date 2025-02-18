@@ -1,5 +1,21 @@
 
 /*
+7. Obtenir una llista de les comandes amb imports superiors
+a 2000 euros, mostrant el número de comanda, import, nom del
+client que ho va sol·licitar i el nom del representant que va contactar
+amb el client per primera vegada.
+
+
+SELECT p.pednum , p.importe , c.nombre , r.nombre , p.fecha
+FROM pedido p 
+JOIN repventa r ON p.repcod = r.repcod
+JOIN cliente c ON p.cliecod = c.cliecod
+JOIN (
+    SELECT cliecod, MIN(fecha) AS primera_fecha
+    FROM pedido
+    GROUP BY cliecod
+) sub ON p.cliecod = sub.cliecod AND p.fecha = sub.primera_fecha
+WHERE p.importe > 2000;
 8. Obtenir una llista de les comandes amb imports superiors a 150 euros, 
 mostrant el codi de la comanda, l'import, el nom del
 client que ho va sol·licitar, el nom del representant que va contactar
