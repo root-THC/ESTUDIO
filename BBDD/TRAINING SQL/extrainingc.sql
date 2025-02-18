@@ -8,7 +8,7 @@ amb el client per primera vegada.
 */
 
 
-SELECT p.pednum , p.importe , c.nombre , r.nombre , p.fecha , p.
+SELECT p.pednum , p.importe , c.nombre , r.nombre , p.fecha , p.repcod
 FROM pedido p 
 JOIN repventa r ON p.repcod = r.repcod
 JOIN cliente c ON p.cliecod = c.cliecod
