@@ -13,9 +13,6 @@ FROM pedido p
 JOIN repventa r ON p.repcod = r.repcod
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN (
-    SELECT cliecod, MIN(fecha) AS primera_fecha
-    FROM pedido
-    GROUP BY cliecod
 ) sub ON p.cliecod = sub.cliecod AND p.fecha = sub.primera_fecha
 WHERE p.importe > 2000;
 
