@@ -42,6 +42,7 @@ WHERE p.importe > 2000;
 
 
 
+
 9. Llista les comandes preses durant el mes d'octubre de l'any 2003 ,
 mostrant només el número de la comanda, el seu import, el nom del
 client que ho va realitzar, la data i la descripció del producte
