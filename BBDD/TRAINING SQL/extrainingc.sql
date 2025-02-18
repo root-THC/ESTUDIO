@@ -33,7 +33,7 @@ SELECT pednum,
        c.nombre AS "Nombre Cliente", 
        p.fecha, 
        r.nombre AS "Representante que contacto por primera vez"
-       ciud
+       ciudad
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod
