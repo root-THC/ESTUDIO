@@ -8,7 +8,7 @@ amb el client per primera vegada.
 */
 
 
-SELECT pednum , importe , c.nombre AS "Nombre Cliente", p.fecha , r.nombre AS "1r Contacto Nombre Representante"
+SELECT pednum , importe , c.nombre AS "Nombre Cliente", p.fecha , r.nombre AS "Representante que contacto por primera vez"
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN repventa r ON c.repcod = r.repcod 
