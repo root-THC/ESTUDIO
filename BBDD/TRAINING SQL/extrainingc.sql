@@ -18,7 +18,7 @@ JOIN (
     GROUP BY cliecod
 ) sub ON p.cliecod = sub.cliecod AND p.fecha = sub.primera_fecha
 WHERE p.importe > 2000;
-
+/*
 8. Obtenir una llista de les comandes amb imports superiors a 150 euros, 
 mostrant el codi de la comanda, l'import, el nom del
 client que ho va sol·licitar, el nom del representant que va contactar
