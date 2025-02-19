@@ -58,7 +58,7 @@ SELECT pednum , importe , fecha ,c.nombre , pr.descrip
 FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN producto pr ON p.fabcod = pr.fabcod AND p.prodcod = pr.prodcod
-WHERE TO_CHAR(fecha) BETWEEN '2003-10-01' AND '2003-11-01';
+WHERE TO_CHAR(fecha '') BETWEEN '2003-10-01' AND '2003-11-01';
 
 /*
 
