@@ -54,7 +54,7 @@ sol·licitat
 */
 
 
-SELECT pednum , importe
+SELECT pednum , importe , 
 
 
 
