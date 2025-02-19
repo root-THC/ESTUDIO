@@ -54,7 +54,7 @@ sol·licitat
 */
 
 
-SELECT pednum , importe , nombre
+SELECT pednum , importe , c.nombre
 
 
 
