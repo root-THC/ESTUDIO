@@ -95,8 +95,7 @@ SELECT ename,job, d.dname
 FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
 
--- El left o right o full hace referencia el campo hay que indicar el campo que tenga la clave aliena vacía en este caso es emp ya que hemos agregado un empleado 
-SELECT ename,job, d.dname
+-SELECT ename,job, d.dname
 FROM emp FULL
 JOIN dept d ON emp.deptno=d.deptno;
 
