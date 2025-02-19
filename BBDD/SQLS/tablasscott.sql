@@ -111,7 +111,7 @@ ON emp.mgr=jefe.empno;
 
 --PRODUCTO 
 SELECT ename , sal , grade Grado
-FROM emp e 
+FROM emp 
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
 
