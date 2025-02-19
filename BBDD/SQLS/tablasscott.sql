@@ -110,7 +110,7 @@ ON emp.mgr=jefe.empno;
 */
 SELECT ename , sal , s.grade
 FROM emp e 
-JOIN salgrade
+JOIN salgrade ON 
 
 WHERE sal>=losal AND sal<=hisal;
 
