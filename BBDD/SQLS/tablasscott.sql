@@ -109,7 +109,7 @@ ON emp.mgr=jefe.empno;
 
 */
 
---PRODUCTO CARTESIANO 
+--PRODUCTO CARTESIANO es para entrelazar información pero necesita una condición
 SELECT ename , sal , grade Grado
 FROM emp 
 CROSS JOIN salgrade 
