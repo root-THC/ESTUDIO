@@ -108,7 +108,7 @@ FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
 */
-SELECT ename , sal , s.grade Gradi
+SELECT ename , sal , grade Gradi
 FROM emp e 
 JOIN salgrade s ON e.sal=s.grade
 
