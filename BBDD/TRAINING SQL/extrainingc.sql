@@ -51,8 +51,7 @@ WHERE p.importe > 150;
 mostrant només el número de la comanda, el seu import, el nom del
 client que ho va realitzar, la data i la descripció del producte
 sol·licitat
-
-
+*/
 
 
 
