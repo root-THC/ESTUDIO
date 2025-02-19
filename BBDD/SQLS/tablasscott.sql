@@ -107,6 +107,8 @@ FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
 
+SELECT 
+
 
 
 
