@@ -90,7 +90,7 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 INSERT INTO emp (empNo,ename,job) VALUES (7777,'Ricardo','Director')
 
 
--- El left 
+-- El left hay que indicar el campo que este vació 
 SELECT ename,job, d.dname
 FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
