@@ -96,7 +96,7 @@ FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
 
 
---El full es para que se fije en los 2 campos lo que no cumplen 
+--El full es para que se fije en los 2 campos que no cumplen 
 SELECT ename,job, d.dname
 FROM emp FULL
 JOIN dept d ON emp.deptno=d.deptno;
