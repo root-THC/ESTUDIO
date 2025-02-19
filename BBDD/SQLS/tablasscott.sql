@@ -101,7 +101,7 @@ SELECT ename,job, d.dname
 FROM emp FULL
 JOIN dept d ON emp.deptno=d.deptno;
 
-
+--SELF JOIN
 SELECT emp.ename Empl , jefe.ename Jefe
 FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
