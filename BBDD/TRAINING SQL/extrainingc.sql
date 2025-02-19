@@ -56,7 +56,7 @@ sol·licitat
 
 SELECT pednum , importe , fecha ,c.nombre , p.descrip
 FROM pedido 
-JOIN 
+JOIN cliente c ON 
 
 
 /*
