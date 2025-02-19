@@ -108,6 +108,8 @@ FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
 */
+
+--PROO
 SELECT ename , sal , grade Grado
 FROM emp e 
 CROSS JOIN salgrade 
