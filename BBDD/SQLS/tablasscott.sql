@@ -109,7 +109,7 @@ ON emp.mgr=jefe.empno;
 
 */
 
---PRODCUTO 
+--PRODUCTO 
 SELECT ename , sal , grade Grado
 FROM emp e 
 CROSS JOIN salgrade 
