@@ -121,7 +121,18 @@ SELECT ename || ' Grado salarial ' || grade
 FROM emp 
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
-
+OUTPUT
+SMITH Grado salarial 1
+ ADAMS Grado salarial 1
+ JAMES Grado salarial 1
+ WARD Grado salarial 2
+ MARTIN Grado salarial 2
+ MILLER Grado salarial 2
+ ALLEN Grado salarial 3
+ TURNER Grado salarial 3
+ JONES Grado salarial 4
+ BLAKE Grado salarial 4
+ CLARK Grado salarial 4
 
 
 
