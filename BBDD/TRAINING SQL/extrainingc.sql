@@ -57,7 +57,7 @@ sol·licitat
 SELECT pednum , importe , fecha ,c.nombre , p.descrip
 FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod;
-JOIN prodo
+JOIN producto ON 
 
 /*
 
