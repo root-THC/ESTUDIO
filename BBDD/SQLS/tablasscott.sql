@@ -139,7 +139,7 @@ SMITH Grado salarial 1
 */
 
 
-SELECT ename, job , sal
+SELECT || ''ename, job , sal
 
 
 
