@@ -90,7 +90,7 @@ ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 INSERT INTO emp (empNo,ename,job) VALUES (7777,'Ricardo','Director')
 
 
--- El left o right o full  hay que indicar el campo que tenga la clave aliena vacía en este caso es emp ya que hemos agregado un empleado
+-- El left o right o full hace referencia el campo hay que indicar el campo que tenga la clave aliena vacía en este caso es emp ya que hemos agregado un empleado
 SELECT ename,job, d.dname
 FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
