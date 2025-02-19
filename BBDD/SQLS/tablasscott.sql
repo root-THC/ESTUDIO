@@ -85,7 +85,7 @@ INSERT INTO salgrade VALUES
 ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES dept ON UPDATE CASCADE;
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
-INSERT INTO emp (empNo,ename,job) VALUES (7777,)
+INSERT INTO emp (empNo,ename,job) VALUES (7777,'')
 --INSERT INTO emp VALUES (NEXTVAL('empno_seq') ,'PEPITA' ,NULL ,7566 ,TO_DATE('15/12/2023' ,'DD-MM-YYYY') ,2000 ,NULL ,40);
 --UPDATE emp SET ename = 'PEREZ' WHERE LOWER(ename) = 'smith' AND deptno=20; --LOWER o UPPER o (INITCAP primera en mayúscula) para asegurar 
 --que todo el texto del campo sea igual y el texto entre comillas tiene si fuera UPPER(ename) = 'SMITH'  
