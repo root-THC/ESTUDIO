@@ -140,7 +140,7 @@ SMITH Grado salarial 1
 
 
 --SELECT  'NOMBRE EMPLEADO: ' || ename || ' TRABAJO: ' || job || ' SALARIO: ' || sal || '€'
-from emp;
+--from emp;
 
 
 
