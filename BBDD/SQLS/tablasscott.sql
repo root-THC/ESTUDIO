@@ -116,7 +116,7 @@ WHERE sal>=losal AND sal<=hisal;
 
 */
 
-SELECT ename || 'Grado salarial' || grade 
+SELECT ename || ' Grado salarial ' || grade 
 FROM emp 
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
