@@ -107,7 +107,6 @@ SELECT emp.ename Empl , jefe.ename Jefe
 FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
-*/
 
 --PRODUCTO CARTESIANO es para entrelazar información pero necesita una condición
 SELECT ename , sal , grade Grado
