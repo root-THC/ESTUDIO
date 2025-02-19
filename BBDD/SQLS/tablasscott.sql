@@ -114,6 +114,7 @@ FROM emp
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
 
+*/
 
 
 
