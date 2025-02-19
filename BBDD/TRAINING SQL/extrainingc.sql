@@ -54,6 +54,10 @@ sol·licitat
 
 
 
+
+
+
+
 10. Obtenir una llista de totes les comandes preses per representants de
 oficines de la regió Est, mostrant només el número del
 comanda, la descripció del producte i el nom del representant
