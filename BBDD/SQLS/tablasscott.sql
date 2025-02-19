@@ -109,7 +109,7 @@ ON emp.mgr=jefe.empno;
 
 */
 
---PRODUCTO PRODUCTO CARTESIANO 
+--PRODUCTO CARTESIANO 
 SELECT ename , sal , grade Grado
 FROM emp 
 CROSS JOIN salgrade 
