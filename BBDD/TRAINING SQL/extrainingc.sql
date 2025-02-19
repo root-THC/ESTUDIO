@@ -54,7 +54,7 @@ sol·licitat
 */
 
 
-SELECT 
+SELECT pednum
 
 
 
