@@ -91,6 +91,7 @@ INSERT INTO emp (empNo,ename,job) VALUES (7777,'Ricardo','Director')
 
 -- OUTER JOIN es para los que no cumplen la condición de la aliena en caso de que pueda haber nulos sera OUTER join que es el LEFT RIGHT O FULL "Es muy raro usarlo"
 -- El left o right o full hace referencia el campo hay que indicar el campo que tenga la clave aliena vacía en este caso es emp ya que hemos agregado un empleado 
+
 SELECT ename,job, d.dname
 FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
