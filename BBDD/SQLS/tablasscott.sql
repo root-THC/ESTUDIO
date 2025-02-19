@@ -95,7 +95,7 @@ SELECT ename,job, d.dname
 FROM emp LEFT
 JOIN dept d ON emp.deptno=d.deptno;
 
--SELECT ename,job, d.dname
+SELECT ename,job, d.dname
 FROM emp FULL
 JOIN dept d ON emp.deptno=d.deptno;
 
