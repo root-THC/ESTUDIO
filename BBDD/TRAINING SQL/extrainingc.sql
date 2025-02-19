@@ -58,7 +58,7 @@ SELECT pedido
 
 
 
-
+/*
 
 10. Obtenir una llista de totes les comandes preses per representants de
 oficines de la regió Est, mostrant només el número del
@@ -69,3 +69,4 @@ que ho va prendre
 representant va ser contractat. Mostrar número de comanda, import,
 data comanda.
 
+*/
