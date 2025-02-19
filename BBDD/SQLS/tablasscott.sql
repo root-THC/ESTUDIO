@@ -138,7 +138,7 @@ SMITH Grado salarial 1
 
 */
 
-
+--PONER ETIQUETAS
 --SELECT  'NOMBRE EMPLEADO: ' || ename || ' TRABAJO: ' || job || ' SALARIO: ' || sal || '€'
 --from emp;
 
