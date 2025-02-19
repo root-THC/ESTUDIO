@@ -116,7 +116,7 @@ WHERE sal>=losal AND sal<=hisal;
 
 */
 
-SELECT ename  grade Grado
+SELECT ename || grade Grado
 FROM emp 
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
