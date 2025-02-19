@@ -107,7 +107,7 @@ SELECT emp.ename Empl , jefe.ename Jefe
 FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
-
+*/
 SELECT ename , sal , s.grade
 FROM emp WHERE sal>=losal AND sal<=hisal;
 
