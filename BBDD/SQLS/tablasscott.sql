@@ -107,7 +107,7 @@ FROM emp JOIN emp jefe
 ON emp.mgr=jefe.empno;
 
 
-SELECT ename , sal , 
+SELECT ename , sal , grade
 
 
 
