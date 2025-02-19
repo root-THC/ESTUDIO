@@ -136,7 +136,7 @@ SMITH Grado salarial 1
  CLARK Grado salarial 4
 
 
-
+*/
 
 --INSERT INTO emp VALUES (NEXTVAL('empno_seq') ,'PEPITA' ,NULL ,7566 ,TO_DATE('15/12/2023' ,'DD-MM-YYYY') ,2000 ,NULL ,40);
 --UPDATE emp SET ename = 'PEREZ' WHERE LOWER(ename) = 'smith' AND deptno=20; --LOWER o UPPER o (INITCAP primera en mayúscula) para asegurar 
