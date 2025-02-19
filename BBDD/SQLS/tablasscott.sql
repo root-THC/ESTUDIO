@@ -85,7 +85,7 @@ INSERT INTO salgrade VALUES
 ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES dept ON UPDATE CASCADE;
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
-
+--JOINS
 
 INSERT INTO emp (empNo,ename,job) VALUES (7777,'Ricardo','Director')
 
