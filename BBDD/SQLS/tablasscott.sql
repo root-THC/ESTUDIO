@@ -110,8 +110,7 @@ ON emp.mgr=jefe.empno;
 */
 SELECT ename , sal , grade Grado
 FROM emp e 
-CROSS JOIN salgrade s ON e.sal=s.grade
-
+CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
 
 
