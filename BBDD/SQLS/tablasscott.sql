@@ -122,7 +122,7 @@ FROM emp
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
 /*
-OUTPUT
+OUTPUT DE ESTO DE ARRIBA
 SMITH Grado salarial 1
  ADAMS Grado salarial 1
  JAMES Grado salarial 1
