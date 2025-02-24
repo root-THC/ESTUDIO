@@ -33,6 +33,7 @@ if ($n > 0) {
 
 // A partir del preu recollit a una variable, i el número d'unitats en una altra, el programa et dirà: preu amb IVA
 
+/*
 $preu_recollit = 10;
 $unitat = 5;
 $iva = 1.21;
@@ -52,7 +53,7 @@ $b = 25;
 
 if ($a > $b) {
     
-    $temp = $a; //asignar un valor temporal a solo afecta dentro de la función
+    $temp = $a; //asignar un valor temporal q solo afecta dentro de la función
     $a = $b; // aqui ponemos
     $b = $temp; // como queremos que lo entienda
     echo "$a = $a y $b = $b";
@@ -61,6 +62,10 @@ if ($a > $b) {
 }
 
 echo "$a = $a y $b = $b";
+*/
+
+
+//El mateix que l'anterior, però amb 3 variables, $a, $b i $c
 
 
 
