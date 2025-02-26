@@ -83,7 +83,7 @@ data comanda.
 16Llista els noms dels representants que tenen una quota superior a la del director.
 
 
-Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
+17Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
 
 El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
 
