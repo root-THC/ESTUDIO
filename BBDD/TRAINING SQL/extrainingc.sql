@@ -85,7 +85,7 @@ data comanda.
 
 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
 
-Mostrar el nom i el lloc de què són cap.
+18. Mostrar el nom i el lloc de què són cap.
 
 
 
