@@ -110,7 +110,7 @@ WHERE p.cant > pr.exist;
 --15. Llista els noms dels representants que tenen una quota superior a la del director.
 
 
-SELECT 
+SELECT r
 
 
 
