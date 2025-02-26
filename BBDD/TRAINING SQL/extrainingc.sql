@@ -111,7 +111,7 @@ WHERE p.cant > pr.exist;
 
 
 SELECT r.nombre
-FROM repventa r
+FROM repventa r JOIN ofi
 
 
 
