@@ -100,7 +100,7 @@ FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
 /*
 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
 */
-SELECT descrip
+SELECT descrip 
 FROM producto pr
 JOIN pedido p ON p.prodcod = pr.prodcod AND p.fabcod = pr.fabcod
 WHERE p.cant > pr.exist; 
