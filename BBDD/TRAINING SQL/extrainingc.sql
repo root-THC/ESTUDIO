@@ -59,6 +59,8 @@ FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
 JOIN producto pr ON p.fabcod = pr.fabcod AND p.prodcod = pr.prodcod
 WHERE TO_CHAR(fecha+5000, 'mm-yyyy') = '10-2003';
+*/
+
 
 /*
 
