@@ -92,7 +92,7 @@ ORDER BY 1;
 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada representant de lempresa.
 */
 
-
+-- PRIMERO VEMOS CUANTOS REPRESENTANTES DEBERIAN SALI CON UN sleect* from repventa;
 
 
 
