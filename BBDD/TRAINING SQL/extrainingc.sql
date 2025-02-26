@@ -102,7 +102,7 @@ FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
 */
 SELECT descrip
 FROM producto pr
-JOIN pedido p ON p.prodcod  
+JOIN pedido p ON p.prodcod = pr.prodcod AND p.fabcod = pr.fabcod 
 
 
 /*
