@@ -81,7 +81,8 @@ gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mos
 
 SELECT * 
 FROM repventa
-CROSS JOIN oficina;
+CROSS JOIN oficina
+
 
 
 
