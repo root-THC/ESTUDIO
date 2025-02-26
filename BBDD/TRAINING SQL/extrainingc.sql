@@ -127,7 +127,7 @@ SELECT r.nombre
 FROM repventa r 
 JOIN oficina o ON r.ofinum = o.ofinum
 JOIN repventa director ON o.director = director.repcod
-WHERE r.cuota > director.cuota; 
+WHERE r.ofinum > director.cuota; 
 
 /*
 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
