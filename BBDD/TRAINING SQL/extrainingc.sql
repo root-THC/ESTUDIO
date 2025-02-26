@@ -79,6 +79,10 @@ data comanda.
 gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.
 */
 
+
+
+
+/*
 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada representant de lempresa.
 
 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
