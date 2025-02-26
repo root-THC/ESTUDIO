@@ -78,7 +78,7 @@ data comanda.
 
 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
 
-16Llista els noms dels representants que tenen una quota superior a la del director.
+16. Llista els noms dels representants que tenen una quota superior a la del director.
 
 
 Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
