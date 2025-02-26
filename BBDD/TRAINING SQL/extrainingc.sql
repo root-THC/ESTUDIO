@@ -101,7 +101,7 @@ FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
 */
 SELECT descrip
-FROM producto 
+FROM producto pr
 JOIN pedido ON 
 
 
