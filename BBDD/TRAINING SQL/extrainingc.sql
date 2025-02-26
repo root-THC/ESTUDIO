@@ -106,7 +106,7 @@ JOIN pedido p ON p.fabcod || p.prodcod = pr.fabcod || pr.prodcod
 WHERE p.cant > pr.exist; 
 */
 
-/*
+
 15. Llista els noms dels representants que tenen una quota superior a la del director.
 
 /*
