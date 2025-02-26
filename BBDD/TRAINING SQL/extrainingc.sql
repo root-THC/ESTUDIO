@@ -110,6 +110,8 @@ WHERE p.cant > pr.exist;
 --15. Llista els noms dels representants que tenen una quota superior a la del director.
 
 
+
+
 SELECT r.nombre
 FROM repventa r 
 JOIN oficina o ON r.ofinum = o.ofinum
