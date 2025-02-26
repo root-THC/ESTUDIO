@@ -96,6 +96,7 @@ ORDER BY 1;
 
 SELECT nombre "Nombre Representante" , ciudad , ventas 
 FROM repventa
+r join oficina
 
 
 /*
