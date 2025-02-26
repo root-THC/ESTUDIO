@@ -102,7 +102,7 @@ FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
 */
 SELECT descrip , p.cant , pr.exist
 FROM producto pr
-JOIN pedido p ON p.fabcod  p.prodcod = pr.fabcod || pr.prodcod
+JOIN pedido p ON p.fabcod || p.prodcod = pr.fabcod || pr.prodcod
 WHERE p.cant > pr.exist; 
 
 
