@@ -112,7 +112,8 @@ WHERE p.cant > pr.exist;
 
 SELECT r.nombre
 FROM repventa r 
-JOIN oficina o ON r.ofinum = o.ofinum 
+JOIN oficina o ON r.ofinum = o.ofinum
+ 
 
 
 
