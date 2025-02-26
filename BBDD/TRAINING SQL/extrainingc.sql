@@ -83,7 +83,7 @@ data comanda.
 
 17. Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
 
-El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
+18. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
 
 Mostrar el nom i el lloc de què són cap.
 
