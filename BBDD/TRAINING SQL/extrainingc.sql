@@ -90,13 +90,12 @@ ORDER BY 1;
 
 /*
 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada representant de lempresa.
-*/
+
 
 -- PRIMERO VEMOS CUANTOS REPRESENTANTES DEBERIAN SALI CON UN select* from repventa; ya que nos dice de cada representante
 
 SELECT nombre "Nombre Representante" , ciudad , r.ventas 
 FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
-
 */
 /*
 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
