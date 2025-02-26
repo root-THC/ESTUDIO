@@ -84,7 +84,7 @@ FROM repventa
 CROSS JOIN oficina
 WHERE cuota >= objetivo
 ORDER BY 1;
-
+*/
 
 
 /*
