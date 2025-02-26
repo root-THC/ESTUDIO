@@ -83,7 +83,7 @@ SELECT nombre, cuota, ciudad , objetivo
 FROM repventa
 CROSS JOIN oficina
 WHERE cuota >= objetivo
-ORDER BY 
+ORDER BY 1;
 
 
 
