@@ -103,7 +103,7 @@ FROM repventa r LEFT join oficina o on r.ofinum = o.ofinum;
 
 
 
-
+/*
 15. Llista els noms dels representants que tenen una quota superior a la del director.
 
 
