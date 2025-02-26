@@ -113,7 +113,7 @@ WHERE p.cant > pr.exist;
 SELECT r.nombre
 FROM repventa r 
 JOIN oficina o ON r.ofinum = o.ofinum
-JOIN repventa director  
+JOIN repventa director ON  
 
 
 
