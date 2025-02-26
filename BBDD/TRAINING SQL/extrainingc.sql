@@ -79,7 +79,7 @@ data comanda.
 gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.
 */
 
-SELECT nombre, cuota,
+SELECT nombre, cuota, ciudad , 
 FROM repventa
 CROSS JOIN oficina
 WHERE cuota >= objetivo;
