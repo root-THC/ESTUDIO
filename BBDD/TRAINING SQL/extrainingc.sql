@@ -72,7 +72,23 @@ representant va ser contractat. Mostrar número de comanda, import,
 data comanda.
 
 
+Obtenir les comandes preses els mateixos dies en què un nou representant va ser contractat. Mostrar número de comanda, import, data comanda.
 
+Obtenir una llista amb parelles de representants i oficines on la quota del representant és més gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.
+
+Mostra el nom, les vendes i la ciutat de l'oficina de cada representant de lempresa.
+
+Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
+
+Llista els noms dels representants que tenen una quota superior a la del director.
+
+sdfsdfds
+
+Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
+
+El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
+
+Mostrar el nom i el lloc de què són cap.
 
 
 
