@@ -135,7 +135,7 @@ WHERE r.ofinum != director.ofinum;
 18. Mostrar el nom i el lloc de què són cap.
 
 SELECT jefe.nombre , jefe.puesto
-FROM repventa r JOIN repve
+FROM repventa r JOIN repventa jefe ON r
 
 */
 
