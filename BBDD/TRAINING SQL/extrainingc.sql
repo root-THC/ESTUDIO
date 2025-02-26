@@ -114,7 +114,7 @@ SELECT r.nombre
 FROM repventa r 
 JOIN oficina o ON r.ofinum = o.ofinum
 JOIN repventa director ON o.director = director.repcod
-WHERE  
+WHERE r. 
 
 
 
