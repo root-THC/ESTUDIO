@@ -94,7 +94,7 @@ ORDER BY 1;
 
 -- PRIMERO VEMOS CUANTOS REPRESENTANTES DEBERIAN SALI CON UN select* from repventa; ya que nos dice de cada representante
 
-SELECT nombre "Nombre Representante" , ciudad , ventas 
+SELECT nombre "Nombre Representante" , ciudad , ventas fr
 
 
 /*
