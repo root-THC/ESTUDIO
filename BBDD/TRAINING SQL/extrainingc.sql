@@ -74,7 +74,7 @@ representant va ser contractat. Mostrar número de comanda, import,
 data comanda.
 
 */
-
+/*
 12. Obtenir una llista amb parelles de representants i oficines on la quota del representant és més 
 gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.
 
