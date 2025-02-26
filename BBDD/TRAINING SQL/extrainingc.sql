@@ -93,4 +93,4 @@ gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mos
 
 18. Mostrar el nom i el lloc de què són cap.
 
-*/
+
