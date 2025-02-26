@@ -107,7 +107,12 @@ WHERE p.cant > pr.exist;
 */
 
 
-15. Llista els noms dels representants que tenen una quota superior a la del director.
+--15. Llista els noms dels representants que tenen una quota superior a la del director.
+
+
+
+
+
 
 /*
 16. Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
