@@ -82,7 +82,8 @@ gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mos
 SELECT nombre, cuota, ciudad , objetivo
 FROM repventa
 CROSS JOIN oficina
-WHERE cuota >= objetivo;
+WHERE cuota >= objetivo
+
 
 
 
