@@ -137,7 +137,7 @@ WHERE r.ofinum != director.ofinum;
 SELECT jefe.nombre , jefe.puesto
 FROM repventa r 
 JOIN repventa jefe 
-ON r.jefe = jefe.repcod
+ON r.jefe = jefe.repcod;
 
 */
 
