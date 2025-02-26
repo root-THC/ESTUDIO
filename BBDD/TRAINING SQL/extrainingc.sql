@@ -111,6 +111,7 @@ WHERE p.cant > pr.exist;
 
 
 SELECT r.nombre
+FROM repventa r
 
 
 
