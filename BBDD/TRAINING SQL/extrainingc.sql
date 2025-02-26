@@ -95,5 +95,5 @@ gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mos
 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
 
 18. Mostrar el nom i el lloc de què són cap.
-
+*/
 
