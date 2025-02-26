@@ -78,7 +78,7 @@ data comanda.
 
 14Mostra el nom, les vendes i la ciutat de l'oficina de cada representant de lempresa.
 
-15Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
+14Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències del producte.
 
 16Llista els noms dels representants que tenen una quota superior a la del director.
 
