@@ -78,7 +78,7 @@ data comanda.
 12. Obtenir una llista amb parelles de representants i oficines on la quota del representant és més 
 gran o igual que l'objectiu de la oficina, sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.
 
--- El cross join es para cuando queremos relacionar 2 campos que no estan relacionados por CP primearia O CA
+-- El cross join es para cuando queremos relacionar 2 campos que no estan relacionados por CP primearia O CA aliena
 
 SELECT nombre, cuota, ciudad , objetivo
 FROM repventa
