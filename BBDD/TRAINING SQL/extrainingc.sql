@@ -162,7 +162,7 @@ SELECT  pednum "Num Pedido " , p.importe "Importe Pedido", r.nombre , COALESCE(o
 FROM repventa r
 JOIN oficina o
 ON r.ofinum = o.ofinum
-FROM repventa r
+
 JOIN pedido p 
 ON p.repcod = r.repcod
 
