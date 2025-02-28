@@ -152,6 +152,6 @@ JOIN pedido p
 ON p.repcod = r.repcod
 
 JOIN producto pr 
-ON pr.prodcod 
+ON pr.prodcod = p
 ;
 
