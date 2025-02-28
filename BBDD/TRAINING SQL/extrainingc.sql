@@ -171,5 +171,5 @@ JOIN producto pr
 JOIN cliente c
               ON p.cliecod = c.cliecod
 RIGHT JOIN repventa r 
-       ON p.repcod 
+       ON p.repcod = r.repcod;
 
