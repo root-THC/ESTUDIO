@@ -160,7 +160,6 @@ ON p.cliecod = c.cliecod;
 
 SELECT  pednum "Num Pedido " , p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , pr.descrip "Descripción" , c.nombre
 FROM repventa r 
-
 JOIN pedido p 
 ON p.repcod = r.repcod
 
