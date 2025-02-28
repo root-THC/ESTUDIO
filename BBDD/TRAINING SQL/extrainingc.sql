@@ -145,5 +145,5 @@ ON r.jefe = jefe.repcod;
 
 SELECT r.nombre
 FROM repventa r LEFT JOIN oficina
-ON r.ofinum 
+ON r.ofinum =
 
