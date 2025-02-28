@@ -155,5 +155,5 @@ JOIN producto pr
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
 JOIN cliente c
-ON p.cliecod = r.repcod;
+ON p.cliecod = c.cliecod;
 
