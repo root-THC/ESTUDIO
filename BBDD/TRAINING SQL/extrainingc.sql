@@ -176,4 +176,4 @@ RIGHT JOIN repventa r
        ON p.repcod = r.repcod
 RIGHT JOIN oficina o 
        ON r.ofinum = o.ofinum;
-       ON 
+       
