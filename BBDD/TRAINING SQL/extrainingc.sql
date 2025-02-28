@@ -150,5 +150,7 @@ ON r.ofinum = o.ofinum
 
 JOIN pedido p 
 ON p.repcod = r.repcod
+
+
 ;
 
