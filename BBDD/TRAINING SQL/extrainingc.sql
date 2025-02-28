@@ -143,7 +143,7 @@ ON r.jefe = jefe.repcod;
 
 --Por cada representante mostrar el nombre i la ciutat de la seva oficina
 
-SELECT r.nombre , ciudad 
+SELECT nombre , ciudad 
 FROM repventa r LEFT JOIN oficina o
 ON r.ofinum = o.ofinum;
 
