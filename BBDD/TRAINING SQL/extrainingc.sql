@@ -104,7 +104,7 @@ SELECT descrip , p.cant , pr.exist
 FROM producto pr
 JOIN pedido p ON p.fabcod || p.prodcod = pr.fabcod || pr.prodcod
 WHERE p.cant > pr.exist; 
-*/
+
 
 
 --15. Llista els noms dels representants que tenen una quota superior a la del director.
@@ -120,7 +120,7 @@ WHERE r.cuota > director.cuota;
 
 
 
-/*
+
 16. Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director i el codi de l'oficina on treballa cadascun.
 */
 SELECT r.nombre , r.ofinum , director.nombre , director.ofinum
