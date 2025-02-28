@@ -166,7 +166,7 @@ ON p.repcod = r.repcod
 JOIN producto pr 
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
-JOIN cliente c
+ JOIN cliente c
 ON p.cliecod = c.cliecod
 RIGHT JOIN oficina o
 ON r.ofinum = o.ofinum;
