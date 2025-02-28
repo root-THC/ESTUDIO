@@ -129,7 +129,7 @@ JOIN oficina o ON r.ofinum = o.ofinum
 JOIN repventa director ON o.director = director.repcod
 WHERE r.ofinum != director.ofinum; 
 
-/*
+
 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.
 
 18. Mostrar el nom i el lloc de què són cap. Esto es un selfjoin
