@@ -154,6 +154,6 @@ ON p.repcod = r.repcod
 LEFT JOIN producto pr 
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
-JOIN cliente c
+LEFT JOIN cliente c
 ON p.cliecod = c.cliecod;
 
