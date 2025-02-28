@@ -143,7 +143,7 @@ ON r.jefe = jefe.repcod;
 
 --Por cada representante mostrar el nombre i la ciutat de la seva oficina mas numero de comanda y importe de comanda
 
-SELECT  p.importe "Importe Pedido"r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , p.pednum "Numero Pedido" , , pr.descrip "Descripción" , c.nombre
+SELECT  p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , p.pednum "Numero Pedido" , , pr.descrip "Descripción" , c.nombre
 FROM repventa r 
 LEFT JOIN oficina o
 ON r.ofinum = o.ofinum
