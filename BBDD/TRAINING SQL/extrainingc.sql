@@ -145,6 +145,6 @@ ON r.jefe = jefe.repcod;
 
 SELECT r.nombre , COALESCE(o.ciudad::TEXT, ' sin oficina'  )  Oficina 
 FROM repventa r LEFT JOIN oficina o
-JOIN pedido p = 
+JOIN pedido p 
 ON r.ofinum = o.ofinum;
 
