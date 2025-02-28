@@ -172,5 +172,5 @@ ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
  JOIN cliente c
 ON p.cliecod = c.cliecod
-RIGHT JOIN oficina o
-ON r.ofinum = o.ofinum;
+JOIN pedido p 
+ON p.repcod = r.repcod;
