@@ -166,7 +166,7 @@ ON r.ofinum = o.ofinum
 LEFT JOIN pedido p 
 ON p.repcod = r.repcod
 
-LEFT JOIN producto pr 
+JOIN producto pr 
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
 LEFT JOIN cliente c
