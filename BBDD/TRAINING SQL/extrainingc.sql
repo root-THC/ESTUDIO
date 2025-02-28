@@ -154,5 +154,6 @@ ON p.repcod = r.repcod
 JOIN producto pr 
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
-JOIN cliecod cad;
+JOIN cliecod c
+ON ;
 
