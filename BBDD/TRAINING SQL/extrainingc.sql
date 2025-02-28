@@ -178,5 +178,5 @@ LEFT JOIN oficina o
        ON r.ofinum = o.ofinum;
 */
 
-SELECT count
+SELECT count (*)
        
