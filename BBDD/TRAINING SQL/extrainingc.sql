@@ -142,7 +142,7 @@ ON r.jefe = jefe.repcod;
 */
 
 --Por cada representante mostrar el nombre i la ciutat de la seva oficina mas numero de comanda y importe de comanda que hayan echo o no el pedido
--- SI SE HACE UN OUTER LEFT JOIN se referira a todo lo que hay antes y right al campo de la derecha
+-- SI SE HACE UN OUTER LEFT JOIN se referira a todo lo que hay antes y right al campo de la derecha los campos del join etc.. y lo mismo para la derecha
 /*
 SELECT  pednum "Num Pedido " , p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , pr.descrip "Descripción" , c.nombre
 FROM repventa r 
