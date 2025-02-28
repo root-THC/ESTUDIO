@@ -179,4 +179,5 @@ LEFT JOIN oficina o
 */
 
 SELECT count (*)
+FROM repventa
        
