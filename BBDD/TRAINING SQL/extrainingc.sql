@@ -160,16 +160,15 @@ ON p.cliecod = c.cliecod;
 */
 
 SELECT  pednum "Num Pedido " , p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , pr.descrip "Descripción" , c.nombre
-
-FROM repventa r
-JOIN oficina o
+FROM repventa r 
+LEFT JOIN oficina o
 ON r.ofinum = o.ofinum
 
-JOIN producto pr 
+LEFT JOIN pedido p 
+ON p.repcod = r.repcod
+
+LEFT JOIN producto pr 
 ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
-JOIN cliente c
-ON p.cliecod = c.cliecod
-
-RIGHT JOIN pedido p 
-ON p.repcod = r.repcod;
+LEFT JOIN cliente c
+ON p.cliecod = c.cliecod;
