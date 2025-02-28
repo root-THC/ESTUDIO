@@ -157,7 +157,7 @@ ON pr.fabcod = p.fabcod AND pr.prodcod = p.prodcod
 
 LEFT JOIN cliente c
 ON p.cliecod = c.cliecod;
-*/
+
 
 
 -- Lista de pedidos si hubiera algun representante ni pedido , ni producto ni cliente porque es lo que hay todo antes de repventa
