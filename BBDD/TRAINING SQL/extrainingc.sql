@@ -148,5 +148,5 @@ FROM repventa r
 LEFT JOIN oficina o
 ON r.ofinum = o.ofinum
 JOIN pedido p 
-ON p.repcod = r.repcod;
+       ON p.repcod = r.repcod;
 
