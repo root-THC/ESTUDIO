@@ -177,7 +177,7 @@ RIGHT JOIN repventa r
 LEFT JOIN oficina o 
        ON r.ofinum = o.ofinum;
 */
---CONTAR FILAS 
+--CONTAR FILAS  de una tabla.
 SELECT count (*)
 FROM repventa;
        
