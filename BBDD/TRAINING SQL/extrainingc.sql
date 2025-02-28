@@ -142,7 +142,7 @@ ON r.jefe = jefe.repcod;
 */
 
 --Por cada representante mostrar el nombre i la ciutat de la seva oficina mas numero de comanda y importe de comanda que hayan echo o no el pedido
--- EL LEFT 
+-- EL LEFT HARA REFERENCIA 
 /*
 SELECT  pednum "Num Pedido " , p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , pr.descrip "Descripción" , c.nombre
 FROM repventa r 
