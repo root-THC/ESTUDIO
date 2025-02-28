@@ -170,4 +170,5 @@ JOIN producto pr
               ON p.fabcod = pr.fabcod AND p.prodcod =pr.prodcod
 JOIN cliente c
               ON p.cliecod = c.cliecod
+              
 
