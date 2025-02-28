@@ -176,7 +176,7 @@ RIGHT JOIN repventa r
        ON p.repcod = r.repcod
 LEFT JOIN oficina o 
        ON r.ofinum = o.ofinum;
-
+*/
 
 SELECT count
        
