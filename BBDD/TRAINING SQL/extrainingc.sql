@@ -148,7 +148,7 @@ FROM repventa r
 LEFT JOIN oficina o
 ON r.ofinum = o.ofinum
 
-JOIN pedido p 
+JOIN LEFT pedido p 
 ON p.repcod = r.repcod
 
 JOIN producto pr 
