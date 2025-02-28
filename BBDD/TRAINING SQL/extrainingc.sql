@@ -174,6 +174,6 @@ JOIN cliente c
               ON p.cliecod = c.cliecod
 RIGHT JOIN repventa r 
        ON p.repcod = r.repcod
-left JOIN oficina o 
+LEFT JOIN oficina o 
        ON r.ofinum = o.ofinum;
        
