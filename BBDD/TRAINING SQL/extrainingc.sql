@@ -168,5 +168,5 @@ FROM pedido p
        JOIN producto pr
               ON p.fabcod = pr.fabcod AND p.prodcod =pr.prodcod
        JOIN cliente c
-       ON
+              On
 
