@@ -159,6 +159,8 @@ LEFT JOIN cliente c
 ON p.cliecod = c.cliecod;
 */
 
+
+-- Con esta consulta conseguimos mostrar todos los representantes que no tienen pedidos 
 SELECT  pednum "Num Pedido " , 
 p.importe "Importe Pedido", 
 r.nombre , 
