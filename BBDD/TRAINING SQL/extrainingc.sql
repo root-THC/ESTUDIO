@@ -166,6 +166,6 @@ COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina ,
 pr.descrip "Descripción" , c.nombre
 FROM pedido p JOIN producto pr
        ON p.fabcod = pr.fabcod AND p.prodcod =pr.prodcod
-              JOIN cliente cada   
+       JOIN cliente c
        ON
 
