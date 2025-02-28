@@ -147,6 +147,7 @@ SELECT r.nombre , COALESCE(o.ciudad::TEXT, ' sin oficina'  )  Oficina , p.pednum
 FROM repventa r 
 LEFT JOIN oficina o
        ON r.ofinum = o.ofinum
+       
 JOIN pedido p 
        ON p.repcod = r.repcod;
 
