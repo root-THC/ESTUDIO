@@ -160,5 +160,6 @@ ON p.cliecod = c.cliecod;
 */
 
 SELECT  pednum "Num Pedido " , 
-p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , pr.descrip "Descripción" , c.nombre
+p.importe "Importe Pedido", r.nombre , COALESCE(o.ciudad::TEXT,  'sin oficina'  )  Oficina , 
+pr.descrip "Descripción" , c.nombre
 
