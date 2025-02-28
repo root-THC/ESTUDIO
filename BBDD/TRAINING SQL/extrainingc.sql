@@ -160,7 +160,7 @@ ON p.cliecod = c.cliecod;
 */
 
 
--- Lista de pedidos si hubiera algun repventa 
+-- Lista de pedidos si hubiera algun representante 
 SELECT  pednum "Num Pedido " , 
 p.importe "Importe Pedido", 
 r.nombre , 
