@@ -167,6 +167,6 @@ pr.descrip "Descripción" , c.nombre
 FROM pedido p 
        JOIN producto pr
               ON p.fabcod = pr.fabcod AND p.prodcod =pr.prodcod
-       JOIN cliente c
+JOIN cliente c
               On
 
