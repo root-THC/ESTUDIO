@@ -26,7 +26,7 @@ FROM emp;
 
 --Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació.
 
-SELECT MIN(sal), MAX(sal) 
+SELECT MIN(sal), MAX(sal),job 
 FROM emp 
 GROUP by job;
 --Seguint el que s'ha explicat en l'ex. 27, Mostreu per cada departament, el nombre d'empleats que tenen comissió, la suma i la mitjana.
