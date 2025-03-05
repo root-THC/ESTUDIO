@@ -23,5 +23,3 @@ WHERE job IS NOT NULL;
 --Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació.
 --Seguint el que s'ha explicat en l'ex. 27, Mostreu per cada departament, el nombre d'empleats que tenen comissió, la suma i la mitjana.
 --Idem que el 4, però mostrant a més el nom de departament.
---Mostreu el salari mínim, màxim i mig dels empleats agrupats per feina, però només d'aquells la mitjana sigui superior a 4000.
---Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
