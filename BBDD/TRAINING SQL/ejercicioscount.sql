@@ -32,6 +32,6 @@ GROUP by job;
 
 --Seguint el que s'ha explicat en l'ex. 27, Mostreu per cada departament, el nombre d'empleats que tenen comissió, la suma i la mitjana.
 
-SELECT emp 
+SELECT *
 FROM emp
 --Idem que el 4, però mostrant a més el nom de departament.
