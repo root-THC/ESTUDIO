@@ -9,5 +9,5 @@ FROM emp;
 
 --NUMERO DE TRABAJOS DIFERENTES
 
-SELECT COUNT(DISTINCT mgr) "Numero jefe"
+SELECT COUNT(DISTINCT job) "Numero jefe"
 FROM emp;
