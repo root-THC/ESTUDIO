@@ -1,7 +1,7 @@
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
  
 SELECT COUNT (deptNO)
- 
+FROM emp; 
 --NUMERO DE CAPS 
 
 
