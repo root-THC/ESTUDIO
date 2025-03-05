@@ -17,7 +17,7 @@ WHERE job IS NOT NULL;
 --Calcular el salari total mensual.
 
 SELECT SUM(sal)
-
+FROM emp;
 
 --Calcular el nombre d'empleats que tenen comissió i la mitjana. Volem Mostreu tots els empleats, de manera que pretén en compte que el camp comm pot tenir nuls
 --Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació.
