@@ -21,7 +21,7 @@ FROM emp;
 
 --Calcular el nombre d'empleats que tenen comissió i la mitjana. Volem Mostreu tots els empleats, de manera que pretén en compte que el camp comm pot tenir nuls
 
-SELECT COUNT(empNO) , AVG 
+SELECT COUNT(empNO) , AVG ()
 --Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació.
 --Seguint el que s'ha explicat en l'ex. 27, Mostreu per cada departament, el nombre d'empleats que tenen comissió, la suma i la mitjana.
 --Idem que el 4, però mostrant a més el nom de departament.
