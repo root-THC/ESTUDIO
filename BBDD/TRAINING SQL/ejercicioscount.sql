@@ -4,7 +4,7 @@ SELECT COUNT(DISTINCT deptno) -- DISTINCT es para que borre filas duplicadas sol
 FROM emp; 
 --NUMERO DE CAPS 
 
-SELECT COUNT(DISTINCT mgr) Numero jefe
+SELECT COUNT(DISTINCT mgr) 'Numero jefe
 FROM emp;
 
 --NUMERO DE TRABAJOS DIFERENTES
