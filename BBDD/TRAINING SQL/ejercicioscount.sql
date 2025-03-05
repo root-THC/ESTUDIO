@@ -13,7 +13,7 @@ FROM emp;
 SELECT COUNT(DISTINCT job) "Numero Trabajos"
 FROM emp
 WHERE job IS NOT NULL;
-
+*/
 --Calcular el salari total mensual.
 
 SELECT SUM(sal)
