@@ -34,5 +34,6 @@ GROUP by job;
 
 SELECT *
 FROM emp
-WHERE deptNO = 10 OR deptNO = 20 ;
+WHERE deptNO = 10 OR deptNO = 20
+AND WHERE ;
 --Idem que el 4, però mostrant a més el nom de departament.
