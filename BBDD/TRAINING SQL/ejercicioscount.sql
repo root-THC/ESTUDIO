@@ -34,4 +34,5 @@ GROUP by job;
 
 SELECT *
 FROM emp
+WHERE 
 --Idem que el 4, però mostrant a més el nom de departament.
