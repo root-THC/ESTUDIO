@@ -1,6 +1,6 @@
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
  
-SELECT COUNT(DISTINCT deptno) -- DISTINCT es para que borre filas duplicadas
+SELECT COUNT(DISTINCT deptno) -- DISTINCT es para que borre filas duplicadas solo muestre una vez el valor
 FROM emp; 
 --NUMERO DE CAPS 
 
