@@ -121,7 +121,7 @@ SELECT ename || ' Grado salarial ' || grade
 FROM emp 
 CROSS JOIN salgrade 
 WHERE sal>=losal AND sal<=hisal;
-/*
+
 OUTPUT DE ESTO DE ARRIBA
 SMITH Grado salarial 1
  ADAMS Grado salarial 1
