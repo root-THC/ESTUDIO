@@ -14,3 +14,4 @@ SELECT COUNT(DISTINCT job) "Numero Trabajos"
 FROM emp
 WHERE job IS NOT NULL;
 
+--
