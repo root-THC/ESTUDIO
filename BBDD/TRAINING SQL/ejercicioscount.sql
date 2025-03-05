@@ -34,5 +34,5 @@ GROUP by job;
 
 SELECT COUNT(comm) , SUM(comm) , AVG(comm)
 FROM emp
-WHERE deptNO = 10 OR deptNO = 20 AND comm IS NOT NULL ;
+WHERE deptNO = 10 OR deptNO = 20;
 --Idem que el 4, però mostrant a més el nom de departament.
