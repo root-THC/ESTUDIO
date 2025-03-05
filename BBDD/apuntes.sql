@@ -23,5 +23,26 @@ TO_DATE(‘12/07/24’,’dd/mm/yy’)
 CREATE SEQUENCE nombre_secuencia
 START WITH 10 INCREMENT BY 20;
 
-SELECT NEXTVAL ('nombre_secuencia')
+SELECT NEXTVAL ('nombre_secuencia',otrovalor,otrovalor);
 
+--FUNCION CALCULOS ENTRE CAMPOS
+
+SELECT SUM(comm/count(*))
+
+
+--FUNCIONES DE  GRUPO
+
+-- HACER MEDIA DE FILAS
+SELECT COUNT AVG(COALESCE(comm,0))
+FROM emp;
+
+-- HACER MEDIAS DE DIFERENTES GRUPOS POR EJEMPLO MEDIA DEL DEPARTAMENTO 10,20,30 separados
+
+
+SELECT campo , AVG(campo que queremos que haga media)
+FROM tabla
+GROUP by campo;
+
+SELECT deptno, avg (sal)
+FROM emp
+GROUP by deptno;
