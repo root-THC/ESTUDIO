@@ -2,6 +2,7 @@
  
 SELECT COUNT(DISTINCT deptno) "Num Depts Asignados" -- DISTINCT es para que borre filas duplicadas solo muestre una vez el valor
 FROM emp; 
+
 --NUMERO DE CAPS 
 
 SELECT COUNT(DISTINCT mgr) "Numero jefe"
