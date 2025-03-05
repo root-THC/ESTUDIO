@@ -9,7 +9,7 @@ SELECT COUNT(DISTINCT mgr) "Numero jefe"
 FROM emp;
 
 --NUMERO DE TRABAJOS DIFERENTES
-/*
+
 SELECT COUNT(DISTINCT job) "Numero Trabajos"
 FROM emp
 WHERE job IS NOT NULL;
