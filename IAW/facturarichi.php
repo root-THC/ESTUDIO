@@ -12,7 +12,7 @@
 
 <table>
 
-echo "<th>X</th>"
+echo "<th>X</th>";
 
 </table>
 
