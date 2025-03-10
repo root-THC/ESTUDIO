@@ -28,7 +28,7 @@
 
 <body>
     <table>
-<!-- 
+<!-- TABLAS ESTÁTICAS -->
 <tr>
 <th>Article</th>
 <th>Quantitat</th>
