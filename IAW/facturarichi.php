@@ -39,6 +39,9 @@
 <th>Total</th>
 <tr> <th>Article 1</th> </tr>
 <tr> <th>Article 1</th> </tr>
+<tr> <th>Article 1</th> </tr>
+<tr> <th>Article 1</th> </tr>
+<tr> <th>Article 1</th> </tr>
 <!-- END STATIC TABLES -->       
     </table>
     <?php   
