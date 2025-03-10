@@ -14,4 +14,5 @@
 
 echo "<th>X</th>";
 ?>
+</table>
 </body>
