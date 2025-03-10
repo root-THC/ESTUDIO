@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <table></table>
+    <table>
 <?php    
 
 
