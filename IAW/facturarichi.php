@@ -15,6 +15,10 @@
 echo "<th>Article</th>";
 echo "<th>Quantitat</th>";
 echo "<th>Quantitat</th>";
+echo "<th>Quantitat</th>";
+echo "<th>Quantitat</th>";
+echo "<th>Quantitat</th>";
+echo "<th>Quantitat</th>";
 ?>
     </table>
 </body>
