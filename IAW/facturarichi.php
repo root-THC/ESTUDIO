@@ -34,8 +34,8 @@
 <th>Preu/u</th>
 <th>Subtotal</th>
 <th>Descompte</th>
-<th>Iva 21%</th>;
-<th>Total</th>;
+<th>Iva 21%</th>
+<th>Total</th>
 </tr>
 <?php    
 ?>
