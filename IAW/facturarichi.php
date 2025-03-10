@@ -38,11 +38,7 @@
 <th>Iva 21%</th>
 <th>Total</th>
 <!-- END STATIC TABLES -->
-<?php   
-$a = 
-echo "<th>Article1</th>";
-
-?>        
+       
     </table>
 </body>
 </html>
