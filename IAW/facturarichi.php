@@ -50,7 +50,7 @@ $numero_quantitat = rand (1,100);
     for ($i = 1; $i <= 10; $i++) {  
         echo "<tr> <th class='articulos'>Article $i</th> </tr>";
     }
-    for ($a = 1; $i <= 10; $) {  
+    for ($a = 1; $i <= 10; ) {  
         echo "<tr> <th class='articulos'>Article $i</th> </tr>";
     }
 
