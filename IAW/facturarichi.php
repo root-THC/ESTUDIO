@@ -28,7 +28,8 @@
 
 <body>
     <table>
-    <?php    
+    <?php   
+     
 ?>
 <tr>
 <th>Article</th>
