@@ -17,7 +17,7 @@ echo "<th>Quantitat</th>";
 echo "<th>Preu/u</th>";
 echo "<th>Subtotal</th>";
 echo "<th>Descompte</th>";
-echo "<th>IVA 21%</th>";
+echo "<th>Iva 21%</th>";
 echo "<th>Total</th>";
 ?>
     </table>
