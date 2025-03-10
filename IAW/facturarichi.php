@@ -5,4 +5,7 @@
     <title>TABLA MULTIPLICAR</title>
 </head>
 
-<?php
+<body>
+<?php    
+
+</body>
