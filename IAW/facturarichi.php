@@ -3,6 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>TABLA MULTIPLICAR</title>
+    <style>
+       table {
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            font-size: 20px;
+            background-color:rgb(255, 198, 148); 
+        }
+        td {
+            background-color: #ffffff; 
+        }
+        h1 {
+            margin: 20px;
+        }
+</style>
 </head>
 
 <body>
