@@ -28,10 +28,6 @@
 
 <body>
     <table>
-  
-
-
-
 <tr>
 echo "<th>Article</th>";
 echo "<th>Quantitat</th>";
