@@ -46,7 +46,7 @@
 <!-- END STATIC TABLES -->       
   
     <?php   
-$numero_quantitat = rand ()
+$numero_quantitat = rand (1,)
     for ($i = 1; $i <= 10; $i++) {  
         echo "<tr> <th class='articulos'>Article $i</th> </tr>";
     }
