@@ -40,7 +40,6 @@ echo "<th>Subtotal</th>";
 echo "<th>Descompte</th>";
 echo "<th>Iva 21%</th>";
 echo "<th>Total</th>";
-echo "<td>d</td>";
 ?>
     </table>
 </body>
