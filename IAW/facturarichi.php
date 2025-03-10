@@ -29,7 +29,7 @@
 <body>
     <table>
     <?php   
- 
+$ 
 ?>
 <tr>
 <th>Article</th>
