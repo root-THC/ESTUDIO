@@ -38,6 +38,9 @@
 <th>Total</th>
 </tr>
     <th>dadad</th>
+    <tr>
+        <th>dadad</th>
+    </tr>
 <?php    
 ?>
     </table>
