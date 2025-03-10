@@ -33,7 +33,7 @@
 <th>Quantitat</th>";
 <th>Preu/u</th>";
 <th>Subtotal</th>";
-echo "<th>Descompte</th>";
+<th>Descompte</th>";
 echo "<th>Iva 21%</th>";
 echo "<th>Total</th>";
 </tr>
