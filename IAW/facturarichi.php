@@ -42,6 +42,6 @@
     </table>
     <?php   
 ?> 
-</tr>
+
 </body>
 </html>
