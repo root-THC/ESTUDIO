@@ -41,7 +41,7 @@
 <?php   
 $a = 
 echo "<tr>
-    </tr>"
+    <th><></tr>"
 
 ?>        
     </table>
