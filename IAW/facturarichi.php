@@ -31,9 +31,9 @@
 <tr>
 <th>Article</th>
 <th>Quantitat</th>
-<th>Preu/u</th>;
-<th>Subtotal</th>;
-<th>Descompte</th>;
+<th>Preu/u</th>
+<th>Subtotal</th>
+<th>Descompte</th>
 <th>Iva 21%</th>;
 <th>Total</th>;
 </tr>
