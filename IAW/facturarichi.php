@@ -29,8 +29,8 @@
 <body>
     <table>
 <tr>
-<th>Article</th>;
-<th>Quantitat</th>;
+<th>Article</th>
+<th>Quantitat</th>
 <th>Preu/u</th>;
 <th>Subtotal</th>;
 <th>Descompte</th>;
