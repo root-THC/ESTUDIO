@@ -23,7 +23,7 @@
         h1 {
             margin: 20px;
         }
-        .
+        .articulos
 </style>
 </head>
 
