@@ -24,7 +24,7 @@
             margin: 20px;
         }
         .articulos {
-            background
+            background-color
         }
 </style>
 </head>
