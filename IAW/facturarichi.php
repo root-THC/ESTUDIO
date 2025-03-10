@@ -28,7 +28,7 @@
 
 <body>
     <table>
-<?php    
+  
 
 
 
