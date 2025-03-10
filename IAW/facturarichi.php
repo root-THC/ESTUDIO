@@ -39,7 +39,7 @@
 <th>Total</th>
 
 <!-- END STATIC TABLES -->       
-    </table>
+  
     <?php   
 
     for ($i = 1; $i <= 10; $i++) {  
