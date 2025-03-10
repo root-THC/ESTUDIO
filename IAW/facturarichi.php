@@ -28,9 +28,7 @@
 
 <body>
     <table>
-    <?php   
-$descuentobasico =  
-?>
+ 
 <tr>
 <th>Article</th>
 <th>Quantitat</th>
