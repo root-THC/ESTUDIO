@@ -48,7 +48,7 @@
     <?php   
 
     for ($i = 1; $i <= 10; $i++) {  
-        echo "<tr="articulo'> <th>Article $i</th> </tr>";
+        echo "<tr="articulo"> <th>Article $i</th> </tr>";
     }  
 ?> 
   </table>
