@@ -41,8 +41,7 @@
 <!-- END STATIC TABLES -->       
     </table>
     <?php   
-
-echo "<tr>Article1</tr>";?> 
+?> 
 </tr>
 </body>
 </html>
