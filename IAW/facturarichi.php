@@ -36,7 +36,6 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
-<th>dadad</th>
 </tr>
     <th>dadad</th>
 <?php    
