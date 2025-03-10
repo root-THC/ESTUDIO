@@ -29,7 +29,7 @@
 <body>
     <table>
     <?php   
-$descuentobasico= 
+$descuentobasico =  
 ?>
 <tr>
 <th>Article</th>
