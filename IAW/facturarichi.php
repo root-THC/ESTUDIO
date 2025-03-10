@@ -10,14 +10,7 @@
 
 
 
-<table>
 
 echo "<th>X</th>";
-
-
-
-
-
-
 ?>
 </body>
