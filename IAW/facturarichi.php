@@ -41,6 +41,7 @@
 <!-- END STATIC TABLES -->       
     </table>
     <?php   
+    
     for ($i = 1; $i <= 5; $i++) {  
         echo "<tr> <th>Article $i</th> </tr>";
     }  
