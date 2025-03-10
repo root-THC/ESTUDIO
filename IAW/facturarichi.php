@@ -46,7 +46,7 @@
 <!-- END STATIC TABLES -->       
   
     <?php   
-$numero
+$numero_quantitat
     for ($i = 1; $i <= 10; $i++) {  
         echo "<tr> <th class='articulos'>Article $i</th> </tr>";
     }
