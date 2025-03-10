@@ -39,7 +39,7 @@
 <th>Total</th>
 <!-- END STATIC TABLES -->
 <?php   
-$ = 
+$a = 
 
 
 
