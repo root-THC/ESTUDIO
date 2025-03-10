@@ -46,6 +46,7 @@
         echo "<tr> <th>Article $i</th> </tr>";
     }  
 ?> 
+  </table>
 
 </body>
 </html>
