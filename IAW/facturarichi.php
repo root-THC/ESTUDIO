@@ -14,7 +14,7 @@
 
 echo "<th>Article</th>";
 echo "<th>Quantitat</th>";
-echo "<th>Quantitat</th>";
+echo "<th>Preu/u</th>";
 echo "<th>Quantitat</th>";
 echo "<th>Quantitat</th>";
 echo "<th>Quantitat</th>";
