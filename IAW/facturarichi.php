@@ -39,7 +39,10 @@
 <th>Total</th>
 <!-- END STATIC TABLES -->
 <?php   
-$descuentobasico =  
+$descuentobasico = 
+
+
+
 ?>        
     </table>
 </body>
