@@ -38,7 +38,7 @@
 <th>Total</th>
 </tr>
 <tr>
-    dada
+    <th>dadad</th>
 </tr>
 <?php    
 ?>
