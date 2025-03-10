@@ -26,7 +26,7 @@
         .articulos {
             background-color : rgb: blue;
             padding: 8px
-            color
+            color: white
         }
 </style>
 </head>
