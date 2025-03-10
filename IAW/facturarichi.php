@@ -13,6 +13,7 @@
 
 
 echo "<th>Article</th>";
+
 ?>
     </table>
 </body>
