@@ -36,6 +36,7 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
+</tr
     <th>dadad</th>
     
         <th>dadad</th>
