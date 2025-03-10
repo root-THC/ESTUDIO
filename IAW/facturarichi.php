@@ -37,7 +37,7 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
-<tr> <th></th>
+<tr> <th>ARTÍCULO 1</th>
 </tr>
 <!-- END STATIC TABLES -->       
     </table>
