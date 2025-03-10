@@ -42,7 +42,7 @@
     </table>
     <?php   
 
-echo "<th>Article1</th>";?> 
+echo "<tr>Article1</tr>";?> 
 </tr>
 </body>
 </html>
