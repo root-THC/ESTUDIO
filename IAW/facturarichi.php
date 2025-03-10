@@ -37,6 +37,7 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
+<tr></tr>
 <!-- END STATIC TABLES -->       
     </table>
     <?php   
