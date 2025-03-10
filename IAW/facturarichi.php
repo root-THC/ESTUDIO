@@ -24,7 +24,7 @@
             margin: 20px;
         }
         .articulos {
-            background-color : rgb: blue;
+            background-color : rgb blue;
             padding: 8px;
             color: white;
         }
