@@ -25,6 +25,7 @@
         }
         .articulos {
             background-color : rgb: blue;
+            
         }
 </style>
 </head>
