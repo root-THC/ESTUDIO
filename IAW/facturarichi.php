@@ -6,7 +6,7 @@
     <style>
        table {
             border-collapse: collapse;
-            margin: 40px;
+            margin: 20px;
         }
         th, td {
             border: 1px solid black;
