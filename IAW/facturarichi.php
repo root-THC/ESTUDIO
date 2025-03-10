@@ -37,7 +37,7 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
-<!-- END TABLAS ESTÁTICAS -->
+<!-- END STATIC TABLES -->
 <?php   
 $descuentobasico =  
 ?>        
