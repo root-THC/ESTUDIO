@@ -45,3 +45,4 @@ echo "<th>Article1</th>";
 ?>        
     </table>
 </body>
+</html>
