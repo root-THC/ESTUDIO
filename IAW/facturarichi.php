@@ -12,7 +12,7 @@
 
 
 
-echo "<th</th>";
+echo "<th>Ar</th>";
 ?>
     </table>
 </body>
