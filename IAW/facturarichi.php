@@ -28,6 +28,8 @@
 
 <body>
     <table>
+    <?php    
+?>
 <tr>
 <th>Article</th>
 <th>Quantitat</th>
