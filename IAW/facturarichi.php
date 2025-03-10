@@ -40,7 +40,7 @@
 <!-- END STATIC TABLES -->       
     </table>
     <?php   
-
+<tr></tr>
 echo "<th>Article1</th>";?> 
 </body>
 </html>
