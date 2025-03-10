@@ -40,7 +40,7 @@
 <!-- END STATIC TABLES -->
 <?php   
 $a = 
-echo 
+echo "<tr></tr>
 
 ?>        
     </table>
