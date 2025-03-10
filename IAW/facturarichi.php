@@ -37,7 +37,7 @@
 <th>Iva 21%</th>
 <th>Total</th>
 </tr>
-<tr>
+
     <th>dadad</th>
 </tr>
 <?php    
