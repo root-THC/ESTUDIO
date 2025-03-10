@@ -14,5 +14,5 @@
 
 echo "<th>X</th>";
 ?>
-</table>
+    </table>
 </body>
