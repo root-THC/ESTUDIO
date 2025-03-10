@@ -39,7 +39,5 @@
 <th>Iva 21%</th>
 <th>Total</th>
         
-<?php    
-?>
     </table>
 </body>
