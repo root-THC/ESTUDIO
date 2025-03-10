@@ -29,7 +29,7 @@
 <body>
     <table>
 <tr>
-echo "<th>Article</th>";
+<th>Article</th>";
 echo "<th>Quantitat</th>";
 echo "<th>Preu/u</th>";
 echo "<th>Subtotal</th>";
