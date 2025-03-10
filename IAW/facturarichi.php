@@ -40,8 +40,8 @@
 <!-- END STATIC TABLES -->
 <?php   
 $a = 
-echo "<tr>
-    <th>Article1;
+echo 
+    <th>Article1</th>;
 
 ?>        
     </table>
