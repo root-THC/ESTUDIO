@@ -30,7 +30,7 @@
     <table>
 <tr>
 <th>Article</th>";
-echo "<th>Quantitat</th>";
+<th>Quantitat</th>";
 echo "<th>Preu/u</th>";
 echo "<th>Subtotal</th>";
 echo "<th>Descompte</th>";
