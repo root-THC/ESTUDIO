@@ -15,7 +15,7 @@
         }
         th {
             font-size: 20px;
-            background-color:rgb(255, 198, 148); 
+            background-color:white; 
         }
         td {
             background-color: #ffffff; 
