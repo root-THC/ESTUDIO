@@ -9,7 +9,7 @@
             margin: 20px;
         }
         th, td {
-            border: 4px solid black;
+            border: 5px solid black;
             text-align: center;
             padding: 8px;
         }
