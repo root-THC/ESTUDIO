@@ -7,5 +7,5 @@
 
 <body>
 <?php    
-?
+?>
 </body>
