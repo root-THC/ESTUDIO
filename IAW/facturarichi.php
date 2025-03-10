@@ -39,7 +39,6 @@
 </tr>
 
     <th>dadad</th>
-</tr>
 <?php    
 ?>
     </table>
