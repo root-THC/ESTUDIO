@@ -41,6 +41,7 @@ echo "<th>Descompte</th>";
 echo "<th>Iva 21%</th>";
 echo "<th>Total</th>";
 </tr>
+<?php    
 ?>
     </table>
 </body>
