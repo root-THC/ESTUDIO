@@ -34,7 +34,7 @@
 <th>Preu/u</th>";
 <th>Subtotal</th>";
 <th>Descompte</th>";
-echo "<th>Iva 21%</th>";
+<th>Iva 21%</th>";
 echo "<th>Total</th>";
 </tr>
 <?php    
