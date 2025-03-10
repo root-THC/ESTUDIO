@@ -28,7 +28,7 @@
 
 <body>
     <table>
-        
+
 <tr>
 <th>Article</th>
 <th>Quantitat</th>
