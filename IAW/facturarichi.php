@@ -40,8 +40,7 @@
 <!-- END STATIC TABLES -->
 <?php   
 $a = 
-echo 
-    "<th>Article1</th>";
+echo "<th>Article1</th>";
 
 ?>        
     </table>
