@@ -42,5 +42,6 @@
     <?php   
 <tr>
 echo "<th>Article1</th>";?> 
+</tr>
 </body>
 </html>
