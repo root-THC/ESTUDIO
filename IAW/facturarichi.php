@@ -37,6 +37,8 @@
 <th>Descompte</th>
 <th>Iva 21%</th>
 <th>Total</th>
-        
+<?php   
+$descuentobasico =  
+?>        
     </table>
 </body>
