@@ -25,8 +25,8 @@
         }
         .articulos {
             background-color : rgb: blue;
-            padding: 8px
-            color: white
+            padding: 8px;
+            color: white;
         }
 </style>
 </head>
