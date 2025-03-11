@@ -1,4 +1,4 @@
--- COUNT 
+-- COUNT ()
 
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
 /* 
