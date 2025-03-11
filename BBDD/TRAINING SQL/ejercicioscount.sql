@@ -36,6 +36,6 @@ GROUP by job;
 
 SELECT deptno, COUNT(comm) , SUM(comm) , AVG(COALESCE(comm,0)) -- Para que haga la mediana de los 14 empleados si tienen valor y si es nulo
 FROM emp
---WHERE deptNO = 10 OR deptNO = 20
+WHERE deptNO = 10 OR deptNO = 20
 GROUP BY deptno;
 --Idem que el 4, però mostrant a més el nom de departament.
