@@ -1,5 +1,5 @@
 -- COUNT (*) CUENTA FILAS  | COUNT (campo) cuenta fila
-
+  
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
 /* 
 SELECT COUNT(DISTINCT deptno) "Num Depts Asignados" -- DISTINCT es para que borre filas duplicadas solo muestre una vez el valor
