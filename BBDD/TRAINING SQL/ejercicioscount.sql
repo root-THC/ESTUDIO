@@ -1,4 +1,4 @@
--- COUNT ()
+-- COUNT (*) CUENTA NULOS
 
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
 /* 
