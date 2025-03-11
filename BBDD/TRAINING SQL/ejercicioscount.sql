@@ -34,7 +34,7 @@ GROUP by job;
 */
 --Seguint el que s'ha explicat en l'ex. 27, Mostreu per cada departament, el nombre d'empleats que tenen comissió, la suma i la mitjana.
 
-SELECT deptno, COUNT(comm) , SUM(comm) , AVG(COALESCEcomm)
+SELECT deptno, COUNT(comm) , SUM(comm) , AVG(COALESCE(comm))
 FROM emp
 --WHERE deptNO = 10 OR deptNO = 20
 GROUP BY deptno;
