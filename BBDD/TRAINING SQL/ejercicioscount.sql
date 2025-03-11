@@ -1,4 +1,4 @@
--- COUNT (*) CUENTA FILAS  | COUNT (empNO) cuenta fila
+-- COUNT (*) CUENTA FILAS  | COUNT (campo) cuenta fila
 
 --NUMERO DE DEPARTAMENTOS ASIGNADOS a empleados
 /* 
