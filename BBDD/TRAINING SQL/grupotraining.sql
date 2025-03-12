@@ -10,7 +10,7 @@ FROM repventa;
 SELECT ROUND(SUM(p.importe),2) "Total Import"
 FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
-WHERE LOWER(c.nombre)= "Bill Adams";
+WHERE LOWER(c.nombre)= "bill adams";
 
 
 
