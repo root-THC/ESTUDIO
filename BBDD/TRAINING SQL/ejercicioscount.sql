@@ -45,4 +45,4 @@ GROUP BY deptno;
 
 --GRUPO
 -- * SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
--- * con "" = tanto
+-- * con "" = tantos como valores diferentes que tenga
