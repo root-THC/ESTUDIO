@@ -44,4 +44,4 @@ GROUP BY deptno;
 --SELECT COUNT (distinct (deptno,job)) FROM emp;
 
 --GRUPO
---SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
+-- * SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
