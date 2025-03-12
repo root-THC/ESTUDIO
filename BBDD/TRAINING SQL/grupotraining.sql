@@ -4,7 +4,7 @@ SELECT SUM(cuota) "Total Cuota", SUM(ventas) "Total Sels"
 FROM repventa;
 
 
-/*
+
 2. Quin és l'import total de les comandes preses per Bill Adams?
 
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
