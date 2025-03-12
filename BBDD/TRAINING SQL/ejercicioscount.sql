@@ -72,7 +72,7 @@ HAVING MAX(sal)>2900;
 
 SELECT deptno , MIN(sal) , MAX(sal) , AVG(sal)
 FROM emp 
-GROUP by deptno 
+GROUP by job 
 HAVING AVG(sal) > 4000;
 
 
