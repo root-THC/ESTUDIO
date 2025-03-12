@@ -70,7 +70,7 @@ HAVING MAX(sal)>2900;
 
 --Mostreu el salari mínim, màxim i mig dels empleats agrupats per feina, però només d'aquells la mitjana sigui superior a 4000.
 
-SELECT  MIN(sal) , MAX(sal) , AVG(sal)
+SELECT  job , MIN(sal) , MAX(sal) , AVG(sal)
 FROM emp 
 GROUP by job 
 HAVING AVG(sal) > 4000;
