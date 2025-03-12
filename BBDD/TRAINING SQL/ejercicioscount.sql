@@ -39,3 +39,6 @@ FROM emp
 WHERE deptNO IN (10,20)
 GROUP BY deptno;
 --Idem que el 4, però mostrant a més el nom de departament.
+
+--Cláusula GROUP BY MÚLTIPLES COLUMNAS
+--SELECT COUNT (distinct (deptno,job)) FROM emp;
