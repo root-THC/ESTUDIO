@@ -1,6 +1,6 @@
 --1. Mostrar la suma de les quotes i la suma de les vendes totals de tots els representants.
 
-SELECT SUM(cuota) "Total Cuota", SUM(ventas) ""
+SELECT SUM(cuota) "Total Cuota", SUM(ventas) "Total V"
 FROM repventa;
 
 
