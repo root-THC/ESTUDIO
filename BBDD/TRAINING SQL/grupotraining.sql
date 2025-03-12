@@ -7,7 +7,7 @@ FROM repventa;
 
 --2. Quin és l'import total de les comandes preses per Bill Adams?
 
-SELECT SUM(import 
+SELECT SUM(import) 
 FROM pedido 
 
 
