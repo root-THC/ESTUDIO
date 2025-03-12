@@ -56,6 +56,10 @@ GROUP BY deptno;
 
 -- WHERE ES SOLO PARA filtrar campos y el HAVING para funciones de grupo 
 
+
+
+
+-- MUESTRA POR DEPARTAMIENTO Y SU SALARIO MÁS ALTO DE LOS EMPLEADOS QUE SON SALES MAN
 SELECT deptno , max(sal)
 FROM emp 
 WHERE LOWER(job) = 'salesman'
