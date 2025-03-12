@@ -43,3 +43,5 @@ GROUP BY deptno;
 --Cláusula GROUP BY MÚLTIPLES COLUMNAS
 --SELECT COUNT (distinct (deptno,job)) FROM emp;
 
+--GRUPO
+--SIN GROUP BTY
