@@ -8,7 +8,7 @@ FROM repventa;
 --2. Quin és l'import total de les comandes preses per Bill Adams?
 
 SELECT ROUND(SUM(import),2) 
-FROM pedido 
+FROM pedido p
 JOIN cliente c ON 
 
 
