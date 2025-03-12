@@ -48,4 +48,4 @@ GROUP BY deptno;
 -- * con "" = tantos como valores diferentes que tenga el campo se agrupará
 
 --LIMITE MUESTRAME EL TOP 5 QUE COBRAN MÁS
-SELECT ename , sal from emp ORDER BY sal DESC LIMIT 5;
+-- SELECT ename , sal from emp ORDER BY sal DESC LIMIT 5;
