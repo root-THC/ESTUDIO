@@ -9,7 +9,7 @@ FROM repventa;
 
 SELECT ROUND(SUM(import),2) 
 FROM pedido 
-
+JOIN 
 
 
 /*
