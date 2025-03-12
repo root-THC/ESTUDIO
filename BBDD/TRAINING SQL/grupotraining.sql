@@ -11,6 +11,7 @@ SELECT import
 FROM pedido 
 
 
+
 /*
 
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
