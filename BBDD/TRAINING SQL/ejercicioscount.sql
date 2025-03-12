@@ -60,3 +60,4 @@ SELECT deptno , max(sal)
 FROM emp 
 WHERE LOWER(job) = 'salesman'
 GROUP BY deptno 
+HAVING 
