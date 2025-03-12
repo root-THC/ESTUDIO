@@ -81,4 +81,5 @@ HAVING AVG(sal) > 4000;
 SELECT e.deptNO , d.dName
 FROM emp e
 JOIN  dept d ON e.deptNO = d.deptNO 
+GROUP BY dept
 HAVING COUNT(empNO)<= 3;
