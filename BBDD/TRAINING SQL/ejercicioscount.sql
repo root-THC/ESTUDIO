@@ -80,7 +80,7 @@ HAVING AVG(sal) > 4000;
 
 -- Todos los campos que seleccionemos tenemos que mostrarlos en el grupo 
 
-SELECT e.deptNO "Num Departament", d.dName "Department Name"
+SELECT e.deptNO "Department Number", d.dName "Department Name"
 FROM emp e
 JOIN  dept d ON e.deptNO = d.deptNO 
 GROUP BY e.deptNO , d.dName
