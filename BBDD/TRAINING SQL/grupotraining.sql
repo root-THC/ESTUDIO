@@ -8,7 +8,7 @@ FROM repventa;
 2. Quin és l'import total de les comandes preses per Bill Adams?
 
 
-
+/*
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
 
 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
