@@ -1,4 +1,11 @@
 1. Mostrar la suma de les quotes i la suma de les vendes totals de tots els representants.
+
+
+
+
+
+
+
 /*
 2. Quin és l'import total de les comandes preses per Bill Adams?
 
