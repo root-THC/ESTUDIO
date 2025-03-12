@@ -48,6 +48,7 @@
   
     <?php   
     for ($i = 1; $i <= 10; $i++) {  
+<<<<<<< HEAD
         $quantity_number = rand (1,100);
         $price = rand (50,600);
         $subtotal = $quantity_number * $price;
@@ -68,6 +69,15 @@
         echo  "</tr>";
                                 }
     ?> 
+=======
+        echo "<tr> <th class='articulos'>Article $i</th> </tr>";
+    }
+    for ($a = 1; $i <= 10; ) {  
+        echo "<tr> <th class='cantidad'>Article $i</th> </tr>";
+    }
+
+?> 
+>>>>>>> 9fa87217e963e5f26d82357fa4308f3f1c6a18b0
   </table>
   <?php 
   #$total_productos = ;
