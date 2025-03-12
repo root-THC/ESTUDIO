@@ -58,4 +58,4 @@ GROUP BY deptno;
 
 SELECT deptno , max(sal)
 FROM emp 
-WHERE LOWE)
+WHERE LOWER(job) 
