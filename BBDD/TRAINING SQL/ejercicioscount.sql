@@ -41,7 +41,7 @@ GROUP BY deptno;
 --Idem que el 4, però mostrant a més el nom de departament.
 
 --Cláusula GROUP BY MÚLTIPLES COLUMNAS
---SELECT COUNT (distinct (deptno,job)) FROM emp;
+--SELECT COUNT (distinct (deptno,job)) FROM emp; para saber las filas que hay es del gitlab
 
 --GRUPO
 -- * SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
