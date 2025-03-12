@@ -54,4 +54,4 @@ GROUP BY deptno;
 
 
 
--- WHERE ES SOLO PARA filtrar campos 
+-- WHERE ES SOLO PARA filtrar campos y el HAVING 
