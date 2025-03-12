@@ -57,3 +57,4 @@ GROUP BY deptno;
 -- WHERE ES SOLO PARA filtrar campos y el HAVING para funciones de grupo 
 
 SELECT deptno , max(sal)
+FROM emp WAR
