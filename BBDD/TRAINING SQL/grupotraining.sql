@@ -12,6 +12,7 @@ FROM pedido p
 JOIN cliente c ON p.cliecod = c.cliecod
 
 
+
 /*
 
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
