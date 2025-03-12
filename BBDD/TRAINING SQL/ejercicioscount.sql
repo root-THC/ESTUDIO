@@ -73,7 +73,7 @@ HAVING MAX(sal)>2900;
 SELECT deptno , MIN(sal) , MAX(sal) , AVG(sal)
 FROM emp 
 GROUP by deptno 
-HAVING 
+HAVING AVG
 
 
 --Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
