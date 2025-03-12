@@ -78,6 +78,8 @@ HAVING AVG(sal) > 4000;
 
 --Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
 
+-- Todos los campos que seleccionemos tenemos que mostrarlos en el grupo 
+
 SELECT e.deptNO , d.dName
 FROM emp e
 JOIN  dept d ON e.deptNO = d.deptNO 
