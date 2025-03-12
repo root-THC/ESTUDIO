@@ -54,4 +54,4 @@ GROUP BY deptno;
 
 
 
--- WHERE ES SOLO PARA FILAS
+-- WHERE ES SOLO PARA filtrar campos 
