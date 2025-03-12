@@ -80,4 +80,4 @@ HAVING AVG(sal) > 4000;
 
 SELECT deptNO , d.dName
 FROM emp e
-JOIN  dept d ON e.deptNO , d. 
+JOIN  dept d ON e.deptNO = d.deptNO 
