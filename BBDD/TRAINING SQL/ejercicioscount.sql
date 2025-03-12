@@ -81,4 +81,4 @@ HAVING AVG(sal) > 4000;
 SELECT e.deptNO , d.dName
 FROM emp e
 JOIN  dept d ON e.deptNO = d.deptNO 
-WHERE COUNT
+WHERE COUNT(empNO)
