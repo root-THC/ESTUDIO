@@ -46,3 +46,5 @@ GROUP BY deptno;
 --GRUPO
 -- * SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
 -- * con "" = tantos como valores diferentes que tenga el campo se agrupará
+
+--LIMITE
