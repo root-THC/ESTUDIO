@@ -71,6 +71,7 @@ HAVING MAX(sal)>2900;
 --Mostreu el salari mínim, màxim i mig dels empleats agrupats per feina, però només d'aquells la mitjana sigui superior a 4000.
 
 SELECT deptno , MIN(sal) , MAX(sal) , AVG(sal)
+FROM emp
 
 
 --Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
