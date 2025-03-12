@@ -68,5 +68,5 @@ HAVING MAX(sal)>2900;
 -- MUESTRA POR DEPARTAMIENTO Y SU SALARIO MÁS ALTO DE LOS EMPLEADOS QUE SON SALES MAN
 
 
-Mostreu el salari mínim, màxim i mig dels empleats agrupats per feina, però només d'aquells la mitjana sigui superior a 4000.
-Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
+--Mostreu el salari mínim, màxim i mig dels empleats agrupats per feina, però només d'aquells la mitjana sigui superior a 4000.
+--Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
