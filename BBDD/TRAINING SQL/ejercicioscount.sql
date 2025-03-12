@@ -79,5 +79,5 @@ HAVING AVG(sal) > 4000;
 --Vegeu el nombre i el nom dels departaments que tinguin més de tres empleats assignats.
 
 SELECT deptNO , d.dName
-FROM emp 
+FROM emp e
 JOIN 
