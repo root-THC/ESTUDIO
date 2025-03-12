@@ -47,4 +47,5 @@ GROUP BY deptno;
 -- * SIN GROUP BY = 1 fila que muestra el valor de las filas que hay 
 -- * con "" = tantos como valores diferentes que tenga el campo se agrupará
 
---LIMITE
+--LIMITE MUESTRAME EL TOP 5 
+SELECT ename , sal from emp ORDER BY sal DESC LIMIT 5;
