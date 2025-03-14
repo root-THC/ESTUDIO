@@ -17,6 +17,7 @@ WHERE LOWER(r.nombre)='bill adams';
 SELECT p.fabcod "Fabricant Code" , AVG(pr.precio) || '€' "Avg Product Price"
 FROM pedido p 
 JOIN producto pr ON (p.fabcod,p.prodcod) = (pr.fabcod,pr.prodcod)
+WHERE LOWER(p.fabcod)='aci'
 GROUP BY p.fabcod
 ;
 /*
