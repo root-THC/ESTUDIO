@@ -14,7 +14,8 @@ WHERE LOWER(r.nombre)='bill adams';
 
 
 --3. Calcula el preu mitjà dels productes del fabricant “aci”.
-SELECT * WHERE 
+SELECT *
+FROM clie
 /*
 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
 
