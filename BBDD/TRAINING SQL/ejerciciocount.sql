@@ -85,4 +85,3 @@ FROM emp e
 JOIN  dept d ON e.deptNO = d.deptNO 
 GROUP BY e.deptNO , d.dName
 HAVING COUNT(empNO)>3;
-d
