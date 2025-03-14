@@ -14,7 +14,7 @@ WHERE LOWER(r.nombre)='bill adams';
 
 
 --3. Calcula el preu mitjà dels productes del fabricant “aci”.
-SELECT *
+SELECT p.fabcod "Fabricant Code" , 
 FROM pedido
 WHERE LOWER(fabcod) = 'aci' ;
 /*
