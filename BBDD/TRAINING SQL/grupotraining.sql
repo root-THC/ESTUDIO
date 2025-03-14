@@ -16,6 +16,7 @@ WHERE LOWER(r.nombre)='bill adams';
 
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
 
+/*
 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
 
 5. Mostrar la quota màxima i la quota mínima de les quotes dels representants.
