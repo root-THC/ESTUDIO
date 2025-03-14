@@ -7,8 +7,7 @@ FROM repventa;
 
 --2. Quin és l'import total de les comandes preses per Bill Adams?
 
-SELECT ROUND(SUM(p.importe),2) "Total Import" , r.nombre "Name"
-FROM pedido p
+SELECT ROUND(SUM(p.importe),2) "Total Import"
 JOIN repventa r ON p.repcod = r.repcod
 WHERE LOWER(r.nombre)='bill adams';
 
