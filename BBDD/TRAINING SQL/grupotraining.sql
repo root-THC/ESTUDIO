@@ -11,7 +11,8 @@ SELECT ROUND(SUM(p.importe),2)||'€' "Total Import" , r.nombre "Name"
 FROM pedido p
 JOIN repventa r ON p.repcod = r.repcod
 GROUP BY p.importe, r.nombre
-WHERE LOWER(r.nombre)='bill adams';
+WHERE LOWER(r.nombre)='bill adams'
+GROUP BY p.importe, r.nombre;
 
 
 
