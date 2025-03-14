@@ -17,7 +17,7 @@ WHERE LOWER(r.nombre)='bill adams';
 SELECT p.fabcod "Fabricant Code" , AVG(pr.precio) || '€' "Avg Product Price"
 FROM pedido p 
 JOIN producto pr ON (p.fabcod,p.prodcod) = (pr.fabcod,pr.prodcod)
-GROUP BY ;
+GROUP BY p.fabcod;
 /*
 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
 
