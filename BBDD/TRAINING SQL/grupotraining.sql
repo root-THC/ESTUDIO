@@ -12,7 +12,6 @@ FROM pedido p
 JOIN repventa r ON p.repcod = r.repcod
 WHERE LOWER(r.nombre)='bill adams';
 
-/*
 
 3. Calcula el preu mitjà dels productes del fabricant “aci”.
 
