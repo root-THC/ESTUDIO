@@ -85,18 +85,18 @@
         #Camp Discount
         if($price<30){
             echo "<td> 0% (0,00€)</td>"; 
-            echo "<td> IVA ".$subtotal*0.21. "€</td>";
-            echo  "<td> ".$subtotal*1.21. "€</td>";
+            echo "<td> IVA ".$subtotal*0.21. " €</td>";
+            echo  "<td> ".$subtotal*1.21. " €</td>";
             
         } 
         elseif ($price >= 30 && $price <50){
             echo "<td> 5% (-  $price_discount5 €) </td>";
-            echo "<td> IVA " . $subtotal*0.21 ."€</td>";
+            echo "<td> IVA " . $subtotal*0.21 ." €</td>";
             echo "<td> $subtotal_discount5 €</td>";
         } 
         elseif ($price>=50) { 
             echo "<td> 10% (-  $price_discount10 €) </td>";
-            echo "<td> IVA " . $subtotal*0.21 ."€</td>";
+            echo "<td> IVA " . $subtotal*0.21 ." €</td>";
             echo "<td> $subtotal_discount10 €</td>";
         }
         
