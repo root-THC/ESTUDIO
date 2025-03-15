@@ -41,42 +41,72 @@
 <th>Price/unite</th>
 <th>Subtotal</th>
 <th>Discount</th>
-<th>Iva 21%</th>
+<th>Iva 21% 'Discount Applied'</th>
 <th>Total</th>
 
 <!-- END STATIC TABLES -->       
   
     <?php
     $total_quantity = 0;
+    $total_noiva = 0;
+    $total_withiva = 0;
     for ($i = 1; $i <= 10; $i++) {  
         $quantity_number = rand (1,100);
-        $price = rand (50,600);
+        $price = rand (0,600);
         $subtotal = $quantity_number * $price;
+        $subtotal_withiva = $subtotal * 1.21;
+
         $total_products = $i;
         $total_quantity += $quantity_number;
-        $total_price += $subtotal ;
+        $total_noiva += $subtotal ;
+        $total_withiva += $subtotal_withiva;
+         $price_discount5 = $subtotal * 0.05;
+         $price_discount10 = $subtotal * 0.10;
         
         echo "<tr>"; 
         echo "<td>Article $i</td>" ;
         # Camp Quantitat
         if ($quantity_number==1){
             echo "<td> $quantity_number ud</td>";
-        } elseif ( $quantity_number==0){
+        } 
+        elseif ( $quantity_number==0){
             echo "<td> No hay existencias </td>";
-        } else {
+        } 
+        else {
             echo "<td>$quantity_number uds</td>";
         }
         # Camp Price
         echo "<td> $price €</td>";
+        # Camp Subtotal
         echo "<td> $subtotal €</td>";
+        #Camp Discount
+        if($price<30){
+            echo "<td> 0% (0,00€)</td>"; 
+        } 
+        elseif ($price >= 30 && $price <50){
+            echo "<td> 5% (-  $price_discount5 €) </td>";
+        } 
+        elseif ($price>=50) { 
+            echo "<td> 10% (-  $price_discount10 €) </td>";
+        }
+        if($price<30){
+            echo "<td> IVA ".$price*1.21. "€</td>"; 
+        } 
+        elseif ($price >= 30 && $price <50){
+            echo "<td> IVA ". (($price - $price_discount5) * 1.21) . "€</td>";
+        } 
+        elseif ($price>=50) { 
+            echo "<td> IVA " . (($price - $price_discount10) * 1.21) . "€</td>";
+        }
+        
         echo  "</tr>";
-                                }
+    }
      ?>
   </table>
   <?php 
-  echo "<p>Quantity of products: $total_quantity</p>";
-  echo "<p>Total (Without IVA):$subtotal ";
-  echo "<p>Total (With IVA):  </p>";
+  echo "<p>Quantity of products: $total_quantity uds</p>";
+  echo "<p>Total (Without IVA):$total_noiva € ";
+  echo "<p>Total (With IVA): $total_withiva €  </p>";
  
   ?>
 
