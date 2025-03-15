@@ -46,12 +46,16 @@
 
 <!-- END STATIC TABLES -->       
   
-    <?php   
+    <?php
+    $total_quantity = 0;
     for ($i = 1; $i <= 10; $i++) {  
         $quantity_number = rand (1,100);
         $price = rand (50,600);
         $subtotal = $quantity_number * $price;
-    
+        $total_products = $i;
+        $total_quantity += $quantity_number;
+        $total_price += $subtotal ;
+        
         echo "<tr>"; 
         echo "<td>Article $i</td>" ;
         # Camp Quantitat
@@ -63,22 +67,17 @@
             echo "<td>$quantity_number uds</td>";
         }
         # Camp Price
-        echo "<td>Preu $price €</td>";
-        echo "<td>Preu $subtotal €</td>";
+        echo "<td> $price €</td>";
+        echo "<td> $subtotal €</td>";
         echo  "</tr>";
                                 }
-    ?> 
-        echo "<tr> <th class='articulos'>Article $i</th> </tr>";
-    }
-    for ($a = 1; $i <= 10; ) {  
-        echo "<tr> <th class='cantidad'>Article $i</th> </tr>";
-    }
-
-?> 
+     ?>
   </table>
   <?php 
-  #$total_productos = ;
-  echo "<h>Total products:" . array_sum . "</h>";
+  echo "<p>Quantity of products: $total_quantity</p>";
+  echo "<p>Total (Without IVA):$subtotal ";
+  echo "<p>Total (With IVA):  </p>";
+ 
   ?>
 
 
