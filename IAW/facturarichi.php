@@ -29,6 +29,10 @@
             padding: 8px;
             color: black;
         }
+        p {
+            margin: 20px;
+            font-weight: bold;
+        }
 </style>
 </head>
 
@@ -42,22 +46,22 @@
 <th>Subtotal</th>
 <th>Discount</th>
 <th>Iva 21% </th> 
-<th>Total 'Discount Applied'</th> <!-- FIRST DISCOUNT APPLIED BEFORE THE IVA TO THE TOTAL -->
+<th>Total </th> <!-- Discount Applied Before Taxes  -->
 
 <!-- END STATIC TABLES -->       
   
     <?php
-    $total_quantity = 0;
+    $total_products = 0;
     $total_noiva = 0;
     $total_withiva = 0;
     for ($i = 1; $i <= 10; $i++) {  
-        $quantity_number = rand (1,20);
-        $price = rand (0,600);
+        $quantity_number = rand (1,10);
+        $price = rand (0,100);
         $subtotal = $quantity_number * $price;
         $subtotal_withiva = $subtotal * 1.21;
 
         $total_products = $i;
-        $total_quantity += $quantity_number;
+        $total_products += $quantity_number;
         $total_noiva += $subtotal ;
         $total_withiva += $subtotal_withiva;
         $price_discount5 = $subtotal * 0.05;
@@ -83,21 +87,21 @@
         # Camp Subtotal
         echo "<td> $subtotal €</td>";
         #Camp Discount + IVA + TOTAL DISCOUNT APPLIED
-        if($price<30){
-            echo "<td> 0% (0,00€)</td>"; 
-            echo "<td> IVA ".$subtotal*0.21. " €</td>";
-            echo  "<td> ".$subtotal*1.21. " €</td>";
+        if($subtotal<30){
+            echo "<td> 0% (0,00€)</td>"; # DISCOUNT
+            echo "<td> IVA ". $subtotal*0.21 . " €</td>"; #IVA
+            echo  "<td> ". $subtotal*1.21 . " €</td>"; #TOTAL
             
         } 
-        elseif ($price >= 30 && $price <50){
-            echo "<td> 5% (-  $price_discount5 €) </td>";
-            echo "<td> IVA " . $subtotal*0.21 ." €</td>";
-            echo "<td> $subtotal_discount5 €</td>";
+        elseif ($subtotal >= 30 && $subtotal <=50){
+            echo "<td> 5% (-  $price_discount5 €) </td>"; # DISCOUNT
+            echo "<td> IVA " . $subtotal*0.21 ." €</td>"; #IVA
+            echo "<td>" . number_format($subtotal_discount5,2) . "€</td>"; #TOTAL
         } 
-        elseif ($price>=50) { 
-            echo "<td> 10% (-  $price_discount10 €) </td>";
-            echo "<td> IVA " . $subtotal*0.21 ." €</td>";
-            echo "<td> $subtotal_discount10 €</td>";
+        elseif ($subtotal>50) { 
+            echo "<td> 10% (-  $price_discount10 €) </td>"; # DISCOUNT
+            echo "<td> IVA " . $subtotal*0.21 ." €</td>"; #IVA
+            echo "<td>" . number_format($subtotal_discount10,2) . "€</td>"; #TOTAL
         }
         
         echo  "</tr>";
@@ -105,9 +109,9 @@
      ?>
   </table>
   <?php 
-  echo "<p>Quantity of products: $total_quantity uds</p>";
-  echo "<p>Total (Without IVA):$total_noiva € ";
-  echo "<p>Total (With IVA): $total_withiva €  </p>";
+  echo "<p>Quantity of products : $total_products uds</p>";
+  echo "<p>Total (Without IVA) : $total_noiva € </p>";
+  echo "<p>Total (With IVA) : $total_withiva €  </p>";
  
   ?>
 
