@@ -62,7 +62,7 @@
         $total_withiva += $subtotal_withiva;
         $price_discount5 = $subtotal * 0.05;
         $price_discount10 = $subtotal * 0.10;
-        #TOTAL
+        #SUBTOTAL DISCOUNT
         $subtotal_discount5 = (($subtotal - $price_discount5) * 0.21);
         $subtotal_discount10 = (($subtotal - $price_discount10) * 0.21);
         
@@ -82,7 +82,7 @@
         echo "<td> $price €</td>";
         # Camp Subtotal
         echo "<td> $subtotal €</td>";
-        #Camp Discount
+        #Camp Discount + IVA + TOTAL DISCOUNT APPLIED
         if($price<30){
             echo "<td> 0% (0,00€)</td>"; 
             echo "<td> IVA ".$subtotal*0.21. " €</td>";
