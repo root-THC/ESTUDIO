@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>TABLA MULTIPLICAR</title>
+    <title>RICHI FACTURATOR ;)</title>
     <style>
        table {
             border-collapse: collapse;
@@ -67,8 +67,8 @@
         $price_discount5 = $subtotal * 0.05;
         $price_discount10 = $subtotal * 0.10;
         #SUBTOTAL DISCOUNT
-        $subtotal_discount5 = (($subtotal - $price_discount5) * 0.21);
-        $subtotal_discount10 = (($subtotal - $price_discount10) * 0.21);
+        $subtotal_discount5 = (($subtotal - $price_discount5) * 1.21);
+        $subtotal_discount10 = (($subtotal - $price_discount10) * 1.21);
         
         echo "<tr>"; 
         echo "<td>Article $i</td>" ;
