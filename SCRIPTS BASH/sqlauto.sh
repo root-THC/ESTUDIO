@@ -1,4 +1,5 @@
 #!/bin/bash
+cd 
 docker rm -f $(docker ps -aq)
 docker compose up -d
 docker_id = $(docker ps | awk '{print $1}')
