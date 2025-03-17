@@ -61,7 +61,7 @@
         $subtotal_withiva = $subtotal * 1.21;
 
         $total_products = $i;
-        $total_products += $quantity_number;
+        $total_products1 += $quantity_number;
         $total_noiva += $subtotal ;
         $total_withiva += $subtotal_withiva;
         $price_discount5 = $subtotal * 0.05;
