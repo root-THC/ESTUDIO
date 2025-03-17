@@ -1,5 +1,5 @@
 #!/bin/bash
-cd 
+cd /home/users/inf/hisx1/a241535rm/Downloads/postgres-docker-arreglat
 docker rm -f $(docker ps -aq)
 docker compose up -d
 docker_id = $(docker ps | awk '{print $1}')
