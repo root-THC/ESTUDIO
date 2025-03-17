@@ -111,7 +111,7 @@
      ?>
   </table>
   <?php 
-  echo "<p>Quantity of products : $total_products uds</p>";
+  echo "<p>Quantity of products : $total_products1 uds</p>";
   echo "<p>Total (Without IVA) : $total_noiva € </p>";
   echo "<p>Total (With IVA) : $total_withiva €  </p>";
  
