@@ -17,5 +17,5 @@ WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
 -- ANIDAMIENTO DE FUNCIONES DE GRUPOS 
 
-SELECT MAX(avg) FROM emp GROUP BY deptno;
+SELECT MAX(avg) FROM ();
 
