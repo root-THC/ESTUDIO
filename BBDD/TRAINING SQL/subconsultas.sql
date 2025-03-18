@@ -17,4 +17,4 @@ WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
 -- FUNCIONES DE GRUPOS 
 
-SELECT (av)
+SELECT (avg())
