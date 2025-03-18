@@ -17,4 +17,4 @@ WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
 -- FUNCIONES DE GRUPOS 
 
-SELECT MAX((avg(sal))) FROM emp GROUP BY deptno;
+SELECT MAX(avg(sal)) FROM emp GROUP BY deptno;
