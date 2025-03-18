@@ -8,4 +8,4 @@ SELECT ename,sal FROM emp WHERE sal > (SELECT AVG(sal) FROM emp);
 -- nombre del empleado mas antiguo
 
 SELECT ename FROM emp WHERE hiredate =
- (SELECT MIN(hiredate) FROM emp):
+(SELECT MIN(hiredate) FROM emp):
