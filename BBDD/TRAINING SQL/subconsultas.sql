@@ -3,4 +3,4 @@
 SELECT ename FROM emp WHERE sal= (SELECT MAX(sal) FROM emp);
 
 -- MOSTRAR LOS EMPLEADOS QUE COBRAN MAS DE LA MEDIANA
-SELECT ename,sal FROM emp WHERE sal= (SELECT sal FROM emp WHERE sal > AVG(sal));
+SELECT ename,sal FROM emp WHERE sal > (SELECT sal FROM emp WHERE sal > AVG(sal));
