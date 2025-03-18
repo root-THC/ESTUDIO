@@ -14,3 +14,5 @@ WHERE sal > (SELECT AVG(sal) FROM emp);
 SELECT ename 
 FROM emp 
 WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
+
+-- FUNCIONES DE GRUPOS 
