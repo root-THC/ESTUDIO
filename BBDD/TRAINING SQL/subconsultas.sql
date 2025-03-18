@@ -1,3 +1,3 @@
 --QUIENES SON LOS QUE COBRAN MÁS
 
-SELECT ename FROM emp WHERE sal= (SELECT MAX(sal) FROM emp)
+SELECT ename FROM emp WHERE sal= (SELECT MAX(sal) FROM emp);
