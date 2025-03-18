@@ -15,6 +15,6 @@ SELECT ename
 FROM emp 
 WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
--- FUNCIONES DE GRUPOS 
+-- ANIDAMIENTO DE FUNCIONES DE GRUPOS 
 
 SELECT MAX(avg(sal)) FROM emp GROUP BY deptno;
