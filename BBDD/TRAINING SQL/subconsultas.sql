@@ -19,6 +19,5 @@ WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
 SELECT MAX(campotemportal) 
 FROM 
-(SELECT AVG(sal)campotemportal FROM emp
-GROUP BY deptno) nombretablatemporal ;
+(SELECT AVG(sal)campotemportal FROM emp GROUP BY deptno) nombretablatemporal ;
 
