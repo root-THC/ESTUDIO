@@ -7,4 +7,4 @@ SELECT ename,sal FROM emp WHERE sal > (SELECT AVG(sal) FROM emp);
 
 -- nombre del empleado mas antiguo
 
-SELECT 
+SELECT ename FROM emp WHERE 
