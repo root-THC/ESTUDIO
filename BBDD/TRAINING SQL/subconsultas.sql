@@ -17,7 +17,7 @@ WHERE hiredate = (SELECT MIN(hiredate) FROM emp);
 
 -- ANIDAMIENTO DE FUNCIONES DE GRUPOS 
 
-SELECT MAX(avg) FROM (SELECT AVG(sal)campotemportal 
+SELECT MAX(campotemportal) FROM (SELECT AVG(sal)campotemportal 
 FROM emp
 GROUP BY deptno) nombretablatemporal ;
 
