@@ -75,5 +75,4 @@ FROM repventa;
 SELECT ofinum, SUM(quotes) , SUM(ventas)
 FROM repventa
 
-
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
