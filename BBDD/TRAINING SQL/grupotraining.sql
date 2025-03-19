@@ -74,7 +74,7 @@ FROM repventa;
 
 SELECT ofinum, SUM(cuota) , SUM(ventas) 
 FROM repventa
-
+JOIN oficina of
 GROUP BY ofinum
 HAVING count(*)>=2;
 
