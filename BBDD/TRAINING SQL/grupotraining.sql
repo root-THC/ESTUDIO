@@ -68,7 +68,7 @@ FROM repventa;
 
 --18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
-SELECT c , repcod , SUM(importe)
+SELECT c.nombre , repcod , SUM(importe)
 FROM pedido p
 JOIN cliente c ON = p.cliecod = c.cliecod
 GROUP BY cliecod, repcod;
