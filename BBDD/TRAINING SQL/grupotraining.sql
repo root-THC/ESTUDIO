@@ -91,3 +91,4 @@ GROUP BY r.ofinum , ciudad -- EN EL GROUP BY SOLO SE PONEN LO QUE NO SEA FUNCION
 HAVING count(*)>=2;
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
+
