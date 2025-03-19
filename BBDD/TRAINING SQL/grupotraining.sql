@@ -22,7 +22,7 @@ GROUP BY p.fabcod;
 
 -- 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
 
-SELECT importe 
+SELECT AVG(importe 
 
 
 
