@@ -69,7 +69,7 @@ FROM repventa;
 18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
 19. Llista l'import total de les comandes preses per cada representant.
-*/
+
 
 --20. Per a cada oficina amb dos o més representants, calculeu el total de les quotes i el total de les vendes de tots els representants.
 
