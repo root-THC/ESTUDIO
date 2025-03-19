@@ -70,7 +70,7 @@ FROM repventa;
 
 SELECT cliecod , repcod , SUM(importa)
 FROM pedid
-GROUP BY cl
+GROUP BY cliecod, repcod
 
 
 
