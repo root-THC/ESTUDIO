@@ -32,7 +32,7 @@ WHERE LOWER(c.nombre) = 'acme mfg';
 
 
 
-/*
+
 5. Mostrar la quota màxima i la quota mínima de les quotes dels representants.
 
 6. Quina és la data de la comanda més antiga que es té registrada?
