@@ -75,7 +75,7 @@ FROM repventa;
 SELECT of.ciudad , r.ofinum, SUM(r.cuota) , SUM(r.ventas) 
 FROM repventa r
 JOIN oficina of ON r.ofinum = of.ofinum
-GROUP BY ofinum
+GROUP BY r.ofinum
 HAVING count(*)>=2;
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
