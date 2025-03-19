@@ -39,7 +39,7 @@ WHERE LOWER(c.nombre) = 'acme mfg';
 
 --7. Quin és el millor rendiment de vendes de tots els representants? (considerar-ho com el percentatge de vendes sobre la quota).
 
-SELECT nombre , COALESCE(ventas/cuota)
+SELECT nombre , COALESCE(ventas/cuota,0)
 FROM repventa 
 
 
