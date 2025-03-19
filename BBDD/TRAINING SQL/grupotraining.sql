@@ -26,7 +26,7 @@ SELECT AVG(p.importe)  "Media Importe"
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
 WHERE LOWER(c.nombre) = 'acme mfg'
-GROUP BY ;
+GROUP BY c.nombre;
 
 
 
