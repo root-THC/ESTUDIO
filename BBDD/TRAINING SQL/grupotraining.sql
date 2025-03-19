@@ -74,7 +74,7 @@ FROM repventa;
 
 SELECT o.ciudad , r.ofinum, SUM(r.cuota) , SUM(r.ventas) 
 FROM repventa r
-JOIN oficina o ON r.ofinum = of.ofinum
+JOIN oficina o ON r.ofinum = o.ofinum
 GROUP BY r.ofinum
 HAVING count(*)>=2;
 
