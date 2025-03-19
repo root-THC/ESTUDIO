@@ -69,7 +69,8 @@ FROM repventa;
 --18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
 SELECT cliecod , repcod , SUM(importa)
-FROM pedido
+FROM pedid
+GROUP BY cl
 
 
 
