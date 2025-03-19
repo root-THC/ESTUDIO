@@ -23,7 +23,7 @@ GROUP BY p.fabcod;
 -- 4. Quin és l'import mitjà de la comanda sol·licitada pel client "acme mfg."
 
 SELECT AVG(importe)  "Media Importe",
-FROMP
+FROM pedido p 
 
 
 
