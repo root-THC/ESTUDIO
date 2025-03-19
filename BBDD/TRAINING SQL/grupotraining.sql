@@ -92,6 +92,11 @@ HAVING count(*)>=2;
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
 
+SELECT * 
+FROM pedido pe JOIN producto pr 
+    ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
+WHERE  cant > exist*0.75;
+
 SELECT COUNT(*) 
 FROM pedido pe JOIN producto pr 
     ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
