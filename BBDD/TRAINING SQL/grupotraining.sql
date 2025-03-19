@@ -95,5 +95,5 @@ HAVING count(*)>=2;
 SELECT COUNT(*) 
 FROM pedido pe JOIN producto pr 
     ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
-WHERE 
+WHERE  cant > exist
 
