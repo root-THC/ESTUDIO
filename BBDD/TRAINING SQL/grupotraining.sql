@@ -69,7 +69,8 @@ FROM repventa;
 
 19. Llista l'import total de les comandes preses per cada representant.
 */
-20. Per a cada oficina amb dos o més representants, calculeu el total de les quotes i el total de les vendes de tots els representants.
+
+--20. Per a cada oficina amb dos o més representants, calculeu el total de les quotes i el total de les vendes de tots els representants.
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
 */
