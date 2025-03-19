@@ -25,7 +25,7 @@ GROUP BY p.fabcod;
 SELECT AVG(p.importe)  "Media Importe",
 FROM pedido p 
 JOIN cliente c ON p.cliecod = c.cliecod
-WHERE
+WHERE 
 
 
 
