@@ -95,3 +95,4 @@ HAVING count(*)>=2;
 SELECT * 
 FROM pedido pe JOIN producto pr 
     ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
+    
