@@ -75,6 +75,6 @@ FROM repventa;
 SELECT ofinum, SUM(cuota) , SUM(ventas) , count(*)
 FROM repventa
 GROUP BY ofinum;
-HAVING count(*);
+HAVING count(*)>=2;
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
