@@ -102,7 +102,3 @@ FROM pedido pe JOIN producto pr
     ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
 WHERE  cant > exist*0.75;
 
-SELECT * 
-FROM pedido pe JOIN producto pr 
-    ON (pe.fabcod,pe.prodcod) = (pr.fabcod,pr.prodcod)
-WHERE  cant > exist*0.75;
