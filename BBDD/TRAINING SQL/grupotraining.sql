@@ -71,7 +71,7 @@ FROM repventa;
 SELECT c.nombre , r.nombre , SUM(importe)
 FROM pedido p
 JOIN cliente c ON = p.cliecod = c.cliecod
-JOIN repventa r ON r.repventa 
+JOIN repventa r ON r.repventa = p.repcod
 GROUP BY cliecod, repcod;
 
 
