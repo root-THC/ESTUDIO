@@ -75,7 +75,7 @@ FROM repventa;
 SELECT ciudad , r.ofinum, SUM(r.cuota) , SUM(r.ventas) 
 FROM repventa r
 JOIN oficina o ON r.ofinum = o.ofinum
-GROUP BY r.ofinum , ciudad -- EN EL GROUP BY SOLO SE PONEN LO QUE NO SEA FUNCIONES DE
+GROUP BY r.ofinum , ciudad -- EN EL GROUP BY SOLO SE PONEN LO QUE NO SEA FUNCIONES DE GRUPO 
 HAVING count(*)>=2;
 
 --21. Mostra el nombre de comandes que superen el 75% de les existències.
