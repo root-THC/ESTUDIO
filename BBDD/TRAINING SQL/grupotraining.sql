@@ -68,6 +68,10 @@ FROM repventa;
 
 --18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
+
+
+
+
 --19. Llista l'import total de les comandes preses per cada representant.
 
 
