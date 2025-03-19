@@ -72,7 +72,7 @@ FROM repventa;
 
 --20. Per a cada oficina amb dos o més representants, calculeu el total de les quotes i el total de les vendes de tots els representants.
 
-SELECT of.ciudad , r.ofinum, SUM(r.cuota) , SUM(r.ventas) 
+SELECT o.ciudad , r.ofinum, SUM(r.cuota) , SUM(r.ventas) 
 FROM repventa r
 JOIN oficina o ON r.ofinum = of.ofinum
 GROUP BY r.ofinum
