@@ -64,6 +64,7 @@ FROM repventa;
 16. Quants representants hi ha assignats a cada oficina? Mostra Ciutat i nombre de representants.
 
 17. Quants clients ha contactat per primer cop cada representant? Mostra el codi de representant, nom i número de clients.
+*/
 
 18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
