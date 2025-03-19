@@ -94,4 +94,4 @@ HAVING count(*)>=2;
 
 SELECT * 
 FROM pedido pe JOIN producto pr 
-    ON ()
+    ON (pe.fabcod)
