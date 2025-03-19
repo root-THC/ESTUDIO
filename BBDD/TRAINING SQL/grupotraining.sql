@@ -68,7 +68,8 @@ FROM repventa;
 
 --18. Calcula el total de l'import de les comandes sol·licitades per cada client a cada representant.
 
-SELECT c.nombre , 
+SELECT 
+    c.nombre , 
     r.nombre ,
     SUM(importe)
 FROM pedido p
