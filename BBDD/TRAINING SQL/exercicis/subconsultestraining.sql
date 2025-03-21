@@ -16,7 +16,7 @@ a los que no estan asignados
 SELECT deptno 
 FROM dept
 WHERE deptno 
-NOT IN = ALL (SELECT deptno -- EN VEZ DE NOT IN PODRÍA SER != 
+NOT IN = ALL (SELECT deptno -- EN VEZ DE NOT IN = ALL PODRÍA SER != ALL
         FROM emp);
 
 
