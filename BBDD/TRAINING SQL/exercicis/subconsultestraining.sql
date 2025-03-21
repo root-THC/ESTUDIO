@@ -1,7 +1,8 @@
 
 
 /*
-MULTIREGISTRE
+
+MULTIREGISTRE VARIAS FILAS
  
 SELECT nombre , puesto 
 FROM repventa
