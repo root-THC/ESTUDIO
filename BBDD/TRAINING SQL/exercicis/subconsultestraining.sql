@@ -5,7 +5,7 @@ MULTIREGISTRE
 
 SELECT nombre , puesto 
 FROM repventa
-WHERE repcod = IN/ANY 
+WHERE repcod = IN
 (SELECT jefe FROM repventa);
 
 
