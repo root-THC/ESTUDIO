@@ -13,7 +13,7 @@ MUESTRA LOS DEPARTAMENTOS QUE NO TIENEN ASIGNADO NINGÚN JEFE
 Esto es una resta para 2 tablas tenemos que restar los que si sabemos que estan asignados
 a los que no estan asignados
 
-IN 
+IN  = DENTRO DE
 ANY = ALGUNO
 ALL = TODOS
 SELECT deptno 
