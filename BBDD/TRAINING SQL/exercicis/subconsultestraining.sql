@@ -4,8 +4,6 @@
 
 
 
-
-
 MULTIREGISTRE VARIAS FILAS
  
 SELECT nombre , puesto 
