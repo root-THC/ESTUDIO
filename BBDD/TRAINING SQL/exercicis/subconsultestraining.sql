@@ -5,7 +5,7 @@ SELECT nombre , puesto
 
 FROM repventa
 
-WHERE repcod = IN/ANY ()
+WHERE repcod = IN/ANY (SELECT jefe )
 
 
 
