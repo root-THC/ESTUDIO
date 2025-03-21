@@ -8,7 +8,7 @@ FROM repventa
 WHERE repcod = IN 
 (SELECT jefe FROM repventa);
 
-MUESTRA ELS
+MUESTRA LOS DEPARTAMENTOS QUE NO TIENEN ASIGNADO NINGÚN JEFE
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
