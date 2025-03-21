@@ -10,7 +10,7 @@ WHERE repcod = IN
 
 MUESTRA LOS DEPARTAMENTOS QUE NO TIENEN ASIGNADO NINGÚN JEFE
 
-
+SELECT 
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
