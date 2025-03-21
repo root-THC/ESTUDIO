@@ -2,9 +2,7 @@
 
 /*
 SELECT nombre , puesto 
-
 FROM repventa
-
 WHERE repcod = IN/ANY 
 (SELECT jefe FROM repventa);
 
