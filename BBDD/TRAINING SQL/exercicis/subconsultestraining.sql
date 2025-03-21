@@ -16,7 +16,8 @@ a los que no estan asignados
 SELECT deptno 
 FROM dept
 WHERE deptno 
-NOT IN ()
+NOT IN (SELECT deptno
+        FROM emp);
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
