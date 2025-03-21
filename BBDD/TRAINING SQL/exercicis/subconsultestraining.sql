@@ -2,7 +2,7 @@
 
 /*
 MULTIREGISTRE
-
+ 
 SELECT nombre , puesto 
 FROM repventa
 WHERE repcod = IN 
