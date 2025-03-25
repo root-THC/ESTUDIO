@@ -77,7 +77,7 @@ CREATE TABLE tabla_4 (
     CONSTRAINT tabla_4_id_pk PRIMARY KEY (id)
 );
 
-CREATE TABLE tabla_relacion_3/4 (
+CREATE TABLE tabla_relacion (
     id_tabla_4 SMALLINT,
     id_tabla_3 SMALLINT,
     CONSTRAINT tabla_relacion_pk PRIMARY KEY (id_tabla_4, id_tabla_3),
