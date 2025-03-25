@@ -45,7 +45,7 @@
 | `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`, incluyendo triggers. |
 | `\dv`              | Muestra las vistas existentes. |
 | `\d nombre_vista`  | Muestra la estructura de `nombre_vista`, incluyendo triggers. |
-| `\di`              | Muestra los índices de PostgreSQL. |
+| `\x`              | Muestra los índices de PostgreSQL. |
 | `\ds`              | Muestra las secuencias. |
 | `\dn`              | Muestra los esquemas. |
 | `\di`              | Muestra los índices de PostgreSQL. |
