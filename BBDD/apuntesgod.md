@@ -2,7 +2,7 @@
 
 ## Operadores
 
-```sql
+
 | Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
