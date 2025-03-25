@@ -23,7 +23,7 @@
 |-----------|--------------------------------------|
 | `AND`       | Igual                               |
 | `OR`      | Diferente                           |
-| `NOT`       | Mayor que                           |
+| `NOT`       | True si la condición es falsa     |
 
 --
 
