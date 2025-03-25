@@ -25,7 +25,7 @@
 | `OR`      | **TRUE** si alguna de las condiciones es **TRUE**            
 | `NOT`       | **TRUE** si la condición es **FALSA**     |
 
---
+---
 
 ## Tipos de Datos en SQL
 
