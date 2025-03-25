@@ -71,6 +71,9 @@ JOIN oficina o ON r.ofinum = o.ofinum
 WHERE cuota > 0.55*objetivo;
 
 
+
+
+
 10. Obtenir una llista dels representants que han pres alguna comanda l'import del qual sigui més del 10% de la seva quota.
 
 11. Obtenir una llista de les oficines on el total de vendes dels seus representants han aconseguit un import de vendes que supera el 50% de lobjectiu de loficina. Mostrar també l'objectiu de cada oficina (suposeu que el camp vendes d'oficina no existeix).
