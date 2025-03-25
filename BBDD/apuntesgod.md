@@ -47,9 +47,9 @@
 | \d nom_taula     | Mostra l'estructura de `nom_taula`, incloent triggers. |
 | \dv              | Mostra les vistes existents. |
 | \d nom_vista     | Mostra l'estructura de `nom_vista`, incloent triggers. |
-| `\ds`              | Mostra les seqüències. |
-| `\dn`              | Mostra els esquemes. |
-| `\di`              | Mostra els índexs de PostgreSQL. |
+| \ds              | Mostra les seqüències. |
+| \dn              | Mostra els esquemes. |
+| \di              | Mostra els índexs de PostgreSQL. |
 ```
 ---
 ## Creación de Base de Datos
