@@ -88,6 +88,8 @@ Quin producte (Descripció) té més comandes?
 16 . Quin producte s'ha venut més?
 */
 
+
+-- Productos que nunca han sido pedidos
 SELECT descrip
 FROM producto 
 WHERE fabcod AND prodcod NOT IN (SELECT fabcod,prodcod FROM pedido);
