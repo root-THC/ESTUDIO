@@ -33,9 +33,11 @@ CREATE DATABASE base_datos_1;
 
 ```sql
 --CREAR EN TABLA
+
 CREATE SEQUENCE secuencia_1 START WITH 1 INCREMENT BY 1;
 
 -- USARLO EN INSERT
+
 
 ```
 
