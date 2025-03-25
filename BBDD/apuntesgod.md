@@ -32,6 +32,7 @@ CREATE DATABASE base_datos_1;
 ## Creación de Secuencias
 
 ```sql
+--CREAR EN TABLA
 CREATE SEQUENCE secuencia_1 START WITH 1 INCREMENT BY 1;
 
 ```
