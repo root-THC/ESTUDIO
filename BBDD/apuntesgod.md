@@ -39,7 +39,6 @@
 
 ```sql
 | Comanda             | Descripció |
-|---------------------|------------|
 | \l               | Llista les bases de dades del servidor. |
 | \c base_dades    | Canvia la connexió a `base_dades`. |
 | \d               | Mostra els objectes dins la base de dades actual. |
