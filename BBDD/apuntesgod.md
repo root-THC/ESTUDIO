@@ -175,7 +175,7 @@ Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tabla
 TABLA A > TABLA B > TABLA C
 
 
-DELETE FROM tabla_3 WHERE id='2';
+DELETE FROM tabla_a WHERE id='2';
 ```
 
 ### `ON UPDATE CASCADE`
