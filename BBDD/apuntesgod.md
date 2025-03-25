@@ -36,6 +36,7 @@ CREATE TABLE tabla_2 (
     CONSTRAINT tabla_2_id_pk PRIMARY KEY (id_tabla2)
 );
 
+
 CREATE TABLE tabla_intermedia (
     id_tabla_1 SMALLINT,
     id_tabla_2 SMALLINT,
