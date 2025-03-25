@@ -27,7 +27,7 @@
 | `SMALLINT (2 bytes)` | Número entero pequeño                         |
 | `BIGINT (8 bytes)`   | Número entero grande                          |
 | `NUMERIC(E,D)`       | Si por ejemplo 7,2 = 99999,99 -- 5 delante 2 detrás              |
-| **Ejemplo**          | `NUMERIC(5,2)` va de `000,00` hasta `999,99`. |
+| **Ejemplos**          | `NUMERIC(5,2)` va de `000,00` hasta `999,99`. |
 | `BOOLEAN`           | Valores `TRUE` o `FALSE`.                      |
 | `DATE`              | Fecha (`día, mes, año`).                       |
 | `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`). |
