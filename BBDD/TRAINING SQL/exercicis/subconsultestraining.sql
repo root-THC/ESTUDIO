@@ -95,4 +95,4 @@ WHERE
 
 SELECT pednum
 FROM pedido 
-WHERE =
+WHERE = 
