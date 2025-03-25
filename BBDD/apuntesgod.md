@@ -18,6 +18,10 @@
 
 ---
 
+## Operadores de Comparación
+
+--
+
 ## Tipos de Datos en SQL
 
 | Tipo de Dato        | Descripción                                      |
