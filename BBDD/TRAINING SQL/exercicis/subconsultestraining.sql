@@ -22,7 +22,7 @@ FROM dept
 WHERE deptno 
 NOT IN (SELECT deptno FROM emp);
 
- -- EN VEZ DE NOT IN = ALL PODRÍA SER != ALL
+ -- EN VEZ DE NOT I PODRÍA SER != ALL
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
