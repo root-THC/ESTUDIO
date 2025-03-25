@@ -23,7 +23,7 @@ CREATE SEQUENCE secuencia_1 START WITH 1 INCREMENT BY 1;
 
 ```sql
 CREATE TABLE tabla_1 (
-    id SMALLINT,
+    id_tabla1 SMALLINT,
     campo_1 VARCHAR(20) UNIQUE,
     campo_2 DATE,
     campo_3 NUMERIC(7,2),
