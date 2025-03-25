@@ -158,7 +158,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 ## Restricciones y Cascadas
 
 ### `Por defecto` 
-
+Cuando digo por defecto me refiero a cuando no específicamos nada en 
 ### `ON DELETE SET NULL` 
 
 Cuando se elimina un registro en `tabla_1`, los registros relacionados en `tabla_intermedia` tendrán su clave foránea puesta en `NULL`.
