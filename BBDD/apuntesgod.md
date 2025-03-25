@@ -92,7 +92,7 @@ CREATE TABLE tabla_1 (
 CREATE TABLE tabla_2 (
     id_tabla2 SMALLINT,
     campo_1 VARCHAR(40),
-    
+    campo
     CONSTRAINT tabla_2_id_pk PRIMARY KEY (id_tabla2)
 );
 
