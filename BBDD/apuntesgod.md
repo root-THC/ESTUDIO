@@ -41,7 +41,7 @@ CREATE TABLE tabla_intermedia (
     id_tabla_1 SMALLINT,
     id_tabla_2 SMALLINT,
     CONSTRAINT tabla_intermedia_pk PRIMARY KEY (id_tabla_1, id_tabla_2),
-    CONSTRAINT tabla_intermedia_fk_1 FOREIGN KEY (id_tabla_1) REFERENCES tabla_1(id),
+    CONSTRAINT claveajena_fk_1 FOREIGN KEY (id_tabla_1) REFERENCES tabla_1(id),
     CONSTRAINT tabla_intermedia_fk_2 FOREIGN KEY (id_tabla_2) REFERENCES tabla_2(id)
 );
 
