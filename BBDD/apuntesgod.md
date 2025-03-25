@@ -23,7 +23,7 @@
 |-----------|--------------------------------------|
 | `AND`       | Igual                               |
 | `OR`      | TRUE si alguna de las condiciones es TRUE                          |
-| `NOT`       | TRUSE si la condición es falsa     |
+| `NOT`       | TRUSE si la condición es FALSA     |
 
 --
 
