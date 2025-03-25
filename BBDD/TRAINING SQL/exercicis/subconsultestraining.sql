@@ -35,7 +35,8 @@ Los que no son jefes
 
 SELECT ename 
  FROM emp
- WHERE empno NOT IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL); EL NULL ES IMPORTANTE PORQUE AL DEVOLVER UN NULL QUE ES PRESIDENTE
+ WHERE empno NOT IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL); 
+ --EL NULL ES IMPORTANTE PORQUE AL DEVOLVER UN NULL QUE ES PRESIDENTE
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
