@@ -182,5 +182,5 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos**|
-|  ----------- |
+
 
