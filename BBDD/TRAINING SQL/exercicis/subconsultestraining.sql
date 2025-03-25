@@ -72,7 +72,7 @@ WHERE cuota > 0.55*objetivo;
 
 
 SELECT ciudad FROM oficina o WHERE objetivo < 
-(SELECT cuota*0.55 FROM repventa r WHERE r.ofinum=o.ofinum)
+(SELECT cuota*0.55 FROM repventa r WHERE r.ofinum=o.ofinum);
 
 
 10. Obtenir una llista dels representants que han pres alguna comanda l'import del qual sigui més del 10% de la seva quota.
