@@ -37,6 +37,7 @@ CREATE TABLE tabla_2 (
 );
 
 
+--CLAVE COMPUESTA
 
 CREATE TABLE tabla_3 (
     id SMALLINT,
