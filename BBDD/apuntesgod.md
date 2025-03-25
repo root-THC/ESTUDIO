@@ -170,7 +170,7 @@ Cuando se elimina un registro en `tabla_c`, los registros relacionados en `A Y B
 DELETE FROM tabla_c WHERE id='2';
 ```
 
-### `ON DELETE CASCADE`
+### `CASCADE`
 
 Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tablas_relacionadas_con_foreignkeys` también se eliminan automáticamente.
 
