@@ -67,7 +67,7 @@ CREATE TABLE tabla_2 (
 CREATE TABLE tabla_3 (
     id_tabla3 SMALLINT,
     campo_1 VARCHAR(40),
-    CONSTRAINT tabla_3_id_pk PRIMARY KEY ( id_tabla3)
+    CONSTRAINT tabla_3_id_pk PRIMARY KEY (id_tabla3)
 );
 
 CREATE TABLE tabla_4 (
