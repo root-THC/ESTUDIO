@@ -82,7 +82,7 @@ CREATE TABLE tabla_relacion (
     id_tabla4 SMALLINT,
     CONSTRAINT tabla_relacion_pk PRIMARY KEY (id_tabla3, id_tabla4),
     CONSTRAINT tabla_relacion_fk_t3 FOREIGN KEY (id_tabla3) REFERENCES tabla_3(id_tabla3),
-    CONSTRAINT tabla_relacion_fk_t4 FOREIGN KEY (id_tabla3) REFERENCES tabla_4(id_tabla4)
+    CONSTRAINT tabla_relacion_fk_t4 FOREIGN KEY (id_tabla4) REFERENCES tabla_4(id_tabla4)
 );
 ```
 
