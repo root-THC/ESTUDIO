@@ -184,6 +184,6 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | **Ejemplos** 
 | `COUNT`      | SELECT COUNT(campo); |
 | `AVG`           | SELECT AVG(campo) FROM emp;|
-| `MAX`              | SELECT MAX(campo) FROM emp;| -- Por ejemplo salario
+| `MAX`              | SELECT MAX(campo) FROM emp;|
 | `MIN`         | SELECT MIN(campo) FROM emp;|
 
