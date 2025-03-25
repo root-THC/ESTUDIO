@@ -169,7 +169,7 @@ DELETE FROM tabla_1 WHERE campo_1='Ejemplo 1';
 
 ### `ON DELETE CASCADE`
 
-Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tabla_relacion` también se eliminan automáticamente.
+Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tablas_relacionadas_con_foreignkeys` también se eliminan automáticamente.
 
 ```sql
 DELETE FROM tabla_3 WHERE id='2';
