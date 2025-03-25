@@ -92,7 +92,8 @@ CREATE TABLE tabla_1 (
 CREATE TABLE tabla_2 (
     id_tabla2 SMALLINT,
     campo_1 VARCHAR(40),
-    diferentes_valores CHECK (tipus IN ('A', 'B','C')), -- A , B , C i
+    diferentes_valores CHECK (tipus IN ('A', 'B','C')), 
+    -- A , B , C inserts que se pueden hacer
     CONSTRAINT tabla_2_id_pk PRIMARY KEY (id_tabla2)
 );
 
