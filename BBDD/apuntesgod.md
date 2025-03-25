@@ -184,7 +184,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | **Ejemplos** 
 | `COUNT`      | SELECT COUNT(DISTINCT mgr) "Numero jefe" FROM emp; |
 | `AVG`           | SELECT COUNT(empNO) "Numero Empleados", round(avg(coalesce(comm,0)),2) "Mediana Comisión"
-FROM emp;                      |
+FROM emp;                    |
 | `MAX`              | Fecha (`día, mes, año`)                       |
 | `MIN`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
 
