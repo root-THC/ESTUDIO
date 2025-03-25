@@ -22,7 +22,7 @@
  Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `AND`       | Igual                               |
-| `OR`      | Diferente                           |
+| `OR`      | Si alguna de las condiciones es                           |
 | `NOT`       | True si la condición es falsa     |
 
 --
