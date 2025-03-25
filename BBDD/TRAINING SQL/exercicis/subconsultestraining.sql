@@ -29,7 +29,7 @@ NOT IN (SELECT deptno FROM emp);
 
  SELECT ename 
  FROM emp
- WHERE empno IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL);
+ WHERE empno IN (SELECT mgr FROM emp);
 
 Los que no son jefes
 
