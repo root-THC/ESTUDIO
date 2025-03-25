@@ -177,7 +177,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 ## Funciones de Agrupación
 | Función  | Descripción                          |
 |-----------|--------------------------------------|
-| `COUNT(*)`       | Contamos                                |
+| `COUNT(*)`       | Contamos num de registros                               |
 | `!=`      | Diferente                           |
 | `>`       | Mayor que                           |
 | `<`       | Menor que                           |
