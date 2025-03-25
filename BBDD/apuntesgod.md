@@ -172,7 +172,7 @@ DELETE FROM tabla_1 WHERE campo_1='Ejemplo 1';
 Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tablas_relacionadas_con_foreignkeys` también se eliminan automáticamente.
 
 ```sql
--- EJEMPLO
+-- EJEMPLO : 
 TABLA A > TABLA B > TABLA C
 
 DELETE FROM tabla_c WHERE id='2';
