@@ -68,7 +68,7 @@ SELECT ename
 
 SELECT ciudad , objetivo , cuota , 0.55*objetivo FROM repventa r 
 JOIN oficina o ON r.ofinum = o.ofinum
-WHERE cuto
+WHERE cuota > 
 
 
 10. Obtenir una llista dels representants que han pres alguna comanda l'import del qual sigui més del 10% de la seva quota.
