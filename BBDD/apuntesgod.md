@@ -183,7 +183,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos** 
 | `COUNT`      | SELECT COUNT(DISTINCT mgr) "Numero jefe" FROM emp; |
-| `AVG`           | SELECT COUNT(empNO) "Numero Empleados", round(avg(coalesce(comm,0)),2) "Mediana Comisión"FROM emp; |
+| `AVG`           | SELECT MAX(sal) FROM emp;|
 | `MAX`              | SELECT MAX(sal) FROM emp;|
 | `MIN`         | SELECT MIN(sal) FROM emp;|
 
