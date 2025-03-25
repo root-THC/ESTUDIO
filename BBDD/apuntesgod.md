@@ -172,7 +172,7 @@ DELETE FROM tabla_c WHERE id='2';
 
 ### `CASCADE`
 
-Cuando se aplica una restricción a una clave aliena en `tabla_c`, los registros dependientes en `A Y B` también se aplica en caso de que sea delete se borran en todas y en caso de update se actualizan en `A Y B`  .
+Cuando se aplica una restricción a una clave aliena en `tabla_c`, los registros dependientes en `A Y B` también se aplica en caso de que sea delete se borran en `A Y B`  y en caso de update se actualizan en `A Y B`  .
 
 ```sql
 -- EJEMPLO : 
