@@ -160,7 +160,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 ### `Por defecto` 
 Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error.
 
-### `ON DELETE SET NULL` 
+### `SET NULL` 
 
 TABLA A > TABLA B > TABLA C
 
