@@ -66,7 +66,7 @@ SELECT ename
 
 9. Obtenir una llista de les oficines on hi hagi algun representant la quota del qual sigui més del 55% de l'objectiu de l'oficina. Per comprovar el vostre exercici, feu una Consulta prèvia el resultat de la qual valideu l'exercici.
 
-SELECT
+SELECT ciudad , objetivo 
 
 
 10. Obtenir una llista dels representants que han pres alguna comanda l'import del qual sigui més del 10% de la seva quota.
