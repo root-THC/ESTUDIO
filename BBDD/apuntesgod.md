@@ -159,7 +159,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 
 ### `Por defecto` 
 
-### `ON DELETE SET NULL`
+### `ON DELETE SET NULL` dc
 
 Cuando se elimina un registro en `tabla_1`, los registros relacionados en `tabla_intermedia` tendrán su clave foránea puesta en `NULL`.
 
