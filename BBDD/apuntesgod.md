@@ -155,16 +155,16 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 
 ---
 
-## Restricciones y Cascadas | DELETE | UPDATE | 
+## Restricciones y Cascade | DELETE | UPDATE | 
 
 ### `Por defecto ` 
-Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error.
+Cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error.
 
 ### `SET NULL` 
 
 TABLA A > TABLA B > TABLA C
 
-Cuando se aplica una restricción a una clave aliena en `tabla_c`, los registros relacionados en `A Y B` tendrán su clave foránea puesta en `NULL`.
+Cuando se aplica una restricción a una **clave ajena** en `tabla_c`, los registros relacionados en `A Y B` su **clave ajena** pasará a ser `NULL`.
 
 ```sql
 DELETE FROM tabla_c WHERE id='2';
@@ -172,7 +172,7 @@ DELETE FROM tabla_c WHERE id='2';
 
 ### `CASCADE`
 
-Cuando se aplica una restricción a una clave aliena en `tabla_c`, los registros dependientes en `A Y B` también se aplica en caso de que sea delete se borran en `A Y B`  y en caso de update se actualizan en `A Y B`  .
+Cuando se aplica una restricción a una **clave ajena** en `tabla_c`, los registros dependientes en `A Y B` también se aplica en caso de que sea delete se borran en `A Y B`  y en caso de update se actualizan en `A Y B`  .
 
 ```sql
 -- EJEMPLO : 
@@ -186,22 +186,175 @@ Se borraran todos los registros que haya tanto en B como en A que esten relacion
 
 ### `ON UPDATE CASCADE`
 
-Cuando se actualiza la clave primaria de un registro en `tabla_2`, las claves foráneas en `tabla_intermedia` se actualizan automáticamente.
+Cuando se actualiza la **clave primaria** de un registro en `tabla_2`, las claves foráneas en `tabla_intermedia` se actualizaran automáticamente a ese nuevo valor.
 
 ```sql
-UPDATE tabla_2 SET id= 3 WHERE id=2;
+TABLA A > TABLA B > TABLA C
+
+UPDATE tabla_c SET id= 3 WHERE id=2;
 ```
 
 ## Funciones de Agrupación
+
 | **Función**  | **Descripción**                          |
 |-----------|--------------------------------------|
-| `COUNT(*)`       | Contamos num de registros     |
-| `AVG(campo)`      | Hacemo la media             |
-| `MAX(campo)`       | Muestra valor máximo de ese campo |
-| `MIN(campo)`      | Muestra valor mínimo de ese campo |
+| `COUNT(*)`       | Contamos num de registros "Solo lo hará con las que tienen un valor"     |
+| `AVG(campo)`      | Hacemos la media             |
+| `MAX(campo)`       | Muestra el valor máximo de ese **campo** |
+| `MIN(campo)`      | Muestra el valor mínimo de ese **campo** |
+| `SUM(campo)`      | Suma los valores de ese **campo** |
 | **Ejemplos** 
-| `COUNT`      | SELECT COUNT(campo); |
-| `AVG`           | SELECT AVG(campo) FROM emp;|
-| `MAX`              | SELECT MAX(campo) FROM emp;|
-| `MIN`         | SELECT MIN(campo) FROM emp;|
+| `COUNT`      | SELECT COUNT(**campo**); |
+| `AVG`           | SELECT AVG(**campo**) FROM **tabla**;|
+| `MAX`              | SELECT MAX(**campo**) FROM  **tabla**;|
+| `MIN`         | SELECT MIN(**campo**) FROM  **tabla**;|
+| `SUM`         | SELECT SUM(**campo**) FROM  **tabla**;|
 
+---
+
+## JOINS en SQL 
+```sql
+En SQL, un JOIN se usa para combinar filas de dos o más tablas basándose en una columna relacionada entre ellas.
+```
+
+## `JOIN (INNER JOIN)`
+Devuelve solo las filas donde hay coincidencia en ambas tablas.
+
+```sql
+SELECT emp.ename, emp.job, dept.dname 
+FROM emp
+INNER JOIN dept ON emp.deptno = dept.deptno;
+```
+
+### Ejemplo Explicado:
+---
+Suponiendo que tenemos una tabla `emp` con empleados y una tabla `dept` con departamentos,
+este INNER JOIN traerá solo los empleados que tienen un departamento asignado en ambas tablas.
+
+## `LEFT JOIN (LEFT OUTER JOIN)`
+---
+Devuelve todas las filas de la tabla de la izquierda y las coincidentes de la tabla de la derecha.
+Si no hay coincidencia, devuelve NULL en las columnas de la tabla derecha.
+
+```sql
+SELECT emp.ename, emp.job, dept.dname 
+FROM emp
+LEFT JOIN dept ON emp.deptno = dept.deptno;
+```
+
+### Ejemplo Explicado:
+---
+LEFT = `emp.deptno`
+```sql
+-- Muestra todos los empleados, incluso si no tienen un departamento asignado. 
+```
+
+## `RIGHT JOIN (RIGHT OUTER JOIN)`
+Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabla de la izquierda.
+Si no hay coincidencia, devuelve NULL en las columnas de la tabla izquierda.
+
+```sql
+SELECT emp.ename, emp.job, dept.dname 
+FROM emp
+RIGHT JOIN dept ON emp.deptno = dept.deptno;
+```
+
+### Ejemplo Explicado:
+RIGHT = `dept.deptno`
+```sql
+-- Muestra todos los departamentos, incluso si no tienen empleados asignados.
+```
+
+## `FULL JOIN (FULL OUTER JOIN)`
+Devuelve todas las filas cuando hay coincidencia en cualquiera de las tablas.
+Si no hay coincidencia en una tabla, se devuelve NULL en su lugar.
+
+```sql
+SELECT emp.ename, emp.job, dept.dname 
+FROM emp
+FULL JOIN dept ON emp.deptno = dept.deptno;
+```
+
+### Ejemplo Explicado:
+```sql
+-- Muestra todos los empleados y todos los departamentos.
+-- Si un empleado no tiene departamento, `dname` será NULL.
+-- Si un departamento no tiene empleados, `ename` será NULL.
+```
+
+## `CROSS JOIN`
+Devuelve el producto cartesiano de ambas tablas (cada fila de la primera se combina con cada fila de la segunda).
+
+```sql
+SELECT emp.ename, dept.dname 
+FROM emp
+CROSS JOIN dept;
+```
+
+### Ejemplo Explicado:
+```sql
+-- Si hay 10 empleados y 4 departamentos, el resultado tendrá 10 × 4 = 40 filas.
+```
+## `SELF JOIN`
+Un SELF JOIN es un JOIN de una tabla consigo misma.
+
+```sql
+SELECT e1.ename AS Empleado, e2.ename AS Jefe 
+FROM emp e1
+JOIN emp e2 ON e1.mgr = e2.empno;
+```
+
+### Ejemplo Explicado:
+```sql
+-- Une la tabla `emp` consigo misma para encontrar quién es el jefe de cada empleado.
+```
+---
+## Funciones Útiles en SQL
+
+### `COALESCE`
+
+Convierte valores `NULL` en un valor especificado para poder operarlo.
+
+```sql
+SELECT ename, sal, COALESCE(comm, 0) 'Comision'
+FROM emp;
+```
+
+- `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
+
+```sql
+SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) 'Oficina'
+FROM emp;
+```
+
+- También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
+
+### `Concatenación`
+Une múltiples valores en una sola cadena.
+
+```sql
+SELECT ename || ' trabaja como ' || job AS Descripcion
+FROM emp;
+```
+
+- `||` → Operador de concatenación en SQL.
+
+### `::TEXT`
+Convierte un dato en tipo texto.
+
+```sql
+SELECT ename, sal::TEXT AS SalarioTexto
+FROM emp;
+```
+
+- `sal::TEXT` → Convierte el número `sal` en texto.
+
+### `AS`
+Asigna un alias a una columna o tabla.
+
+```sql
+SELECT ename AS NombreEmpleado, job AS Cargo
+FROM emp;
+```
+
+- `AS` → Renombra las columnas en el resultado.
