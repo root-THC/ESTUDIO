@@ -87,3 +87,5 @@ SELECT ciudad FROM oficina o WHERE objetivo * 0.55 < ANY
 Quin producte (Descripció) té més comandes?
 16 . Quin producte s'ha venut més?
 */
+
+SELECT descripció
