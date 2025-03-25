@@ -27,7 +27,7 @@ CREATE TABLE tabla_1 (
     campo_1 VARCHAR(20) UNIQUE,
     campo_2 DATE,
     campo_3 NUMERIC(7,2),
-    CONSTRAINT tabla_1_id_pk PRIMARY KEY (pk)
+    CONSTRAINT tabla_1_id_pk PRIMARY KEY (pkde otra)
 );
 
 CREATE TABLE tabla_2 (
