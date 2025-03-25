@@ -180,6 +180,6 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `COUNT(*)`       | Contamos num de registros     |
 | `AVG(campo)`      | Hacemo la media             |
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
-| `<`       | Menor que                           |
+| `MIN`       | Menor que                           |
 | `>=`      | Mayor o igual                       |
 | `<=`      | Menor o igual                       |
