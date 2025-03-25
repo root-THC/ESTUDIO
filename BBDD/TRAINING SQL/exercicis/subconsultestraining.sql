@@ -15,7 +15,7 @@ a los que no estan asignados
 
 IN  = DENTRO DE
 ANY = ALGUNO
-ALL = TODOS
+ALL = TODOS por si no filtramos 
 
 SELECT deptno 
 FROM dept
@@ -36,7 +36,7 @@ Los que no son jefes
 SELECT ename 
  FROM emp
  WHERE empno NOT IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL); 
- 
+
  EL NULL ES IMPORTANTE PORQUE AL DEVOLVER UN NULL QUE ES PRESIDENTE NOS 
  DA UN VALOR FALSO POR ESO NO MOSTRARIA NADA SI NO ESTUVIERA WHERE mgr IS NOT NULL
 
