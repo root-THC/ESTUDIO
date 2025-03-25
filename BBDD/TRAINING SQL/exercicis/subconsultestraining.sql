@@ -24,6 +24,8 @@ NOT IN (SELECT deptno FROM emp);
 
  -- EN VEZ DE NOT IN PODRÍA SER != ALL SIGNIFICA DIFERENTE DE 
 
+
+MUESTRA 
 SELECT ename, sal, deptno
 FROM emp
 where sal > ALL (select sal from emp where deptno=30);
