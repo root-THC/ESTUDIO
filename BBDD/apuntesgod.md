@@ -174,7 +174,7 @@ Cuando se elimina un registro en `tabla_x`, los registros dependientes en `tabla
 ```sql
 TABLA A > TABLA B
 
-TABLA C
+
 DELETE FROM tabla_3 WHERE id='2';
 ```
 
