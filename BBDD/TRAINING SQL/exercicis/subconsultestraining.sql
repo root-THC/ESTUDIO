@@ -94,4 +94,4 @@ FROM repventa
 
 SELECT pednum
 FROM pedido 
-WHERE = ()
+WHERE =
