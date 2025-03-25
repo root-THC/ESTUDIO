@@ -176,6 +176,8 @@ TABLA A > TABLA B > TABLA C
 
 
 DELETE FROM tabla_c WHERE id='2';
+
+Se borraran todos los registros que haya tanto en B como en A que tengan relación con el id 2 de la tabla c
 ```
 
 ### `ON UPDATE CASCADE`
