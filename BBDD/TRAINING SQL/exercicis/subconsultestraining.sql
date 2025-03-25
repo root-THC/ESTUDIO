@@ -90,7 +90,7 @@ Quin producte (Descripció) té més comandes?
 
 SELECT descrip
 FROM producto 
-WHERE pednum NOT IN (SELECT fabcod,prodcod FROM pedido);
+WHERE fabcod AND prodcod NOT IN (SELECT fabcod,prodcod FROM pedido);
 
 
 SELECT pednum
