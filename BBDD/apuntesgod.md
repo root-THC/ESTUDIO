@@ -1,6 +1,7 @@
 # APUNTES BBDD
 
 ## Operadores
+```sql
 | Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
