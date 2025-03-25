@@ -172,3 +172,4 @@ Cuando se actualiza la clave primaria de un registro en `tabla_2`, las claves fo
 
 ```sql
 UPDATE tabla_2 SET id= 3 WHERE id=2;
+
