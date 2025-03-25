@@ -18,7 +18,7 @@
 
 ---
 
-## Operadores de Comparación
+## Operadores Lógicos
 
 --
 
