@@ -15,7 +15,7 @@ a los que no estan asignados
 
 IN  = DENTRO DE
 ANY = ALGUNO
-ALL = TODOS por si no filtramos 
+ALL = TODOS por si no filtramos con clave primaria 
 
 SELECT deptno 
 FROM dept
