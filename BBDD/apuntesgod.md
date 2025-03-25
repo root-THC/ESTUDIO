@@ -21,7 +21,7 @@
 ## Operadores Lógicos
  Operador  | Descripción                          |
 |-----------|--------------------------------------|
-| `=`       | Igual                               |
+| `AND`       | Igual                               |
 | `!=`      | Diferente                           |
 | `>`       | Mayor que                           |
 
