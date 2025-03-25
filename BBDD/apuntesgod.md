@@ -20,7 +20,7 @@
 
 ## Tipus de Dades en SQL
 
-```sql
+
 | Tipus de Dada        | Descripció                                      |
 |----------------------|------------------------------------------------|
 | `VARCHAR(numbytes)`  | Text amb longitud variable fins a `numbytes`.  |
@@ -32,7 +32,7 @@
 | `BOOLEAN`           | Valors `TRUE` o `FALSE`.                       |
 | `DATE`              | Data (`dia, mes, any`).                        |
 | `TIMESTAMP`         | Data i hora (`dia, mes, any, hores, minuts, segons`). |
-```
+
 ---
 
 ## Comandes PSQL
@@ -49,7 +49,6 @@
 | `\ds`              | Mostra les seqüències. |
 | `\dn`              | Mostra els esquemes. |
 | `\di`              | Mostra els índexs de PostgreSQL. |
-
 ## Creación de Base de Datos
 
 ```sql
