@@ -161,7 +161,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT 
 ### `ON DELETE SET NULL` 
 
-Cuando se elimina un registro en `tabla_1`, los registros relacionados en `tabla_con_fks` tendrán su clave foránea puesta en `NULL`.
+Cuando se elimina un registro en `tabla_1`, los registros relacionados en `tabla_con_foreignkeys` tendrán su clave foránea puesta en `NULL`.
 
 ```sql
 DELETE FROM tabla_1 WHERE campo_1='Ejemplo 1';
