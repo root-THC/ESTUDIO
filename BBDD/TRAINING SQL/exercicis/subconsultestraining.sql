@@ -89,7 +89,7 @@ Quin producte (Descripció) té més comandes?
 */
 
 SELECT descrip
-FROM repventa
+FROM producto 
 
 
 SELECT pednum
