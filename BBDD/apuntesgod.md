@@ -37,6 +37,7 @@
 
 ## Comandes PSQL
 
+```sql
 | Comanda             | Descripció |
 |---------------------|------------|
 | `\l`               | Llista les bases de dades del servidor. |
