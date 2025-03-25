@@ -18,37 +18,37 @@
 
 ---
 
-## Tipus de Dades en SQL
+## Tipos de Datos en SQL
 
-
-| Tipus de Dada        | Descripció                                      |
+| Tipo de Dato        | Descripción                                      |
 |----------------------|------------------------------------------------|
-| `VARCHAR(numbytes)`  | Text amb longitud variable fins a `numbytes`.  |
-| `INT (4 bytes)`      | Nombre sencer                                  |
-| `SMALLINT (2 bytes)` | Nombre sencer petit                           |
-| `BIGINT (8 bytes)`   | Nombre sencer gran                            |
-| `NUMERIC(E,D)`       | Número amb part decimal fixa                  |
-| **Exemple**          | `NUMERIC(5,2)` va de `000,00` fins a `999,99`. |
-| `BOOLEAN`           | Valors `TRUE` o `FALSE`.                       |
-| `DATE`              | Data (`dia, mes, any`).                        |
-| `TIMESTAMP`         | Data i hora (`dia, mes, any, hores, minuts, segons`). |
+| `VARCHAR(numbytes)`  | Texto con longitud variable hasta `numbytes`.  |
+| `INT (4 bytes)`      | Número entero                                  |
+| `SMALLINT (2 bytes)` | Número entero pequeño                         |
+| `BIGINT (8 bytes)`   | Número entero grande                          |
+| `NUMERIC(E,D)`       | Número con parte decimal fija                 |
+| **Ejemplo**          | `NUMERIC(5,2)` va de `000,00` hasta `999,99`. |
+| `BOOLEAN`           | Valores `TRUE` o `FALSE`.                      |
+| `DATE`              | Fecha (`día, mes, año`).                       |
+| `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`). |
 
 ---
 
-## Comandes PSQL
+## Comandos PSQL
 
-| Comanda             | Descripció |
+| Comando             | Descripción |
 |---------------------|------------|
-| `\l`               | Llista les bases de dades del servidor. |
-| `\c base_dades`    | Canvia la connexió a `base_dades`. |
-| `\d`               | Mostra els objectes dins la base de dades actual. |
-| `\dt`              | Mostra només les taules. |
-| `\d nom_taula`     | Mostra l'estructura de `nom_taula`, incloent triggers. |
-| `\dv`              | Mostra les vistes existents. |
-| `\d nom_vista`     | Mostra l'estructura de `nom_vista`, incloent triggers. |
-| `\ds`              | Mostra les seqüències. |
-| `\dn`              | Mostra els esquemes. |
-| `\di`              | Mostra els índexs de PostgreSQL. |
+| `\l`               | Lista las bases de datos del servidor. |
+| `\c base_datos`    | Cambia la conexión a `base_datos`. |
+| `\d`               | Muestra los objetos dentro de la base de datos actual. |
+| `\dt`              | Muestra solo las tablas. |
+| `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`, incluyendo triggers. |
+| `\dv`              | Muestra las vistas existentes. |
+| `\d nombre_vista`  | Muestra la estructura de `nombre_vista`, incluyendo triggers. |
+| `\ds`              | Muestra las secuencias. |
+| `\dn`              | Muestra los esquemas. |
+| `\di`              | Muestra los índices de PostgreSQL. |
+
 ## Creación de Base de Datos
 
 ```sql
