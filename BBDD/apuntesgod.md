@@ -31,7 +31,7 @@
 | `NUMERIC(5,2)`      | De `000,00` hasta `999,99` |
 | `BOOLEAN`           | Valores `TRUE` o `FALSE`                      |
 | `DATE`              | Fecha (`día, mes, año`)                       |
-| `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`). |
+| `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
 
 ---
 
