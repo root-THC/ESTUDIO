@@ -22,8 +22,8 @@
  Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `AND`       | Igual                               |
-| `!=`      | Diferente                           |
-| `>`       | Mayor que                           |
+| `OR`      | Diferente                           |
+| `NOT`       | Mayor que                           |
 
 --
 
