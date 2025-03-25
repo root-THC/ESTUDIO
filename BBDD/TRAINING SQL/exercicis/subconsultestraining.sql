@@ -29,7 +29,7 @@ NOT IN (SELECT deptno FROM emp);
 
  SELECT ename 
  FROM emp
- IN(SELECT mgr FROM emp)
+ IN (SELECT mgr FROM emp)
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
