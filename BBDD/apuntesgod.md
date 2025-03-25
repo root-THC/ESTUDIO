@@ -21,7 +21,7 @@
 ## Operadores Lógicos
  Operador  | Descripción                          |
 |-----------|--------------------------------------|
-| `AND`       | S                           |
+| `AND`       | Si ambas condiciones                           |
 | `OR`      | **TRUE** si alguna de las condiciones es **TRUE**                          |
 | `NOT`       | **TRUE** si la condición es **FALSA**     |
 
