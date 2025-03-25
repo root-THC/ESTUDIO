@@ -71,7 +71,7 @@ JOIN oficina o ON r.ofinum = o.ofinum
 WHERE cuota > 0.55*objetivo;
 
 
-SELECT ciudad FROM oficina o WHERE objetivo * 0.55 < ANY
+SELECT ciudad FROM oficina o WHERE objetivo * 0.55 < ALL
 (SELECT cuota FROM repventa r WHERE r.ofinum=o.ofinum);
 
 
