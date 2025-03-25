@@ -157,7 +157,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 
 ## Restricciones y Cascadas
 
-### `Por defecto` 
+### `Por defecto ` 
 Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error.
 
 ### `SET NULL` 
