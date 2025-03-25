@@ -162,6 +162,8 @@ Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRA
 
 ### `ON DELETE SET NULL` 
 
+TABLA A > TABLA B > TABLA C
+
 Cuando se elimina un registro en `tabla_c`, los registros relacionados en `tablas_relacionadas_con_foreignkeys` tendrán su clave foránea puesta en `NULL`.
 
 ```sql
