@@ -178,7 +178,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | Función  | Descripción                          |
 |-----------|--------------------------------------|
 | `COUNT(*)`       | Contamos num de registros     |
-| `AVG(campo)`      | Hacemo la media                           |
+| `AVG(campo)`      | Hacemo la media             |
 | `>`       | Mayor que                           |
 | `<`       | Menor que                           |
 | `>=`      | Mayor o igual                       |
