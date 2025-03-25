@@ -27,7 +27,7 @@ NOT IN (SELECT deptno FROM emp);
 
  Mostra el nom del empleats que són cap
 
- 
+ SELECT ename FROM emp
 
 
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
