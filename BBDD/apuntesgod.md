@@ -40,8 +40,8 @@
 ```sql
 | Comanda             | Descripció |
 |---------------------|------------|
-| `\l`               | Llista les bases de dades del servidor. |
-| `\c base_dades`    | Canvia la connexió a `base_dades`. |
+| \l               | Llista les bases de dades del servidor. |
+| \c base_dades`    | Canvia la connexió a `base_dades`. |
 | `\d`               | Mostra els objectes dins la base de dades actual. |
 | `\dt`              | Mostra només les taules. |
 | `\d nom_taula`     | Mostra l'estructura de `nom_taula`, incloent triggers. |
