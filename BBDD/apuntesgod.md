@@ -2,7 +2,7 @@
 
 ## Operadores
 
-
+```sql
 | Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
@@ -15,6 +15,7 @@
 | `LIKE`    | Para búsqueda de patrones          |
 | `IN`      | Para comparar con una lista de valores |
 | `IS NULL` / `IS NOT NULL` | Para comprobar valores nulos |
+```
 ---
 
 ## Tipus de Dades en SQL
