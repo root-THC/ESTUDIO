@@ -148,7 +148,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 
 ## Restricciones y Cascadas
 
-### Por defecto  
+### Por defecto `d ` 
 
 ### `ON DELETE SET NULL`
 
