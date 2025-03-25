@@ -1,4 +1,17 @@
-## Creación de Base de Datos
+| Operador  | Descripción                          |
+|-----------|--------------------------------------|
+| `=`       | Igual                               |
+| `!=`      | Diferente                           |
+| `>`       | Mayor que                           |
+| `<`       | Menor que                           |
+| `>=`      | Mayor o igual                       |
+| `<=`      | Menor o igual                       |
+| `BETWEEN` | Para valores dentro de un rango     |
+| `LIKE`    | Para búsqueda de patrones          |
+| `IN`      | Para comparar con una lista de valores |
+| `IS NULL` / `IS NOT NULL` | Para comprobar valores nulos |
+
+# Creación de Base de Datos
 
 ```sql
 \c template1
