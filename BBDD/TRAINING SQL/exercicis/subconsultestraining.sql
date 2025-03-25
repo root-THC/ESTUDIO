@@ -93,4 +93,4 @@ FROM repventa
 
 
 SELECT pednum
-FROM repventa 
+FROM pedido 
