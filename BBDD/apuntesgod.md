@@ -158,7 +158,7 @@ INSERT INTO tabla_relacion VALUES (2, 2);
 ## Restricciones y Cascadas
 
 ### `Por defecto` 
-Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error
+Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRAINT con lo cual no se ve pero es RESTRICT lo cual bloquea cualquier cambio y da error.
 ### `ON DELETE SET NULL` 
 
 Cuando se elimina un registro en `tabla_x`, los registros relacionados en `tablas_relacionadas_con_foreignkeys` tendrán su clave foránea puesta en `NULL`.
