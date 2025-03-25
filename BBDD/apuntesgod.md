@@ -93,7 +93,7 @@ CREATE TABLE tabla_2 (
     id_tabla2 SMALLINT,
     campo_1 VARCHAR(40),
     diferentes_valores CHECK (tipus IN ('A', 'B','C')), 
-    -- A , B , C són inserts que se pueden hacer
+    -- A , B , C són los únicos valores que se pueden añadir 
     CONSTRAINT tabla_2_id_pk PRIMARY KEY (id_tabla2)
 );
 
