@@ -175,7 +175,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 ```
 
 ## Funciones de Agrupación
-| Operador  | Descripción                          |
+| Función  | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
 | `!=`      | Diferente                           |
