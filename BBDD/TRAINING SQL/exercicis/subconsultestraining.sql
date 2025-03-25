@@ -31,7 +31,9 @@ NOT IN (SELECT deptno FROM emp);
  FROM emp
  WHERE empno IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL);
 
-  SELECT ename 
+Los que no son jefes
+
+SELECT ename 
  FROM emp
  WHERE empno IN (SELECT mgr FROM emp WHERE mgr IS NOT NULL);
 
