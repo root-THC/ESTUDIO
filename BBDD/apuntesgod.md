@@ -182,5 +182,19 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos** 
+-- Contar el número total de registros en la tabla
+SELECT COUNT(*) AS total_registros
+FROM tabla_1;
 
+-- Calcular el promedio de valores en un campo específico
+SELECT AVG(campo_1) AS promedio_valores
+FROM tabla_1;
+
+-- Obtener el valor máximo de un campo
+SELECT MAX(campo_1) AS valor_maximo
+FROM tabla_1;
+
+-- Obtener el valor mínimo de un campo
+SELECT MIN(campo_1) AS valor_minimo
+FROM tabla_1;
 
