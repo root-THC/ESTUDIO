@@ -167,7 +167,8 @@ TABLA A > TABLA B > TABLA C
 Cuando se elimina un registro en `tabla_c`, los registros relacionados en `tablas_relacionadas_con_foreignkeys` tendrán su clave foránea puesta en `NULL`.
 
 ```sql
-DELETE FROM tabla_c WHERE id='2';```
+DELETE FROM tabla_c WHERE id='2';
+```
 
 ### `ON DELETE CASCADE`
 
