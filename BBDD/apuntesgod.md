@@ -36,7 +36,7 @@
 ---
 
 ## Comandes PSQL
-```sql
+
 | Comanda             | Descripció |
 |---------------------|------------|
 | `\l`               | Llista les bases de dades del servidor. |
@@ -49,8 +49,7 @@
 | `\ds`              | Mostra les seqüències. |
 | `\dn`              | Mostra els esquemes. |
 | `\di`              | Mostra els índexs de PostgreSQL. |
-```
----
+
 ## Creación de Base de Datos
 
 ```sql
