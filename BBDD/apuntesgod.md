@@ -20,6 +20,7 @@
 
 ## Tipus de Dades en SQL
 
+```sql
 | Tipus de Dada        | Descripció                                      |
 |----------------------|------------------------------------------------|
 | `VARCHAR(numbytes)`  | Text amb longitud variable fins a `numbytes`.  |
