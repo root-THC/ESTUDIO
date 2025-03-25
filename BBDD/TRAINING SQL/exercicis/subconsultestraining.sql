@@ -90,6 +90,7 @@ Quin producte (Descripció) té més comandes?
 
 SELECT descrip
 FROM producto 
+WHERE 
 
 
 SELECT pednum
