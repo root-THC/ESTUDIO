@@ -71,7 +71,7 @@ CREATE TABLE tabla_3 (
 );
 
 CREATE TABLE tabla_4 (
-    id SMALLINT,
+    id_tabla4 SMALLINT,
     campo_1 VARCHAR(40),
     fecha DATE,
     CONSTRAINT tabla_4_id_pk PRIMARY KEY (id)
