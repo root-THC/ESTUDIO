@@ -20,7 +20,7 @@ ALL = TODOS
 SELECT deptno 
 FROM dept
 WHERE deptno 
-!= ALL (SELECT deptno FROM emp);
+NOT IN (SELECT deptno FROM emp);
 
  -- EN VEZ DE NOT IN PODRÍA SER != ALL
 
