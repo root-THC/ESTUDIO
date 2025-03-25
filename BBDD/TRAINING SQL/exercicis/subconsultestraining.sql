@@ -72,7 +72,7 @@ WHERE cuota > 0.55*objetivo;
 
 
 SELECT ciudad FROM oficina o WHERE objetivo < ANY
-(SELECT cuota*0.55 FROM repventa r WHERE r.ofinum=o.ofinum);
+(SELECT cuota FROM repventa r WHERE r.ofinum=o.ofinum);
 
 
 
