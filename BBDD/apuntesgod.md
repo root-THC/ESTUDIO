@@ -67,14 +67,14 @@ CREATE TABLE tabla_2 (
 CREATE TABLE tabla_3 (
     id_tabla3 SMALLINT,
     campo_1 VARCHAR(40),
-    CONSTRAINT tabla_3_id_pk PRIMARY KEY (id)
+    CONSTRAINT tabla_3_id_pk PRIMARY KEY ( id_tabla3)
 );
 
 CREATE TABLE tabla_4 (
     id_tabla4 SMALLINT,
     campo_1 VARCHAR(40),
     fecha DATE,
-    CONSTRAINT tabla_4_id_pk PRIMARY KEY (id)
+    CONSTRAINT tabla_4_id_pk PRIMARY KEY (id_tabla4)
 );
 
 CREATE TABLE tabla_relacion (
