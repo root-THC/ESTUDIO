@@ -50,6 +50,8 @@
 | `\dn`              | Muestra los esquemas. |
 | `\di`              | Muestra los índices de PostgreSQL. |
 
+---
+
 ## Creación de Base de Datos
 
 ```sql
