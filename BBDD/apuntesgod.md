@@ -164,7 +164,7 @@ Cuando digo por defecto me refiero a cuando no específicamos nada en el CONSTRA
 
 TABLA A > TABLA B > TABLA C
 
-Cuando se elimina un registro en `tabla_c`, los registros relacionados en `A/B` tendrán su clave foránea puesta en `NULL`.
+Cuando se elimina un registro en `tabla_c`, los registros relacionados en `A Y B` tendrán su clave foránea puesta en `NULL`.
 
 ```sql
 DELETE FROM tabla_c WHERE id='2';
