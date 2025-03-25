@@ -140,9 +140,6 @@ INSERT INTO tabla_3 VALUES (2, 'Categoria 2');
 INSERT INTO tabla_4 VALUES (1, 'Elemento 1', '2024-12-01');
 INSERT INTO tabla_4 VALUES (2, 'Elemento 2', '2024-12-02');
 
-INSERT INTO tabla_intermedia VALUES (1, 1);
-INSERT INTO tabla_intermedia VALUES (2, 2);
-
 INSERT INTO tabla_relacion VALUES (1, 1);
 INSERT INTO tabla_relacion VALUES (2, 2);
 ```
