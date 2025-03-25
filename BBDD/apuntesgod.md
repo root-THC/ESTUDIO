@@ -182,8 +182,8 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos** 
-| `COUNT`      | SELECT COUNT(campo) "Numero jefe" FROM emp; |
-| `AVG`           | SELECT AVG(sal) FROM emp;|
+| `COUNT`      | SELECT COUNT(campo); |
+| `AVG`           | SELECT AVG(campo) FROM emp;|
 | `MAX`              | SELECT MAX(sal) FROM emp;|
 | `MIN`         | SELECT MIN(sal) FROM emp;|
 
