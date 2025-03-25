@@ -25,6 +25,11 @@ NOT IN (SELECT deptno FROM emp);
  -- EN VEZ DE NOT IN PODRÍA SER != ALL
 
 
+ Mostra el nom del empleats que són cap
+
+ 
+
+
 0. Mostrar el nom i el lloc dels que són cap (ja està fet amb self join, ara amb subconsultes)
 1. Obtenir una llista dels representants les quotes dels quals són iguals o superiors a lobjectiu de loficina dAtlanta.
 
