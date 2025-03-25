@@ -19,6 +19,11 @@
 ---
 
 ## Operadores Lógicos
+ Operador  | Descripción                          |
+|-----------|--------------------------------------|
+| `=`       | Igual                               |
+| `!=`      | Diferente                           |
+| `>`       | Mayor que                           |
 
 --
 
