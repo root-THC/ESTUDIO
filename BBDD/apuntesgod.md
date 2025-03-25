@@ -182,8 +182,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos** 
-| `COUNT`      | SELECT COUNT(DISTINCT mgr) "Numero jefe" |
-FROM emp; |
+| `COUNT`      | SELECT COUNT(DISTINCT mgr) "Numero jefe" FROM emp; |
 | `BOOLEAN`           | Valores `TRUE` o `FALSE`                      |
 | `DATE`              | Fecha (`día, mes, año`)                       |
 | `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
