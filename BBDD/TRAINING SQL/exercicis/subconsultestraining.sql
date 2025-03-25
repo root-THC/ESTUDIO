@@ -29,7 +29,7 @@ MUESTRA TODOS LOS EMPLEADOS QUE COBRAN MÁS QUE LOS EMPLEADOS DEL DEPT 30
 
 SELECT ename, sal, deptno
 FROM emp
-where sal > ALL (select sal from emp where deptno=30);
+where sal > IN (select sal from emp where deptno=30);
 
 
  Mostra el nom del empleats que són cap
