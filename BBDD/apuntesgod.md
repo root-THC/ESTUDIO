@@ -179,7 +179,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 |-----------|--------------------------------------|
 | `COUNT(*)`       | Contamos num de registros     |
 | `AVG(campo)`      | Hacemo la media             |
-| `>`       | Mayor que                           |
+| `MAX(campo)`       | Mayor que                           |
 | `<`       | Menor que                           |
 | `>=`      | Mayor o igual                       |
 | `<=`      | Menor o igual                       |
