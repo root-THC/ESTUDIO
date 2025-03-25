@@ -16,6 +16,7 @@ a los que no estan asignados
 IN  = DENTRO DE
 ANY = ALGUNO
 ALL = TODOS
+
 SELECT deptno 
 FROM dept
 WHERE deptno 
