@@ -1,6 +1,6 @@
 # APUNTES BBDD
 
-## Operadores
+## Operadores de Comparación
 
 
 | Operador  | Descripción                          |
