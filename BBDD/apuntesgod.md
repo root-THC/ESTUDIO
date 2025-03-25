@@ -175,7 +175,7 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 ```
 
 ## Funciones de Agrupación
-| Función  | Descripción                          |
+| **Función**  | Descripción                          |
 |-----------|--------------------------------------|
 | `COUNT(*)`       | Contamos num de registros     |
 | `AVG(campo)`      | Hacemo la media             |
