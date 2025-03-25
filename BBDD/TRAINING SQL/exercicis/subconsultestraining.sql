@@ -24,7 +24,7 @@ NOT IN (SELECT deptno FROM emp);
 
  -- EN VEZ DE NOT IN PODRÍA SER != ALL SIGNIFICA DIFERENTE DE 
 
-SE
+SELECT 
 
 
  Mostra el nom del empleats que són cap
