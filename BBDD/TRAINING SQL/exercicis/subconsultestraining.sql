@@ -26,7 +26,7 @@ NOT IN (SELECT deptno FROM emp);
 
 SELECT ename, sal, deptno
 FROM emp
-where sal >
+where sal > 
 
 
  Mostra el nom del empleats que són cap
