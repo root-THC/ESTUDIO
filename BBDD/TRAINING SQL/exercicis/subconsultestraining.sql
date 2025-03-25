@@ -88,4 +88,5 @@ Quin producte (Descripció) té més comandes?
 16 . Quin producte s'ha venut més?
 */
 
-SELECT descripció
+SELECT descrip
+FROM
