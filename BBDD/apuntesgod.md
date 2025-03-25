@@ -22,8 +22,8 @@
  Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `AND`       | Igual                               |
-| `OR`      | TRUE si alguna de las condiciones es TRUE                          |
-| `NOT`       | TRUE** si la condición es **FALSA**     |
+| `OR`      | TRUE si alguna de las condiciones es TRUE**                          |
+| `NOT`       | **TRUE** si la condición es **FALSA**     |
 
 --
 
