@@ -172,7 +172,7 @@ DELETE FROM tabla_c WHERE id='2';
 
 ### `CASCADE`
 
-Cuando se elimina un registro en `tabla_c`, los registros dependientes en `tablas_relacionadas_con_foreignkeys` también se eliminan automáticamente.
+Cuando se aplica una restricción a una clave aliena en `tabla_c`, los registros dependientes en `tablas_relacionadas_con_foreignkeys` también se eliminan automáticamente.
 
 ```sql
 -- EJEMPLO : 
