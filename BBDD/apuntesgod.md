@@ -1,4 +1,4 @@
-# Operados
+# Operadores
 | Operador  | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
