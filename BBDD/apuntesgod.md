@@ -182,5 +182,8 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `MAX(campo)`       | Muestra valor máximo de ese campo |
 | `MIN(campo)`      | Muestra valor mínimo de ese campo |
 | **Ejemplos** 
-
+| `NUMERIC(5,2)`      | De `000,00` hasta `999,99` |
+| `BOOLEAN`           | Valores `TRUE` o `FALSE`                      |
+| `DATE`              | Fecha (`día, mes, año`)                       |
+| `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
 
