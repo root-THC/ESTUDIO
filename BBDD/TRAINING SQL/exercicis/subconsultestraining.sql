@@ -71,7 +71,7 @@ JOIN oficina o ON r.ofinum = o.ofinum
 WHERE cuota > 0.55*objetivo;
 
 
-SELECT ciudad FROM oficina 
+SELECT ciudad FROM oficina o 
 
 
 10. Obtenir una llista dels representants que han pres alguna comanda l'import del qual sigui més del 10% de la seva quota.
