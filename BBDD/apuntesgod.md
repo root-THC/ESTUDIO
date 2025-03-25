@@ -90,7 +90,7 @@ INSERT INTO tabla_relacion VALUES (1, 1);
 INSERT INTO tabla_relacion VALUES (2, 2);
 ```
 
---
+---
 
 ## Restricciones y Cascadas
 
