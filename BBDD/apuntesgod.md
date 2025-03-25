@@ -132,7 +132,7 @@ INSERT INTO tabla_1 VALUES (1, 'Ejemplo 1', '2024-11-28', 50000.00);
 INSERT INTO tabla_1 VALUES (2, 'Ejemplo 2', '2024-11-29', 75000.00);
 
 INSERT INTO tabla_2 VALUES (1, 'Dato 1', 'A');
-INSERT INTO tabla_2 VALUES (2, 'Dato 2', );
+INSERT INTO tabla_2 VALUES (2, 'Dato 2', 'B');
 
 INSERT INTO tabla_3 VALUES (1, 'Categoria 1');
 INSERT INTO tabla_3 VALUES (2, 'Categoria 2');
