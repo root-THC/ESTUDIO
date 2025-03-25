@@ -93,3 +93,4 @@ FROM repventa
 
 
 SELECT pednum
+FROM repventa
