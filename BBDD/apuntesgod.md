@@ -38,7 +38,7 @@ CREATE SEQUENCE secuencia_1 START WITH 1 INCREMENT BY 1;
 
 -- USARLO EN INSERT
 
-INSERT INTO tabla VALUES (NEXTVAL('seq_idDepartament'), 'Marketing');
+INSERT INTO tabla VALUES (NEXTVAL('secuencia_1'), 'Marketing');
 
 ```
 
