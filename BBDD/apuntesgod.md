@@ -186,5 +186,5 @@ UPDATE tabla_2 SET id= 3 WHERE id=2;
 | `AVG`           | SELECT COUNT(empNO) "Numero Empleados", round(avg(coalesce(comm,0)),2) "Mediana Comisión"
 FROM emp;                      |
 | `MAX`              | Fecha (`día, mes, año`)                       |
-| `TIMESTAMP`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
+| `MIN`         | Fecha y hora (`día, mes, año, horas, minutos, segundos`) |
 
