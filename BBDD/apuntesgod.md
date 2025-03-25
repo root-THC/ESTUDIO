@@ -31,9 +31,9 @@ CREATE TABLE tabla_1 (
 );
 
 CREATE TABLE tabla_2 (
-    id SMALLINT,
+    id_tabla2 SMALLINT,
     campo_1 VARCHAR(40),
-    CONSTRAINT tabla_2_id_pk PRIMARY KEY (id)
+    CONSTRAINT tabla_2_id_pk PRIMARY KEY (id_tabla2)
 );
 
 CREATE TABLE tabla_intermedia (
