@@ -92,4 +92,4 @@ SELECT descrip
 FROM repventa
 
 
-SELECT 
+SELECT pednum
