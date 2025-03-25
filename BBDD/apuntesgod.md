@@ -12,7 +12,7 @@
 | `IN`      | Para comparar con una lista de valores |
 | `IS NULL` / `IS NOT NULL` | Para comprobar valores nulos |
 
-# Creación de Base de Datos
+## Creación de Base de Datos
 
 ```sql
 \c template1
