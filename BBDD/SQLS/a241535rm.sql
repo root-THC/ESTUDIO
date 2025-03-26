@@ -1,7 +1,7 @@
 -- Ricardo Moreno Ianiva
 -- a241535rm.sql
 
-SELECT codpeli , coddvd , titol , nom , cognoms datapres 
+SELECT p.codpeli , coddvd , titol , nom , cognoms datapres 
 FROM LLOGUER l 
 JOIN SOCI s ON l.codsoci = s.codsoci    
 JOIN dvd d ON l.coddvd = d.coddvd
