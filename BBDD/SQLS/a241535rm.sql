@@ -22,6 +22,6 @@ ORDER BY (4 ,3,s.cognoms ) DESC ;
 --3
 SELECT 
 FROM pelicula p    
-JOIN DVD d ON p.codpeli = d.coddvd
+JOIN DVD d ON p.codpeli = d.codpeli
 JOIN LLOGUER l ON d.coddvd = l.coddvd
 ORDER BY 1,6;
