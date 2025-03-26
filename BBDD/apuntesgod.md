@@ -12,8 +12,10 @@
 | `>=`      | Mayor o igual                       |
 | `<=`      | Menor o igual                       |
 | `BETWEEN` | Para valores dentro de un rango     |
-| `LIKE`    | Para búsqueda de patrones          |
-| `IN`      | Para comparar con una lista de valores |
+| `LIKE`    | Para búsqueda de patrones usos: |
+| |`%` : Representa cero o más caracteres|
+|| `_` : Representa un único carácter.| 
+| `IN` / `NOT IN`      | Para comparar con una lista de valores |
 | `IS NULL` / `IS NOT NULL` | Para comprobar valores nulos |
 
 ---
@@ -309,6 +311,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 -- Une la tabla `emp` consigo misma para encontrar quién es el jefe de cada empleado.
 ```
 ---
+
+
 ## Funciones Útiles en SQL
 
 ### `COALESCE`
@@ -333,7 +337,7 @@ FROM emp;
 Une múltiples valores en una sola cadena.
 
 ```sql
-SELECT ename || ' trabaja como ' || job AS Descripcion
+SELECT salario || '€' "Avg Product Price"
 FROM emp;
 ```
 
