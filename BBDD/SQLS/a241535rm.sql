@@ -15,5 +15,5 @@ JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.codsoci;
 
 
-SELECT import
+SELECT SUM(import
 FROM LLOGUER l;
