@@ -23,4 +23,5 @@ ORDER BY (4 ,3,s.cognoms ) DESC ;
 SELECT d.coddvd
 FROM pelicula p    
 JOIN DVD d ON p.codpeli = d.codpeli
-JOIN LLOGUER l ON d.coddvd = l.coddvd;
+JOIN LLOGUER l ON d.coddvd = l.coddvd
+JOIN ge;
