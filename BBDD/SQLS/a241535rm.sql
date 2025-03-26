@@ -6,4 +6,3 @@ FROM LLOGUER l
 JOIN SOCI s ON 
 JOIN dvd d ON l.coddvd = d.coddvd
 JOIN pelicula p ON d.codpeli = p.codpeli
-JOIN SOCI s ON 
