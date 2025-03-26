@@ -15,14 +15,9 @@ JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.codsoci;
 
 
-SELECT s.nom || ', ' || s.codsoci || ', ' || s.cognoms Soci , COALESCE(COUNT(datapres),0) "Prestecs Realitzats" , SUM(import) "Despeses realitzades"
+SELECT s.nom || ', ' || s.codsoci || ', ' || s.cognoms Soci , COALESCE(COUNT(datapres),0) "Prestecs Realitzats" , SUM(import) || ' €' "Despeses realitzades"
 FROM LLOGUER l
 RIGHT JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.nom,s.codsoci , s.cognoms
-ORDER BY 3,2 DESC
-ORDER BY s.cognoms;
+ORDER BY 3,2, s.cognoms DESC;
 
-
-SELECT import 
-FROM LLOGUER
-ORDER BY DESC 1;
