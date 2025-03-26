@@ -24,4 +24,5 @@ SELECT GENERE
 FROM pelicula p    
 JOIN DVD d ON p.codpeli = d.codpeli
 JOIN LLOGUER l ON d.coddvd = l.coddvd
-JOIN GENERE g ON p.Codgen = g.Codgen;
+JOIN GENERE g ON p.Codgen = g.Codgen
+WHERE ;
