@@ -3,6 +3,6 @@
 
 SELECT codpeli , coddvd , titol , nom , cognoms datapres 
 FROM LLOGUER l 
-JOIN SOCI s ON l.codsoci = 
+JOIN SOCI s ON l.codsoci = s.codsoci    
 JOIN dvd d ON l.coddvd = d.coddvd
 JOIN pelicula p ON d.codpeli = p.codpeli
