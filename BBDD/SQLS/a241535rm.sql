@@ -20,9 +20,11 @@ GROUP BY s.nom,s.codsoci , s.cognoms
 ORDER BY (4 ,3,s.cognoms ) DESC ;
 
 --3
+
 SELECT GENERE 
 FROM pelicula p    
 JOIN DVD d ON p.codpeli = d.codpeli
 JOIN LLOGUER l ON d.coddvd = l.coddvd
 JOIN GENERE g ON p.Codgen = g.Codgen
-WHERE ;
+WHERE d.coddvd NOT IN (SELECT l.coddvd FROM LLOGUER);
+
