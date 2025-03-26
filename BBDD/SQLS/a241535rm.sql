@@ -13,10 +13,16 @@ ORDER BY 1,6;
 
 
 --2
-SELECT s.codsoci , s.nom || ', ' || s.cognoms "Soci" , COALESCE(COUNT(datapres),0) "Prestecs Realitzats" , SUM(import) || ' €' "Despesa"
+SELECT s.codsoci "Codi" , s.nom || ', ' || s.cognoms "Soci" , COALESCE(COUNT(datapres),0) "Prestecs Realitzats" , SUM(import) || ' €' "Despesa"
 FROM LLOGUER l
 RIGHT JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.nom,s.codsoci , s.cognoms
-ORDER BY (4 ,3 , s.) DESC AND ORDER BY s.cognoms ASC;
+ORDER BY (4 ,3,s.cognoms ) DESC ;
 
 --3
+SELECT 
+FROM LLOGUER l 
+JOIN SOCI s ON l.codsoci = s.codsoci    
+JOIN dvd d ON l.coddvd = d.coddvd
+JOIN pelicula p ON d.codpeli = p.codpeli
+ORDER BY 1,6;
