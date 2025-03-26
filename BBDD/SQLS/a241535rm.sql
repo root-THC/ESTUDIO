@@ -19,4 +19,10 @@ SELECT s.nom || ', ' || s.codsoci || ', ' || s.cognoms Soci , COALESCE(COUNT(dat
 FROM LLOGUER l
 RIGHT JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.nom,s.codsoci , s.cognoms
-ORDER BY ;
+ORDER BY 3,2 DESC
+ORDER BY s.cognoms;
+
+
+SELECT import 
+FROM LLOGUER
+ORDER BY DESC 1;
