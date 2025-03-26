@@ -2,5 +2,5 @@
 -- a241535rm.sql
 
 SELECT codpeli , coddvd , titol , nom , cognoms datapres 
-FROM LLOGUER 
+FROM LLOGUER l
 JOIN coddvd ON
