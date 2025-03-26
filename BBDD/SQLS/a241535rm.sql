@@ -16,4 +16,5 @@ GROUP BY s.codsoci;
 
 
 SELECT COUNT(datapres),SUM(import)
-FROM LLOGUER l;
+FROM LLOGUER l
+JOIN SOCI s ON l.codsoci = s.codsoci;
