@@ -17,5 +17,5 @@ GROUP BY s.codsoci;
 
 SELECT import
 FROM LLOGUER l
-JOIN SOCI s ON l.codsoci = s.codsoci
+JOIN SOCI s ON l.codsoci = s.c
 GROUP BY s.codsoci;
