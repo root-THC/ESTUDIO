@@ -15,7 +15,7 @@ JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.codsoci;
 
 
-SELECT COALESCE(COUNT(datapres),0) Num , SUM(import) , s.nom || ', ' || s.codsoci || ', ' || s.cognoms Soci
+SELECT SUM(import) , s.nom || ', ' || s.codsoci || ', ' || s.cognoms Soci , COALESCE(COUNT(datapres),0) "Prestecs Realitzats"
 FROM LLOGUER l
-JOIN SOCI s ON l.codsoci = s.codsoci
+RIGHT JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.nom,s.codsoci , s.cognoms;
