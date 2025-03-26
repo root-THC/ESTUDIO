@@ -16,4 +16,4 @@ GROUP BY s.codsoci;
 
 
 SELECT import
-FROM LLOGUER l
+FROM LLOGUER l;
