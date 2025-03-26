@@ -4,4 +4,4 @@
 SELECT codpeli , coddvd , titol , nom , cognoms datapres 
 FROM LLOGUER l
 JOIN dvd d ON l.coddvd = d.coddvd
-JOIN pelicula p ON c
+JOIN pelicula p ON 
