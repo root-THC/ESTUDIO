@@ -15,7 +15,7 @@ JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.codsoci;
 
 
-SELECT s.CodSOCI || cognoms , import 'Despesa Realitzada'
+SELECT import
 FROM LLOGUER l
 JOIN SOCI s ON l.codsoci = s.codsoci
 GROUP BY s.codsoci;
