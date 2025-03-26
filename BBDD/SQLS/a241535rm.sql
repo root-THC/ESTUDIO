@@ -3,3 +3,4 @@
 
 SELECT codpeli , coddvd , titol , nom , cognoms datapres 
 FROM LLOGUER 
+JOIN co
