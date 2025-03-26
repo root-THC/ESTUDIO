@@ -9,6 +9,6 @@ JOIN pelicula p ON d.codpeli = p.codpeli
 ORDER BY 1,6;
 
 
-SELECT COALESCE(COUNT(datapres),0) , s.CodSOCI || cognoms , import 'Despesa Realitzada'
+SELECT COALESCE(COUNT(datapres),0) , s.CodSOCI 
 FROM LLOGUER l
 JOIN SOCI s ON l.codsoci = s.codsoci;
