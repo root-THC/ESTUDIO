@@ -2,7 +2,7 @@
 -- a241535rm.sql
 
 SELECT codpeli , coddvd , titol , nom , cognoms datapres 
-FROM LLOGUER l
+FROM LLOGUER l 
 JOIN SOCI s ON 
 JOIN dvd d ON l.coddvd = d.coddvd
 JOIN pelicula p ON d.codpeli = p.codpeli
