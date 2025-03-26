@@ -9,4 +9,4 @@ JOIN pelicula p ON d.codpeli = p.codpeli
 ORDER BY 1,6;
 
 
-SELECT 
+SELECT COUNT 
