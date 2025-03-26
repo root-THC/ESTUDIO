@@ -9,4 +9,6 @@ JOIN pelicula p ON d.codpeli = p.codpeli
 ORDER BY 1,6;
 
 
-SELECT COUNT 
+SELECT COUNT(datapres) , CodSOCI , 
+
+FROM LLOGUER;
