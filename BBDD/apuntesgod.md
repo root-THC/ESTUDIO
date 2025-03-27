@@ -334,6 +334,8 @@ FROM emp;
 
 - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
+---
+
 ```sql
 SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) 'Oficina'
 FROM emp;
