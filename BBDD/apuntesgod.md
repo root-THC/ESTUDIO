@@ -370,15 +370,6 @@ FROM emp;
 ```
 
 
-`Output = alias ename | aliasjob  
--------------+-----------
- SMITH       | CLERK
- ALLEN       | SALESMAN
- WARD        | SALESMAN
- JONES       | MANAGER
- MARTIN      | SALESMAN
- BLAKE       | MANAGER
- CLARK       | MANAGER `
 
 | alias ename | alias job                          |
 |-----------|--------------------------------------|
