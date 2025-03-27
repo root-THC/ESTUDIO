@@ -333,7 +333,7 @@ SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
 `RESULTADO:`
-| alias ename | alias job                          |
+| ename | alias job                          |
 |-----------|--------------------------------------|
 | SMITH       | CLERK                       |
 | ALLEN       | SALESMAN                          |
