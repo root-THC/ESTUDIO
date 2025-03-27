@@ -281,7 +281,7 @@ Si no hay coincidencia en una tabla, se devuelve NULL en su lugar.
 ```sql
 SELECT e.ename, e.job, d.dname 
 FROM emp e
-FULL JOIN dept ON emp.deptno = dept.deptno;
+FULL JOIN dept d ON emp.deptno = dept.deptno;
 ```
 
 ### Ejemplo Explicado:
