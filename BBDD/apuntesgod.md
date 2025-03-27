@@ -287,7 +287,8 @@ FULL JOIN dept ON emp.deptno = dept.deptno;
 ```
 
 ## `CROSS JOIN`
-Devuelve el producto cartesiano de ambas tablas \ (cada fila de la primera se combina con cada fila de la segunda).
+Devuelve el producto cartesiano de ambas tablas\ 
+(cada fila de la primera se combina con cada fila de la segunda).
 
 ```sql
 SELECT emp.ename, dept.dname 
