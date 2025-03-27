@@ -334,14 +334,7 @@ FROM emp;
 ```
 `RESULTADO:`
 
-| ename | sal| comisión
-|-----------|-----------|
-| SMITH       | 800.00           | 0 |
-| ALLEN       | 1600.00           | 0|
-| WARD     | SALESMAN                           |
-| JONES      | MANAGER                           |
-|  MARTIN   | MANAGER                       |
-| BLAKE      | MANAGER                       |
+
 
 ename  |   sal   | Comision 
 --------+---------+----------
