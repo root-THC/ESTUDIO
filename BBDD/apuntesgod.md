@@ -247,7 +247,7 @@ Si no hay coincidencia, devuelve NULL en las columnas de la tabla derecha.
 
 ```sql
 SELECT emp.ename, emp.job, dept.dname 
-FROM e
+FROM emp e
 LEFT JOIN dept ON emp.deptno = dept.deptno;
 ```
 
