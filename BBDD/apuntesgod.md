@@ -383,7 +383,7 @@ FROM emp;
 | alias ename | alias job                          |
 |-----------|--------------------------------------|
 | SMITH       | CLERK                       |
-| `!=`      | Diferente                           |
+| ALLEN       | Diferente                           |
 | `>`       | Mayor que                           |
 | `<`       | Menor que                           |
 | `>=`      | Mayor o igual                       |
