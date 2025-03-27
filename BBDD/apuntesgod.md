@@ -359,6 +359,8 @@ FROM emp;
 
 - `sal::TEXT` → Convierte el número `sal` en texto.
 
+---
+
 ### `AS`
 Asigna un alias a una columna o tabla.
 
