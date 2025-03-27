@@ -345,6 +345,7 @@ FROM emp;
 ```
 
 - `||` → Operador de concatenación en SQL.
+---
 
 ### `::TEXT`
 Convierte un dato en tipo texto.
