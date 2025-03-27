@@ -343,6 +343,11 @@ FROM emp;
 ---
 
 **SUSTITUIR POR TEXTO** \
+```sql
+SELECT ename, sal, COALESCE(comm::TEXT, 'No tiene comisión') AS "Comision"
+FROM emp;
+
+```
 `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `No tiene comisión`. 
 
 `OUTPUT`
