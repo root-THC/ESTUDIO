@@ -386,5 +386,5 @@ FROM emp;
 | ALLEN       | SALESMAN                          |
 | WARD     | SALESMAN                           |
 | JONES      | MANAGER                           |
-|  MARTIN   | Mayor o igual                       |
+|  MARTIN   | MANAGER                       |
 | BLAKE      | Menor o igual                       |
