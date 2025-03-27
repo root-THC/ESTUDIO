@@ -370,3 +370,5 @@ FROM emp;
 ```
 - El outputa será
 
+Output`
+
