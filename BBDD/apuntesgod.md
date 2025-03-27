@@ -362,7 +362,7 @@ FROM emp;
 ---
 
 ### `ALIAS PARA TABLAS`
-Asigna un nombre a un campo o tabla para h.
+Asigna un nombre a un campo o tabla para hacerlo más bonito estructuradamente.
 
 ```sql
 SELECT ename 'alias' NombreEmpleado, job 'alias'
