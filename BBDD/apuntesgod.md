@@ -263,8 +263,8 @@ Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabl
 Si no hay coincidencia, devuelve NULL en las columnas de la tabla izquierda.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
+SELECT e.ename, emp.job, dept.dname 
+FROM emp e
 RIGHT JOIN dept ON emp.deptno = dept.deptno;
 ```
 
