@@ -226,7 +226,7 @@ Devuelve solo las filas donde hay coincidencia en ambas tablas.
 SELECT e.ename, e.job, d.dname 
 FROM emp e
 
-INNER JOIN dept d ON emp.deptno = dept.deptno;
+INNER JOIN dept d ON e.deptno = dept.deptno;
 
 -- SIN INNER : ES LO MISMO!!
 
