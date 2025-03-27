@@ -346,6 +346,9 @@ ename  |   sal   | Comision
 #### `SUSTITUIR POR TEXTO`
 - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
+
+`RESULTADO:`
+
 | ename  |   sal   | Comision           |
 |--------|---------|--------------------|
 | SMITH  |  800.00 | No tiene comisión  |
