@@ -386,5 +386,5 @@ FROM emp;
 | ALLEN       | Diferente                           |
 | WARD     | Mayor que                           |
 | JONES      | Menor que                           |
-| `>=`      | Mayor o igual                       |
+|  MARTIN   | Mayor o igual                       |
 | `<=`      | Menor o igual                       |
