@@ -334,6 +334,7 @@ FROM emp;
 ```
 
 - También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
+
 ---
 
 ### `Concatenación`
@@ -345,6 +346,7 @@ FROM emp;
 ```
 
 - `||` → Operador de concatenación en SQL.
+
 ---
 
 ### `::TEXT`
