@@ -332,6 +332,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
+`RESULTADO:`
+
 #### `SUSTITUIR POR TEXTO`
 - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
