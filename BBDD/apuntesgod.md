@@ -349,8 +349,7 @@ ename  |   sal   | Comision
 
 
 ```sql
-SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) 'Oficina'
-FROM emp;
+
 ```
 
 - También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
