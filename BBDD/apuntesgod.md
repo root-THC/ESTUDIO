@@ -380,7 +380,7 @@ FROM emp;
  BLAKE       | MANAGER
  CLARK       | MANAGER `
 
-| Operador  | Descripción                          |
+| alias ename | Descripción                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
 | `!=`      | Diferente                           |
