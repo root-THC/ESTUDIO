@@ -382,7 +382,7 @@ FROM emp;
 
 | alias ename | alias job                          |
 |-----------|--------------------------------------|
-| SMITH       | Igual                               |
+| SMITH       | CLERK                       |
 | `!=`      | Diferente                           |
 | `>`       | Mayor que                           |
 | `<`       | Menor que                           |
