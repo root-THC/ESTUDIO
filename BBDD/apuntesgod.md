@@ -334,6 +334,7 @@ FROM emp;
 ```
 
 - También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
+---
 
 ### `Concatenación`
 Une múltiples valores en una sola cadena.
