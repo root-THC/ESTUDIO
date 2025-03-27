@@ -368,7 +368,7 @@ Asigna un nombre a un campo o tabla para hacerlo más bonito estructuradamente.
 SELECT ename "alias ename" , job "aliasjob"
 FROM emp;
 ```
-- El outputa será
+
 
 `Output = alias ename | aliasjob  
 -------------+-----------
