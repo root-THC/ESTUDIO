@@ -223,7 +223,7 @@ En SQL, un JOIN se usa para combinar filas de dos o más tablas basándose en un
 Devuelve solo las filas donde hay coincidencia en ambas tablas.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
+SELECT e.ename, emp.job, dept.dname 
 FROM emp e
 
 INNER JOIN dept ON emp.deptno = dept.deptno;
