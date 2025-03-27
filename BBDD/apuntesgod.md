@@ -343,7 +343,7 @@ ename  |   sal   | Comision
  WARD   | 1250.00 |   500.00
  JONES  | 2975.00 |        0
 
-SUSTITUIR POR TEXTO
+SUSTITUIR POR TEXTO**
 `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `No tiene comisión`. 
 
 `OUTPUT`
