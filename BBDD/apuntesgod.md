@@ -250,7 +250,7 @@ LEFT JOIN dept ON emp.deptno = dept.deptno;
 ---
 LEFT = `emp`
 ```sql
--- Muestra todos los empleados, incluso si no tienen un departamento asignado. 
+-- Muestra todos los empleados, incluso si no tienen un departamento asignado o sea valor 'NULL`. 
 ```
 
 ## `RIGHT JOIN (RIGHT OUTER JOIN)`
