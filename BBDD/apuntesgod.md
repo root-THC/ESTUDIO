@@ -368,5 +368,5 @@ Asigna un nombre a un campo o tabla para hacerlo más bonito estructuradamente.
 SELECT ename 'alias' NombreEmpleado, job 'alias'
 FROM emp;
 ```
-
+- El outputa será
 
