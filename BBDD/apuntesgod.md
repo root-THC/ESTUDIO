@@ -349,6 +349,8 @@ ename  |   sal   | Comision
 
 
 ```sql
+SELECT ename, sal, COALESCE(comm::TEXT, 'No tiene comisión') AS "Comision"
+FROM emp;
 
 ```
 
