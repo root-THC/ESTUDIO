@@ -279,8 +279,8 @@ Devuelve todas las filas cuando hay coincidencia en cualquiera de las tablas.
 Si no hay coincidencia en una tabla, se devuelve NULL en su lugar.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
+SELECT e.ename, e.job, dept.dname 
+FROM emp e
 FULL JOIN dept ON emp.deptno = dept.deptno;
 ```
 
