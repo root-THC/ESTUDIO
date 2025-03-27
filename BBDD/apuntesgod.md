@@ -360,11 +360,7 @@ FROM emp;
 | JONES  | 2975.00 | No tiene comisión esto y esto |
 
 
-```sql
-SELECT ename, sal, COALESCE(comm::TEXT, 'No tiene comisión') AS "Comision"
-FROM emp;
 
-```
 
 - También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
 
