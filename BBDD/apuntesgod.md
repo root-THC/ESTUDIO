@@ -248,7 +248,7 @@ LEFT JOIN dept ON emp.deptno = dept.deptno;
 
 ### Ejemplo Explicado:
 ---
-LEFT = `emp.deptno`
+LEFT = `emp`
 ```sql
 -- Muestra todos los empleados, incluso si no tienen un departamento asignado. 
 ```
