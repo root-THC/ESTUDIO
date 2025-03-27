@@ -333,6 +333,13 @@ SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
 `OUTPUT`
+| ename  |   sal   | Comision |
+|--------|---------|----------|
+| SMITH  |  800.00 |        0 |
+| ALLEN  | 1600.00 |   300.00 |
+| WARD   | 1250.00 |   500.00 |
+| JONES  | 2975.00 |        0 |
+
 
 
 
