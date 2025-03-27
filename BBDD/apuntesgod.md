@@ -336,7 +336,7 @@ FROM emp;
 
 | ename | sal| comisión
 |-----------|--------------------------------------|
-| SMITH       | 800.00             | |
+| SMITH       | 800.00             | 0 |
 | ALLEN       | SALESMAN            | |
 | WARD     | SALESMAN                           |
 | JONES      | MANAGER                           |
