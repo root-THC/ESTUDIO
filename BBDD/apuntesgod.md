@@ -296,7 +296,7 @@ Devuelve el producto cartesiano de ambas tablas \
 (cada fila de la primera se combina con cada fila de la segunda tabla).
 
 ```sql
-SELECT e.ename, dept.dname 
+SELECT e.ename, d.dname 
 FROM emp
 CROSS JOIN dept;
 ```
