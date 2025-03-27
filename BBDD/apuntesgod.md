@@ -384,7 +384,7 @@ FROM emp;
 |-----------|--------------------------------------|
 | SMITH       | CLERK                       |
 | ALLEN       | Diferente                           |
-| `>`       | Mayor que                           |
+| WARD     | Mayor que                           |
 | `<`       | Menor que                           |
 | `>=`      | Mayor o igual                       |
 | `<=`      | Menor o igual                       |
