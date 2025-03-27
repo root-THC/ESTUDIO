@@ -327,6 +327,10 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 
 **SUSTITUIR POR VALOR OPERABLE** 
+```sql
+SELECT ename, sal, COALESCE(comm, 0) "Comision"
+FROM emp;
+```
 `COALESCE(comm, 0)` → Si una o varias filas `comm` es/són `NULL`, se reemplazaran por `0` \
  Se usa para poder operarlo, ya que los valores `NULL`són inoperables y suelen dar error en funciones complejas.
 
