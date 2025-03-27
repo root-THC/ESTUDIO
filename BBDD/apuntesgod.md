@@ -360,8 +360,6 @@ FROM emp;
 | JONES  | 2975.00 | No tiene comisión esto y esto |
 
 
-
-
 - También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
 
 ---
