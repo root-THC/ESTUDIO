@@ -380,3 +380,11 @@ FROM emp;
  BLAKE       | MANAGER
  CLARK       | MANAGER `
 
+| Operador  | Descripción                          |
+|-----------|--------------------------------------|
+| `=`       | Igual                               |
+| `!=`      | Diferente                           |
+| `>`       | Mayor que                           |
+| `<`       | Menor que                           |
+| `>=`      | Mayor o igual                       |
+| `<=`      | Menor o igual                       |
