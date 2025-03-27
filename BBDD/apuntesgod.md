@@ -323,7 +323,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 ## Funciones Útiles en SQL
 
-### `COALESCE`
+### `COALESCE` Convierte valores `NULL` en un valor
 
 Convierte valores `NULL` en un valor especificado en este caso : \
 `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0` \
