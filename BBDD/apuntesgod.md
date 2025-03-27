@@ -230,7 +230,7 @@ INNER JOIN dept d ON e.deptno = d.deptno;
 
 -- SIN INNER : ES LO MISMO!!
 
-JOIN dept ON emp.deptno = dept.deptno;
+JOIN dept ON e.deptno = dept.deptno;
 ```
 
 ### Ejemplo Explicado:
