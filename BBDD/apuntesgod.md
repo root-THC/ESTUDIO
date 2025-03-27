@@ -326,7 +326,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ### `COALESCE` Convierte valores `NULL` en un valor operable
 
 `COALESCE(comm, 0)` → Si una o varias filas `comm` es/són `NULL`, se reemplazaram por `0` \
- Se usa para poder operarlo, ya que no es lo mismo hacer la media por ejemplo de todos los valores a que haya `NULLS` los ignorara y el resultado será un valor incorrecto a que el  `NULL` pase a `O`
+ Se usa para poder operarlo, ya que los valores 
 
 ```sql
 SELECT ename, sal, COALESCE(comm, 0) "Comision"
