@@ -369,4 +369,4 @@ SELECT ename 'alias' NombreEmpleado, job 'alias'
 FROM emp;
 ```
 
-- `AS` → Renombra las columnas en el resultado.
+
