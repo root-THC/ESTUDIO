@@ -265,7 +265,7 @@ Si no hay coincidencia, devuelve NULL en las columnas de la tabla izquierda.
 ```sql
 SELECT e.ename, e.job, d.dname 
 FROM emp e
-RIGHT JOIN dept ON emp.deptno = dept.deptno;
+RIGHT JOIN dept d ON e.deptno = dept.deptno;
 ```
 
 ### Ejemplo Explicado:
