@@ -336,7 +336,7 @@ FROM emp;
 
 | ename | sal| comisión
 |-----------|--------------------------------------|
-| SMITH       | CLERK                       |
+| SMITH       | CLERK             |
 | ALLEN       | SALESMAN                          |
 | WARD     | SALESMAN                           |
 | JONES      | MANAGER                           |
