@@ -361,7 +361,7 @@ FROM emp;
 
 ---
 
-### `AS`
+### `ALIAS PARA TABLAS`
 Asigna un alias a una columna o tabla.
 
 ```sql
