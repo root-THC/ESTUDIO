@@ -349,7 +349,7 @@ ename  |   sal   | Comision
 
 
 ```sql
-SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) Oficina'
+SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) 'Oficina'
 FROM emp;
 ```
 
