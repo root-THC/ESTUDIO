@@ -365,7 +365,7 @@ FROM emp;
 Asigna un nombre a un campo o tabla para hacerlo más bonito estructuradamente.
 
 ```sql
-SELECT ename 'alias ename' , job 'alias job'
+SELECT ename 'alias ename' 
 FROM emp;
 ```
 - El outputa será
