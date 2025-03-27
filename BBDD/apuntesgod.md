@@ -328,7 +328,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 Convierte valores `NULL` en un valor especificado para poder operarlo.
 
 ```sql
-SELECT ename, sal, COALESCE(comm, 0) 'Comision"
+SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
 
