@@ -333,7 +333,14 @@ SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
 `RESULTADO:`
-
+| alias ename | alias job                          |
+|-----------|--------------------------------------|
+| SMITH       | CLERK                       |
+| ALLEN       | SALESMAN                          |
+| WARD     | SALESMAN                           |
+| JONES      | MANAGER                           |
+|  MARTIN   | MANAGER                       |
+| BLAKE      | MANAGER                       |
 #### `SUSTITUIR POR TEXTO`
 - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
