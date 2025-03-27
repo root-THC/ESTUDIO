@@ -325,7 +325,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 ### `COALESCE`
 
-Convierte valores `NULL` en un valor especificado en este caso `0` para poder operarlo.
+Convierte valores `NULL` en un valor especificado en este caso - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
+ para poder operarlo.
 
 ```sql
 SELECT ename, sal, COALESCE(comm, 0) "Comision"
