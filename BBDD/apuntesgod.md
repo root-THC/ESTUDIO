@@ -332,7 +332,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
-`RESULTADO:`
+`OUTPUT`
 
 
 
