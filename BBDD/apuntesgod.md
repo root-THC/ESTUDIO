@@ -365,7 +365,7 @@ FROM emp;
 Asigna un alias a una columna o tabla.
 
 ```sql
-SELECT ename '' NombreEmpleado, job AS Cargo
+SELECT ename 'alias' NombreEmpleado, job AS Cargo
 FROM emp;
 ```
 
