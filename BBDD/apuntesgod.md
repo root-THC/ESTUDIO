@@ -331,7 +331,7 @@ Convierte valores `NULL` en un valor especificado en este caso `0` para poder op
 SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
-### `COALESCE`
+#### `COALESCE`
 - `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
 
