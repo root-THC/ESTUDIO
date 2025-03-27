@@ -266,7 +266,7 @@ RIGHT JOIN dept ON emp.deptno = dept.deptno;
 ### Ejemplo Explicado:
 RIGHT = `emp`
 ```sql
--- Muestra todos los departamentos, incluso si no tienen empleados asignados o sea `NULL`.
+-- Muestra todos los departamentos, incluso si no tienen empleados asignados o sea valor NULL`.
 ```
 
 ## `FULL JOIN (FULL OUTER JOIN)`
