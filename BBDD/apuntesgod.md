@@ -225,7 +225,7 @@ Devuelve solo las filas donde hay coincidencia en ambas tablas.
 ```sql
 SELECT emp.ename, emp.job, dept.dname 
 FROM emp
-INNER JOIN dept ON emp.deptno = dept.deptno;
+-- INNER JOIN dept ON emp.deptno = dept.deptno;
 ```
 
 ### Ejemplo Explicado:
