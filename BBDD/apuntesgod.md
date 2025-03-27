@@ -387,4 +387,4 @@ FROM emp;
 | WARD     | SALESMAN                           |
 | JONES      | MANAGER                           |
 |  MARTIN   | MANAGER                       |
-| BLAKE      | Menor o igual                       |
+| BLAKE      | MANAGER                       |
