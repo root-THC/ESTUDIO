@@ -254,7 +254,7 @@ LEFT = `emp`
 ```
 
 ## `RIGHT JOIN (RIGHT OUTER JOIN)`
-Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabla de la izquierda.
+Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabla de la izquierda. \
 Si no hay coincidencia, devuelve NULL en las columnas de la tabla izquierda.
 
 ```sql
