@@ -228,7 +228,7 @@ FROM emp
 
 INNER JOIN dept ON emp.deptno = dept.deptno;
 
--- SIN INNER : ES LO MISMO
+-- SIN INNER : ES LO MISMO!!
 
 JOIN dept ON emp.deptno = dept.deptno;
 ```
