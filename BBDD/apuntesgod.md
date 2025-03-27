@@ -387,4 +387,4 @@ FROM emp;
 | WARD     | Mayor que                           |
 | JONES      | Menor que                           |
 |  MARTIN   | Mayor o igual                       |
-| `<=`      | Menor o igual                       |
+| BLAKE      | Menor o igual                       |
