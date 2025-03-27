@@ -369,7 +369,7 @@ SELECT ename "alias ename" , job "aliasjob"
 FROM emp;
 ```
 
-
+`RESULTADO:`
 
 | alias ename | alias job                          |
 |-----------|--------------------------------------|
