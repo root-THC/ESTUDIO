@@ -335,7 +335,7 @@ FROM emp;
 `RESULTADO:`
 
 | ename | sal| comisión
-|-----------|--------------------------------------|
+|-----------|----|
 | SMITH       | 800.00             | 0 |
 | ALLEN       | SALESMAN            | |
 | WARD     | SALESMAN                           |
