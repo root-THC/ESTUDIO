@@ -384,7 +384,7 @@ FROM emp;
 |-----------|--------------------------------------|
 | SMITH       | CLERK                       |
 | ALLEN       | SALESMAN                          |
-| WARD     | Mayor que                           |
+| WARD     | SALESMAN                           |
 | JONES      | Menor que                           |
 |  MARTIN   | Mayor o igual                       |
 | BLAKE      | Menor o igual                       |
