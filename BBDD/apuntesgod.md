@@ -298,7 +298,7 @@ Devuelve el producto cartesiano de ambas tablas \
 ```sql
 SELECT e.ename, d.dname 
 FROM emp e
-CROSS JOIN dept;
+CROSS JOIN dept d;
 ```
 
 ### Ejemplo Explicado:
