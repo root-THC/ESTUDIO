@@ -233,7 +233,7 @@ INNER JOIN dept ON emp.deptno = dept.deptno;
 Suponiendo que tenemos una tabla `emp` con empleados y una tabla `dept` con departamentos, \
 este INNER JOIN traerá solo los empleados que tienen un departamento asignado en ambas tablas.
 
-"No hace falta específicar `**INNER**`"
+"No hace falta específicar `**INNER*"
 
 ## `LEFT JOIN (LEFT OUTER JOIN)`
 ---
