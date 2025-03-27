@@ -380,7 +380,7 @@ FROM emp;
  BLAKE       | MANAGER
  CLARK       | MANAGER `
 
-| alias ename | Descripción                          |
+| alias ename | alias job                          |
 |-----------|--------------------------------------|
 | `=`       | Igual                               |
 | `!=`      | Diferente                           |
