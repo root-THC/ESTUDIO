@@ -309,7 +309,7 @@ CROSS JOIN dept d;
 Un SELF JOIN es un JOIN de una tabla consigo misma.
 
 ```sql
-SELECT e1.ename AS Empleado, e2.ename "Jefe" 
+SELECT e1.ename "Empleado, e2.ename "Jefe" 
 FROM emp e1
 JOIN emp e2 ON e1.mgr = e2.empno;
 ```
