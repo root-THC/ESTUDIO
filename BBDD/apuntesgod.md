@@ -233,6 +233,8 @@ INNER JOIN dept ON emp.deptno = dept.deptno;
 Suponiendo que tenemos una tabla `emp` con empleados y una tabla `dept` con departamentos,
 este INNER JOIN traerá solo los empleados que tienen un departamento asignado en ambas tablas.
 
+""
+
 ## `LEFT JOIN (LEFT OUTER JOIN)`
 ---
 Devuelve todas las filas de la tabla de la izquierda y las coincidentes de la tabla de la derecha.
