@@ -329,12 +329,19 @@ JOIN emp e2 ON e1.mgr = e2.empno;
  Se usa para poder operarlo, ya que los valores `NULL`són inoperables y suelen dar error en funciones complejas.
 
 ```sql
-SELECT COALESCE(comm, 0) "Comision"
+SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
 `RESULTADO:`
 
-
+| ename | sal| comisión
+|-----------|-----------|
+| SMITH       | 800.00           | 0 |
+| ALLEN       | 1600.00           | 0|
+| WARD     | SALESMAN                           |
+| JONES      | MANAGER                           |
+|  MARTIN   | MANAGER                       |
+| BLAKE      | MANAGER                       |
 
 ename  |   sal   | Comision 
 --------+---------+----------
