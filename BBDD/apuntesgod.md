@@ -344,8 +344,8 @@ ename  |   sal   | Comision
  JONES  | 2975.00 |        0
 
 #### `SUSTITUIR POR TEXTO`
-- `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `No tiene comisión`. \
-
+- `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `No tiene comisión`. 
+\
 `RESULTADO:`
 
 | ename  |   sal   | Comision           |
