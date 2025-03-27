@@ -246,7 +246,7 @@ Devuelve todas las filas de la tabla de la izquierda y las coincidentes de la ta
 Si no hay coincidencia, devuelve NULL en las columnas de la tabla derecha.
 
 ```sql
-SELECT e.ename, e.job, dept.dname 
+SELECT e.ename, e.job, d.dname 
 FROM emp e
 LEFT JOIN dept ON emp.deptno = dept.deptno;
 ```
