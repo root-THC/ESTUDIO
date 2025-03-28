@@ -348,7 +348,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
  
 
 - COMMIT; Aplicar todos los cambios hechos dentro de la TRANSACCIÓN `FINALIZAR`
-- ROLLBACK nombredeguardado; (DESHACER) FINALIZAR
+- ROLLBACK ; (DESHACER) FINALIZAR
 - SAVE POINT nombreodeguardado; (GUARDAR PUNTO CON NOMBRE)
 - BEGIN; (COMENZAR SIEMPRE VA PRIMERO)
 
