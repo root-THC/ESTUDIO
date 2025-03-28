@@ -333,7 +333,7 @@ que se tienen que ejecutar conjuntamente
 
 | BEGIN |   SAVE POINT   | ROLLBACK | COMMIT | COMANDO |
 |--------|---------|----------| ---------- | ---------- |
-| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado | Aplicar todos los cambios | | dadada |
+| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado | Aplicar todos los cambios |  |
 
 
 - COMMIT;
