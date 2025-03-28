@@ -324,7 +324,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ## TRANSACCIONES
 
 
-
+Ordenes para poder poder 
 
 
 
