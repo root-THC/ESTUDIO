@@ -356,7 +356,9 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ## Funciones Útiles en SQL
 
+### ctrl+r
 
+Hacer búsqueda de comandos recientes también para LINUX
 
 ### `COALESCE` Convierte valores `NULL` en un valor operable o texto
 ---
