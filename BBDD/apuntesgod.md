@@ -333,7 +333,7 @@ que se tienen que ejecutar conjuntamente
 
 | BEGIN (INICIO) |   SAVE POINT   | ROLLBACK / ROLLBACK TO | COMMIT  
 |--------|---------|----------| ---------- | 
-| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado si no especificamos volvemos a antes del BEGIN | Aplicar todos los cambios hechos dentro de la TRANSACCIÓN` | 
+| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado si no especificamos volvemos a antes del BEGIN | Aplicar todos los cambios hechos dentro de la TRANSACCIÓN | 
  
 
 - COMMIT; FINALIZAR
