@@ -340,7 +340,7 @@ que se tienen que ejecutar conjuntamente
 
 
 - COMMIT;
-- ROLLBACK; (DESHACER)
+- ROLLBACK nombredeguardado; (DESHACER)
 - SAVE POINT nombreodeguardado; (GUARDAR PUNTO)
 - BEGIN; (COMENZAR SIEMPRE VA PRIMERO)
 
