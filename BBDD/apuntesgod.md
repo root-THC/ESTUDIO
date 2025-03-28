@@ -341,7 +341,7 @@ que se tienen que ejecutar conjuntamente
 
 - COMMIT;
 - ROLLBACK; (DESHACER)
-- SAVE POINT; (GUARDAR PUNTO)
+- SAVE POINT nombreodeguardado; (GUARDAR PUNTO)
 - BEGIN; (COMENZAR SIEMPRE VA PRIMERO)
 
 
