@@ -347,7 +347,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 | Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado si no especificamos volvemos a antes del BEGIN | Aplicar todos los cambios hechos dentro de la TRANSACCIÓN | 
  
 
-- COMMIT; 
+- COMMIT; Aplicar todos los cambios hechos dentro de la TRANSACCIÓN
 - ROLLBACK nombredeguardado; (DESHACER) FINALIZAR
 - SAVE POINT nombreodeguardado; (GUARDAR PUNTO CON NOMBRE)
 - BEGIN; (COMENZAR SIEMPRE VA PRIMERO)
