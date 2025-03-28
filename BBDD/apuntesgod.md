@@ -331,7 +331,7 @@ que se tienen que ejecutar conjuntamente
 
 ### TRANSACTIONS STATEMENTS
 
-| BEGIN (INICIO) |   SAVE POINT   | ROLLBACK  ROLLBACK TO | COMMIT  
+| BEGIN (INICIO) |   SAVE POINT   | ROLLBACK / ROLLBACK TO | COMMIT  
 |--------|---------|----------| ---------- | 
 | Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado si no especificamos volvemos a antes del BEGIN | Aplicar todos los cambios | 
  
