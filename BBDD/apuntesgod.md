@@ -326,7 +326,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 Ordenes para poder poder deshacer cambios como un **ctl + z**
 
-
+Conjunto de operaciones DML que se tienen que ejecutar conjuntamente.
 
 ### TRANSACTIONS STATEMENTS
 
