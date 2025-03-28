@@ -323,8 +323,6 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 ## TRANSACCIONES Ordenes para poder poder deshacer cambios como un **ctrl + z**
 
-
-
 Ordenes para poder poder deshacer cambios como un **ctrl + z**
 
 Conjunto de operaciones **DML** *= INSERT | UPDATE | DELETE*\ que se tienen que ejecutar conjuntamente\
