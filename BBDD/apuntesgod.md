@@ -331,7 +331,7 @@ que se tienen que ejecutar conjuntamente
 
 ### TRANSACTIONS STATEMENTS
 
-| BEGIN |   SAVE POINT   | ROLLBACK | Comision |
+| BEGIN |   SAVE POINT   | ROLLBACK | COMMIT |
 |--------|---------|----------| ---------- |
 | SMITH  |  800.00 |        0 | Comision |
 | ALLEN  | 1600.00 |   300.00 | Comision |
