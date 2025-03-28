@@ -328,6 +328,9 @@ Ordenes para poder poder deshacer cambios como un **ctl + z**
 
 ### TRANSACTIONS STATEMENTS
 
+- Commit
+-ROLL
+
 
 ---
 
