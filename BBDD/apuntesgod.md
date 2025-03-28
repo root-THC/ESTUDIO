@@ -329,7 +329,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 - **DATO** = Internamente cuando usamos una operación **DML** hacen un begin y commit por lo tanto si no estamos dentro de una transacción no lo  podemos recuperar.\
 
-- Si 
+- Si hay cualquier tipo de fallo 
 
 
 ### TRANSACTIONS STATEMENTS
