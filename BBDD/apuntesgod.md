@@ -356,7 +356,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ## Funciones Útiles en SQL
 
-### ctrl+r
+### `ctrl+r`
 
 Hacer búsqueda de comandos recientes también para LINUX
 
