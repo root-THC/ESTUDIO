@@ -327,7 +327,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 Conjunto de operaciones **DML** *= INSERT | UPDATE | DELETE* que se tienen que ejecutar conjuntamente
 
-**DATO** = internamente hacen un begin y commit por lo tanto si no estamos dentro de una transacción no lo  podemos recuperar.
+**DATO** = Internamente hacen un begin y commit por lo tanto si no estamos dentro de una transacción no lo  podemos recuperar.
 
 que se tienen que ejecutar conjuntamente
 
