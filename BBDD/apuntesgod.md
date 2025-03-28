@@ -323,7 +323,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 ## TRANSACCIONES 
 
-- **DEFINICIÓN** = Ordenes para poder poder  deshacer cambios hechos por operadores **DML**  como un **ctrl + z**  o volver a check points creados dentro de una transacción
+- **DEFINICIÓN** = Ordenes para poder poder  deshacer cambios hechos por operadores **DML** o volver a check points creados dentro de una transacción
 
 - **DML** *= INSERT | UPDATE | DELETE* 
 
