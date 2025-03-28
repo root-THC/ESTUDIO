@@ -325,7 +325,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 **DEFINICIÓN** = Ordenes para poder poder deshacer cambios como un **ctrl + z**
 
-Conjunto de operaciones **DML** *= INSERT | UPDATE | DELETE* que se tienen que ejecutar conjuntamente
+**DML** *= INSERT | UPDATE | DELETE* que se tienen que ejecutar conjuntamente
 
 **DATO** = Internamente cuando usamos una operación **DML** hacen un begin y commit por lo tanto si no estamos dentro de una transacción no lo  podemos recuperar.
 
