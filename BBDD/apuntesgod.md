@@ -333,7 +333,7 @@ que se tienen que ejecutar conjuntamente
 
 | BEGIN |   SAVE POINT   | ROLLBACK | COMMIT |
 |--------|---------|----------| ---------- |
-| Empezar transaction|  800.00 |        0 | Comision |
+| Empezar transaction|  Guardar  |        0 | Comision |
 
 
 - COMMIT;
