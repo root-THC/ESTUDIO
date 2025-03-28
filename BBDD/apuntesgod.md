@@ -328,6 +328,7 @@ Ordenes para poder poder deshacer cambios como un **ctl + z**
 
 
 
+
 ---
 
 ## Funciones Útiles en SQL
