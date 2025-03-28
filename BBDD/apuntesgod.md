@@ -331,9 +331,9 @@ que se tienen que ejecutar conjuntamente
 
 ### TRANSACTIONS STATEMENTS
 
-| BEGIN |   SAVE POINT   | ROLLBACK | COMMIT | COMANDO |
+| BEGIN |   SAVE POINT   | ROLLBACK | COMMIT 
 |--------|---------|----------| ---------- | ---------- |
-| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado | Aplicar todos los cambios |  |
+| Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado | Aplicar todos los cambios | 
 
 
 - COMMIT;
