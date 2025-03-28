@@ -328,9 +328,9 @@ Ordenes para poder poder deshacer cambios como un **ctl + z**
 
 ### TRANSACTIONS STATEMENTS
 
-- COMMINT
-- ROLLBACK
-- SAVE POINT
+- COMMINT;
+- ROLLBACK;
+- SAVE POINT;
 - BEGIN;
 
 
