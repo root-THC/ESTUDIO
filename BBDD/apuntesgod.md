@@ -331,7 +331,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 - Si hay cualquier tipo de `ERROR` nos deshace todo y nos hace un rollback automáticamente.
 
-**EJEMPLO: ERROR`
+`EJEMPLO: ERROR`
 
 `scott=*>` INSTERT INTO emp (1244,'jordi');\
 ERROR:  syntax error at or near "INSTERT"\
