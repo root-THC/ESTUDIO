@@ -332,7 +332,7 @@ que se tienen que ejecutar conjuntamente
 ### TRANSACTIONS STATEMENTS
 
 - COMMIT;
-- ROLLBACK;
+- ROLLBACK; 
 - SAVE POINT;
 - BEGIN;
 
