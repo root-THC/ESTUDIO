@@ -321,7 +321,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ---
 
 
-
+## TRANSACCIONES
 
 ## Funciones Útiles en SQL
 
