@@ -333,7 +333,7 @@ que se tienen que ejecutar conjuntamente
 
 | BEGIN |   SAVE POINT   | ROLLBACK | COMMIT |
 |--------|---------|----------| ---------- |
-| Empezar tran|  800.00 |        0 | Comision |
+| Empezar transaction|  800.00 |        0 | Comision |
 | ALLEN  | 1600.00 |   300.00 | Comision |
 | WARD   | 1250.00 |   500.00 | Comision |
 | JONES  | 2975.00 |        0 | Comision |
