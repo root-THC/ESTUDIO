@@ -321,7 +321,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ---
 
 
-## TRANSACCIONES
+## TRANSACCIONES 
+## TRANSACCIONES 
 
 
 Ordenes para poder poder deshacer cambios como un **ctrl + z**
