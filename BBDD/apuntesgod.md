@@ -333,8 +333,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 
 EJEMPLO :
 scott=*> INSTERT INTO emp (1244,'jordi');\
-ERROR:  syntax error at or near "INSTERT"
-LINE 1: INSTERT INTO emp (1244,'jordi');
+ERROR:  syntax error at or near "INSTERT"\
+LINE 1: INSTERT INTO emp (1244,'jordi');\
         ^
 scott=!> 
 
