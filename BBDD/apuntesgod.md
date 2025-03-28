@@ -331,7 +331,7 @@ Ordenes para poder poder deshacer cambios como un **ctl + z**
 - COMMINT
 - ROLLBACK
 - SAVE POINT
-- BEGIN [TRANSACTION]
+- BEGIN;
 
 
 ---
