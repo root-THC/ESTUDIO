@@ -336,7 +336,7 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 `scott=*>` INSTERT INTO emp (1244,'jordi');\
 ERROR:  syntax error at or near "INSTERT"\
 LINE 1: INSTERT INTO emp (1244,'jordi');\
-`scott=!>` 
+`scott=!>` \
 COMO PODEMOS VER EL SÍMBOLO CAMBIA POR UNA EXCLAMACIÓN SIGNIFICA QUE SI LUEGO HACEMOS UN COMMIT; para aplicar los cambios con una exclamación no se aplicara nada del begin y automáticamente hara un ROLLBACK para deshacer todos los cambios.
 
 
