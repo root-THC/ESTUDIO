@@ -344,7 +344,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 | BEGIN |   SAVEPOINT   | ROLLBACK / ROLLBACK TO | COMMIT  
 |--------|---------|----------| ---------- | 
-| BEGIN;|  SAVEPOINT A; | ROLLBACK; / ROLLBACK TO A;| Aplicar todos los cambios hechos dentro de la TRANSACCIÓN | 
+| BEGIN;|  SAVEPOINT A; | ROLLBACK; / ROLLBACK TO A;| COMMIT;| 
  
 - **BEGIN;**   Comenzar transacción `COMENZAR`
 - **SAVEPOINT nombreguardado;**  Guardar punto con nombre de guardado `PUNTO GUARDADO`
