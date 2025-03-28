@@ -336,7 +336,7 @@ que se tienen que ejecutar conjuntamente
 | Empezar transaction|  Guardar punto con nombre de guardado |  Volver a punto de guardado | Aplicar todos los cambios | 
  
 
-- COMMIT;
+- COMMIT; FINALIZAR
 - ROLLBACK nombredeguardado; (DESHACER)
 - SAVE POINT nombreodeguardado; (GUARDAR PUNTO CON NOMBRE)
 - BEGIN; (COMENZAR SIEMPRE VA PRIMERO)
