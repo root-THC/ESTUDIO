@@ -321,6 +321,8 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ---
 
 
+
+
 ## Funciones Útiles en SQL
 
 ### `COALESCE` Convierte valores `NULL` en un valor operable o texto
