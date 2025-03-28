@@ -334,7 +334,7 @@ que se tienen que ejecutar conjuntamente
 - COMMIT;
 - ROLLBACK; DESHACER
 - SAVE POINT;
-- BEGIN; COMENZAR 
+- BEGIN; COMENZAR SIEMPRE VA PRIMERO
 
 
 ---
