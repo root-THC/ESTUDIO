@@ -81,7 +81,7 @@
             echo "<td> No hay existencias </td>";
         } 
         else {
-            echo "<td>$quantity_number uds</td>";
+            echo "<td>$quantity_number kgs</td>";
         }
         # Camp Price
         echo "<td> $price €</td>";
