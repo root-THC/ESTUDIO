@@ -41,7 +41,7 @@
 <!-- START STATIC TABLES -->
 <tr>
 <th>Products</th>
-<th>Quantity</th>
+<th>Unite</th>
 <th>Price/unite</th>
 <th>Subtotal</th>
 <th>Discount</th>
