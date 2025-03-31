@@ -1,4 +1,5 @@
 <?php
+clearstatcache(); // Limpia la caché de archivos
 $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
 ?>
 <!DOCTYPE html>
@@ -17,3 +18,7 @@ $archivos = glob("*.php"); // Obtiene todos los archivos PHP en el directorio
         <?php endforeach; ?>
     </ul>
 </body>
+</html>d
+
+
+
