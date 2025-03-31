@@ -75,7 +75,7 @@
         echo "<td>Article $i</td>" ;
         # Camp Quantitat
         if ($quantity_number==1){
-            echo "<td> $quantity_number ud</td>";
+            echo "<td> $quantity_number kg</td>";
         } 
         elseif ( $quantity_number==0){
             echo "<td> No hay existencias </td>";
