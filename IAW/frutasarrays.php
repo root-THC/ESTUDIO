@@ -55,7 +55,7 @@
     $total_noiva = 0;
     $total_withiva = 0;
     for ($i = 1; $i <= 10; $i++) {  
-        $quantity_number = rand (0.0,10);
+        $quantity_number = rand (0.0,25.0);
         $price = rand (0,100);
         $subtotal = $quantity_number * $price;
         $subtotal_withiva = $subtotal * 1.21;
