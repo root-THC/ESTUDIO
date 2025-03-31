@@ -223,48 +223,55 @@ En SQL, un JOIN se usa para combinar filas de dos o más tablas basándose en un
 Devuelve solo las filas donde hay coincidencia en ambas tablas.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
-INNER JOIN dept ON emp.deptno = dept.deptno;
+SELECT e.ename, e.job, d.dname 
+FROM emp e
+
+INNER JOIN dept d ON e.deptno = d.deptno;
+
+-- SIN INNER : ES LO MISMO!!
+
+JOIN dept ON e.deptno = d.deptno;
 ```
 
 ### Ejemplo Explicado:
 ---
-Suponiendo que tenemos una tabla `emp` con empleados y una tabla `dept` con departamentos,
+Suponiendo que tenemos una tabla `emp` con empleados y una tabla `dept` con departamentos, \
 este INNER JOIN traerá solo los empleados que tienen un departamento asignado en ambas tablas.
+
+"No hace falta específicar el `INNER`"
 
 ## `LEFT JOIN (LEFT OUTER JOIN)`
 ---
-Devuelve todas las filas de la tabla de la izquierda y las coincidentes de la tabla de la derecha.
+Devuelve todas las filas de la tabla de la izquierda y las coincidentes de la tabla de la derecha. \
 Si no hay coincidencia, devuelve NULL en las columnas de la tabla derecha.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
-LEFT JOIN dept ON emp.deptno = dept.deptno;
+SELECT e.ename, e.job, d.dname 
+FROM emp e
+LEFT JOIN dept d ON e.deptno = d.deptno;
 ```
 
 ### Ejemplo Explicado:
 ---
-LEFT = `emp.deptno`
+LEFT = `emp`
 ```sql
--- Muestra todos los empleados, incluso si no tienen un departamento asignado. 
+-- Muestra todos los empleados, incluso si no tienen un departamento asignado  o el valor es NULL
 ```
 
 ## `RIGHT JOIN (RIGHT OUTER JOIN)`
-Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabla de la izquierda.
+Devuelve todas las filas de la tabla de la derecha y las coincidentes de la tabla de la izquierda. \
 Si no hay coincidencia, devuelve NULL en las columnas de la tabla izquierda.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
-RIGHT JOIN dept ON emp.deptno = dept.deptno;
+SELECT e.ename, e.job, d.dname 
+FROM emp e
+RIGHT JOIN dept d ON e.deptno = d.deptno;
 ```
 
 ### Ejemplo Explicado:
-RIGHT = `dept.deptno`
+RIGHT = `dept`
 ```sql
--- Muestra todos los departamentos, incluso si no tienen empleados asignados.
+-- Muestra todos los departamentos, incluso si no tienen empleados asignados o el valor es NULL
 ```
 
 ## `FULL JOIN (FULL OUTER JOIN)`
@@ -272,9 +279,9 @@ Devuelve todas las filas cuando hay coincidencia en cualquiera de las tablas.
 Si no hay coincidencia en una tabla, se devuelve NULL en su lugar.
 
 ```sql
-SELECT emp.ename, emp.job, dept.dname 
-FROM emp
-FULL JOIN dept ON emp.deptno = dept.deptno;
+SELECT e.ename, e.job, d.dname 
+FROM emp e
+FULL JOIN dept d ON e.deptno = d.deptno;
 ```
 
 ### Ejemplo Explicado:
@@ -285,12 +292,13 @@ FULL JOIN dept ON emp.deptno = dept.deptno;
 ```
 
 ## `CROSS JOIN`
-Devuelve el producto cartesiano de ambas tablas (cada fila de la primera se combina con cada fila de la segunda).
+Devuelve el producto cartesiano de ambas tablas \
+(cada fila de la primera se combina con cada fila de la segunda tabla).
 
 ```sql
-SELECT emp.ename, dept.dname 
-FROM emp
-CROSS JOIN dept;
+SELECT e.ename, d.dname 
+FROM emp e
+CROSS JOIN dept d;
 ```
 
 ### Ejemplo Explicado:
@@ -301,7 +309,7 @@ CROSS JOIN dept;
 Un SELF JOIN es un JOIN de una tabla consigo misma.
 
 ```sql
-SELECT e1.ename AS Empleado, e2.ename AS Jefe 
+SELECT e1.ename "Empleado", e2.ename "Jefe" 
 FROM emp e1
 JOIN emp e2 ON e1.mgr = e2.empno;
 ```
@@ -313,25 +321,85 @@ JOIN emp e2 ON e1.mgr = e2.empno;
 ---
 
 
+## TRANSACCIONES 
+
+- **DEFINICIÓN** = Ordenes para poder poder  deshacer cambios hechos por operadores **DML** o volver a check points creados dentro de una transacción 
+
+- **DML** *= INSERT | UPDATE | DELETE* 
+
+- **DATO** = Internamente cuando usamos una operación **DML** hacen un begin y commit por lo tanto si no estamos dentro de una transacción no lo  podemos recuperar.\
+
+- Si hay cualquier tipo de `ERROR` nos deshace todo y nos hace un rollback automáticamente
+
+`EJEMPLO ERROR`
+
+`scott=*>` INSTERT INTO emp (1244,'jordi');\
+ERROR:  syntax error at or near "INSTERT"\
+LINE 1: INSTERT INTO emp (1244,'jordi');\
+`scott=!>` \
+Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT;` para aplicar los cambios con una `EXCLAMACIÓN` no se aplicara nada del begin y `AUTOMÁTICAMENTE` hara un `ROLLBACK` para deshacer todos los cambios.
+
+
+### TRANSACTIONS STATEMENTS
+
+| BEGIN |   SAVEPOINT   | ROLLBACK / ROLLBACK TO | COMMIT  
+|--------|---------|----------| ---------- | 
+| BEGIN;|  SAVEPOINT A; | ROLLBACK; / ROLLBACK TO A;| COMMIT;| 
+ 
+- **BEGIN;**   Comenzar transacción `COMENZAR`
+- **SAVEPOINT nombreguardado;**  Guardar punto con nombre de guardado `PUNTO GUARDADO`
+- **ROLLBACK;** | **ROLLBACK to nombreguardado;** Volver a punto de guardado si no especificamos volvemos al principio del todo "antes del BEGIN" `DESHACER`
+- **COMMIT;** Aplicar todos los cambios hechos dentro de la TRANSACCIÓN sin poder deshacer los cambios `FINALIZAR`
+
+
+---
+
 ## Funciones Útiles en SQL
 
-### `COALESCE`
+### `ctrl+r`
 
-Convierte valores `NULL` en un valor especificado para poder operarlo.
+Hacer búsqueda de comandos recientes también para LINUX
 
+### `COALESCE` Convierte valores `NULL` en un valor operable o texto
+---
+**SUSTITUIR POR VALOR OPERABLE** 
 ```sql
-SELECT ename, sal, COALESCE(comm, 0) 'Comision'
+SELECT ename, sal, COALESCE(comm, 0) "Comision"
 FROM emp;
 ```
+`COALESCE(comm, 0)` → Si una o varias filas `comm` es/són `NULL`, se reemplazaran por `0` \
+ Se usa para poder operarlo, ya que los valores `NULL`són inoperables y suelen dar error en funciones complejas.
 
-- `COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `0`.
 
+`OUTPUT`
+| ename  |   sal   | Comision |
+|--------|---------|----------|
+| SMITH  |  800.00 |        0 |
+| ALLEN  | 1600.00 |   300.00 |
+| WARD   | 1250.00 |   500.00 |
+| JONES  | 2975.00 |        0 |
+
+---
+
+**SUSTITUIR POR TEXTO** 
 ```sql
-SELECT ename, sal, COALESCE(o.ciudad::TEXT,  'sin oficina'  ) 'Oficina'
+SELECT ename, sal, COALESCE(comm::TEXT, 'No tiene comisión') AS "Comision"
 FROM emp;
-```
 
-- También podemos poner texto en caso de `o.ciudad` es `NULL`, se reemplaza por `sin oficina`.
+```
+`COALESCE(comm, 0)` → Si `comm` es `NULL`, se reemplaza por `No tiene comisión`. 
+
+`OUTPUT`
+
+| ename  |   sal   | Comision           |
+|--------|---------|--------------------|
+| SMITH  |  800.00 | No tiene comisión  |
+| ALLEN  | 1600.00 | 300.00             |
+| WARD   | 1250.00 | 500.00             |
+| JONES  | 2975.00 | No tiene comisión esto y esto |
+
+
+---
 
 ### `Concatenación`
 Une múltiples valores en una sola cadena.
@@ -343,6 +411,8 @@ FROM emp;
 
 - `||` → Operador de concatenación en SQL.
 
+---
+
 ### `::TEXT`
 Convierte un dato en tipo texto.
 
@@ -353,12 +423,27 @@ FROM emp;
 
 - `sal::TEXT` → Convierte el número `sal` en texto.
 
-### `AS`
-Asigna un alias a una columna o tabla.
+---
+
+### `ALIAS PARA TABLAS`
+Asigna un nombre a un campo o tabla para hacerlo \
+más bonito y simple visulmente para el usuario final.
 
 ```sql
-SELECT ename AS NombreEmpleado, job AS Cargo
+SELECT ename "alias ename" , job "aliasjob"
 FROM emp;
 ```
 
-- `AS` → Renombra las columnas en el resultado.
+`RESULTADO:`
+
+| alias ename | alias job                          |
+|-----------|--------------------------------------|
+| SMITH       | CLERK                       |
+| ALLEN       | SALESMAN                          |
+| WARD     | SALESMAN                           |
+| JONES      | MANAGER                           |
+|  MARTIN   | MANAGER                       |
+| BLAKE      | MANAGER                       |
+
+
+
