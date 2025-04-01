@@ -54,7 +54,7 @@
 | `\c base_datos`    | Cambia la conexión a `base_datos`. |
 | `\d`               | Muestra los objetos dentro de la base de datos actual. |
 | `\dt`              | Muestra solo las tablas. |
-| `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`, incluyendo triggers. |
+| `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`,|
 | `\dv`              | Muestra las vistas existentes. |
 | `\d nombre_vista`  | Muestra la estructura de `nombre_vista`|
 | `\x`              | Cambiar display por si se ve mal. |
