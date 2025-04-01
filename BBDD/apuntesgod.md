@@ -61,7 +61,7 @@
 | `\ds`              | Muestra las secuencias. |
 | `\dn`              | Muestra los esquemas. |
 | `\di`              | Muestra los índices de PostgreSQL. |
-| `\h`              |  Ayuda SQL|
+| `\h`              |  Ordenes SQL|
 | `\?`              | ORDENES PSQL |
 
 ---
