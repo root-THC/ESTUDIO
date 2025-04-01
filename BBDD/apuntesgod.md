@@ -63,6 +63,8 @@
 | `\di`              | Muestra los índices de PostgreSQL. |
 | `\du`              | Muestra usuarios y roles de estos. |
 | `\h`              |  Ordenes SQL. Ej: DROP DATABASE; etc..|
+| `\h`              |  Ordenes SQL. Ej: DROP DATABASE; etc..|
+
 | `\?`              | Ordenes PSQL. Ej: \di etc...|
 
 ---
