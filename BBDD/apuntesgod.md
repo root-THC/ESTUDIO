@@ -361,7 +361,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ROL = CONJUNTO DE PRIVILEGIOS 
 
-
+SELECT current_user 
 CREATE USER jordi CREATEDB;
 CREATEDB = ES asignar 2 permisos LOGIN Y CREAR BD
 
