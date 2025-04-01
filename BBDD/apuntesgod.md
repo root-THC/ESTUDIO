@@ -368,7 +368,7 @@ current_user = QUE USUARIO HACE EL COMANDO | session_user = USUARIO DE CONEXIÓN
  richi        | richi
 ```
 CREATE USER jordi CREATEDB;
-CREATEDB = ES asignar 2 permisos LOGIN Y CREAR BD
+CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 
 ## Funciones Útiles en SQL
