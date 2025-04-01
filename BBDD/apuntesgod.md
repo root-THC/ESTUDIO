@@ -361,7 +361,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 
 CREATE USER jordi CREATEDB;
-
+CREATEDB = ES asignar 2 permisos LOGIN Y CREAR BD
 
 
 ## Funciones Útiles en SQL
