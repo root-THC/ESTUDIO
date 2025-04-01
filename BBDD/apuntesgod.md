@@ -362,6 +362,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 ROL = CONJUNTO DE PRIVILEGIOS 
 
 SELECT current_user, session_user;
+
 current_user | session_user 
 --------------+--------------
  richi        | richi
