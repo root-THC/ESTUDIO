@@ -62,8 +62,8 @@
 | `\dn`              | Muestra los esquemas. |
 | `\di`              | Muestra los índices de PostgreSQL. |
 | `\du`              | Muestra usuarios y roles de estos. |
-| `\h`              |  Ordenes SQL|
-| `\?`              | Ordenes PSQL |
+| `\h`              |  Ordenes SQL. |
+| `\?`              | Ordenes PSQL. |
 
 ---
 
