@@ -366,7 +366,7 @@ SELECT current_user, session_user;
 current_user | session_user 
 --------------+--------------
  richi        | richi
-V
+```
 CREATE USER jordi CREATEDB;
 CREATEDB = ES asignar 2 permisos LOGIN Y CREAR BD
 
