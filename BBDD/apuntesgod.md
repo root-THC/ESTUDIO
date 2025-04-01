@@ -65,7 +65,7 @@
 | `\h`              |  Ordenes SQL. Ej: DROP DATABASE; etc..|
 | `\h comando`              |  Muestra ayudas de como funciona el comando o la estructura|
 | `\?`              | Ordenes PSQL. Ej: \di etc...|
-| `\?`              | Ordenes PSQL. Ej: \di etc...|
+| `\i`              | Ordenes PSQL. Ej: \di etc...|
 
 
 ---
