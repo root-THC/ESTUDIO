@@ -352,6 +352,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 - **COMMIT;** Aplicar todos los cambios hechos dentro de la TRANSACCIÓN sin poder deshacer los cambios `FINALIZAR`
 
 
+
 ---
 
 ## Funciones Útiles en SQL
