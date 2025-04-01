@@ -363,7 +363,7 @@ ROL = CONJUNTO DE PRIVILEGIOS
 ```sql
 SELECT current_user, session_user;
 
-current_user = Que usuario  | session_user = Usuario con el que hemos entrado
+current_user = Que usuario estamos loggeados actualmente | session_user = Usuario con el que hemos entrado
 --------------+--------------
  richi        | richi
 ```
