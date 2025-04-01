@@ -355,7 +355,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 
 
----
+
 
 ## Funciones Útiles en SQL
 
