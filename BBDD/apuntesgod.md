@@ -351,6 +351,8 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 - **ROLLBACK;** | **ROLLBACK to nombreguardado;** Volver a punto de guardado si no especificamos volvemos al principio del todo "antes del BEGIN" `DESHACER`
 - **COMMIT;** Aplicar todos los cambios hechos dentro de la TRANSACCIÓN sin poder deshacer los cambios `FINALIZAR`
 
+## EMPEZAMOS M10
+
 
 
 ---
