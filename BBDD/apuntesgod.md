@@ -359,6 +359,8 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ## EMPEZAMOS M10
 
+ROL = CONJUNTO DE PRIVILEGIOS 
+
 
 CREATE USER jordi CREATEDB;
 CREATEDB = ES asignar 2 permisos LOGIN Y CREAR BD
