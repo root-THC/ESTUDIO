@@ -361,7 +361,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ROL = CONJUNTO DE PRIVILEGIOS 
 ```sql
-SELECT current_user, session_user;
+SELECT current_user, session_user; SABER QUE USUARIO ESTAMOS
 
 current_user = Que usuario estamos loggeados actualmente | session_user = Usuario con el que hemos entrado
 --------------+--------------
