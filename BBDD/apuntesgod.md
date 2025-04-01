@@ -56,7 +56,7 @@
 | `\dt`              | Muestra solo las tablas. |
 | `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`, incluyendo triggers. |
 | `\dv`              | Muestra las vistas existentes. |
-| `\d nombre_vista`  | Muestra la estructura de `nombre_vista`, incluyendo triggers. |
+| `\d nombre_vista`  | Muestra la estructura de `nombre_vista`|
 | `\x`              | Cambiar display por si se ve mal. |
 | `\ds`              | Muestra las secuencias. |
 | `\dn`              | Muestra los esquemas. |
