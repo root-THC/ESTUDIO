@@ -360,7 +360,8 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 ## EMPEZAMOS M10
 
 
-CREATE USER jordi CREATEDB
+CREATE USER jordi CREATEDB;
+
 
 
 ## Funciones Útiles en SQL
