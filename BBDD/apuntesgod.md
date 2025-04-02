@@ -375,7 +375,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 | Permiso | Acción                                      |
 |---------|---------------------------------------------|
-| `a`**       | INSERT (añadir filas).                     |
+| **`a`**       | INSERT (añadir filas).                     |
 | **`r`**       | SELECT (leer filas).                       |
 | **`w`**       | UPDATE (modificar filas).                  |
 | **`d`**       | DELETE (eliminar filas).                   |
