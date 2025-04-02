@@ -377,7 +377,7 @@ GRANT SELECT ON emp TO prueba; -- APLICAMOS PERMISO DE SOLO LECTURA HACIA UNA BA
 
 | Permiso | Acción                                      |
 |---------|---------------------------------------------|
-| a       | INSERT (añadir filas).                     |
+| a`       | INSERT (añadir filas).                     |
 | r       | SELECT (leer filas).                       |
 | w       | UPDATE (modificar filas).                  |
 | d       | DELETE (eliminar filas).                   |
