@@ -433,7 +433,7 @@ ALTER ROLE nombrerol añadirprivilegio;
 
 ```sql
 GRANT nombre_del_rol TO nombre_del_usuario;
-``
+```
 
 
 
