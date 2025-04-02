@@ -385,10 +385,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 | **`m`**       | SELECT ... FOR UPDATE (bloquear filas seleccionadas para actualizarlas después). |
 
 ---
-```sql
- GRANT SELECT, INSERT, UPDATE ON zoo TO prueba;  
- GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
- ```
+
 
  Al **`usuario (prueba)`** le asignamos permisos de añadir,lectura y modificación de filas.
 
