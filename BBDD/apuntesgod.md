@@ -446,6 +446,7 @@ SINTAXIS = GRANT nombrerol TO usuario;
 ```
 
 #### CAMBIAR ROL DESDE USUARIO:
+Esto se hace desde el usuario por ejemplo accedes como pep
 ```sql
 SET ROLE anna;
 SET ROLE nombrerol;
