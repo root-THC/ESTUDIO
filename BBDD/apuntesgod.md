@@ -428,7 +428,7 @@ CREATE ROLE nombrerol privilegio;
 #### AÑADIR ROL:
 ```sql                      
 ALTER ROLE anna CREATEDB; 
-SINTAXIS ALTER ROLE nombrerol añadirprivilegio;
+SINTAXIS :ALTER ROLE nombrerol añadirprivilegio;
 ```
 
 #### ASIGNAR ROL A USUARIO:
