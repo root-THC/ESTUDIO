@@ -434,7 +434,7 @@ SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
 #### QUITAR PRIVILEGIOS A ROL:
 ```sql                      
 ALTER ROLE anna CREATEDB; 
-SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
+SINTAXIS = ALTER 
 ```
 
 #### ASIGNAR ROL A USUARIO:
