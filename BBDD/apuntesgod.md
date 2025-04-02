@@ -426,7 +426,7 @@ CREATE ROLE nombrerol privilegio;
 #### AÑADIR ROL:
 ```sql                      
 ALTER ROLE anna CREATEDB; == CREATE USER anna;
-ALTER ROLE rolquequeramoseditar privilegio,a,añadir;
+ALTER ROLE rol,que,queramoseditar privilegio,a,añadir;
 ```
 
 
