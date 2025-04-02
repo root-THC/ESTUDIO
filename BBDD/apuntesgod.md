@@ -53,7 +53,7 @@
 | `\l`               | Lista las bases de datos del servidor. |
 | `\c base_datos`    | Cambia la conexión a `base_datos`. |
 | `\d`               | Muestra los objetos dentro de la base de datos actual. |
-| `\dp`               | Muestra los objetos dentro de la base de datos actual. |
+| `\dp`               | Sabes los privilegios que tienen los usuarios sobre los objetos. |
 | `\dt`              | Muestra solo las tablas. |
 | `\d nombre_tabla`  | Muestra la estructura de `nombre_tabla`,|
 | `\dv`              | Muestra las vistas existentes. |
