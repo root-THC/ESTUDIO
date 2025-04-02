@@ -391,7 +391,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 ```sql
  GRANT SELECT, INSERT, UPDATE ON zoo TO prueba;  
- GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
+ SINTAXIS = GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
  ```
 
 **`ARW`** | **`RICHI`** **PRIVILEGIOS ASIGNADOS | USUARIO QUE HA OTORGADO PRIVILEGIOS**
