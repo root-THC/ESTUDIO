@@ -397,7 +397,7 @@ ESTO ES LO QUE SUCEDE
 | public | zoo    | table | richi=arwdDxtm/richi+   |                   |          |
 |        |        |       | prueba=r/richi          |                   |          |
 
-## DAR PRIVILEGIOS
+## QUITAR PRIVILEGIOS
 
 
 ## Funciones Útiles en SQL
