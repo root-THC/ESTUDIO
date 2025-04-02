@@ -385,7 +385,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 | `m`       | SELECT ... FOR UPDATE (bloquear filas seleccionadas para actualizarlas después). |
 
 ---
-
+```sql
  GRANT INSERT, UPDATE ON zoo TO prueba; -- solo lectura al usuario prueba es el `usuario` a una tabla dentro de zoo que tengo una que se llama zoo justo pero es solo a esa tabla
 
 \dp 
