@@ -431,7 +431,7 @@ ALTER ROLE nombrerol añadirprivilegio;
 
 #### ASIGNAR ROL A USUARIO:
 
-
+#### AÑADIR ROL:
 
 
 
