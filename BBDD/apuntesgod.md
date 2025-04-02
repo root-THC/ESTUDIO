@@ -431,6 +431,8 @@ ALTER ROLE anna CREATEDB;
 SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
 ```
 
+#### AÑADIR PRIVILEGIOS A ROL:
+
 #### ASIGNAR ROL A USUARIO:
 
 ```sql
