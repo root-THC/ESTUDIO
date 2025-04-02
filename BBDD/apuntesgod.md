@@ -371,7 +371,7 @@ current_user = Que usuario estamos loggeados actualmente | session_user = Usuari
 CREATE USER jordi CREATEDB;\
 CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
-## DAR PRIVILEGIOS
+### DAR PRIVILEGIOS
 
 | Permiso | Acción                                      |
 |---------|---------------------------------------------|
