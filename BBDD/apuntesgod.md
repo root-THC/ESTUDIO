@@ -360,7 +360,7 @@ Como podemos ver el símbolo cambia por una `EXCLAMACIÓN` si hacemos un `COMMIT
 
 ## EMPEZAMOS M10
 
-
+SIEMPRE TENEMOS QU
 ```sql
 SELECT current_user, session_user; SABER QUE USUARIO ESTAMOS
 
