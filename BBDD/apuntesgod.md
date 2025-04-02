@@ -390,7 +390,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
  ```
 
- Al usuario prueba es el `usuario` a una tabla dentro de zoo que tengo una que se llama zoo justo pero es solo a esa tabla
+ El `usuario` a una tabla dentro de zoo que tengo una que se llama zoo justo pero es solo a esa tabla
 
 
 
