@@ -433,7 +433,7 @@ ALTER ROLE nombrerol añadirprivilegio;
 
 ```sql
 
-GRANT nombrerol TO nombre_del_usuario;
+GRANT nombrerol TO usuario;
 ```
 
 
