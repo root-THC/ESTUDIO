@@ -431,6 +431,7 @@ ALTER ROLE nombrerol añadirprivilegio;
 
 #### ASIGNAR ROL A USUARIO:
 
+GRANT nombre_del_rol TO nombre_del_usuario;
 
 
 
