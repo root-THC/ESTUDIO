@@ -397,7 +397,11 @@ ESTO ES LO QUE SUCEDE
 | public | zoo    | table | richi=arwdDxtm/richi+   |                   |          |
 |        |        |       | prueba=r/richi          |                   |          |
 
-## QUITAR PRIVILEGIOS
+## QUITARREVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
+
+ON zoo → Especifica la tabla sobre la cual se revoca el permiso.
+
+FROM prueba → Especifica el usuario o rol al que se le quita el permiso. PRIVILEGIOS
 
 
 ## Funciones Útiles en SQL
