@@ -418,7 +418,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 
 ### `ROLES`
 
-CREATE role
+CREATE ROLE 
 
 ## Funciones Útiles en SQL
 
