@@ -420,6 +420,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 ```sql
 CREATE ROLE anna LOGIN; == CREATE USER anna;
 ```
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
