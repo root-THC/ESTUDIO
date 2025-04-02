@@ -424,7 +424,10 @@ CREATE ROLE anna LOGIN; == CREATE USER anna;
 CREATE ROLE nombrerol privilegio;
 ```
 #### AÑADIR ROL:
-
+```sql                      
+CREATE ROLE anna LOGIN; == CREATE USER anna;
+CREATE ROLE nombrerol privilegio;
+```
 
 
 
