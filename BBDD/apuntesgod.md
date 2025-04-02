@@ -373,7 +373,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 ## PRIVILEGIOS
 
-GRANT SELECT ON empo TO prueba;
+GRANT SELECT ON emp TO prueba;
 
 
 ## Funciones Útiles en SQL
