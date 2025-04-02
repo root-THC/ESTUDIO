@@ -423,7 +423,7 @@ ROL = CONJUNTO DE PRIVILEGIOS\
 CREATE ROLE anna LOGIN; == CREATE USER anna;
 CREATE ROLE nombrerol privilegio;
 ```
-#### CREAR ROL:
+#### AÑADIR ROL:
 
 
 
