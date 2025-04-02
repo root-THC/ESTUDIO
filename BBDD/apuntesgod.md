@@ -373,7 +373,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 ## PRIVILEGIOS
 
- GRANT SELECT on zoo TO prueba; -- solo lectura al usuario prueba es el `usuario` a una tabla
+ GRANT SELECT on zoo TO prueba; -- solo lectura al usuario prueba es el `usuario` a una tabla dentro de zoo que tengo una que se llama zoo justo
 
 | Permiso | Acción                                      |
 |---------|---------------------------------------------|
