@@ -436,7 +436,7 @@ SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
 ```sql
 GRANT role_emp TO anna;
 
-EJEMPLO :GRANT nombrerol TO usuario;
+SINTAXIS = GRANT nombrerol TO usuario;
 ```
 
 
