@@ -407,7 +407,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 ```sql
 REVOKE TRUNCATE ON zoo FROM prueba;
-REVOKE privilegio ON tabla FROM usuario;
+SINTAXIS = REVOKE privilegio ON tabla FROM usuario;
 ```
 
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
