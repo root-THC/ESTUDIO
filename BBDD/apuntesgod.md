@@ -455,7 +455,7 @@ SET ROLE nombrerol;
 ```
 #### `VOLVER A USUARIO`
 
-En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario principal 
+En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario principal hacemos el siguiente comando:
 
 ```sql
 RESET ROLE;
