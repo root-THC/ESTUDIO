@@ -386,7 +386,9 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 | `t`       | TRIGGER (crear y usar triggers en la tabla). |
 | `m`       | SELECT ... FOR UPDATE (bloquear filas seleccionadas para actualizarlas después). |
 
-\dp ESTO ES LO QUE SUCEDE
+ESTO ES LO QUE SUCEDE
+
+\dp 
 
 | Schema | Name    | Type  | Access privileges        | Column privileges | Policies |
 |--------|--------|-------|--------------------------|-------------------|----------|
