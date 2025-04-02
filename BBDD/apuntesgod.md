@@ -455,6 +455,11 @@ SET ROLE nombrerol;
 ```
 #### `VOLVER A USUARIO`
 
+```sql
+SET ROLE anna;
+SET ROLE nombrerol;
+```
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
