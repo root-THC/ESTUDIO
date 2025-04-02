@@ -447,6 +447,8 @@ SINTAXIS = GRANT nombrerol TO usuario;
 
 #### CAMBIAR ROL DESDE USUARIO:
 
+SET ROLE anna
+
 
 ## Funciones Útiles en SQL
 
