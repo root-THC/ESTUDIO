@@ -372,6 +372,8 @@ CREATE USER jordi CREATEDB;\
 CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 
+
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
