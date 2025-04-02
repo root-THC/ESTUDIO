@@ -381,10 +381,10 @@ GRANT SELECT ON emp TO prueba; -- APLICAMOS PERMISO DE SOLO LECTURA HACIA UNA BA
 | `r`       | SELECT (leer filas).                       |
 | `w`       | UPDATE (modificar filas).                  |
 | `d`       | DELETE (eliminar filas).                   |
-| D       | TRUNCATE (eliminar todas las filas rápidamente). |
-| x       | REFERENCES (usar claves foráneas que apunten a esta tabla). |
-| t       | TRIGGER (crear y usar triggers en la tabla). |
-| m       | SELECT ... FOR UPDATE (bloquear filas seleccionadas para actualizarlas después). |
+| `D`       | TRUNCATE (eliminar todas las filas rápidamente). |
+| `x`       | REFERENCES (usar claves foráneas que apunten a esta tabla). |
+| `t`       | TRIGGER (crear y usar triggers en la tabla). |
+| `m`       | SELECT ... FOR UPDATE (bloquear filas seleccionadas para actualizarlas después). |
 
 
 
