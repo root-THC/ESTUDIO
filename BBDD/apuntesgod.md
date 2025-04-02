@@ -453,7 +453,7 @@ Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro
 SET ROLE anna;
 SET ROLE nombrerol;
 ```
-#### `VOLVER A USUARIO`
+#### `VOLVER A USUARIO:`
 
 En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario principal hacemos el siguiente comando:
 
