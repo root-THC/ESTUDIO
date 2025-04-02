@@ -456,8 +456,7 @@ SET ROLE nombrerol;
 #### `VOLVER A USUARIO`
 
 ```sql
-SET ROLE anna;
-SET ROLE nombrerol;
+RESET ROLE;
 ```
 
 ## Funciones Útiles en SQL
