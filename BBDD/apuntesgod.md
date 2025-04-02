@@ -402,7 +402,6 @@ ESTO ES LO QUE SUCEDE
 ```sql
 REVOKE TRUNCATE ON zoo FROM prueba;
 
-
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
 
 ON zoo → Especifica la tabla sobre la cual se revoca el permiso.
