@@ -367,7 +367,7 @@ current_user = Que usuario estamos loggeados actualmente | session_user = Usuari
 --------------+--------------
  richi        | richi
 ```
-CREATE USER jordi CREATEDB;
+CREATE USER jordi CREATEDB;\
 CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 
