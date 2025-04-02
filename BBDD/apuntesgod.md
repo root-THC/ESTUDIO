@@ -401,7 +401,7 @@ ESTO ES LO QUE SUCEDE
 
 ```sql
 REVOKE TRUNCATE ON zoo FROM prueba;
-``
+```
 
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
 
