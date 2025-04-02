@@ -422,6 +422,13 @@ ROL = CONJUNTO DE PRIVILEGIOS
 CREATE ROLE anna LOGIN; == CREATE USER anna;
 ```
 
+
+
+
+
+
+
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
