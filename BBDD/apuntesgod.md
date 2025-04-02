@@ -433,7 +433,7 @@ SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
 
 #### QUITAR PRIVILEGIOS A ROL:
 ```sql                      
-REVOKE INSERT on zoo ; 
+REVOKE INSERT on zoo FROM role_emp; 
 SINTAXIS = REVOKE privilegio on tabla FROM nombrerol;
 ```
 
