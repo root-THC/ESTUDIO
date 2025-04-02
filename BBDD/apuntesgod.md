@@ -434,8 +434,9 @@ ALTER ROLE nombrerol añadirprivilegio;
 #### ASIGNAR ROL A USUARIO:
 
 ```sql
+GRANT role_emp TO anna;
 
-GRANT nombrerol TO usuario;
+EJEMPLO :GRANT nombrerol TO usuario;
 ```
 
 
