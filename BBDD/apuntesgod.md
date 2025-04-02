@@ -440,7 +440,7 @@ SINTAXIS = REVOKE privilegio on tabla FROM nombrerol;
 #### ASIGNAR ROL A USUARIO:
 
 ```sql
-GRANT role_emp TO prueba;
+GRANT role_emp TO user;
 
 SINTAXIS = GRANT nombrerol TO usuario;
 ```
