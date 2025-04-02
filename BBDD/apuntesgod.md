@@ -431,7 +431,7 @@ ALTER ROLE anna CREATEDB;
 SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
 ```
 
-#### QUITAR PRIVILEGIOS A ROL:
+#### `QUITAR PRIVILEGIOS A ROL:
 ```sql                      
 REVOKE INSERT on zoo FROM anna; 
 SINTAXIS = REVOKE privilegio on tabla FROM nombrerol;
