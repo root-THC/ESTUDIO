@@ -432,6 +432,7 @@ CREATE ROLE nombrerol privilegio;
 
 
 
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
