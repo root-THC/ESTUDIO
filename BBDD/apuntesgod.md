@@ -445,7 +445,7 @@ GRANT role_emp TO userprueba;
 SINTAXIS = GRANT nombrerol TO usuario;
 ```
 
-#### CAMBIAR ROL DESDE USUARIO:
+#### `CAMBIAR ROL DESDE USUARIO:`
 
 Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro rol para tener acceso a otras cosas entonces desde dentro de ese rol dependiendo los privilegios que tenga podrás volver 
 
