@@ -402,7 +402,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 | public | zoo    | table | richi=arwdDxtm/richi+   |                   |          |
 |        |        |       | prueba=`arw`/ `richi`          |                   |          |
 
-### QUITAR PRIVILEGIOS
+### QUITAR PRIVILEGIOS`
 
 ```sql
 REVOKE TRUNCATE ON zoo FROM prueba;
