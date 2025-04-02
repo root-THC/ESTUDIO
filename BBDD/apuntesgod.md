@@ -423,7 +423,7 @@ ROL = CONJUNTO DE PRIVILEGIOS
 #### CREAR ROL:
 ```sql                      
 CREATE ROLE anna LOGIN, INSERT; == CREATE USER anna;
-SINTAXIS = CREATE ROLE nombrerol privilegio;
+SINTAXIS = CREATE ROLE nombrerol,nombrerol2 privilegio;
 ```
 #### AÑADIR PRIVILEGIOS A ROL:
 ```sql                      
