@@ -447,7 +447,7 @@ SINTAXIS = GRANT nombrerol TO usuario;
 
 #### CAMBIAR ROL DESDE USUARIO:
 
-Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro rol para tener acceso a otra cosa entonces desde dentro de ese rol dependiendo los privilegios que tenga podrás volver 
+Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro rol para tener acceso a otras cosas entonces desde dentro de ese rol dependiendo los privilegios que tenga podrás volver 
 
 ```sql
 SET ROLE anna;
