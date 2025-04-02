@@ -445,7 +445,7 @@ GRANT role_emp TO userprueba;
 SINTAXIS = GRANT nombrerol TO usuario;
 ```
 
-#### ASIGNAR ROL A USUARIO:
+#### CAMBIAR  ROL A USUARIO:
 
 
 ## Funciones Útiles en SQL
