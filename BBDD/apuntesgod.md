@@ -414,6 +414,7 @@ ON zoo → Especifica la tabla sobre la cual se revoca el permiso.
 
 FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 
+---
 
 ### `ROLES`
 
