@@ -422,7 +422,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 ROL = CONJUNTO DE PRIVILEGIOS
 #### CREAR ROL:
 ```sql                      
-CREATE ROLE anna LOGIN; ES LO MISMO QUE CREATE USER anna;
+CREATE ROLE anna LOGIN; == CREATE USER anna;
 SINTAXIS = CREATE ROLE nombrerol privilegio;
 ```
 #### AÑADIR PRIVILEGIOS A ROL:
