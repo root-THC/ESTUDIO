@@ -420,7 +420,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 ROL = CONJUNTO DE PRIVILEGIOS 
 ```sql
 CREATE ROLE anna LOGIN; == CREATE USER anna;
-CREATE ROLE anna LOGIN;;
+CREATE ROLE nombre LOGIN;;
 ```
 
 
