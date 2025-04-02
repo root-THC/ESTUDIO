@@ -449,6 +449,7 @@ SINTAXIS = GRANT nombrerol TO usuario;
 ```sql
 SET ROLE anna;
 SET ROLE nombrerol;
+```
 
 
 ## Funciones Útiles en SQL
