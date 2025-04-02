@@ -435,6 +435,7 @@ ALTER ROLE nombrerol añadirprivilegio;
 
 
 
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
