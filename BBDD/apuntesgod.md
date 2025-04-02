@@ -390,7 +390,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
  ```
 
- El `usuario (prueba)` asignamos permisos de lectura,
+ El `usuario (prueba)` asignamos permisos de añadir,lectura y modificación de filas.
 
 
 
