@@ -393,7 +393,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  Al `usuario (prueba)` le asignamos permisos de añadir,lectura y modificación de filas.
 
 
-`ARW` | `RICHI` PRIVILEGIOS ASIGNADOS**| USUARIO QUE HA OTORGADO PRIVILEGIOS
+`ARW` | `RICHI` PRIVILEGIOS **ASIGNADOS| USUARIO QUE HA OTORGADO PRIVILEGIOS
 
 | Schema | Name    | Type  | Access privileges        | Column privileges | Policies |
 |--------|--------|-------|--------------------------|-------------------|----------|
