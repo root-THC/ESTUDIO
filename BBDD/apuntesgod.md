@@ -388,7 +388,12 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 \dp 
 
-
+| Schema | Name    | Type  | Access privileges        | Column privileges | Policies |
+|--------|--------|-------|--------------------------|-------------------|----------|
+| public | animal | table |                          |                   |          |
+| public | especie| table |                          |                   |          |
+| public | zoo    | table | richi=arwdDxtm/richi+   |                   |          |
+|        |        |       | prueba=r/richi          |                   |          |
 
 
 ## Funciones Útiles en SQL
