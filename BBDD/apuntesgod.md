@@ -391,7 +391,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  -LECTURA,AÑADIR,MODIFICAR FILAS \
  Al usuario prueba es el `usuario` a una tabla dentro de zoo que tengo una que se llama zoo justo pero es solo a esa tabla
 
-\dp 
+
 
 | Schema | Name    | Type  | Access privileges        | Column privileges | Policies |
 |--------|--------|-------|--------------------------|-------------------|----------|
