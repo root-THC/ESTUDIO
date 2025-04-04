@@ -394,7 +394,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  SINTAXIS = GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
  ```
 
-**`ARW`** | **`richi`** **PRIVILEGIOS ASIGNADOS | USUARIO QUE HA OTORGADO PRIVILEGIOS**
+**`arw`** | **`richi`** **PRIVILEGIOS ASIGNADOS | USUARIO QUE HA OTORGADO PRIVILEGIOS**
 
 OUTPUT:
 
