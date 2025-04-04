@@ -489,6 +489,7 @@ En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario prin
 ```sql
 RESET ROLE;
 ```
+
 ### `ESQUEMAS`
 
 Un esquema es una subdivisión dentro de una base de datos que agrupa tablas dentro de una base de datos.
