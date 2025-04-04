@@ -450,7 +450,7 @@ SINTAXIS = GRANT nombrerol TO usuario;
 Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro rol para tener acceso a otras cosas entonces desde dentro de ese rol dependiendo los privilegios que tenga podrás volver 
 
 
-#### `VOLVER A USUARIO:`
+#### `Eliminar rol`
 
 ```sql
 SET ROLE anna;
