@@ -503,7 +503,7 @@ Un esquema es una subdivisión dentro de una base de datos que agrupa tablas den
 
 Al crear los objetos por defecto se asignan al esquema `public` por defecto
 
-```sql+
+```sql
 scott=> CREATE SCHEMA richi;
 CREATE SCHEMA
 
