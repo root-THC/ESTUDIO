@@ -464,7 +464,7 @@ SINTAXIS = GRANT nombre_rol TO usuario;
 
 #### `QUITAR ROL A USUARIO:`
 ```sql
-GRANT anna TO userprueba;
+GRANT ;
 
 SINTAXIS = GRANT nombre_rol TO usuario;
 ```
