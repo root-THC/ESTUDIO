@@ -480,6 +480,8 @@ En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario prin
 RESET ROLE;
 ```
 
+
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
