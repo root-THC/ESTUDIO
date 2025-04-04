@@ -416,7 +416,9 @@ OUTPUT:
 REVOKE TRUNCATE ON zoo FROM prueba;
 SINTAXIS = REVOKE privilegio ON tabla FROM usuario;
 
+-- QUITAR TODOS LOS PRIVILEGIOS
 
+REVOKE ALL PRIVILEGES I
 ```
 
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
