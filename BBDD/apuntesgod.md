@@ -495,6 +495,7 @@ RESET ROLE;
 Un esquema es una subdivisión dentro de una base de datos que agrupa tablas dentro de una base de datos.
 
 
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
