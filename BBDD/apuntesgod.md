@@ -505,7 +505,7 @@ Al crear los objetos por defecto se asignan al esquema `public` por defecto
 
 ```sql
 scott=> CREATE SCHEMA richi;
-CREATE SCHEMA
+
 
 scott=> CREATE table emp (id int);
 CREATE TABLE
