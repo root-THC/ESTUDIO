@@ -493,10 +493,12 @@ RESET ROLE;
 ### `ESQUEMAS`
 
 Un esquema es una subdivisión dentro de una base de datos que agrupa tablas dentro de una base de datos.
+
 ```sql
 scott=> CREATE SCHEMA richi;
 CREATE SCHEMA
 ```
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
