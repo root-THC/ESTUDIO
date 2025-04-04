@@ -462,7 +462,7 @@ GRANT anna TO userprueba;
 SINTAXIS = GRANT nombre_rol TO usuario;
 ```
 
-#### `ASIGNAR ROL A USUARIO:`
+#### `QUITAR ROL A USUARIO:`
 
 #### `CAMBIAR ROL DESDE USUARIO:`
 
