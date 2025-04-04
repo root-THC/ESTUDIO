@@ -514,8 +514,6 @@ CREATE TABLE
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
 
-
-
 SINTAXIS = GRANT TODOS LOS PRIVILEGIOS ON TABLA IN SCHEMA nombre_schema TO usuario;
 
 El "public." es para ver los privilegios de una tabla la cual antes hemos creado un esquema con un mismo nombre 
