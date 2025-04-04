@@ -514,9 +514,6 @@ CREATE TABLE
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
 
-IN = PARA VARIOS
-
-ON = PARA 1 
 
 SINTAXIS = Damos todos los privilegios a todas las tablas en el esquema publico al usuario maria
 
