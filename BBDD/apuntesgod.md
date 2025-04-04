@@ -456,7 +456,8 @@ Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro
 ```sql
 GRANT role_emp TO userprueba;
 
-SINTAXIS = GRANT nombrerol TO usuario;
+SINTAXIS = GDROP ROLE nombre_del_rol;
+
 ```
 
 ```sql
