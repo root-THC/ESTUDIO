@@ -521,6 +521,10 @@ El "public." es para identificar la tabla de un esquema diferente la cual hemos 
 Ver privilegios
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
+
+-- NO ES LO MISMO QUE
+
+
 ```
 
 ## Funciones Útiles en SQL
