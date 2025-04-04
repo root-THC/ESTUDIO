@@ -415,6 +415,8 @@ OUTPUT:
 ```sql
 REVOKE TRUNCATE ON zoo FROM prueba;
 SINTAXIS = REVOKE privilegio ON tabla FROM usuario;
+
+
 ```
 
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
