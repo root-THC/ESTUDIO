@@ -466,7 +466,7 @@ SINTAXIS = GRANT nombre_rol TO usuario;
 ```sql
 GRANT ;
 
-SINTAXIS = GRANT nombre_rol TO usuario;
+SINTAXIS = REVOKE nombre_rol FROM usuario;
 ```
 
 #### `CAMBIAR ROL DESDE USUARIO:`
