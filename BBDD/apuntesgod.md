@@ -460,7 +460,7 @@ SET ROLE nombrerol;
 
 
 ```sql
-GRANT role_emp TO userprueba;
+DROP ROLE nombre_del_rol;
 
 SINTAXIS = DROP ROLE nombre_del_rol;
 
