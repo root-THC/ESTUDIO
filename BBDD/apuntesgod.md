@@ -428,7 +428,7 @@ SINTAXIS = CREATE ROLE nombrerol privilegio;
 #### `AÑADIR PRIVILEGIOS A ROL:`
 ```sql                      
 ALTER ROLE anna CREATEDB; 
-SINTAXIS = ALTER ROLE nombrerol añadirprivilegio;
+SINTAXIS = ALTER ROLE nombre_rol añadirprivilegio;
 ```
 
 #### `QUITAR PRIVILEGIOS A ROL:`
