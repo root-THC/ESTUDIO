@@ -510,7 +510,7 @@ SINTAXIS = CREATE SCHEMA nombre_schema;
 CREATE table emp (id int);
 SINTAXIS = CREATE TABLE nombre_tabla (campo1, campo2, campo3);
 
--- ESTAMOS CREANDO UNA TABLA CON EL MISMO NOMBREA QUE YA HAY EN SCOTT LO QUE HACE INTERNAMENTE ES ASIGNARLA AL ÚLTIMO ESQUEMA CREADO EN ESTE CASO "richi" entonces tenemos 2 tablas distintas public.emp que es la original la que contiene los valores y luego tenemos emp del esquema richi que no tiene nada de valores
+-- ESTAMOS CREANDO UNA TABLA CON EL MISMO NOMBRE QUE YA HAY EN SCOTT LO QUE HACE INTERNAMENTE ES ASIGNARLA AL ÚLTIMO ESQUEMA CREADO EN ESTE CASO "richi" entonces tenemos 2 tablas distintas public.emp que es la original la que contiene los valores y luego tenemos emp del esquema richi que no tiene nada de valores
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
 
