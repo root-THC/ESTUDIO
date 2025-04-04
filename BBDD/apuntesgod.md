@@ -494,7 +494,7 @@ RESET ROLE;
 
 Un esquema es una subdivisión dentro de una base de datos que agrupa tablas dentro de una base de datos.
 
-Al crear los objetos por defecto se asignan al esquema public por defecto
+Al crear los objetos por defecto se asignan al esquema public` por defecto
 
 ```sql
 scott=> CREATE SCHEMA richi;
