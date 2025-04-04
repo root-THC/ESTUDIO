@@ -462,6 +462,8 @@ GRANT anna TO userprueba;
 SINTAXIS = GRANT nombre_rol TO usuario;
 ```
 
+#### `ASIGNAR ROL A USUARIO:`
+
 #### `CAMBIAR ROL DESDE USUARIO:`
 
 Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro rol para tener acceso a otras cosas entonces desde dentro de ese rol.
