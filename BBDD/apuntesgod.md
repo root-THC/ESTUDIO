@@ -507,7 +507,7 @@ GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
 
 IN = PARA VARIOS
 
-ON = PARA 
+ON = PARA 1 
 
 SINTAXIS = Damos todos los privilegios a todas las tablas en el esquema publico al usuario maria
 
