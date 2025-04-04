@@ -524,8 +524,7 @@ SINTAXIS = \dp esquema.tabla
 
 -- NO ES LO MISMO QUE
 
-\dp emo
-SINTAXIS = \dp esquema.tabla
+\dp emp
 
 ```
 
