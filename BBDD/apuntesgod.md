@@ -507,7 +507,9 @@ Al crear los objetos por defecto se asignan al esquema `public` por defecto
 scott=> CREATE SCHEMA richi;
 CREATE SCHEMA
 
-scott=> CREATE TABLE emp;
+scott=> CREATE table emp (id int);
+CREATE TABLE
+
 -- ESTAMOS REPITIENDO EL MISMO NOMBRE DE LA TABLA QUE YA HAY EN SCOTT LO QUE HACE INTERNAMENTE ES ASIGNARLA AL ÚLTIMO ESQUEMA CREADO EN ESTE CASO "richi"
 
 GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
