@@ -396,7 +396,8 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
 
 **`arw`** | **`richi`** **PRIVILEGIOS ASIGNADOS | USUARIO QUE HA OTORGADO PRIVILEGIOS**
 
-**`\dp`** tabla OUTPUT:
+**`\dp`** tabla \
+OUTPUT:
 
 | Schema | Name    | Type  | Access privileges        | Column privileges | Policies |
 |--------|--------|-------|--------------------------|-------------------|----------|
