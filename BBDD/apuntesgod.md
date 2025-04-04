@@ -516,7 +516,7 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
 
 SINTAXIS = GRANT TODOS LOS PRIVILEGIOS ON TABLA IN SCHEMA nombre_schema TO usuario;
 
-El "public." es para identificar la tabla de un esquema diferente los privilegios de una tabla la cual antes hemos creado un esquema con un mismo nombre 
+El "public." es para identificar la tabla de un esquema diferente la cual hemos creado antes solo que no se muestrea en \dn ya que tienen el mismo nombre
 
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
