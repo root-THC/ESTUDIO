@@ -460,7 +460,7 @@ SET ROLE nombrerol;
 
 
 ```sql
-DROP ROLE role_emp;
+DROP ROLE anna;
 
 SINTAXIS = DROP ROLE nombre_del_rol;
 
