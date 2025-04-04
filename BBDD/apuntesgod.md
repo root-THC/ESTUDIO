@@ -498,7 +498,7 @@ Un esquema es una subdivisión dentro de una base de datos que agrupa tablas den
 scott=> CREATE SCHEMA richi;
 CREATE SCHEMA
 
-scott=> CREATE SCHEMA richi;
+scott=> CREATE TABLE richi;
 CREATE SCHEMA
 
 GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
