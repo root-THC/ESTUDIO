@@ -481,7 +481,7 @@ RESET ROLE;
 ```
 ### `ESQUEMAS`
 
-Un esquema es una subdivisión dentro de una base de datos que 
+Un esquema es una subdivisión dentro de una base de datos que agrupa tablas dentro de una base de datos.
 
 
 ## Funciones Útiles en SQL
