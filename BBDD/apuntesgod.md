@@ -522,7 +522,7 @@ Ver privilegios
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
 
--- \dp emp NO ES LO MISMO QUE YA QUE EMP ASECAS AHORA PERTENECE AL ESQUEMA RICHI
+-- \dp emp NO ES LO MISMO EMP ASECAS AHORA PERTENECE AL ESQUEMA RICHI
 
 ```
 
