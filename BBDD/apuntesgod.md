@@ -524,8 +524,6 @@ SINTAXIS = \dp esquema.tabla
 
 -- \dp emp NO ES LO MISMO QUE YA QUE EMP ASECAS AHORA ES DEL ESQUEMA RICHI
 
-
-
 ```
 
 ## Funciones Útiles en SQL
