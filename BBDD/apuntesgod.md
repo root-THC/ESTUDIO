@@ -524,6 +524,8 @@ SINTAXIS = \dp esquema.tabla
 
 -- NO ES LO MISMO QUE
 
+\dp public.emp
+SINTAXIS = \dp esquema.tabla
 
 ```
 
