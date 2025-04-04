@@ -502,6 +502,7 @@ GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
 
 El "public." es para ver los privilegios de una tabla la cual antes hemos creado un esquema con un mismo nombre 
 \dp public.emp
+\dp 
 ```
 
 ## Funciones Útiles en SQL
