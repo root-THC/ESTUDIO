@@ -479,7 +479,7 @@ En caso de que hayamos cambiado de rol para volver a nuestro rol de usuario prin
 ```sql
 RESET ROLE;
 ```
-### ESQUEMA
+### `VOLVER A USUARIO:`
 
 
 ## Funciones Útiles en SQL
