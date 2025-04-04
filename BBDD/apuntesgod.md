@@ -409,6 +409,7 @@ OUTPUT:
 |        |        |       | prueba=`arw`/ `richi`          |                   |          |
 
 **`arw`** | **`richi`** **PRIVILEGIOS ASIGNADOS | USUARIO QUE HA OTORGADO PRIVILEGIOS**
+
 ### `QUITAR PRIVILEGIOS`
 
 ```sql
