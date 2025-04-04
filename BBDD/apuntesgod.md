@@ -394,6 +394,7 @@ CREATEDB = Es un conjunto de asignar 2 permisos LOGIN Y CREAR BD
  SINTAXIS = GRANT privilegio1, privilegio2, privilegio3 ON tabla TO usuario;  
 
 -- AÑADIR PRIVILEGIOS A TODOS LOS USUARIOS
+
  GRANT ALL PRIVILEGES ON emp TO pep;
  SINTAXIS = GRANT ALL PRIVILEGES ON tabla TO usuario/rol;
  ```
