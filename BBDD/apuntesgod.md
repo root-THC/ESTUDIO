@@ -452,6 +452,13 @@ Esto se hace desde el usuario por ejemplo accedes como pep pero te pones en otro
 
 #### `Eliminar rol`
 
+
+```sql
+GRANT role_emp TO userprueba;
+
+SINTAXIS = GRANT nombrerol TO usuario;
+```
+
 ```sql
 SET ROLE anna;
 SET ROLE nombrerol;
