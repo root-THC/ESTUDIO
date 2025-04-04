@@ -500,7 +500,7 @@ CREATE SCHEMA
 
 GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
 
-Esto es para ver los privilegios de una tabla la cual antes hemos creado un esquema 
+Esto es para ver los privilegios de una tabla la cual antes hemos creado un esquema con un mismo nombre 
 \dp public.emp
 ```
 
