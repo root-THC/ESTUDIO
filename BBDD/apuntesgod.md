@@ -418,7 +418,7 @@ SINTAXIS = REVOKE privilegio ON tabla FROM usuario;
 
 -- QUITAR TODOS LOS PRIVILEGIOS
 
-REVOKE ALL PRIVILEGES I
+REVOKE ALL PRIVILEGES ON emp FROM pep;
 ```
 
 REVOKE TRUNCATE → Indica que se revoca el permiso de TRUNCATE.
