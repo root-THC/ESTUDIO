@@ -499,6 +499,9 @@ scott=> CREATE SCHEMA richi;
 CREATE SCHEMA
 
 GRANT ALL PRIVILEGES IN ALL TABLES IN SCHEMA public TO maria;
+
+
+\dp public.emp
 ```
 
 ## Funciones Útiles en SQL
