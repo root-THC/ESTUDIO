@@ -481,6 +481,8 @@ RESET ROLE;
 ```
 ### `ESQUEMAS`
 
+Sirve para agrupar tablas de una base de datos
+
 
 ## Funciones Útiles en SQL
 
