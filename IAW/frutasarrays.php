@@ -1,87 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FACTURAS FRUTAS</title>
+    <style>
+       table {
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        th, td {
+            border: 4px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            font-size: 20px;
+            background-color:white; 
+        }
+        td {
+            background-color: #ffffff; 
+        }
+        h1,h {
+            margin: 20px;
+            padding: 8px;
+        }
+        .articulos {
+            background-color : white;
+            padding: 8px;
+            color: black;
+        }
+        p {
+            margin: 20px;
+            font-weight: bold;
+        }
+</style>
+<table>
 <?php
-// Definir productos disponibles
+$iva = 0.21; // IVA GLOBAL QUE PODEMOS CAMBIAR
+
 $productos = [
-    ['nombre' => 'patates', 'unidad' => 'kg', 'precio' => 2.05, 'imagen' => 'patata.jpg'],
-    ['nombre' => 'ceba', 'unidad' => 'kg', 'precio' => 2.50, 'imagen' => 'ceba.jpg'],
-    ['nombre' => 'api', 'unidad' => 'manat', 'precio' => 3.00, 'imagen' => 'api.jpg'],
-    ['nombre' => 'pastanagues', 'unidad' => 'manat', 'precio' => 3.50, 'imagen' => 'pastanaga_manat.jpg'],
-    ['nombre' => 'oli granel', 'unidad' => 'l', 'precio' => 8.50, 'imagen' => 'oli.jpg'],
-    ['nombre' => 'pastilla de sabó', 'unidad' => 'unitat', 'precio' => 4.99, 'imagen' => 'sabo.jpg'],
-    ['nombre' => 'lluç', 'unidad' => 'kg', 'precio' => 10.55, 'imagen' => 'lluc.jpg']
+    [
+    // patata
+    'producto' => 'patata',
+    'cantidad' => 'kg',
+    '€/u' => '2.05', 
+    'imagen' => 'fruit_images\patata.jpg'
+    ],
+    [
+    //cebolla
+    'producto' => 'cebolla',
+    'cantidad' => 'kg',
+    '€/u' => '2.50', 
+    'imagen' => 'fruit_images\ceba.jpg'
+    ],
+    [
+    //apio
+    'producto' => 'apio',
+    'cantidad' => 'pedido',
+    '€/u' => '3', 
+    'imagen' => 'fruit_images\api.jpg'
+    ],
+    [
+    //zanahoria
+    'producto' => 'zanahoria',
+    'cantidad' => 'pedido',
+    '€/u' => '3.50', 
+    'imagen' => 'fruit_images\pastanaga_manat.jpg'
+    ],
+    [
+    //aceite granel
+    'producto' => 'aceite',
+    'cantidad' => 'l',
+    '€/u' => '2.50', 
+    'imagen' => 'fruit_images\oli.jpg'
+    ],
+    [
+    //pastilla de jabón
+    'producto' => 'pastilla de jabón',
+    'cantidad' => 'unidad',
+    '€/u' => '4.99', 
+    'imagen' => 'fruit_images\sabo.jpg'
+    ],
+    [
+    //merluza
+    'producto' => 'merluza',
+    'cantidad' => 'kg',
+    '€/u' => '10.55', 
+    'imagen' => 'fruit_images\lluc.jpg'
+    ],
 ];
 
-// Función para calcular IVA
-function calcularIVA(float $import, float $iva = 0.21): float {
+
+// FUNCIONES
+function calcularIVA(float $import, float $iva): float {
     return $import * $iva;
 }
 
-// Función para agregar producto a la lista si no existe
-function afegeixProducte(array &$llistaProductes, string $producte): void {
-    if (!in_array($producte, $llistaProductes)) {
-        $llistaProductes[] = $producte;
-    }
-}
 
-// Función para generar lista ordenada de productos
-function generaLlistat(array $llistaProductes): void {
-    $copia = $llistaProductes;
-    sort($copia);
-    echo "<p>Llista de productes a la factura: " . implode(", ", $copia) . "</p>";
-}
 
-// Obtener datos del producto según el índice
-function getProducte(array $productes, int $i): string {
-    return $productes[$i]['nombre'];
-}
 
-function getUnitat(array $productes, int $i): string {
-    return $productes[$i]['unidad'];
-}
+// NO TOCAR !!
+echo "<tr>";
+echo "<th>Artículo</th>";
+echo "<th>Cantidad</th>";
+echo "<th>€/u</th>";
+echo "<th>Subtotal</th>";
+echo "<th>Discount</th>";
+echo "<th>Iva 21% </th> ";
+echo "<th>Total </th> ";
+echo "<tr>"; 
+// NO TOCAR !!
 
-function getPreuUnitat(array $productes, int $i): float {
-    return $productes[$i]['precio'];
-}
+$total_articulos = 0;
+foreach ($productos as $producto) {
 
-// Generar factura con datos aleatorios
-$factura = [];
-for ($i = 0; $i < 10; $i++) {
-    $index = array_rand($productos);
-    $cantidad = rand(1, 10) / 2;
-    $subtotal = $cantidad * getPreuUnitat($productos, $index);
-    $descuento = ($subtotal > 50) ? 0.10 : (($subtotal >= 30) ? 0.05 : 0);
-    $subtotal_descuento = $subtotal * (1 - $descuento);
-    $iva = calcularIVA($subtotal_descuento);
-    $total = $subtotal_descuento + $iva;
-    
-    $factura[] = [
-        'producto' => getProducte($productos, $index),
-        'cantidad' => $cantidad,
-        'unidad' => getUnitat($productos, $index),
-        'precio' => getPreuUnitat($productos, $index),
-        'subtotal' => $subtotal,
-        'descuento' => $descuento * 100,
-        'iva' => $iva,
-        'total' => $total
-    ];
-}
+    $cantidad = mt_rand(100, 2000) / 100;
+    $total_articulos += $cantidad;  
+    $subtotal = $cantidad * $producto['€/u'];
+    $num_iva = calcularIVA($subtotal, $iva);
+    $precio_con_iva = $subtotal + $num_iva;
+    // DESCUENTOS
+    $price_discount5 = $subtotal * 0.05;
+    $price_discount10 = $subtotal * 0.10;
+    //CALCULO IVA CON DESCUENTOS
+    $iva_result5 = ($subtotal - $price_discount5) * $iva;
+    $iva_result10 = ($subtotal - $price_discount10) * $iva;
+    $subtotal_discount5 = (($subtotal - $price_discount5) * (1+ $iva));
+    $subtotal_discount10 = (($subtotal - $price_discount10) * (1+ $iva));
 
-// Mostrar factura en HTML
-echo "<table border='1'>";
-echo "<tr><th>Article</th><th>Quantitat</th><th>Preu/u</th><th>Subtotal</th><th>Descompte</th><th>Iva 21%</th><th>Total</th></tr>";
-foreach ($factura as $item) {
+    // Mostrar fila de la tabla
     echo "<tr>";
-    echo "<td>{$item['producto']}</td>";
-    echo "<td>{$item['cantidad']} {$item['unidad']}</td>";
-    echo "<td>{$item['precio']} €/{$item['unidad']}</td>";
-    echo "<td>{$item['subtotal']}€</td>";
-    echo "<td>{$item['descuento']}% (-" . number_format($item['subtotal'] * ($item['descuento'] / 100), 2) . " €)</td>";
-    echo "<td>" . number_format($item['iva'], 2) . " €</td>";
-    echo "<td>" . number_format($item['total'], 2) . " €</td>";
+    echo "<td>
+    <img src='{$producto['imagen']}' alt='{$producto['producto']}' width='50'><br>
+    {$producto['producto']}
+  </td>";
+    echo "<td>$cantidad {$producto['cantidad']}</td>";
+    echo "<td>{$producto['€/u']} €</td>";
+    echo "<td>" . number_format($subtotal, 2) . " €</td>";
+    if($subtotal<30){
+    echo "<td> 0% (0,00€)</td>";
+    echo "<td>" . number_format ($num_iva,2) . "€</td>";
+    echo "<td>" . number_format ($precio_con_iva,2) . "€</td>";
+
+    } 
+    elseif ($subtotal >= 30 && $subtotal <=50){
+    echo "<td> 5% " . number_format($price_discount5,2) . "€</td>"; # DISCOUNT
+    echo "<td>  " . number_format($iva_result5,2) . "€</td>"; #IVA
+    echo "<td>" . number_format($subtotal_discount5,2) . "€</td>"; #TOTAL     
+    } 
+    elseif ($subtotal>50) { 
+        echo "<td> 10% " . number_format($price_discount10,2) . "€</td>"; # DISCOUNT
+        echo "<td>  " . number_format($iva_result10,2) . "€</td>"; #IVA
+        echo "<td>" . number_format($subtotal_discount10,2) . "€</td>"; #TOTAL
+    }
     echo "</tr>";
 }
+
 echo "</table>";
 
-// Generar lista de productos utilizados
-$llistaProductes = array_column($factura, 'producto');
-generaLlistat($llistaProductes);
+echo "<p> Total productos : $total_articulos</p>";
 ?>
+
