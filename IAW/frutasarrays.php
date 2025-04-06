@@ -160,4 +160,3 @@ echo "</table>";
 
 echo "<p> Total productos : $total_articulos</p>";
 ?>
-
