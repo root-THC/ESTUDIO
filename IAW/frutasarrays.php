@@ -160,6 +160,6 @@ echo "</table>";
 
 echo "<p> Total productos : $total_articulos</p>";
 echo "<p> Total (NO IVA) : $total_articulos</p>";
-echo "<p> Total (CON IVA) : $total_articulos</p>";
+echo "<p> Total (CON IVA) : $precio_con_:iva</p>";
 
 ?>
