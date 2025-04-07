@@ -119,7 +119,7 @@ foreach ($productos as $producto) {
     $subtotal = $cantidad * $producto['€/u'];
     $num_iva = calcularIVA($subtotal, $iva);
     $precio_con_iva = $subtotal + $num_iva;
-    $total_sin_iva += 
+    $total_sin_iva += $pre
     // DESCUENTOS
     $price_discount5 = $subtotal * 0.05;
     $price_discount10 = $subtotal * 0.10;
