@@ -150,7 +150,7 @@ foreach ($productos as $producto) {
     echo "<td> 5% " . number_format($price_discount5,2) . "€</td>"; # DISCOUNT
     echo "<td>  " . number_format($iva_result5,2) . "€</td>"; #IVA
     echo "<td>" . number_format($subtotal_discount5,2) . "€</td>"; #TOTAL
-    $total_con_iva += $subt;     
+    $total_con_iva += $subtotal_discount5;     
     } 
     elseif ($subtotal>50) { 
         echo "<td> 10% " . number_format($price_discount10,2) . "€</td>"; # DISCOUNT
