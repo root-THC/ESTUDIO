@@ -163,6 +163,6 @@ echo "</table>";
 
 echo "<p> Total productos : " . number_format($total_articulos,0) . " unidades</p>";
 echo "<p> Total (NO IVA) : " . number_format($total_sin_iva,2) .  "€</p>";
-echo "<p> Total (CON IVA) : . number_format($total_sin_iva,2) . "€</p>";
+echo "<p> Total (CON IVA) : " . number_format($total_sin_iva,2) . "€</p>";
 
 ?>
