@@ -159,4 +159,5 @@ foreach ($productos as $producto) {
 echo "</table>";
 
 echo "<p> Total productos : $total_articulos</p>";
+echo "<p> Total productos : $total_articulos</p>";
 ?>
