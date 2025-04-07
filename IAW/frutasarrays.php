@@ -93,6 +93,8 @@ $productos = [
 //function añadir_productos ($productos[]='');
 
 
+//sort para ordenar los objetos del array
+
 // FUNCIONES
 function calcularIVA(float $import, float $iva): float {
     return $import * $iva;
