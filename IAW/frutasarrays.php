@@ -160,7 +160,7 @@ foreach ($productos as $producto) {
 
 echo "</table>";
 
-echo "<p> Total productos : $total_articulos</p>";
+echo "<p> Total productos : $total_articulos unidades</p>";
 echo "<p> Total (NO IVA) :" . number_format($total_sin_iva,2) .  "€</p>";
 echo "<p> Total (CON IVA) : $precio_con_iva</p>";
 
