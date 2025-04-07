@@ -121,7 +121,7 @@ foreach ($productos as $producto) {
     $num_iva = calcularIVA($subtotal, $iva);
     $precio_con_iva = $subtotal + $num_iva;
     $total_sin_iva += $subtotal;
-    $total_con_iva +
+    $total_con_iva += 
     // DESCUENTOS
     $price_discount5 = $subtotal * 0.05;
     $price_discount10 = $subtotal * 0.10;
