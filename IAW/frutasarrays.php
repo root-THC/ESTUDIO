@@ -90,7 +90,7 @@ $productos = [
     ],
 ];
 
-function $productos[]=
+function añadir_producto$productos[]=
 
 
 // FUNCIONES
