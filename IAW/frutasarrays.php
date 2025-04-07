@@ -90,6 +90,8 @@ $productos = [
     ],
 ];
 
+$productos
+
 
 // FUNCIONES
 function calcularIVA(float $import, float $iva): float {
