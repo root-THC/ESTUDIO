@@ -159,5 +159,5 @@ foreach ($productos as $producto) {
 echo "</table>";
 
 echo "<p> Total productos : $total_articulos</p>";
-echo "<p> Total () : $total_articulos</p>";
+echo "<p> Total (NO IVA) : $total_articulos</p>";
 ?>
