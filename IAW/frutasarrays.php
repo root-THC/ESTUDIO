@@ -112,6 +112,7 @@ echo "<tr>";
 // NO TOCAR !!
 
 $total_articulos = 0;
+$total_sin_iva 
 foreach ($productos as $producto) {
 
     $cantidad = mt_rand(100, 2000) / 100;
