@@ -74,7 +74,7 @@ GRANT UPDATE ON proyecto.clientes TO usuario_consulta;
 
 --5.1. Cambiar al rol ana
 
-5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
+--5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
 
-5.3. Volver al rol original
+--5.3. Volver al rol original
 
