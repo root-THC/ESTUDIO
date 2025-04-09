@@ -75,6 +75,6 @@ GRANT UPDATE ON proyecto.clientes TO usuario_consulta;
 --5.1. Cambiar al rol ana
 
 --5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
-template1=> CREATE TABLE proyecto.prueba ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT);
+CREATE TABLE proyecto.prueba ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT);
 --5.3. Volver al rol original
 
