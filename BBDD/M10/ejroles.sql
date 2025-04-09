@@ -55,6 +55,8 @@ CREATE TABLE proyecto.clientes ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEX
 
 
 --La estructura es:   id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT
+
+
 /*
 4.2. Crear rol usuario_consulta solo para lectura
 4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
