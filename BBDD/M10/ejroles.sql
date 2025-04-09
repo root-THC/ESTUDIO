@@ -12,7 +12,7 @@ CREATE ROLE desarrolladores NOLOGIN;
 
 --1.3. Añadir el usuario al grupo 
 
-GRANT desarrolladores TO 
+GRANT desarrolladores TO ana; 
 
 /*
 2. Crear esquemas y asignar propietario
