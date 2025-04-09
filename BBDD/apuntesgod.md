@@ -440,7 +440,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 ROL = CONJUNTO DE PRIVILEGIOS
 #### `CREAR ROL/USUARIO:`
 ```sql                      
-CREATE ROLE anna WITH LOGIN PASSWORD ''; == CREATE USER anna;
+CREATE ROLE anna WITH LOGIN PASSWORD 'contraseña'; == CREATE USER anna;
 SINTAXIS = CREATE ROLE nombre_rol opción opción 2;
 ```
 #### `AÑADIR PRIVILEGIOS A ROL:`
