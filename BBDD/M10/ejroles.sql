@@ -47,7 +47,7 @@ REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM public;
 
 
 
-4. Asignar permisos sobre tablas
+--4. Asignar permisos sobre tablas
 
 4.1. Crear la tabla clientes dentro del esquema proyecto
 
