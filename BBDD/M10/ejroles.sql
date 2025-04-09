@@ -77,4 +77,4 @@ SET ROLE ana;
 --5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
 CREATE TABLE proyecto.prueba ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT);
 --5.3. Volver al rol original
-
+RESET ROLE;
