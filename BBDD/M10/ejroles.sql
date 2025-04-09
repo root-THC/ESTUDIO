@@ -62,9 +62,11 @@ CREATE TABLE proyecto.clientes ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEX
 
 CREATE ROLE usuario_consulta LOGIN;
 
-/*
+
 4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
 
+
+/*
  5. Cambio de role sin tener que salir de la sesion
 
 5.1. Cambiar al rol ana
