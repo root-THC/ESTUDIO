@@ -8,6 +8,10 @@ CREATE ROLE ana WITH LOGIN PASSWORD '1234';
 
 --1.2. Crear rol de grupo "desarrolladores" (sin login)
 
+
+
+
+
 /*
 1.3. Añadir el usuario al grupo 
 
