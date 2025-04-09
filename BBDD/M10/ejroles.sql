@@ -20,9 +20,6 @@ GRANT desarrolladores TO ana;
 
 
 
-
-
-
 /*
 2.1. Crear esquema llamado "proyecto" propiedad del rol desarrolladores
 
