@@ -40,7 +40,7 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA proyecto TO desarrolladores;
 
 --3.2. Revocar permisos públicos
 
-REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA pr TO desarrolladores;
+REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO desarrolladores;
 
 
 
