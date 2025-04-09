@@ -51,7 +51,7 @@ REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM public;
 
 --4.1. Crear la tabla clientes dentro del esquema proyecto
 
-CREATE TABLE proyecto.clientes (id VARCHAR(40))
+CREATE TABLE proyecto.clientes (id VARCHAR(40));
 /*
 La estructura es:   id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT
 
