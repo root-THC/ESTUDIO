@@ -33,6 +33,10 @@ CREATE SCHEMA proyecto AUTHORIZATION desarrolladores;
 --3.1. Permitir uso y creación de objetos en el esquema desarrolladores
 
 
+
+
+
+
 /*
 
 3.2. Revocar permisos públicos
