@@ -10,9 +10,6 @@ CREATE ROLE ana WITH LOGIN PASSWORD '1234';
 
 CREATE ROLE desarrolladores NOLOGIN;
 
-
-
-
 --1.3. Añadir el usuario al grupo 
 
 /*
