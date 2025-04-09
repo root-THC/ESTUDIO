@@ -449,7 +449,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 
 
 ```sql
-CREATE ROLE exemple_user
+CREATE ROLE usuario
 WITH
   LOGIN
   CREATEDB
