@@ -457,6 +457,7 @@ WITH
   VALID UNTIL '2025-12-31'
   NOSUPERUSER
   INHERIT;
+  
 ROL = CONJUNTO DE PRIVILEGIOS
 #### `CREAR ROL == USUARIO:`
 ```sql                      
