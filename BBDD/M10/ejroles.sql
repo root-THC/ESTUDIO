@@ -1,7 +1,7 @@
 --Ejercicio 1: Crear roles con y sin login
 
 1.1. Crear usuario ana con contraseña y con login
-
+/*
 1.2. Crear rol de grupo "desarrolladores" (sin login)
 
 1.3. Añadir el usuario al grupo 
