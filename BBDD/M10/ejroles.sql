@@ -63,7 +63,9 @@ CREATE TABLE proyecto.clientes ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEX
 CREATE ROLE usuario_consulta LOGIN;
 
 
-4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
+--4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
+
+
 
 
 
