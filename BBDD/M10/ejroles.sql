@@ -30,7 +30,7 @@ CREATE SCHEMA proyecto AUTHORIZATION desarrolladores;
 
 
 
---3.1. Permitir uso y creación de objetos en el esquema desarrolladores
+--3.1. Permitir uso y creación de objetos en el esquema proyecto
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA proyecto TO desarrolladores;
 
