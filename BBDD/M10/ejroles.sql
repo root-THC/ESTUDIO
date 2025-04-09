@@ -12,6 +12,8 @@ CREATE ROLE desarrolladores NOLOGIN;
 
 --1.3. Añadir el usuario al grupo 
 
+
+
 /*
 2. Crear esquemas y asignar propietario
 
