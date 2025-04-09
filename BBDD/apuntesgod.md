@@ -531,6 +531,9 @@ SINTAXIS = CREATE SCHEMA nombre_schema;
 
 -- EN CASO DE QUE CREEMOS UN ESQUEMA DESDE ADMIN HAY QUE HACER :
 
+CREATE SCHEMA richi;
+
+
 CREATE table emp (id int);
 SINTAXIS = CREATE TABLE nombre_tabla (campo1, campo2, campo3);
 
