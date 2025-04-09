@@ -66,7 +66,7 @@ CREATE ROLE usuario_consulta LOGIN;
 --4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
 
 
-ALTER ROLE usuario_consulta
+ALTER ROLE usuario_consulta 
 
 
 /*
