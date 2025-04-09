@@ -14,8 +14,8 @@ CREATE ROLE desarrolladores NOLOGIN;
 
 GRANT desarrolladores TO ana; 
 
-/*
-2. Crear esquemas y asignar propietario
+
+--2. Crear esquemas y asignar propietario
 
 /*
 2.1. Crear esquema llamado "proyecto" propiedad del rol desarrolladores
