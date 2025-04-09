@@ -60,7 +60,7 @@ CREATE TABLE proyecto.clientes ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEX
 
 --4.2. Crear rol usuario_consulta solo para lectura
 
-
+CREATE 
 
 
 /*
