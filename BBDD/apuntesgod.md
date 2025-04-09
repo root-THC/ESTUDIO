@@ -445,7 +445,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 | VALID UNTIL         | Define una fecha de caducidad para el rol.                                  |
 | SUPERUSER / NOSUPERUSER | Atorga o revoca privilegios de superusuario.                          |
 | INHERIT             | Controla si el rol hereda privilegios de otros roles.                       |
-
+---
 ROL = CONJUNTO DE PRIVILEGIOS
 #### `CREAR ROL == USUARIO:`
 ```sql                      
