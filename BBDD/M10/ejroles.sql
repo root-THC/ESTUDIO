@@ -12,10 +12,10 @@ CREATE ROLE desarrolladores NO LOGIN;
 
 
 
+
+--1.3. Añadir el usuario al grupo 
+
 /*
-1.3. Añadir el usuario al grupo 
-
-
 2. Crear esquemas y asignar propietario
 
 2.1. Crear esquema llamado "proyecto" propiedad del rol desarrolladores
