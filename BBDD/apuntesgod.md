@@ -440,7 +440,7 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 | Opción              | Descripción                                                                 |
 |---------------------|------------------------------------------------------------------------------|
 | **`LOGIN / NOLOGIN`**       | Permite o no permite al rol iniciar sesión (conectarse).                    |
-| CREATEDB / NOCREATEDB`**   | Permite o no permite crear bases de datos.                                |
+| CREATEDB / NOCREATEDB`** | Permite o no permite crear bases de datos.                                |
 | PASSWORD            | Establece una contraseña para el rol.                                       |
 | VALID UNTIL         | Define una fecha de caducidad para el rol.                                  |
 | SUPERUSER / NOSUPERUSER | Atorga o revoca privilegios de superusuario.                          |
