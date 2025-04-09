@@ -44,7 +44,7 @@ REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM public;
 
 
 
-/*
+
 
 
 4. Asignar permisos sobre tablas
