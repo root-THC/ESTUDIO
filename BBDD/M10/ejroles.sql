@@ -40,6 +40,11 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA proyecto TO desarrolladores;
 
 3.2. Revocar permisos públicos
 
+
+
+/*
+
+
 4. Asignar permisos sobre tablas
 
 4.1. Crear la tabla clientes dentro del esquema proyecto
