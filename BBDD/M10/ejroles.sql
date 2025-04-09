@@ -69,12 +69,12 @@ CREATE ROLE usuario_consulta LOGIN;
 GRANT UPDATE ON proyecto.clientes TO usuario_consulta;
 
 
-/*
- 5. Cambio de role sin tener que salir de la sesion
+
+--5. Cambio de role sin tener que salir de la sesion
 
 5.1. Cambiar al rol ana
 
 5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
 
 5.3. Volver al rol original
-*/
+
