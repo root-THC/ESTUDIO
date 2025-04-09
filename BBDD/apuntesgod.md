@@ -529,7 +529,7 @@ Al crear los objetos por defecto se asignan al esquema `public` por defecto
 CREATE SCHEMA richi;
 SINTAXIS = CREATE SCHEMA nombre_schema;
 
--- EN CASO DE QUE CREEMOS UN ESQUEMA DESDE ADMIN 
+-- EN CASO DE QUE CREEMOS UN ESQUEMA DESDE ADMIN HAY QUE HACER :
 
 CREATE table emp (id int);
 SINTAXIS = CREATE TABLE nombre_tabla (campo1, campo2, campo3);
