@@ -2,7 +2,7 @@
 
 --1.1. Crear usuario ana con contraseña y con login
 
-CREATE ROLE ana 
+CREATE ROLE ana LOGIN 
 
 
 
