@@ -26,7 +26,7 @@ GRANT desarrolladores TO ana;
 CREATE SCHEMA proyecto AUTHORIZATION desarrolladores;
 
 
-3. Controlar privilegios en el esquema
+--3. Controlar privilegios en el esquema
 
 
 
