@@ -38,8 +38,6 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA proyecto TO desarrolladores;
 
 
 
-/*
-
 3.2. Revocar permisos públicos
 
 4. Asignar permisos sobre tablas
