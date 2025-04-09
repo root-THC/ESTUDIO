@@ -446,6 +446,17 @@ FROM prueba → Especifica el usuario o rol al que se le quita el permiso.
 |**` SUPERUSER / NOSUPERUSER `**| Atorga o revoca privilegios de superusuario.                          |
 |**` INHERIT `**            | Controla si el rol hereda privilegios de otros roles.                       |
 ---
+
+
+```sql
+CREATE ROLE exemple_user
+WITH
+  LOGIN
+  CREATEDB
+  PASSWORD 'contraseña123'
+  VALID UNTIL '2025-12-31'
+  NOSUPERUSER
+  INHERIT;
 ROL = CONJUNTO DE PRIVILEGIOS
 #### `CREAR ROL == USUARIO:`
 ```sql                      
