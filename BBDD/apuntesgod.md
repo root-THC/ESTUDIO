@@ -541,6 +541,8 @@ SINTAXIS = CREATE TABLE nombre_schema.nombre_tabla (campo1, campo2, campo3);
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
 
+--DEPENDIENDO
+
 SINTAXIS = GRANT TODOS LOS PRIVILEGIOS ON TABLA IN SCHEMA nombre_schema TO usuario;
 
 El "public." es para identificar la tabla de un esquema diferente la cual hemos creado antes solo que no se muestrea en \dn ya que tienen el mismo nombre.
