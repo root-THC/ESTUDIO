@@ -66,7 +66,7 @@ CREATE ROLE usuario_consulta LOGIN;
 --4.3. Dar permisos de lectura sobre la tabla cliente al usuario_consulta
 
 
-GRANT UPDATE ON proyecto.clientes TO usuario_consulta;
+GRANT SELECT ON proyecto.clientes TO usuario_consulta;
 
 
 
