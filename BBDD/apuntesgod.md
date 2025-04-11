@@ -529,7 +529,7 @@ Al crear los objetos por defecto se asignan al esquema `public` por defecto
 CREATE SCHEMA richi;
 SINTAXIS = CREATE SCHEMA nombre_schema;
 
---EN CASO DE QUE CREEMOS UN ESQUEMA DESDE ADMIN PARA ASIGNAR UN PROPIETARIO:
+--EN CASO DE CREAR UN ESQUEMA DESDE ADMIN PARA ASIGNAR UN PROPIETARIO:
 
 CREATE SCHEMA nombre_schema AUTHORIZATION usuario;
 
