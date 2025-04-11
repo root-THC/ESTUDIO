@@ -558,7 +558,7 @@ El "public." es para identificar la tabla de un esquema diferente la cual hemos 
 --Ver privilegios de esquemas
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
-
+SI damo
 -- \dp emp NO ES LO MISMO EMP ASECAS AHORA PERTENECE AL ESQUEMA RICHI
 
 ```
