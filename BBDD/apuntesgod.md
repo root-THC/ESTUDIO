@@ -540,6 +540,10 @@ SINTAXIS = CREATE TABLE nombre_schema.nombre_tabla (campo1, campo2, campo3);
 -- ESTAMOS CREANDO UNA TABLA CON EL MISMO NOMBRE QUE YA HAY EN SCOTT LO QUE HACE INTERNAMENTE ES ASIGNARLA AL ÚLTIMO ESQUEMA CREADO EN ESTE CASO "richi" entonces tenemos 2 tablas distintas public.emp que es la original la que contiene los valores y luego tenemos emp del esquema richi que no tiene nada de valores
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO maria;
+
+SIEMPRE SERÁ
+
+GRANT ALL PRIVILEGES ON 
  
 --DEPENDIENDO A QUE OBJETOS HAGAMOS EL ALL QUITAREMOS MÁS O MENOS PRIVILEGIOS CON EL \h comando podemos ver la sintaxis
 
