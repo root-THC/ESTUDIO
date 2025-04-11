@@ -557,7 +557,7 @@ El "public." es para identificar la tabla de un esquema diferente la cual hemos 
 
 --Ver privilegios de esquemas
 
-Si damos privilegios 
+Si damos privilegios a public aparece como =r/propietarioa_de_la_tabla
 
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
