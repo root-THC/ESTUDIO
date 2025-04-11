@@ -556,6 +556,9 @@ SINTAXIS = GRANT TODOS LOS PRIVILEGIOS ON TABLA IN SCHEMA nombre_schema TO usuar
 El "public." es para identificar la tabla de un esquema diferente la cual hemos creado antes solo que no se muestrea en \dn ya que tienen el mismo nombre.
 
 --Ver privilegios de esquemas
+
+SI damo
+
 \dp public.emp
 SINTAXIS = \dp esquema.tabla
 
