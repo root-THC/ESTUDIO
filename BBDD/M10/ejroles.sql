@@ -40,7 +40,7 @@ GRANT CREATE,USAGE ON SCHEMA proyecto TO desarrolladores;
 
 --3.2. Revocar permisos públicos
 
-REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM public;
+REVOKE ALL  ON ALL TABLES IN SCHEMA public FROM public;
 
 
 
