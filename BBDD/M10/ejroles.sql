@@ -41,7 +41,7 @@ GRANT CREATE,USAGE ON SCHEMA proyecto TO desarrolladores;
 --3.2. Revocar permisos públicos del esquema proyecto
 
 REVOKE ALL ON SCHEMA proyecto FROM public;
-
+ 
 
 
 
