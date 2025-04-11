@@ -73,7 +73,7 @@ GRANT SELECT ON proyecto.clientes TO usuario_consulta;
 --5. Cambio de role sin tener que salir de la sesion
 
 --5.1. Cambiar al rol ana
-SET ROLE ana;-
+SET ROLE ana;
 --5.2. Crear una tabla llamada "prueba" dentro del esquema proyecto como ana
 CREATE TABLE proyecto.prueba ( id SERIAL PRIMARY KEY,  nombre TEXT,  email TEXT);
 --5.3. Volver al rol original
