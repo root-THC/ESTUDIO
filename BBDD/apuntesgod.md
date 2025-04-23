@@ -567,7 +567,7 @@ SINTAXIS = \dp esquema.tabla
 ```
 ## PROGRAMACIÓN SQL
 
-CREATE OR REPLACE FUNCTION
+CREATE OR REPLACE FUNCTION nombre_funcion 
 
 
 
