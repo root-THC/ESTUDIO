@@ -617,7 +617,7 @@ AS $$
 
 DECLARE
 
-v_ename
+v_ename VARCHAR
 
 BEGIN
 
