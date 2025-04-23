@@ -608,7 +608,7 @@ SELECT helloWorld();
 
 ```sql
 
-CREAR FUNCIÓN QUE SE LLAME mostraempleat la cual donad
+CREAR FUNCIÓN QUE SE LLAME mostraempleat la cual donat el codi del empleat hem retorni el seu nom
 
 ```
 
