@@ -565,7 +565,7 @@ SINTAXIS = \dp esquema.tabla
 -- \dp emp NO ES LO MISMO EMP ASECAS AHORA PERTENECE AL ESQUEMA RICHI
 
 ```
-## SQL
+## PROGRAMACIÓN SQL
 
 
 
