@@ -617,7 +617,7 @@ AS $$
 
 BEGIN
 
-    SELECT 
+    SELECT ename
     
     
     FROM emp
