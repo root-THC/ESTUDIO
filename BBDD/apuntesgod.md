@@ -603,7 +603,7 @@ $$LANGUAGE PLPGSQL;
 
 --PARA LLAMAR LA FUNCIÓN
 
-SELECT helloWorld;
+SELECT helloWorld();
 ```
 
 
