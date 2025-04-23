@@ -617,6 +617,8 @@ AS $$
 
 DECLARE
 
+v_ename
+
 BEGIN
 
     SELECT ename
