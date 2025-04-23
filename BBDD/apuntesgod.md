@@ -606,7 +606,7 @@ $$LANGUAGE PLPGSQL;
 SELECT helloWorld();
 ```
 
-
+```sql
 
 
 
