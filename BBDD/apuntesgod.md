@@ -617,7 +617,7 @@ AS $$
 
 BEGIN
 
-    RETURN 'Hello World';
+    SELECT ;
 
 
 END;
