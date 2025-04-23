@@ -615,6 +615,13 @@ CREATE OR REPLACE FUNCTION mostraEmpleat(idempleat SMALLINT)
 RETURNS VARCHAR
 AS $$
 
+BEGIN
+
+    RETURN 'Hello World';
+
+
+END;
+
 
 
 $$LANGUAGE PLPGSQL;
