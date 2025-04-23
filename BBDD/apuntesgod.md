@@ -611,7 +611,7 @@ SELECT helloWorld();
 CREAR FUNCIÓN QUE SE LLAME mostraempleat la cual donat el codi del empleat hem retorni el seu nom
 
 
-CREATE OR REPLACE FUNCTION mostraEmpleat(i SMALLINT)
+CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
 RETURNS VARCHAR
 AS $$
 
