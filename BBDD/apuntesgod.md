@@ -585,6 +585,7 @@ DECLARE
 
 
 
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
