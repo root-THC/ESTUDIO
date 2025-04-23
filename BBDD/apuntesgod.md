@@ -614,7 +614,7 @@ CREAR FUNCIÓN QUE SE LLAME mostraempleat la cual donat el codi del empleat hem 
 CREATE OR REPLACE FUNCTION mostraEmpleat(idempleat SMALLINT)
 RETURNS VARCHAR
 AS $$
-
+DECLARE
 BEGIN
 
     SELECT ename
