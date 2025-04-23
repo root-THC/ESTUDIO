@@ -627,7 +627,7 @@ BEGIN
     
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
-    RETURN v_ename
+    RETURN v_ename;
 
 END;
 
