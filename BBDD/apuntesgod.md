@@ -586,7 +586,7 @@ BEGIN
 
 ```sql
 
-CREATE OR REPLACE FUNCTION hello
+CREATE OR REPLACE FUNCTION helloWorld
 ```
 
 
