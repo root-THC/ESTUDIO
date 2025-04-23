@@ -636,7 +636,7 @@ $$LANGUAGE PLPGSQL;
 
 --LLAMAR FUNCIÓN
 
- SELECT mostraEmpleat(7499::smallint); Especificamos 
+ SELECT mostraEmpleat(7499::smallint); Especificamos el tipo de dato de la tabla si da un error como este 
 ```
 
 
