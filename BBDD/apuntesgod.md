@@ -592,7 +592,7 @@ AS $$
 
 BEGIN
 
-    RETURN 'Hello World'
+    RETURN 'Hello World';
 
 
 END;
