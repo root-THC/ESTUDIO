@@ -595,7 +595,7 @@ BEGIN
 
 
 
-
+END;
 
 $$LANGUAGE PLPGSQL
 ```
