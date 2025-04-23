@@ -637,7 +637,7 @@ $$LANGUAGE PLPGSQL;
 --LLAMAR FUNCIÓN
 
  SELECT mostraEmpleat(7499::smallint); Especificamos el tipo de dato de la tabla si da un error como este 
- HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ --HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
 ```
 
 
