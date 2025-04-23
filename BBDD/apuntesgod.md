@@ -617,7 +617,7 @@ AS $$
 
 DECLARE
 
-v_ename VARCHAR(100); --vble local
+v_ename VARCHAR(100); --variable local
 
 BEGIN
 
