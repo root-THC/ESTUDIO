@@ -633,6 +633,10 @@ END;
 
 $$LANGUAGE PLPGSQL;
 
+
+--LLAMAR FUNCIÓN
+
+ SELECT mostraEmpleat(7499::smallint); Especificamos 
 ```
 
 
