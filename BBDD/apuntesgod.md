@@ -622,7 +622,6 @@ v_ename VARCHAR(100); --variable local
 BEGIN
 
     SELECT ename
-    
     INTO v_ename
     FROM emp
     
