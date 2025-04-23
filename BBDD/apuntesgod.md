@@ -576,7 +576,7 @@ AS $$
 DECLARE 
  --Vbles locals; 
 BEGIN
- -- sentences
+ -- el codigo que usaremos
 
  END; \
  --$$LANGUAGE PLPGSQL;
