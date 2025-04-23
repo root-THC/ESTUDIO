@@ -623,7 +623,7 @@ BEGIN
 
     SELECT ename
     
-    
+    INTO 
     FROM emp
     
     WHERE empno = p_empno;
