@@ -569,6 +569,8 @@ SINTAXIS = \dp esquema.tabla
 
 CREATE OR REPLACE FUNCTION nombre_funcion parametros,
 
+RETURNS 
+
 
 
 
