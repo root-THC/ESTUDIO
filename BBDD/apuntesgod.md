@@ -617,7 +617,12 @@ AS $$
 
 BEGIN
 
-    SELECT ;
+    SELECT 
+    
+    
+    FROM emp
+    
+    WHERE empno;
 
 
 END;
