@@ -622,7 +622,7 @@ BEGIN
     
     FROM emp
     
-    WHERE empno;
+    WHERE empno=;
 
 
 END;
