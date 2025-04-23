@@ -596,7 +596,7 @@ AS $$
 
 
 
-$$LANGUAGE PLP
+$$LANGUAGE PLPGSQL
 ```
 
 
