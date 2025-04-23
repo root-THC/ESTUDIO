@@ -579,7 +579,6 @@ BEGIN
  -- sentences
 
  END;
-
  $$LANGUAGE PLPGSQL;
 
 
