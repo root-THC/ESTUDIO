@@ -580,7 +580,7 @@ BEGIN
 
  END;
 
- $$LANG
+ $$LANGUAGE
 
 
 
