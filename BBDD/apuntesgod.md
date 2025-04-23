@@ -624,7 +624,6 @@ BEGIN
     SELECT ename
     INTO v_ename -- la variable de antes
     FROM emp
-    
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
     RETURN v_ename;
