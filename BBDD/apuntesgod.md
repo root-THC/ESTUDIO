@@ -576,7 +576,7 @@ RETURNS { VARCHAR, INT/SMALLINT , DATE , TIMESTAMP , BOOLEAN , NUMERIC }
 AS $$
 
 DECLARE 
- --Vbles locals; 
+ --variables locals; 
 BEGIN
  -- el codigo que usaremos
 
