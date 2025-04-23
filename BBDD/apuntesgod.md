@@ -569,7 +569,7 @@ SINTAXIS = \dp esquema.tabla
 
 CREATE OR REPLACE FUNCTION nombre_funcion parametros,
 
-RETURNS { VARCHAR, INT/SMALLINT}
+RETURNS { VARCHAR, INT/SMALLINT , DATE }
 
 
 
