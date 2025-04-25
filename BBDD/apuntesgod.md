@@ -700,8 +700,7 @@ AS $$
 -- OTRA VARIABLE PORQUE QUEREMOS MOSTRAR EL JOB DEL EMPLEADO
 DECLARE
 
-    v_ename VARCHAR(100); --variable local
-    v_job VARCHAR(100); 
+   v_emp record;
 -- También podemos poner v_job emp.job %type; asi no tenemos que consultar en consola
 
 BEGIN
