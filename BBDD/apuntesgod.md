@@ -669,6 +669,8 @@ BEGIN
     
     RETURN 'L''empleat ' || v_ename || ' treballa de ' || v_job ;
 
+-- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
+
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
     RETURN 'Error no n''hi ha cap valor que coincideixi amb la teva cerca : ' || p_empno;
