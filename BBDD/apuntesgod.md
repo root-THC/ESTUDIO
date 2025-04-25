@@ -744,6 +744,7 @@ BEGIN
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
     IF LOWER(v_emp.job)= 'salesman' THEN v_sal := v_emp.sal * 1.1;
+    EL
     
     RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
 
