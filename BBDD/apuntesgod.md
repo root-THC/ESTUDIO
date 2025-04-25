@@ -658,7 +658,7 @@ AS $$
 DECLARE
 
     v_ename VARCHAR(100); --variable local
-    v_job VARCHAR(100); -- También podemos poner v_job emp.job 
+    v_job VARCHAR(100); -- También podemos poner v_job emp.job %type;
 
 BEGIN
 
