@@ -663,7 +663,7 @@ DECLARE
 BEGIN
 
     SELECT ename , job
-    INTO STRICT v_ename, v_job -- la variable de antes
+    INTO STRICT v_enamev_job -- la variable de antes
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
