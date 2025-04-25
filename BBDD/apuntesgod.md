@@ -670,7 +670,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'No s"ha trobat va' 
+    RETURN 'No s"ha trobat valor ' 
 
 END;
 
