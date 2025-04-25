@@ -670,7 +670,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'No se h' || p_empno; 
+    RETURN 'No ' || p_empno; 
 
 END;
 
