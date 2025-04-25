@@ -743,7 +743,7 @@ BEGIN
     INTO STRICT v_emp -- la variable de antes
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
-    IF LOWER
+    IF LOWER(job)
     
     RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
 
