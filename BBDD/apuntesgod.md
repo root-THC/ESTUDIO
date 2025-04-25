@@ -711,7 +711,7 @@ BEGIN
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
     
-    RETURN v_emp;
+    RETURN v_emp.ename;
 
 -- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
 
