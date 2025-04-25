@@ -691,6 +691,7 @@ scott=> SELECT mostraEmpleat(7499::smallint);
 (1 row)
 ```
 ### `SELECCIONAR MUCHOS:`
+
 ```sql
 CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
 RETURNS VARCHAR
