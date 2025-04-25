@@ -670,7 +670,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'No s"ha trobat el valor' || p_empno; 
+    RETURN 'No se h' || p_empno; 
 
 END;
 
