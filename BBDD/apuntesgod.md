@@ -682,6 +682,7 @@ $$LANGUAGE PLPGSQL;
 
 
 RESULTADO:
+
 scott=> SELECT mostraEmpleat(7499::smallint);
             mostraempleat             
 --------------------------------------
