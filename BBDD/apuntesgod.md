@@ -681,7 +681,12 @@ END;
 $$LANGUAGE PLPGSQL;
 
 
-RESULTADO
+RESULTADO:
+scott=> SELECT mostraEmpleat(7499::smallint);
+            mostraempleat             
+--------------------------------------
+ L'empleat ALLEN treballa de SALESMAN
+(1 row)
 ```
 
 
