@@ -658,7 +658,7 @@ AS $$
 DECLARE
 
     v_ename VARCHAR(100); --variable local
-    v_job VARCHAR(100);
+    v_job VARCHAR(100); 
 
 BEGIN
 
