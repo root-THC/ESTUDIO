@@ -669,7 +669,7 @@ BEGIN
     RETURN v_ename;
 
 EXCEPTION 
-    WHEN 
+    WHEN NO_DATA
 
 END;
 
