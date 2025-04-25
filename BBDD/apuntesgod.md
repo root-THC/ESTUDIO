@@ -649,7 +649,7 @@ scott=> SELECT mostraEmpleat(1234::smallint);
 ERROR:  query returned no rows
 CONTEXT:  PL/pgSQL function mostraempleat(smallint) line 9 at SQL statement
 
--- USAREMOS EXCEPTION PARA 
+-- USAREMOS EL EXCEPTION PARA 
 
 CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
 RETURNS VARCHAR
