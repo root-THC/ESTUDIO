@@ -670,7 +670,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'Error no hi ha cap valor que coincideixi amb la teva cerca' || p_empno; 
+    RETURN 'Error no hi ha cap valor que coincideixi amb la teva cerca :' || p_empno; 
 
 END;
 
