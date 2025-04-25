@@ -723,7 +723,7 @@ END;
 
 $$LANGUAGE PLPGSQL;
 ```
-### :`
+### `:`
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
