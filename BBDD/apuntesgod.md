@@ -751,8 +751,7 @@ BEGIN
     ELSE   ENDIF IF 
         THEN v_sal := v_emp.sal * 1.3;
     
-    ENDIF;
-    ENDIF;
+   
     
     RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
 
