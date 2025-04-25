@@ -622,7 +622,7 @@ v_ename VARCHAR(100); --variable local
 BEGIN
 
     SELECT ename
-    INTO v_ename -- la variable de antes
+    INTO STRICT v_ename -- la variable de antes
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
