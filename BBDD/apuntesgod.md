@@ -692,6 +692,38 @@ scott=> SELECT mostraEmpleat(7499::smallint);
 ```
 ### `SELECCIONAR MUCHOS:`
 
+CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
+RETURNS VARCHAR
+AS $$
+
+-- OTRA VARIABLE PORQUE QUEREMOS MOSTRAR EL JOB DEL EMPLEADO
+DECLARE
+
+    v_ename VARCHAR(100); --variable local
+    v_job VARCHAR(100); 
+-- También podemos poner v_job emp.job %type; asi no tenemos que consultar en consola
+
+BEGIN
+
+    SELECT ename  , job 
+    INTO STRICT v_ename, v_job -- la variable de antes
+    FROM emp
+    WHERE empno = p_empno; -- parametro del codigo del empleado
+
+    
+    RETURN 'L''empleat ' || v_ename || ' treballa de ' || v_job ;
+
+-- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
+
+EXCEPTION 
+    WHEN NO_DATA_FOUND THEN
+    RETURN 'Error no n''hi ha cap valor que coincideixi amb la teva cerca : ' || p_empno;
+
+END;
+
+$$LANGUAGE PLPGSQL;
+
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
