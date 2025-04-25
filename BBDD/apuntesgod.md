@@ -644,6 +644,10 @@ $$LANGUAGE PLPGSQL;
 
 Si llamamos a la función con un valor que no existe
 
+scott=> SELECT mostraEmpleat(1234::smallint);
+ERROR:  query returned no rows
+CONTEXT:  PL/pgSQL function mostraempleat(smallint) line 9 at SQL statement
+
 
 
 ## Funciones Útiles en SQL
