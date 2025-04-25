@@ -668,7 +668,7 @@ BEGIN
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
     
-    RETURN 'Nombre' v_ename || 'Trabaja en 'v_job 'Trabaja' ;
+    RETURN 'Nombre' v_ename || 'Trabaja como 'v_job 'Trabaja' ;
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
