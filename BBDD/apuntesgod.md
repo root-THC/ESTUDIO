@@ -749,7 +749,7 @@ BEGIN
     ELSE 
         LOWER(v_emp.job)= 'clerk' THEN v_sal := v_emp.sal * 1.2;
     ELSE 
-        THEN v_sal := sal * 1.3;
+        THEN v_sal := v_sal * 1.3;
     
     RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
 
