@@ -640,7 +640,7 @@ $$LANGUAGE PLPGSQL;
  --HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
 
 ```
-#### `VOLVER A USUARIO:`
+#### `GESTIONAR ERRORES:`
 
 
 ## Funciones Útiles en SQL
