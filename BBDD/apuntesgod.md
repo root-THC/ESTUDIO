@@ -667,7 +667,7 @@ BEGIN
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
-    RETURN v_job
+    
     RETURN v_ename;
 
 EXCEPTION 
