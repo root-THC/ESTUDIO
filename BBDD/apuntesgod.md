@@ -642,7 +642,7 @@ $$LANGUAGE PLPGSQL;
 ```
 ### `GESTIONAR ERRORES:`
 
-Si llamamos a la función con un valor que no existe
+Si llamamos a la función con un valor que no existe nos dará el siguiente error
 
 ```sql
 scott=> SELECT mostraEmpleat(1234::smallint);
