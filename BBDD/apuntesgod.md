@@ -670,7 +670,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'Error' 
+    RETURN '' 
 
 END;
 
