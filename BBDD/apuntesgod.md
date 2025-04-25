@@ -723,7 +723,7 @@ EXCEPTION
 END;
 
 $$LANGUAGE PLPGSQL;
-
+```
 
 ## Funciones Útiles en SQL
 
