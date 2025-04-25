@@ -651,7 +651,7 @@ CONTEXT:  PL/pgSQL function mostraempleat(smallint) line 9 at SQL statement
 
 -- USAREMOS EXCEPTION PARA 
 
-CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT,)
+CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
 RETURNS VARCHAR
 AS $$
 
