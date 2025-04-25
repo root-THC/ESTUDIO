@@ -701,7 +701,7 @@ AS $$
 DECLARE
 
    v_emp record; -- variable compuesta
--- También podemos poner v_job emp.job %type; asi no tenemos que consultar en consola
+
 
 BEGIN
 
