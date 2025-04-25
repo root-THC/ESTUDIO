@@ -668,6 +668,8 @@ BEGIN
 
     RETURN v_ename;
 
+EXCEPTION 
+
 END;
 
 $$LANGUAGE PLPGSQL;
