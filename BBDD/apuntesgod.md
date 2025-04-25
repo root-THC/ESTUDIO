@@ -642,6 +642,7 @@ $$LANGUAGE PLPGSQL;
 ```
 ### `GESTIONAR ERRORES:`
 
+Si llamamos a la función con un valor que no existe
 
 
 
