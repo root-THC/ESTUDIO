@@ -735,7 +735,7 @@ AS $$
 DECLARE
 
    v_emp record; -- variable compuesta
-   v_emp 
+   v_emp sale
 
 BEGIN
 
