@@ -690,7 +690,7 @@ scott=> SELECT mostraEmpleat(7499::smallint);
  L'empleat ALLEN treballa de SALESMAN
 (1 row)
 ```
-### `GESTIONAR ERRORES:`
+### `SELECCIONAR MUCHOS:`
 
 ## Funciones Útiles en SQL
 
