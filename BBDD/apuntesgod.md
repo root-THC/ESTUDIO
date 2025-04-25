@@ -744,9 +744,9 @@ BEGIN
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
-    IF ELSE
+    IF 
         LOWER(v_emp.job)= 'salesman' THEN v_sal := v_emp.sal * 1.1;
-    IF ELSE
+    ELSE IF
         LOWER(v_emp.job)= 'clerk' THEN v_sal := v_emp.sal * 1.2;
     IF ELSE 
         THEN v_sal := v_emp.sal * 1.3;
