@@ -723,7 +723,7 @@ END;
 
 $$LANGUAGE PLPGSQL;
 ```
-### `IF :`
+### `IF THEN ELSE:`
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
