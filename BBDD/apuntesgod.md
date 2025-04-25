@@ -725,9 +725,37 @@ $$LANGUAGE PLPGSQL;
 ```
 ### `IF | THEN | ELSE | END IF:`
 
-Mostrar nombre y salario y salario incrementat si es Salesman 10% mas si es clerk un 20% cualquier otro 30% 
+Mostrar nombre y salario y salario incrementat si es Salesman 10% mas si es clerk un 20% cualquier otro 30% y el job
 ```sql
+CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
+RETURNS VARCHAR
+AS $$
 
+-- EL RECORD ES PARA GUARDAR X VALORES
+DECLARE
+
+   v_emp record; -- variable compuesta
+
+
+BEGIN
+
+    SELECT * 
+    INTO STRICT v_emp -- la variable de antes
+    FROM emp
+    WHERE empno = p_empno; -- parametro del codigo del empleado
+
+    
+    RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
+
+-- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
+
+EXCEPTION 
+    WHEN NO_DATA_FOUND THEN
+    RETURN 'Error no n''hi ha cap valor que coincideixi amb la teva cerca : ' || p_empno;
+
+END;
+
+$$LANGUAGE PLPGSQL;
 ```
 
 
