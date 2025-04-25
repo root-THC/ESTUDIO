@@ -650,6 +650,28 @@ ERROR:  query returned no rows
 CONTEXT:  PL/pgSQL function mostraempleat(smallint) line 9 at SQL statement
 
 -- USAREMOS EXCEPTION PARA 
+
+CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
+RETURNS VARCHAR
+AS $$
+
+DECLARE
+
+    v_ename VARCHAR(100); --variable local
+
+BEGIN
+
+    SELECT ename
+    INTO STRICT v_ename -- la variable de antes
+    FROM emp
+    WHERE empno = p_empno; -- parametro del codigo del empleado
+
+    RETURN v_ename;
+
+END;
+
+$$LANGUAGE PLPGSQL;
+
 ```
 
 
