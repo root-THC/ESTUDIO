@@ -643,6 +643,8 @@ $$LANGUAGE PLPGSQL;
 #### `GESTIONAR ERRORES:`
 
 
+
+
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
