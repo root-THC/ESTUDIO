@@ -723,7 +723,7 @@ END;
 
 $$LANGUAGE PLPGSQL;
 ```
-### `SELECCIONAR MUCHOS:`
+### :`
 ## Funciones Útiles en SQL
 
 ### `ctrl+r`
