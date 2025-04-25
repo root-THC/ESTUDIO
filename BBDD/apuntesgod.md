@@ -697,7 +697,7 @@ CREATE OR REPLACE FUNCTION mostraEmpleat(p_empno SMALLINT)
 RETURNS VARCHAR
 AS $$
 
--- EL RECORD ES POR 
+-- EL RECORD ES POR SI TENEMOS 
 DECLARE
 
    v_emp record; -- variable compuesta
