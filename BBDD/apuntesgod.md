@@ -707,7 +707,7 @@ DECLARE
 BEGIN
 
     SELECT * 
-    INTO STRICT  -- la variable de antes
+    INTO STRICT v_emp -- la variable de antes
     FROM emp
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
