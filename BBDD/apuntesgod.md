@@ -700,7 +700,7 @@ AS $$
 -- OTRA VARIABLE PORQUE QUEREMOS MOSTRAR EL JOB DEL EMPLEADO
 DECLARE
 
-   v_emp record;
+   v_emp record; -- variable compuesta
 -- También podemos poner v_job emp.job %type; asi no tenemos que consultar en consola
 
 BEGIN
