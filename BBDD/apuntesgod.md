@@ -669,6 +669,7 @@ BEGIN
     RETURN v_ename;
 
 EXCEPTION 
+    WHEN 
 
 END;
 
