@@ -725,7 +725,7 @@ $$LANGUAGE PLPGSQL;
 ```
 ### `IF | THEN | ELSE | END IF:`
 
-Mostrar nombre y salario y salario incrementat si es Salesman 10% mas 
+Mostrar nombre y salario y salario incrementat si es Salesman 10% mas si es clerk un 20 
 ```sql
 
 ```
