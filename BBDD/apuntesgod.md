@@ -750,7 +750,8 @@ BEGIN
         ENDIF;
     IF
         LOWER(v_emp.job)= 'clerk' THEN v_sal := v_emp.sal * 1.2;
-    ELSE  ENDIF IF 
+    ELSE
+      ENDIF IF 
         v_sal := v_emp.sal * 1.3;
     
    
