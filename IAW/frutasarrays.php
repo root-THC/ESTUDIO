@@ -173,3 +173,6 @@ echo "<p> Total (NO IVA) : " . number_format($total_sin_iva,2) .  "€</p>";
 echo "<p> Total (CON IVA) : " . number_format($total_con_iva,2) . "€</p>";
 
 ?>
+
+
+// SI SON PRODUCTOS PEDIDOS 
