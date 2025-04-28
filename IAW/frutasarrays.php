@@ -175,4 +175,4 @@ echo "<p> Total (CON IVA) : " . number_format($total_con_iva,2) . "€</p>";
 ?>
 
 
-// SI SON PRODUCTOS PEDIDOS 
+// SI SON PRODUCTOS PEDIDOS TIENEN QUE SER REDONDEADOS 
