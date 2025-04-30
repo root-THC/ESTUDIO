@@ -2,7 +2,7 @@ CREATE OR REPLACE FUNCTION existeixClient(p_empno SMALLINT)
 RETURNS BOOLEAN
 AS $$
 
--- EL RECORD ES PARA GUARDAR X VALORES
+
 DECLARE
 
    v_emp record; -- variable compuesta
