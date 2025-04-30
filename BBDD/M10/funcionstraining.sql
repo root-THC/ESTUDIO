@@ -1,3 +1,7 @@
+CREATE SEQUENCE cliecod_seq;
+SELECT setval('cliecod_seq', (select max(cliecod) from cliente), true);
+
+
 -- 1er EJERCICIO J
 
 CREATE OR REPLACE FUNCTION existeixClient(p_cliecod SMALLINT)
