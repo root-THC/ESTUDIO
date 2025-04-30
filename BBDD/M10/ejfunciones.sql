@@ -20,6 +20,7 @@ BEGIN
     WHERE cliecod = p_cliecod
     
 RETURN TRUE 
+
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
     RETURN 'FALSE';
