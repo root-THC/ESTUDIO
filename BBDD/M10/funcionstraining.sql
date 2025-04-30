@@ -28,7 +28,7 @@ $$LANGUAGE PLPGSQL;
 
 -- 2do EJERCICIO J
 
-CREATE OR REPLACE FUNCTION altaClient(p_nombre VARCHAR (20),p_repcod,p_limcred SMALLINT)
+CREATE OR REPLACE FUNCTION altaClient(p_nombre VARCHAR (20),p_repcod SMALLINT,p_limcred SMALLINT)
 RETURNS VARCHAR
 AS $$
 
