@@ -44,7 +44,6 @@ BEGIN
     FROM repventa 
     WHERE repcod = p_repcod;
     
-    IF cliecod EXIST  
 
 
     INSERT INTO cliente VALUES (NEXTVAL('cliecod_seq'),p_nombre,p_repcod,p_limcred);
