@@ -11,7 +11,6 @@ DECLARE
     v_cliente record;
 
 BEGIN
-    
     SELECT * 
     INTO STRICT  v_cliente
     FROM cliente
