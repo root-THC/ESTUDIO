@@ -13,7 +13,8 @@ BEGIN
     SELECT * 
     INTO STRICT v_cliente 
     FROM cliente
-    WHERE cliecod = p_cliecod); 
+    WHERE cliecod = p_cliecod
+    ); 
 
    
 END;
