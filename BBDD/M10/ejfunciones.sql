@@ -8,9 +8,7 @@ AS $$
 
 
 DECLARE
-
     v_cliente record;
-   
 
 BEGIN
     
