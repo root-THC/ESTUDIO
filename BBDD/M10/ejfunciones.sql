@@ -28,7 +28,7 @@ BEGIN
     
    
     
-    RETURN  'L''empleat ' || v_emp.ename || ' treballa de ' || v_emp.job;
+    RETURN  EXISTS;
 
 -- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
 
