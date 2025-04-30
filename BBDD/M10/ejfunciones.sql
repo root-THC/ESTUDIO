@@ -33,6 +33,7 @@ $$LANGUAGE PLPGSQL;
 
 CREATE SEQUENCE cliecod_seq;
 SELECT setval('cliecod_seq', (select max(cliecod) from cliente), true);
+
 CREATE OR REPLACE FUNCTION altaClient(p_nombre,p,repcod,p_limcred SMALLINT)
 RETURNS BOOLEAN
 AS $$
