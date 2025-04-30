@@ -41,7 +41,8 @@ DECLARE
 BEGIN
     SELECT repcod FROM repventa WHERE repcod = p_repcod
     INTO STRICT  v_cliente
-    FROM repventa WHERE repcod = p_repcod
+    FROM repventa 
+    WHERE repcod = p_repcod
     
     IF cliecod EXIST  
 
