@@ -6,7 +6,6 @@ CREATE OR REPLACE FUNCTION existeixClient(p_cliecod SMALLINT)
 RETURNS BOOLEAN
 AS $$
 
-
 DECLARE
     v_cliente record;
 
