@@ -48,7 +48,7 @@ BEGIN
 
     INSERT INTO cliente VALUES (NEXTVAL('cliecod_seq'),p_nombre,p_repcod,p_limcred);
 
-    RETURN 'Client ' || v_cliente.repcod || ' s''ha donat d''alta correctament ';
+    RETURN 'Client ' || v_cliente.cliecod || ' s''ha donat d''alta correctament ';
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
