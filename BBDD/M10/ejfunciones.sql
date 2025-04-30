@@ -19,7 +19,7 @@ BEGIN
     FROM cliente
     WHERE cliecod = p_cliecod
     
-RETURN 
+RETURN BOOLEAN 
    
 END;
 
