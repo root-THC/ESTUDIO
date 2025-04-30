@@ -35,7 +35,7 @@ AS $$
 
 DECLARE
 
-   v_cliente record;
+   v_repventa record;
    
 
 BEGIN
