@@ -40,7 +40,7 @@ DECLARE
 
 BEGIN
     
-    INSERT INTO cliente VALUES (NEXTVAL(cliecod_seq'),p_nom) 
+    INSERT INTO cliente VALUES (NEXTVAL('cliecod_seq'),p_nom) 
     INTO STRICT  v_cliente
     FROM cliente
     WHERE cliecod = p_cliecod AND repcod = p_repcod AND limcred = p_limcred;
