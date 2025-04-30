@@ -51,7 +51,7 @@ BEGIN
     FROM cliente
     WHERE cliecod = p_cliecod;
     
-RETURN 'Client ';
+RETURN 'Client';
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
