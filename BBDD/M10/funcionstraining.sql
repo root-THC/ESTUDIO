@@ -1,7 +1,5 @@
 -- 1er EJERCICIO J
 
-
-
 CREATE OR REPLACE FUNCTION existeixClient(p_cliecod SMALLINT)
 RETURNS BOOLEAN
 AS $$
