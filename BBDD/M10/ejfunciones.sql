@@ -32,7 +32,7 @@ $$LANGUAGE PLPGSQL;
 -- 2do EJERCICIO J
 
 
-CREATE OR REPLACE FUNCTION altaClient(p_nombre,p,repcod, SMALLINT)
+CREATE OR REPLACE FUNCTION altaClient(p_nombre,p,repcod,p_limcred SMALLINT)
 RETURNS BOOLEAN
 AS $$
 
