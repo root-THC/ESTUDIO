@@ -12,7 +12,7 @@ BEGIN
 
     SELECT * 
     INTO STRICT v_emp -- la variable de antes
-    FROM emp
+    FROM cliente
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
     IF 
