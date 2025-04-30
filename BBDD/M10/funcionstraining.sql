@@ -39,7 +39,7 @@ DECLARE
    
 
 BEGIN
-    SELECT repcod FROM repventa WHERE repcod = p_repcod
+    SELECT repcod
     INTO STRICT  v_repcod
     FROM repventa 
     WHERE repcod = p_repcod;
