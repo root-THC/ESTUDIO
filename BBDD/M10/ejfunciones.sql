@@ -13,8 +13,8 @@ DECLARE
    
 
 BEGIN
-    RETURN EXISTS (
-    SELECT * 
+    
+SELECT * 
     FROM cliente
     WHERE cliecod = p_cliecod
     ); 
