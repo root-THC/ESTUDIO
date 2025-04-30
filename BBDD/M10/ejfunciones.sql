@@ -14,7 +14,7 @@ DECLARE
 
 BEGIN
     
-SELECT * 
+    SELECT * 
     FROM cliente
     WHERE cliecod = p_cliecod
     
