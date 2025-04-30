@@ -13,7 +13,7 @@ BEGIN
     SELECT * 
     INTO STRICT v_cliente 
     FROM cliente
-    WHERE cliecod = p_empno; 
+    WHERE empno = p_empno; 
 
     IF 
         LOWER(v_emp.job)= 'salesman' THEN v_sal := v_emp.sal * 1.1;
