@@ -43,7 +43,7 @@ BEGIN
     SELECT * 
     INTO STRICT  v_cliente
     FROM cliente
-    WHERE cliecod = p_cliecod;
+    WHERE cliecod = p_cliecod AND repcod = p_repcod AND limcred = p_limcred;
     
 RETURN 'Client ' || v_cliente.repcod || ' s''ha donat d''alta correctament ';
 
