@@ -15,6 +15,7 @@ DECLARE
 BEGIN
     
     SELECT * 
+    INTO STRICT  
     FROM cliente
     WHERE cliecod = p_cliecod
     
