@@ -31,7 +31,7 @@ $$LANGUAGE PLPGSQL;
 
 -- 2do EJERCICIO J
 
-CREATE SEQUENCE cliecod
+CREATE SEQUENCE cliecod_seq 
 CREATE OR REPLACE FUNCTION altaClient(p_nombre,p,repcod,p_limcred SMALLINT)
 RETURNS BOOLEAN
 AS $$
