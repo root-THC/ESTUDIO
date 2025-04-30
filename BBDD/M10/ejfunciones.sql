@@ -11,7 +11,6 @@ DECLARE
 BEGIN
     RETURN EXISTS (
     SELECT * 
-    INTO STRICT v_cliente 
     FROM cliente
     WHERE cliecod = p_cliecod
     ); 
