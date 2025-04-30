@@ -51,7 +51,7 @@ BEGIN
     FROM cliente
     WHERE cliecod = p_cliecod;
     
-RETURN 'Client ' || v_cliente.repcod || ' s''ha donat correctament d''alta ' || v_emp.job;
+RETURN 'Client ' || v_cliente.repcod || ' s''ha donat correctament d''alta ' ;
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
