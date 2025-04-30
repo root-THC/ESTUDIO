@@ -35,7 +35,7 @@ AS $$
 
 DECLARE
 
-   v_repcod ;
+   v_repcod cliente.repcod%type;
    
 
 BEGIN
