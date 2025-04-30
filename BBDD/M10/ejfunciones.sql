@@ -51,7 +51,7 @@ BEGIN
     FROM cliente
     WHERE cliecod = p_cliecod;
     
-RETURN 'Client ' || v_cliente. || ' treballa de ' || v_emp.job;
+RETURN 'Client ' || v_cliente.repcod || ' treballa de ' || v_emp.job;
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
