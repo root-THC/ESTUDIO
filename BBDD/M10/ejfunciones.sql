@@ -5,7 +5,7 @@ AS $$
 
 DECLARE
 
-   v_emp record; -- variable compuesta
+   v_cliente record; -- variable compuesta
    v_sal emp.sal%type;
 
 BEGIN
