@@ -17,7 +17,7 @@ BEGIN
 SELECT * 
     FROM cliente
     WHERE cliecod = p_cliecod
-    ); 
+    
 
    
 END;
