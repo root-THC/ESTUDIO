@@ -15,7 +15,7 @@ DECLARE
 BEGIN
     
     SELECT * 
-    INTO STRICT  
+    INTO STRICT  v_cliente
     FROM cliente
     WHERE cliecod = p_cliecod
     
