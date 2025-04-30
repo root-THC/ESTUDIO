@@ -52,7 +52,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'FALSE';
+    RETURN 'El representant' p_repcod ' no existeix';
    
 END;
 
