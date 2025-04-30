@@ -11,7 +11,7 @@ DECLARE
 BEGIN
 
     SELECT * 
-    INTO STRICT v_emp -- la variable de antes
+    INTO STRICT v_cliente -- la variable de antes
     FROM cliente
     WHERE empno = p_empno; -- parametro del codigo del empleado
 
