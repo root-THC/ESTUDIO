@@ -6,7 +6,7 @@ AS $$
 DECLARE
 
    v_emp record; -- variable compuesta
-   v_sal emp.sal%type
+   v_sal emp.sal%type;
 
 BEGIN
 
