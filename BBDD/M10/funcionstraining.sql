@@ -35,7 +35,7 @@ AS $$
 
 DECLARE
 
-   v_repventa record;
+   v_repcod record;
    
 
 BEGIN
