@@ -15,20 +15,7 @@ BEGIN
     FROM cliente
     WHERE cliecod = p_cliecod; 
 
-    IF 
-        LOWER(v_emp.job)= 'salesman' THEN v_sal := v_emp.sal * 1.1;
-    ELSE 
-        ENDIF;
-    IF
-        LOWER(v_emp.job)= 'clerk' THEN v_sal := v_emp.sal * 1.2;
-    ELSE
-        ENDIF; 
-    IF 
-        v_sal := v_emp.sal * 1.3;
-    
    
-    
-    RETURN  EXISTS ();
 
 -- EL EXCEPTION PARA QUE CUANDO NO EXISTA EL VALOR MUESTRE UN MENSAJE
 
