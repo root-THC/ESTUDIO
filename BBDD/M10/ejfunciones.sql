@@ -9,7 +9,7 @@ AS $$
 
 DECLARE
 
-   v_cliente record;
+    v_cliente record;
    
 
 BEGIN
