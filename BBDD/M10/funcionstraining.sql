@@ -45,7 +45,9 @@ BEGIN
     WHERE cliecod = p_cliecod AND repcod = p_repcod AND limcred = p_limcred;
     
     IF cliecod EXIST  
-        INSERT INTO cliente VALUES (NEXTVAL('cliecod_seq'),p_nombre,p_repcod,p_limcred);
+
+
+    INSERT INTO cliente VALUES (NEXTVAL('cliecod_seq'),p_nombre,p_repcod,p_limcred);
 
 RETURN 'Client ' || v_cliente.repcod || ' s''ha donat d''alta correctament ';
 
