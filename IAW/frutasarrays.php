@@ -90,10 +90,6 @@ $productos = [
     ],
 ];
 
-//function añadir_productos ($productos[]='');
-
-
-//sort para ordenar los objetos del array
 
 // FUNCIONES
 function calcularIVA(float $import, float $iva): float {
@@ -117,62 +113,72 @@ echo "<tr>";
 
 $total_articulos = 0;
 $total_sin_iva = 0;
-$total_con_iva = 0;
-foreach ($productos as $producto) {
+for ($i = 1; $i <= 7; $i++) {
+    
+    $indice_aleatorio = rand(0, count($productos) - 1);
+    $producto = $productos[$indice_aleatorio];
+    
+    
+    
+
+// Condición para definir cantidad
+
+if ($producto['cantidad'] == "pedido" OR $producto['cantidad'] == "unidad") {
+    $cantidad = mt_rand(1, 20);
+    
+    if ($producto['cantidad'] == "unidad" && $cantidad > 1) {
+        $producto['cantidad'] = "unidades";
+    }
+} else {
 
     $cantidad = mt_rand(100, 2000) / 100;
-    $total_articulos += $cantidad;  
-    $subtotal = $cantidad * $producto['€/u'];
-    $num_iva = calcularIVA($subtotal, $iva);
-    $precio_con_iva = $subtotal + $num_iva;
-    $total_sin_iva += $subtotal;
-   
-    // DESCUENTOS
-    $price_discount5 = $subtotal * 0.05;
-    $price_discount10 = $subtotal * 0.10;
-    //CALCULO IVA CON DESCUENTOS
-    $iva_result5 = ($subtotal - $price_discount5) * $iva;
-    $iva_result10 = ($subtotal - $price_discount10) * $iva;
-    $subtotal_discount5 = (($subtotal - $price_discount5) * (1+ $iva));
-    $subtotal_discount10 = (($subtotal - $price_discount10) * (1+ $iva));
+}
+$total_articulos += $cantidad;
 
-    // Mostrar fila de la tabla
-    echo "<tr>";
+$subtotal = $cantidad * $producto['€/u'];
+$total_sin_iva += $subtotal;
+$num_iva = calcularIVA($subtotal, $iva);
+$precio_con_iva = $subtotal + $num_iva;
+// Descuentos
+$price_discount5 = $subtotal * 0.05;
+$price_discount10 = $subtotal * 0.10;
+// IVA con descuentos
+$iva_result5 = ($subtotal - $price_discount5) * $iva;
+$iva_result10 = ($subtotal - $price_discount10) * $iva;
+$subtotal_discount5 = (($subtotal - $price_discount5) * (1 + $iva));
+$subtotal_discount10 = (($subtotal - $price_discount10) * (1 + $iva));
+
+echo "<tr>";
     echo "<td>
     <img src='{$producto['imagen']}' alt='{$producto['producto']}' width='50'><br>
     {$producto['producto']}
-  </td>";
-    echo "<td>$cantidad {$producto['cantidad']}</td>";
-    echo "<td>{$producto['€/u']} €</td>";
-    echo "<td>" . number_format($subtotal, 2) . " €</td>";
-    if($subtotal<30){
-    echo "<td> 0% (0,00€)</td>";
-    echo "<td>" . number_format ($num_iva,2) . "€</td>";
-    echo "<td>" . number_format ($precio_con_iva,2) . "€</td>";
-    $total_con_iva += $precio_con_iva;
-    } 
-    elseif ($subtotal >= 30 && $subtotal <=50){
-    echo "<td> 5% " . number_format($price_discount5,2) . "€</td>"; # DISCOUNT
-    echo "<td>  " . number_format($iva_result5,2) . "€</td>"; #IVA
-    echo "<td>" . number_format($subtotal_discount5,2) . "€</td>"; #TOTAL
-    $total_con_iva += $subtotal_discount5;     
-    } 
-    elseif ($subtotal>50) { 
-        echo "<td> 10% " . number_format($price_discount10,2) . "€</td>"; # DISCOUNT
-        echo "<td>  " . number_format($iva_result10,2) . "€</td>"; #IVA
-        echo "<td>" . number_format($subtotal_discount10,2) . "€</td>"; #TOTAL
-        $total_con_iva += $subtotal_discount10;
-    }
-    echo "</tr>";
+    </td>";
+
+// Mostrar cantidad
+echo "<td>$cantidad {$producto['cantidad']}</td>";
+echo "<td>{$producto['€/u']} €/{$producto['cantidad']}</td>";
+echo "<td>" . number_format($subtotal, 2) . " €</td>";
+
+// Descuento e IVA según subtotal
+if ($subtotal < 30) {
+    echo "<td>0% (0,00€)</td>";
+    echo "<td>" . number_format($num_iva, 2) . "€</td>";
+    echo "<td>" . number_format($precio_con_iva, 2) . "€</td>";
+} elseif ($subtotal >= 30 && $subtotal <= 50) {
+    echo "<td>5% " . number_format($price_discount5, 2) . "€</td>";
+    echo "<td>" . number_format($iva_result5, 2) . "€</td>";
+    echo "<td>" . number_format($subtotal_discount5, 2) . "€</td>";
+} elseif ($subtotal > 50) {
+    echo "<td>10% " . number_format($price_discount10, 2) . "€</td>";
+    echo "<td>" . number_format($iva_result10, 2) . "€</td>";
+    echo "<td>" . number_format($subtotal_discount10, 2) . "€</td>";
+}
+echo "</tr>";
+
 }
 
 echo "</table>";
 
-echo "<p> Total productos : " . number_format($total_articulos,0) . " unidades</p>";
-echo "<p> Total (NO IVA) : " . number_format($total_sin_iva,2) .  "€</p>";
-echo "<p> Total (CON IVA) : " . number_format($total_con_iva,2) . "€</p>";
-
+echo "<p> Total productos : $total_articulos</p>";
+echo "<p>Total sin IVA :" . number_format($total_sin_iva, 2) . "€ </p>";
 ?>
-
-
-// SI SON PRODUCTOS PEDIDOS TIENEN QUE SER REDONDEADOS 
