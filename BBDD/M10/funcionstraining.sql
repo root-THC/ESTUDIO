@@ -57,3 +57,26 @@ EXCEPTION
 END;
 
 $$LANGUAGE PLPGSQL;
+
+
+-- 3 er ej J
+
+CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
+    RETURNS boolean
+    AS $$
+       DECLARE
+        v_exists SMALLINT;
+        BEGIN
+
+            SELECT exist
+            INTO STRICT v_exists 
+            FROM producto
+            WHERE fabcod = p_fabcod AND prodcod = p_prodcod;
+
+            IF p_cant > v_exists THEN
+                RETURN FALSE;
+            ELSE
+                RETURN TRUE;
+            END IF;
+        END; 
+    $$ LANGUAGE PLPGSQL;
