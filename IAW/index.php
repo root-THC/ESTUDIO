@@ -1,12 +1,14 @@
 <?php
 clearstatcache(); // Limpia la caché de archivos
-$archivos = glob("*.php") OR glob("*.html") ; // Obtiene todos los archivos PHP en el directorio
+
+// Combina los archivos .php y .html
+$archivos = array_merge(glob("*.php"), glob("*.html"));
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Selecciona un archivo </title>
+    <title>Selecciona un archivo</title>
 </head>
 <body>
     <h1>Archivos disponibles</h1>
@@ -19,6 +21,3 @@ $archivos = glob("*.php") OR glob("*.html") ; // Obtiene todos los archivos PHP 
     </ul>
 </body>
 </html>
-
-
-
