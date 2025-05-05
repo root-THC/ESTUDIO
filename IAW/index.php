@@ -6,7 +6,7 @@ $archivos = glob("*.php") OR glob("*.html") ; // Obtiene todos los archivos PHP 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Selecciona un archivo PHP</title>
+    <title>Selecciona un archivo </title>
 </head>
 <body>
     <h1>Archivos disponibles</h1>
