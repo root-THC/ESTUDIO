@@ -1,6 +1,6 @@
 <?php
 clearstatcache(); // Limpia la caché de archivos
-$archivos = glob("*.php") OR glob("*.php") ; // Obtiene todos los archivos PHP en el directorio
+$archivos = glob("*.php") OR glob("*.html") ; // Obtiene todos los archivos PHP en el directorio
 ?>
 <!DOCTYPE html>
 <html lang="es">
