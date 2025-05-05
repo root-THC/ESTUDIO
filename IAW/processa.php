@@ -9,8 +9,8 @@
     <p>Coses que m'arriben:</p>
     <?php
         echo "<p>Nom (de \$_GET): " . $_GET['nom'] . "</p>"; // GET ES PARA EL TIPO GET
-        echo "<p>Nom (de \$_POST): " . $_POST['nom'] . "</p>"; //
-        echo "<p>Nom (de \$_REQUEST): " . $_REQUEST['nom'] . "</p>"; //
+        echo "<p>Nom (de \$_POST): " . $_POST['nom'] . "</p>"; // POST PARA EL TIPO POST
+        echo "<p>Nom (de \$_REQUEST): " . $_REQUEST['nom'] . "</p>"; // 
     ?>
 </body>
 </html>
