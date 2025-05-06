@@ -1,7 +1,7 @@
 \c template1
 drop database if exists training;
 create database training;
-
+\c training
 CREATE SEQUENCE cliecod_seq;
 SELECT setval('cliecod_seq', (select max(cliecod) from cliente), true);
 
