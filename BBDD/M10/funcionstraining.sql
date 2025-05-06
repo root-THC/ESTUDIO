@@ -1,7 +1,7 @@
-\c
+\c training
 drop function if exists training;
 create database training;
-\c training
+
 
 
 CREATE SEQUENCE cliecod_seq;
