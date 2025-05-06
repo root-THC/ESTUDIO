@@ -80,3 +80,6 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
             END IF;
         END; 
     $$ LANGUAGE PLPGSQL;
+
+
+-- 3 er ej J
