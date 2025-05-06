@@ -87,7 +87,7 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
 CREATE OR REPLACE FUNCTION altaComanda()
     RETURNS VARCHAR
     AS $$
-
+    
 
 
 
