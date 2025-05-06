@@ -1,6 +1,6 @@
 \c training
 drop function if exists existeixClient(p_cliecod SMALLINT);
-drop function if exists existeixClient(p_cliecod SMALLINT);
+drop function if exists altaClient(p_nombre VARCHAR (20),p_repcod SMALLINT,p_limcred NUMERIC (8,2));
 
 
 
