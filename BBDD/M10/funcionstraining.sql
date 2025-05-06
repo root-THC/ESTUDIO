@@ -83,3 +83,5 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
 
 
 -- 4 to ej J
+
+CREATE OR REPLACE FUNCTION 
