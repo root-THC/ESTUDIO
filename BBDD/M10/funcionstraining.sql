@@ -1,3 +1,7 @@
+\c template1
+drop database if exists training;
+create database training;
+
 CREATE SEQUENCE cliecod_seq;
 SELECT setval('cliecod_seq', (select max(cliecod) from cliente), true);
 
@@ -87,7 +91,7 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
 CREATE OR REPLACE FUNCTION altaComanda()
     RETURNS VARCHAR
     AS $$
-    
+
 
 
 
