@@ -1,5 +1,5 @@
 \c template1
-drop database if exists training;
+drop function if exists training;
 create database training;
 \c training
 
