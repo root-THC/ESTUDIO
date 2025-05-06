@@ -2,7 +2,7 @@
 drop function if exists existeixClient(p_cliecod SMALLINT);
 drop function if exists altaClient(p_nombre VARCHAR (20),p_repcod SMALLINT,p_limcred NUMERIC (8,2));
 drop function if exists stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR);
-drop SEQUENCE if exists clie
+drop SEQUENCE if exists cliecod_seq;
 
 
 CREATE SEQUENCE cliecod_seq;
