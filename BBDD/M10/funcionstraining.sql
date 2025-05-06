@@ -1,5 +1,5 @@
 \c training
-drop function if exists training;
+drop function if exists existeixClient(p_cliecod SMALLINT);
 create database training;
 
 
