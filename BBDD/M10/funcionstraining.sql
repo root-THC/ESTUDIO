@@ -97,6 +97,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     DECLARE 
     v_productos record;
     BEGIN 
+    SELECT 
 
     IF existeixClient(p_cliecod) THEN 
 
