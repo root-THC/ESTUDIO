@@ -114,7 +114,7 @@ AS $$
             RETURN 1;
         END IF;  
         */
-            IF existeixClient()
+            IF existeixClient(2111)
 
     END; 
     $$ LANGUAGE PLPGSQL;
