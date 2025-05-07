@@ -119,7 +119,7 @@ AS $$
             END IF;
 
             IF NOT stock0k (p_cant,p_fabcod ,p_prodcod ) THEN
-                RETURN 'No hay existencias de '||p_cliecod||;
+                RETURN 'No hay existencias de '||p_fabcod||;
             END IF;
 
 
