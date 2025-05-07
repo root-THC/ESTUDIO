@@ -91,7 +91,7 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
 
 -- 4 to ej J
 
-CREATE OR REPLACE FUNCTION altaComanda(p_cliecod,)
+CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT , )
     RETURNS VARCHAR
     AS $$     
     DECLARE 
