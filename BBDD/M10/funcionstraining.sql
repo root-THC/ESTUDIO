@@ -112,7 +112,6 @@ AS $$
                 RETURN 1;
             END IF;        
         ELSE 
-'
             RETURN 1;
         END IF;  
         
