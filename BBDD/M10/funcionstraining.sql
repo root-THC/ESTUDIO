@@ -96,7 +96,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     AS $$     
     DECLARE 
     v_productos record;
-    v_existencias_suficientes = stock0k (p_cant,p_fabcod ,p_prodcod );
+
     BEGIN 
     SELECT *
     INTO STRICT v_productos; 
