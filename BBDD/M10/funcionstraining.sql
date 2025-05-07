@@ -107,7 +107,7 @@ AS $$
             IF stock0k (p_cant,p_fabcod ,p_prodcod ) THEN 
                 SELECT v_productos.precio * p_cant INTO STRICT v_importe;
                 RETURN v_importe;
-        ELSE
+            ELSE
                 RETURN 1;
         END IF;      
     END; 
