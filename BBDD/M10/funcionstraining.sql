@@ -112,7 +112,7 @@ AS $$
                 RETURN 1;
             END IF;        
         ELSE 
-            RETURN 1;
+            RETURN 'El cliente ' || ;
         END IF;  
         
          
