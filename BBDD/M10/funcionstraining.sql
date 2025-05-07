@@ -97,7 +97,7 @@ CREATE OR REPLACE FUNCTION altaComanda()
     DECLARE 
 
     BEGIN 
-    
+    SELECT 
 
 
 
