@@ -93,7 +93,7 @@ CREATE OR REPLACE FUNCTION stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR)
 
 CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR )
 RETURNS VARCHAR
-    AS $$     
+AS $$     
     DECLARE 
     v_productos record;
     v_importe numeric;
