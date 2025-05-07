@@ -98,7 +98,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     v_productos record;
     BEGIN 
     SELECT *
-    INTO STRICT  
+    INTO STRICT v_productos; 
     FROM producto
     WHERE fabcod = p_fabcod AND prodcod = p_prodcod;
 
