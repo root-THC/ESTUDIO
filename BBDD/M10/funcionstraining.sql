@@ -112,7 +112,7 @@ AS $$
                 RETURN 1;
             END IF;        
         ELSE 
-            RETURN 'El cliente ' || p_cliecod || '';
+            RETURN 'El cliente ' || p_cliecod || 'no existe';
         END IF;  
         
          
