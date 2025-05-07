@@ -110,7 +110,6 @@ AS $$
         ELSE
                 RETURN 1;
         END IF;      
-    
     END; 
     $$ LANGUAGE PLPGSQL;
 
