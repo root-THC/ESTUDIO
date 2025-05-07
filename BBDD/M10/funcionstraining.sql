@@ -115,9 +115,6 @@ AS $$
         ELSE 
             RETURN 'El cliente ' || p_cliecod || ' no existe';
         END IF;  
-        
-         
-
 
     END; 
     $$ LANGUAGE PLPGSQL;
