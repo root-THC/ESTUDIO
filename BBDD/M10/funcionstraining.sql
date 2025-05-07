@@ -108,7 +108,7 @@ AS $$
                 SELECT v_productos.precio * p_cant INTO STRICT v_importe;
                 RETURN 'El pedido de ' || p_cliecod || 'es apto '|| 'el importe del pedido es : '|| v_importe || ;
             ELSE
-                RETURN 'E'
+                RETURN 'El cliente'
                 RETURN 1;
             END IF;        
         ELSE
