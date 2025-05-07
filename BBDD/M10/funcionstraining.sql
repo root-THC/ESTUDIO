@@ -102,7 +102,7 @@ AS $$
         INTO STRICT v_productos
         FROM producto
         WHERE fabcod = p_fabcod AND prodcod = p_prodcod;
-
+        v_importe := v_productos.precio * p_cant;
         IF existeixClient(p_cliecod) THEN 
             IF stock0k (p_cant,p_fabcod ,p_prodcod ) THEN 
                 v_importe := v_productos.precio * p_cant;
