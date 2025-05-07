@@ -109,6 +109,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
             RETURN v_importe
     ELSE
             RETURN 1;
+            
     SELECT 
 
 
