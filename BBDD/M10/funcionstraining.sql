@@ -109,7 +109,7 @@ AS $$
                 RETURN v_importe;
             ELSE
                 RETURN 1;
-        
+        ELSE
         END IF;      
     END; 
     $$ LANGUAGE PLPGSQL;
