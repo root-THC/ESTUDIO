@@ -108,7 +108,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
             SELECT v_productos.precio * p_cant INTO STRICT v_importe;
             RETURN v_importe
     ELSE
-            RETURN 1
+            RETURN 1;
     SELECT 
 
 
