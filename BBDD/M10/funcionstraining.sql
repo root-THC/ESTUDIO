@@ -112,8 +112,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     END IF;      
       END; 
     $$ LANGUAGE PLPGSQL;
-  
-    SELECT 
+
 
 
 
