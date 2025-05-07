@@ -96,7 +96,7 @@ RETURNS VARCHAR
 AS $$     
     DECLARE 
         v_productos record;
-        v_importe numeric;
+        v_importe numeric := ;
     BEGIN 
         SELECT *
         INTO STRICT v_productos
