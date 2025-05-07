@@ -103,6 +103,7 @@ AS $$
         FROM producto
         WHERE fabcod = p_fabcod AND prodcod = p_prodcod;
 
+        IF existeixClient(p_cliecod) THEN 
             IF stock0k (p_cant,p_fabcod ,p_prodcod ) THEN 
                 SELECT v_productos.precio * p_cant INTO STRICT v_importe;
                 RETURN v_importe;
