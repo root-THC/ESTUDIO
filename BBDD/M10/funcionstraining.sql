@@ -111,7 +111,7 @@ AS $$
                 RETURN 1;
             END IF;        
         ELSE
-        
+
         END IF;      
     END; 
     $$ LANGUAGE PLPGSQL;
