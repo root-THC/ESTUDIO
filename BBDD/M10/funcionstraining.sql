@@ -105,7 +105,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
 
     IF existeixClient(p_cliecod) THEN 
         IF stock0k (p_cant,p_fabcod ,p_prodcod ) THEN 
-            SELECT v_productos.precio * p_cant INTO STRICT 
+            SELECT v_productos.precio * p_cant INTO STRICT v_importe;
     ELSE
 
     SELECT 
