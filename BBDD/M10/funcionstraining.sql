@@ -96,7 +96,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     AS $$     
     DECLARE 
     v_productos record;
-    
+    v_
     BEGIN 
     SELECT *
     INTO STRICT v_productos; 
