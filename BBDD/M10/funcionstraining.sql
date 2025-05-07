@@ -96,6 +96,9 @@ CREATE OR REPLACE FUNCTION altaComanda()
     AS $$     
     DECLARE 
 
+    BEGIN 
+    
+
 
 
 
