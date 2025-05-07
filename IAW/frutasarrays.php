@@ -114,6 +114,7 @@ echo "<tr>";
 $total_articulos = 0;
 $total_sin_iva = 0;
 $lista_productos = [];
+$total_con_iva = 0;
 for ($i = 1; $i <= 7; $i++) {
     
     $indice_aleatorio = rand(0, count($productos) - 1);
@@ -176,14 +177,17 @@ for ($i = 1; $i <= 7; $i++) {
         echo "<td>0% (0,00€)</td>";
         echo "<td>" . number_format($num_iva, 2) . "€</td>";
         echo "<td>" . number_format($precio_con_iva, 2) . "€</td>";
+        $total_con_iva += $precio_con_iva;
     } elseif ($subtotal >= 30 && $subtotal <= 50) {
         echo "<td>5% " . number_format($price_discount5, 2) . "€</td>";
         echo "<td>" . number_format($iva_result5, 2) . "€</td>";
         echo "<td>" . number_format($subtotal_discount5, 2) . "€</td>";
+        $total_con_iva += $subtotal - $price_discount5 + $iva_result5;
     } elseif ($subtotal > 50) {
         echo "<td>10% " . number_format($price_discount10, 2) . "€</td>";
         echo "<td>" . number_format($iva_result10, 2) . "€</td>";
         echo "<td>" . number_format($subtotal_discount10, 2) . "€</td>";
+        $total_con_iva += $subtotal - $price_discount10 + $iva_result10;
     }
     echo "</tr>";
 
@@ -194,8 +198,10 @@ echo "</table>";
 
 echo "<p> Total productos : " . number_format($total_articulos) ."</p>";
 echo "<p>Total sin IVA : " . number_format($total_sin_iva, 2) . "€ </p>";
+echo "<p>Total con IVA y descuentos: " . number_format($total_con_iva, 2) . "€ </p>";
 echo "<p> Lista de productos: ";
 
+sort($lista_productos);
 
 $i=0;
 
