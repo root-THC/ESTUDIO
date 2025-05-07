@@ -103,7 +103,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     WHERE fabcod = p_fabcod AND prodcod = p_prodcod;
 
     IF existeixClient(p_cliecod) THEN 
-
+    
     ELSE
 
     SELECT 
