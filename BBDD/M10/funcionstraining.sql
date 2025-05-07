@@ -117,7 +117,7 @@ AS $$
             IF NOT existeixClient(2111) THEN
                 RETURN 'No existe el cliente '||p_cliecod||;
             END IF;
-            IF NOT existeixClient(2111) THEN
+            IF NOT stock0k (p_cant,p_fabcod ,p_prodcod ) THEN
                 RETURN 'No existe el cliente '||p_cliecod||;
             END IF;
 
