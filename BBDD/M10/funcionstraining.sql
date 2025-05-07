@@ -118,6 +118,8 @@ AS $$
                 RETURN 'No existe el cliente '||p_cliecod||;
             END IF;
 
+            
+
     END; 
     $$ LANGUAGE PLPGSQL;
 
