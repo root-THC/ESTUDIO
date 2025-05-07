@@ -111,7 +111,7 @@ AS $$
                 RETURN 'El cliente ' || p_cliecod || 'existe pero no disponemos de suficientes unidades solo disponemos de ' || v_productos.exist ;
             END IF;        
         ELSE 
-            RETURN 'El cliente ' || p_cliecod || 'no existe';
+            RETURN 'El cliente ' || p_cliecod || ' no existe';
         END IF;  
         
          
