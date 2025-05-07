@@ -115,7 +115,7 @@ AS $$
         END IF;  
         */
             IF NOT existeixClient(2111) THEN
-                RETURN 
+                RETURN 'No existe el cliente'
 
     END; 
     $$ LANGUAGE PLPGSQL;
