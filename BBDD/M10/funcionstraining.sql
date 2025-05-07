@@ -99,6 +99,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     BEGIN 
     SELECT * 
     FROM producto
+    WHERE 
 
     IF existeixClient(p_cliecod) THEN 
 
