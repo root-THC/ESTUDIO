@@ -109,7 +109,6 @@ AS $$
                 RETURN 'El pedido de ' || p_cliecod || 'es apto '|| 'el importe del pedido es : '|| v_importe ;
             ELSE
                 RETURN 'El cliente ' || p_cliecod || 'existe pero no disponemos de suficientes unidades solo disponemos de ' || v_productos.exist ;
-                RETURN 1;
             END IF;        
         ELSE 
             RETURN 'El cliente ' || p_cliecod || 'no existe';
