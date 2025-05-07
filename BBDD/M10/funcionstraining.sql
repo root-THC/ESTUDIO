@@ -95,11 +95,11 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
     RETURNS VARCHAR
     AS $$     
     DECLARE 
-
+    
     BEGIN 
 
     IF existeixClient(p_cliecod) THEN 
-    
+
     ELSE
 
     SELECT 
