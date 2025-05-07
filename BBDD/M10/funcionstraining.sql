@@ -98,7 +98,8 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
 
     BEGIN 
 
-    IF existeixClient(p_cliecod) = TRUE THEN
+    IF existeixClient(p_cliecod) = TRUE THEN 
+    
     SELECT 
 
 
