@@ -104,6 +104,7 @@ CREATE OR REPLACE FUNCTION altaComanda(p_cliecod SMALLINT,p_cant SMALLINT,p_fabc
 
     IF existeixClient(p_cliecod) THEN 
     stock0k (p_cant,p_fabcod ,p_prodcod )
+    
     ELSE
 
     SELECT 
