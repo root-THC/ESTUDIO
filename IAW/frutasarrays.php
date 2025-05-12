@@ -128,7 +128,8 @@ for ($i = 1; $i <= 7; $i++) {
     }else{
         $lista_productos[] = $producto['producto'];
     }
-    if($esta_en_llistat == true){
+        */
+    if(!$esta_en_llistat == true){
     }else{
         $lista_productos[] = $producto['producto'];
     }
