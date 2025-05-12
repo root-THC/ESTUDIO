@@ -123,7 +123,7 @@ for ($i = 1; $i <= 7; $i++) {
 
     $esta_en_llistat = in_array($producto['producto'],$lista_productos );
     
-    
+        
     if($esta_en_llistat == true){
     }else{
         $lista_productos[] = $producto['producto'];
