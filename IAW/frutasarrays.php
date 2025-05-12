@@ -129,7 +129,7 @@ for ($i = 1; $i <= 7; $i++) {
         $lista_productos[] = $producto['producto'];
     }
         */
-    if(! $esta_en_llistat){
+    if(! $esta_en_llistat)
             $lista_productos[] = $producto['producto'];
     
     
