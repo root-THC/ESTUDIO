@@ -43,7 +43,7 @@ BEGIN
 
     SELECT u.idusuari , d.idDocument , p.datapres , d.format
     
-    FROM prestec
+    FROM prestec P
 
     JOIN exemplar e ON e.idDocument = p.idExemplar
     
