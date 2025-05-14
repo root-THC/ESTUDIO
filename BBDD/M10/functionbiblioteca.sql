@@ -46,7 +46,7 @@ BEGIN
     INTO STRICT v_numero
     FROM prestec p
 
-    JOIN exemplar e ON e.idDocument = p.idExemplar
+    JOIN exemplar e ON e.idExemplar = p.idExemplar
     
     JOIN document d ON e.idDocument = d.idDocument
     
