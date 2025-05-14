@@ -43,7 +43,7 @@ DECLARE
 BEGIN
     SELECT u.idusuari , d.idcoument , p.datadev
     
-    FROM prestec u 
+    FROM prestec p
 
     JOIN prestec p ON 
     
