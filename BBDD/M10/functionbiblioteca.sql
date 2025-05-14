@@ -1,6 +1,6 @@
 drop function if exists usuariOK(p_usuari INTEGER);
 
---1 
+--1 EJERCICIO
 
 CREATE OR REPLACE FUNCTION usuariOK(p_usuari INTEGER)
 RETURNS VARCHAR
