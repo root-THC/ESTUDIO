@@ -41,7 +41,7 @@ DECLARE
     v_bloquejat usuari.bloquejat%TYPE;
 
 BEGIN
-    SELECT u.idusuari , d.idDocument , p.datap
+    SELECT u.idusuari , d.idDocument , p.datapres
     
     FROM prestec p
 
