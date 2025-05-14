@@ -33,7 +33,7 @@ $$LANGUAGE PLPGSQL;
 
 -- 2 FUNCIÓN
 
-CREATE OR REPLACE FUNCTION documentsPrestats(p_usuari INTEGER)
+CREATE OR REPLACE FUNCTION documentsPrestats(p_usuari INTEGER, p_format VARCHAR(100))
 RETURNS VARCHAR
 AS $$
 
