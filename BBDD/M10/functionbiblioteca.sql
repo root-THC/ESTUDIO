@@ -13,10 +13,10 @@ BEGIN
     FROM usuario
     WHERE idusuari = p_usuari;
     
-    IF
+    IF b
 
 
-    
+
     RETURN TRUE;
 
 
