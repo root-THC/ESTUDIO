@@ -22,7 +22,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN '2: usuari ' || p_usuari || 'inexistent'; 
+    RETURN '2: usuari ' || p_usuari || ' inexistent'; 
 
 END;
 
