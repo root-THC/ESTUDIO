@@ -49,7 +49,7 @@ BEGIN
     
     JOIN document d ON e.idDocument = d.idDocument
     
-    WHERE p.dataDev IS NULL AND P.idUsuari = p_usuari AND LOWER(d.format) = p_format;
+    WHERE p.dataDev IS NULL AND p.idUsuari = p_usuari AND LOWER(d.format) = p_format;
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
