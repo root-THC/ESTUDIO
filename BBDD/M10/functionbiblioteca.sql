@@ -52,9 +52,6 @@ BEGIN
     
     WHERE p.dataDev IS NULL AND p.idUsuari = p_usuari AND LOWER(d.format) = p_format;
 
-EXCEPTION 
-    WHEN NO_DATA_FOUND THEN
-    RETURN '2: usuari ' || p_usuari || ' inexistent'; 
 
 END;
 
