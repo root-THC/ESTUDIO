@@ -10,7 +10,7 @@ DECLARE
 BEGIN
     SELECT bloquejat 
     INTO STRICT  v_usuario
-    FROM usuario
+    FROM usuari
     WHERE idusuari = p_usuari;
     
     IF bloquejat THEN
