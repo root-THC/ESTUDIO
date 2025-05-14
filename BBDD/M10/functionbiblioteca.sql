@@ -1,6 +1,6 @@
 drop function if exists stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR);
 
-CREATE OR REPLACE FUNCTION usuariOK(p_cliecod SMALLINT)
+CREATE OR REPLACE FUNCTION usuariOK(id_cliecod SMALLINT)
 RETURNS BOOLEAN
 AS $$
 
