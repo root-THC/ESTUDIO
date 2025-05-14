@@ -5,7 +5,7 @@ RETURNS VARCHAR
 AS $$
 
 DECLARE
-    v_usuario record;
+    v_;
 
 BEGIN
     SELECT bloquejat 
