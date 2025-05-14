@@ -41,7 +41,7 @@ DECLARE
 
 BEGIN
 
-    SELECT p.idusuari , d.idDocument , p.datapres , d.format
+    SELECT COUNT()
     
     FROM prestec p
 
