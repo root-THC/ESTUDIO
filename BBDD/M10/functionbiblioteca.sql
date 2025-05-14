@@ -27,7 +27,7 @@ EXCEPTION
 END;
 
 
-    RETURN TRUE;
+   
 
 
 EXCEPTION 
