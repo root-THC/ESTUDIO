@@ -14,7 +14,7 @@ BEGIN
     WHERE idusuari = p_usuari;
     
     IF bloquejat THEN
-        RETURN '1'
+        RETURN '1:usuari bloquejat'
 
 
 
