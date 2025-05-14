@@ -1,5 +1,5 @@
 drop function if exists usuariOK(p_usuari INTEGER);
-drop function if exists documentsPrestats(p_usuari INTEGER, p_format VARCHAR );
+drop function if exists documentsPrestats(p_usuari INTEGER, p_format VARCHAR (100));
 
 --1 EJERCICIO
 
