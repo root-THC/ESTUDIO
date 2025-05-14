@@ -49,7 +49,7 @@ BEGIN
 
     JOIN exemplar e ON e.idDocument = p.idExemplar
     
-    JOIN document d ON 
+    JOIN document d ON e.id
     
 
 EXCEPTION 
