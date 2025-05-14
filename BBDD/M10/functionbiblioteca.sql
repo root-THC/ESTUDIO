@@ -17,7 +17,7 @@ BEGIN
         RETURN '1:usuari bloquejat';
     ELSE 
         RETURN '0:usuari no té cap bloqueig i pot fer el prèstec'
-    
+    END IF;
     
 
 
