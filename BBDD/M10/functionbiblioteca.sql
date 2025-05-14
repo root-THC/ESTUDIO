@@ -45,7 +45,7 @@ BEGIN
     
     FROM prestec p
 
-    JOIN usuari ON p.
+    JOIN usuari ON p.idUsuari
     
     JOIN document d 
     
