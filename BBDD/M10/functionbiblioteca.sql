@@ -34,8 +34,7 @@ $$LANGUAGE PLPGSQL;
 -- 2 FUNCIÓN
 
 CREATE OR REPLACE FUNCTION documentsPrestats(p_usuari INT, p_format VARCHAR(100))
-RETURNS INT
-AS $$
+RETURNS INT AS $$
 
 DECLARE
     v_bloquejat usuari.bloquejat%TYPE;
