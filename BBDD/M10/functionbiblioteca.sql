@@ -13,8 +13,9 @@ BEGIN
     FROM usuario
     WHERE idusuari = p_usuari;
     
+    IF
     RETURN TRUE;
-    
+
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
