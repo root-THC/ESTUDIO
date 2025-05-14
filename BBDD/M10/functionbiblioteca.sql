@@ -45,7 +45,7 @@ BEGIN
     
     FROM usuari u 
 
-    JOIN prestec p  
+    JOIN prestec p ON  
     
 
 EXCEPTION 
