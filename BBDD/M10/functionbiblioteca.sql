@@ -51,6 +51,7 @@ BEGIN
     
     JOIN document d ON e.idDocument = d.idDocument
     
+    WHERE 
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
