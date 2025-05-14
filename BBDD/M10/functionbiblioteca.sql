@@ -16,7 +16,7 @@ BEGIN
     IF bloquejat THEN
         RETURN '1:usuari bloquejat';
     ELSE 
-        RETURN ''
+        RETURN '0:'
     
     
 
