@@ -14,6 +14,7 @@ BEGIN
     WHERE idusuari = p_usuari;
     
     RETURN TRUE;
+    
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
