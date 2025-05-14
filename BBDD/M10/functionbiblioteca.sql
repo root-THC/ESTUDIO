@@ -44,7 +44,7 @@ BEGIN
     SELECT u.idusuari , d.idcoument , p.datadev
     
     FROM usuari u 
-    
+     
     
 
 EXCEPTION 
