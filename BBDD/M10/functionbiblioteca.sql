@@ -43,6 +43,7 @@ DECLARE
 BEGIN
     SELECT u.
     
+    FROM
     
 
 EXCEPTION 
