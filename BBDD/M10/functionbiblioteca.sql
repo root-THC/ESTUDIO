@@ -14,6 +14,9 @@ BEGIN
     WHERE idusuari = p_usuari;
     
     IF
+
+
+    
     RETURN TRUE;
 
 
