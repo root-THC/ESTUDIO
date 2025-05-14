@@ -43,6 +43,7 @@ BEGIN
 
     SELECT COUNT(*)
     
+    INTO
     FROM prestec p
 
     JOIN exemplar e ON e.idDocument = p.idExemplar
