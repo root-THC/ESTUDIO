@@ -44,7 +44,7 @@ BEGIN
     SELECT idDocument
     INTO STRICT  v_bloquejat
     FROM document
-    WHERE idDocument = p_usuari;
+    WHERE idDocument = p_format;
     
     IF v_bloquejat THEN
         RETURN '1:usuari bloquejat';
