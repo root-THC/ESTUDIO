@@ -11,7 +11,7 @@ BEGIN
     SELECT bloquejat 
     INTO STRICT  v_cliente
     FROM usuario
-    WHERE id = p_cliecod;
+    WHERE idusuari = p_cliecod;
     
     RETURN TRUE;
 
