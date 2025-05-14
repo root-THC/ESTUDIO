@@ -41,7 +41,7 @@ DECLARE
     v_bloquejat usuari.bloquejat%TYPE;
 
 BEGIN
-    SELECT p_format 
+    SELECT 
     INTO STRICT  v_bloquejat
     FROM p_format
     WHERE idusuari = p_usuari;
