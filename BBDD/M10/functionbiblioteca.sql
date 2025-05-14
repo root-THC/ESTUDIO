@@ -9,7 +9,7 @@ DECLARE
 
 BEGIN
     SELECT bloquejat 
-    INTO STRICT  v_usuario
+    INTO STRICT  v_bloquejat
     FROM usuari
     WHERE idusuari = p_usuari;
     
