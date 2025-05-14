@@ -1,7 +1,7 @@
 drop function if exists stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR);
 
 CREATE OR REPLACE FUNCTION usuariOK(p_usuari INTEGER)
-RETURNS BOOLEAN
+RETURNS VARCHAR
 AS $$
 
 DECLARE
