@@ -8,14 +8,17 @@
 </head>
 <body>
     <h1>Formulari</h1>
-    <p>A continuació, un formulari:</p>
+    <p>Rellena los siguientes campos por favor</p>
     <form action="processa.php" method="get">
          <!--   METHOD GET O POST PARA EL TIPO DE MÉTODO  GET LOS DATOS APARECEN EN EL LINK Y EN EL POST NO APARECE EN EL LINK  --> 
-        <label for="f_nom">Nom:</label><input id="f_nom" type="text" name="nom" required placeholder="Escriu el teu nom"> 
+        <label for="f_nombre">Nombre:</label><input id="f_nombre" type="text" name="nombre" required placeholder="Pon tu nombre" >
+        <br><label for="f_correo">Correu electrónic:</label><input id="f_correo" type="email" name="correo" required placeholder="nombre@dominio.com" > </br>
         <!--   label es para que cuando le hagas clic a f_nom te haga click para escribir en el campo asociado  --> 
-        <input type="number" name="edat">
-        <input type="submit" value="Enviar dades">
-        <input type="submit" value="Enviar dades" formmethod="post"> <!--    br para saltos de linea     --> 
+        Indica tu fecha de nacimiento:  <input type="date" name="fechanacimiento" required> </br>
+        Indica tu grado de calma (1 - 10) <input type="range" id="vol" name="vol" min="0" max="10" required><br>
+        <label for="f_intereses">Indica tus intereses :</label><input id="f_intereses" type="text" name="intereses" required placeholder="separados por comas x , x"> </br>
+        <br><input type="submit" value="Submit GET">
+        <input type="submit" value="Submit Post" formmethod="post"> <!--    br para saltos de linea     --> 
         <!--    Slider se hace on un range con max o min      --> 
 
     </form>

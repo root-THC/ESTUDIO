@@ -2,10 +2,7 @@
 drop database if exists training;
 create database training;
 \c training
--- ESTO ES PARA LAS FUNCIONES
-CREATE SEQUENCE cliecod_seq;
-SELECT setval('cliecod_seq', (select max(cliecod) from cliente), true);
---
+
 
 CREATE TABLE producto (
     fabcod character(3),
