@@ -1,4 +1,4 @@
-drop function if exists stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR);
+drop function if exists usuariOK(p_usuari INTEGER);
 
 CREATE OR REPLACE FUNCTION usuariOK(p_usuari INTEGER)
 RETURNS VARCHAR
