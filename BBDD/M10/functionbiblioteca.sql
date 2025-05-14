@@ -37,7 +37,7 @@ CREATE OR REPLACE FUNCTION documentsPrestats(p_usuari INT, p_format VARCHAR(100)
 RETURNS INT AS $$
 
 DECLARE
-    v_bloquejat usuari.bloquejat%TYPE;
+    v_numero INT;
 
 BEGIN
 
