@@ -51,7 +51,7 @@ BEGIN
     
     JOIN document d ON e.idDocument = d.idDocument
     
-    WHERE idUsuari = p_usuari 
+    WHERE idUsuari = p_usuari AND 
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
