@@ -43,7 +43,8 @@ DECLARE
 BEGIN
     SELECT u.idusuari , d.idcoument , p.datadev
     
-    FROM usuari 
+    FROM usuari u 
+    
     
 
 EXCEPTION 
