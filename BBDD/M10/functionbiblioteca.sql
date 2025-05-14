@@ -43,7 +43,7 @@ BEGIN
 
     SELECT COUNT(*)
     
-    INTO
+    INTO STRICT v_numero
     FROM prestec p
 
     JOIN exemplar e ON e.idDocument = p.idExemplar
