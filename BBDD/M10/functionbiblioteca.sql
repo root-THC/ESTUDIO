@@ -52,7 +52,7 @@ BEGIN
     
     WHERE p.dataDev IS NULL AND p.idUsuari = p_usuari AND LOWER(d.format) = p_format;
 
-    RETURN v_numero
+    RETURN v_numero;
 
 END;
 
