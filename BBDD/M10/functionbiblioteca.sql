@@ -43,7 +43,7 @@ DECLARE
 BEGIN
     SELECT idDocument
     INTO STRICT  v_bloquejat
-    FROM p_format
+    FROM document
     WHERE idusuari = p_usuari;
     
     IF v_bloquejat THEN
