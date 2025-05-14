@@ -8,7 +8,7 @@ DECLARE
     v_cliente record;
 
 BEGIN
-    SELECT * 
+    SELECT bloquejat 
     INTO STRICT  v_cliente
     FROM cliente
     WHERE cliecod = p_cliecod;
