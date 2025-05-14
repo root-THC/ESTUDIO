@@ -47,7 +47,7 @@ BEGIN
 
     JOIN usuari u ON p.idUsuari = u.idUsuari
 
-    JOIN exemplar e  
+    JOIN exemplar e ON  
     
     JOIN document d 
     
