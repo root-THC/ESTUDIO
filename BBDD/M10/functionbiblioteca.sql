@@ -41,7 +41,7 @@ DECLARE
 
 BEGIN
 
-    SELECT P.idusuari , d.idDocument , p.datapres , d.format
+    SELECT p.idusuari , d.idDocument , p.datapres , d.format
     
     FROM prestec p
 
