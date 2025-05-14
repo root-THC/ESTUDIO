@@ -47,7 +47,7 @@ BEGIN
 
     JOIN prestec p ON 
     
-    JOIN document
+    JOIN document d 
     
 
 EXCEPTION 
