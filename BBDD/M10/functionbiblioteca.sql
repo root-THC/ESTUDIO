@@ -41,10 +41,7 @@ DECLARE
     v_bloquejat usuari.bloquejat%TYPE;
 
 BEGIN
-    SELECT idDocument
-    INTO STRICT  v_bloquejat
-    FROM document
-    WHERE idDocument = p_format;
+    
     
     IF v_bloquejat THEN
         RETURN '1:usuari bloquejat';
