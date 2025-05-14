@@ -41,7 +41,7 @@ DECLARE
     v_bloquejat usuari.bloquejat%TYPE;
 
 BEGIN
-    SELECT 
+    SELECT u.
     
     IF v_bloquejat THEN
         RETURN '1:usuari bloquejat';
