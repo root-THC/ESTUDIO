@@ -41,7 +41,7 @@ DECLARE
 
 BEGIN
 
-    SELECT COUNT()
+    SELECT COUNT(*)
     
     FROM prestec p
 
