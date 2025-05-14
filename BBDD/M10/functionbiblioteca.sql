@@ -43,7 +43,7 @@ DECLARE
 BEGIN
     SELECT u.idusuari , 
     
-    FROM
+    FROM usuari 
     
 
 EXCEPTION 
