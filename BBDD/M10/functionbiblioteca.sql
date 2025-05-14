@@ -22,7 +22,7 @@ BEGIN
 
 EXCEPTION 
     WHEN NO_DATA_FOUND THEN
-    RETURN 'Error no n''hi ha cap valor que coincideixi amb la teva cerca : ' || p_empno;
+    RETURN '2 ' || p_empno;
 
 END;
 
