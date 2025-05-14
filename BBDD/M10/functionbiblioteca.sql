@@ -1,5 +1,5 @@
 drop function if exists usuariOK(p_usuari INTEGER);
-drop function if exists usuariOK(p_usuari INTEGER);
+drop function if exists documents(p_usuari INTEGER);
 
 --1 EJERCICIO
 
