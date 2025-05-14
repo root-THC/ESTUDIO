@@ -13,7 +13,7 @@ BEGIN
     FROM usuario
     WHERE idusuari = p_usuari;
     
-    IF bloquejat 
+    IF bloquejat THEN
 
 
 
