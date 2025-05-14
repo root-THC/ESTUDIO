@@ -5,7 +5,7 @@ RETURNS VARCHAR
 AS $$
 
 DECLARE
-    v_bloquejat salari.bloquejat;
+    v_bloquejat salari.bloquejat%TYPE;
 
 BEGIN
     SELECT bloquejat 
