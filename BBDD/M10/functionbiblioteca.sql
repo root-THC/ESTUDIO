@@ -1,3 +1,5 @@
+drop function if exists stock0k(p_cant SMALLINT,p_fabcod CHAR,p_prodcod CHAR);
+
 CREATE OR REPLACE FUNCTION existeixClient(p_cliecod SMALLINT)
 RETURNS BOOLEAN
 AS $$
