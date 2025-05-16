@@ -118,6 +118,7 @@ AS $$
 
     END; 
     $$ LANGUAGE PLPGSQL;
+    $$LANGUAGE PLPGSQL;
 
 -- training=> SELECT altaComanda(2111::SMALLINT,20::SMALLINT,'rei'::VARCHAR,'2a45c'::VARCHAR);^C
 
@@ -135,4 +136,3 @@ AS $$
 
 
 
-    $$LANGUAGE PLPGSQL;
