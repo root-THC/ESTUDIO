@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Formularis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estils/estil.css"> <!-- atenció, cal crear-lo! -->
+    <link rel="stylesheet" href="estils/estil.css"> 
 </head>
 <body>
     <h1>Formulari</h1>
@@ -16,10 +16,11 @@
         <!--   label es para que cuando le hagas clic a f_nom te haga click para escribir en el campo asociado  --> 
         Indica tu fecha de nacimiento:  <input type="date" name="fechanacimiento" required> </br>
         Indica tu grado de calma (1 - 10) <input type="range" id="vol" name="vol" min="0" max="10" required><br>
+        <!--    Slider se hace on un range con max o min      --> 
         <label for="f_intereses">Indica tus intereses :</label><input id="f_intereses" type="text" name="intereses" required placeholder="separados por comas x , x"> </br>
         <br><input type="submit" value="Submit GET">
         <input type="submit" value="Submit Post" formmethod="post"> <!--    br para saltos de linea     --> 
-        <!--    Slider se hace on un range con max o min      --> 
+        
 
     </form>
 </body>
