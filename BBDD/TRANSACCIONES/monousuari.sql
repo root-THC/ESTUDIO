@@ -26,7 +26,6 @@ SELECT valor FROM punts WHERE id = 20;
 
 3. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 ```
-
 INSERT INTO punts (id, valor) VALUES (30,5);
 BEGIN;
 UPDATE punts SET valor = 4 WHERE id = 30;
