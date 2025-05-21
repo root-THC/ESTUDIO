@@ -83,4 +83,4 @@ COMMIT;
 SELECT SUM(valor) FROM punts;
 ```
 
-
+-- Mostaria la suma de 
