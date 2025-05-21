@@ -35,7 +35,7 @@ INSERT INTO punts (id, valor) VALUES (31,7);
 ROLLBACK;
 SELECT valor FROM punts WHERE id = 30;
 ```
--- Como el rollback no especificamos el punto de guardado 
+-- Como el rollback no especificamos el punto de guardado vuelve al principio
 4. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
 ```
