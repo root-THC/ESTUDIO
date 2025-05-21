@@ -83,4 +83,4 @@ COMMIT;
 SELECT SUM(valor) FROM punts;
 ```
 
--- Mostaria la suma de VALOR = 8 CON ID 61 Y 
+-- Mostaria la suma de VALOR = 8 CON ID 61 Y 4 de valor ID 60
