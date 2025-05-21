@@ -22,7 +22,7 @@ UPDATE punts SET valor = 4 WHERE id = 20;
 COMMIT;
 SELECT valor FROM punts WHERE id = 20;
 ```
-Valor será 4 porque con el commit guardamos los cambios
+--Valor será 4 porque con el commit guardamos los cambios
 3. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 ```
 
