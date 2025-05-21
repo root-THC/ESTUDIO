@@ -36,7 +36,7 @@ ROLLBACK;
 SELECT valor FROM punts WHERE id = 30;
 ```
 -- Como el rollback no especificamos el punto de guardado 
--- vuelve al principio o sea que valor 5
+-- vuelve al principio o sea que valor 5 y solo con el insert
 
 4. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
