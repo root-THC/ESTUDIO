@@ -66,7 +66,8 @@ SELECT valor FROM punts WHERE id = 50;
 ```
 
 -- Mostraria 5 ya que el select esta mal hecho falta el from y por tanto daria error
--- al no haber ninguín savepoint volveria al estado de antes de la transacción
+-- al no haber ninguín savepoint volveria al estado de antes de la transacción 
+-- solo el insert de antes de la transacción estaria hecho.
 
 6. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
