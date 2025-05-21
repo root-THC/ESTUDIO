@@ -64,7 +64,7 @@ COMMIT;
 SELECT valor FROM punts WHERE id = 50;
 ```
 
--- Mostraria 5 ya que el select esta mal hecho y por tanto daria error
+-- Mostraria 5 ya que el select esta mal hecho falta el from y por tanto daria error
 -- al no haber ninguín savepoint volveria al estado de antes de la transacción
 --
 
