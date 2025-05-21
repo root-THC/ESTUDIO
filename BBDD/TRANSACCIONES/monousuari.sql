@@ -50,7 +50,7 @@ INSERT INTO punts (id, valor) VALUES (41,7);
 ROLLBACK TO a;
 SELECT COUNT(*) FROM punts;
 ```
--- Mostrara 1 ya que es el count de una sola fila que es la del 
+-- Mostrara 1 ya que es el count de una sola fila que es 
 
 5. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
