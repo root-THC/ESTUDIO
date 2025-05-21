@@ -11,7 +11,8 @@ UPDATE punts SET valor = 4 WHERE id = 10;
 ROLLBACK;
 SELECT valor FROM punts WHERE id = 10;
 ```
--- Mostrará 5 ya que al hacer rollback no se ejecuta nada a partir del begin.
+-- Mostrará 5 ya que al hacer rollback no se ejecuta nada a partir del begin
+-- solo el insert del principio.
 
 2. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.  
 
