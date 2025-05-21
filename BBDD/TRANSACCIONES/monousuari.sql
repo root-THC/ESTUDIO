@@ -66,6 +66,7 @@ SELECT valor FROM punts WHERE id = 50;
 
 -- Mostraria 5 ya que el select esta mal hecho y por tanto daria error
 
+
 6. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
 ```
