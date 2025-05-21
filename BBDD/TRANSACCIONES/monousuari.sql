@@ -56,7 +56,7 @@ SELECT COUNT(*) FROM punts;
 
 5. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
-
+```
 INSERT INTO punts (id, valor) VALUES (50,5);
 BEGIN;
 SELECT id, valor WHERE punts;
