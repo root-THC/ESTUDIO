@@ -85,4 +85,6 @@ COMMIT;
 SELECT SUM(valor) FROM punts;
 ```
 
--- Mostaria 12 la suma de VALOR = 8 CON ID 61 Y VALOR = 4 ID 60 ya que volvemos al esta 
+-- Mostaria 12 la suma de VALOR = 8 CON ID 61 Y VALOR = 4 ID 60 ya que volvemos al estado 
+-- dond ese ha echo el update y el insert y hacemos un commit con lo cual 
+-- guardamos 
