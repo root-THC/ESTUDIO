@@ -52,7 +52,7 @@ SELECT COUNT(*) FROM punts;
 ```
 -- La transacción no ha acabado y como no lo hemos guardado con ningún commmit 
 -- mostrará un SELECT del estado actual dentro de la transacción por lo tanto 
--- 
+-- 40,4
 
 5. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT.
 
