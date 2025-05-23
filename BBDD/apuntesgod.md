@@ -870,5 +870,6 @@ FROM emp;
 |  MARTIN   | MANAGER                       |
 | BLAKE      | MANAGER                       |
 
+### `ALIAS PARA TABLAS`
 
 
