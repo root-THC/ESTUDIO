@@ -872,6 +872,6 @@ FROM emp;
 
 ### `CONEXIÓN PARA REMOTA`
 
-psql -U admin template1 -h ip
+psql -U admin template1 -h ipcompañero
 
 
