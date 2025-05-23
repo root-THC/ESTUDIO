@@ -88,7 +88,7 @@ SELECT valor FROM punts WHERE id = 100; -- Connexió 0
 | Usuari | Blocat/Desblocat | Motiu                                                             |
 |--------|------------------|--------------------------------------------------------------------|
 | 2      | B                | Ús de dades de l'usuari 1                                         |
-| 1      | B                | Ús de dades de l'usuari 1                                         |
+| 1      |                 | Ús de dades de l'usuari 1                                         |
 |        | Deadlock         |  |
 
 11. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
