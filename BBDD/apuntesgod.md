@@ -870,6 +870,8 @@ FROM emp;
 |  MARTIN   | MANAGER                       |
 | BLAKE      | MANAGER                       |
 
-### `CONEXIÓN PARA REMO`
+### `CONEXIÓN PARA REMOTA`
+
+psql 
 
 
