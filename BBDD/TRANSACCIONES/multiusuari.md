@@ -12,7 +12,7 @@ DELETE FROM punts; -- Connexió 1
 SELECT COUNT(*) FROM punts; -- Connexió 2
 ```
 Como el SELECT es temporal mostrara 1 fila solo porque no se ha 
-echo commit
+echo commit.
 
 
 
