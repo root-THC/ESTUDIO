@@ -138,3 +138,9 @@ COMMIT; -- Connexió 1
 
 SELECT valor FROM punts WHERE id = 121; -- Connexió 0
 ```
+
+| Usuari | Blocat/Desblocat | Motiu                                                             |
+|--------|------------------|--------------------------------------------------------------------|
+| 1      | B                | Ús de dades de l'usuari 2                                         |
+| 2      | B                | Ús de dades de l'usuari 1                                         |
+|        | Deadlock         | L'usuari 2 provoca *deadlock* i es desfan les operacions dins la transacció |
