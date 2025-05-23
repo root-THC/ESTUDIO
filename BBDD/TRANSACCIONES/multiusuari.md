@@ -11,9 +11,7 @@ DELETE FROM punts; -- Connexió 1
 
 SELECT COUNT(*) FROM punts; -- Connexió 2
 ```
-Como el SELECT es temporal no mostrará nada primero haces un insert el cual añade la fila y luego abres una 
-transacción por lo tanto como no se ha cerrado la transacción se muestra lo que ha ocurrido en la transacción pero no es 
-un resultado final.
+Como el SELECT es temporal 
 
 
 
