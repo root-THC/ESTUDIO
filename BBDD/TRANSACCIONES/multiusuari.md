@@ -87,7 +87,7 @@ SELECT valor FROM punts WHERE id = 100; -- Connexió 0
 
 | Usuari | Blocat/Desblocat | Motiu                                                             |
 |--------|------------------|--------------------------------------------------------------------|
-| 1      | B                | Ús de dades de l'usuari 2                                         |
+| 2      | B                | Ús de dades de l'usuari 2                                         |
 | 2      | B                | Ús de dades de l'usuari 1                                         |
 |        | Deadlock         |  |
 
