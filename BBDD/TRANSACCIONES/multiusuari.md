@@ -43,6 +43,8 @@ Usuari | Blocat/Desblocat | Motiu
 2       |  B              | Us de dades de l'usuari 1
         |      Deadlock   | Usuario 2 provoca deadlock y se deshacen las operaciones de dentro de la transacción
 
+        Por lo tanto muestra el 4 
+
 9. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
 
 ```
