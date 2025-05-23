@@ -117,7 +117,7 @@ SELECT valor FROM punts WHERE id = 111; -- Connexió 0
 | Usuari | Blocat/Desblocat | Motiu                                                             |
 |--------|------------------|--------------------------------------------------------------------|
 | 2      | B                | Se queda bloqueado por el commit                                         |
-| 2      | D                | Ús de dades de l'usuari 1                                         |
+| 2      | D                | Conexión 1 hace la transacción                                          |
 |        | Deadlock         | L'usuari 2 provoca *deadlock* i es desfan les operacions dins la transacció |
 
 
