@@ -130,7 +130,7 @@ INSERT INTO punts (id, valor) VALUES (120,5); -- Connexió 0
 INSERT INTO punts (id, valor) VALUES (121,5); -- Connexió 0
 
 BEGIN; -- Connexió 1
-UPDATE punts SET valor = 6 WHERE id = 121; -- Connexió 1
+--UPDATE punts SET valor = 6 WHERE id = 121; -- Connexió 1
 SAVEPOINT a;
 UPDATE punts SET valor = 9 WHERE id = 120; -- Connexió 1
 
