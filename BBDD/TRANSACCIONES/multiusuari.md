@@ -119,7 +119,7 @@ SELECT valor FROM punts WHERE id = 111; -- Connexió 0
 | 2      | B                | Se queda bloqueado por el commit de la conexión 2                                  |
 | 2      | D                | Se desbloquea porque finaliza la transacción del usuario1                                         |
 
-
+111 mostrara valor 
 
 
 
