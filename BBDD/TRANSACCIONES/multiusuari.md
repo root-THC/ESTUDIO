@@ -154,4 +154,4 @@ SELECT valor FROM punts WHERE id = 121; -- Connexió 0
 | 2      | B                | Se queda bloqueado por el commit de la conexión 2                                           |
 | 2      | D                | Se desbloquea por el commit del 1                                         |
 
-EL valor que mostrara 121 6
+EL valor que mostrara 121 es 6
