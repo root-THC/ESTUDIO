@@ -65,7 +65,7 @@ SELECT valor FROM punts WHERE id = 91; -- Connexió 0
 | Usuari | Blocat/Desblocat | Motiu                                                             |
 |--------|------------------|--------------------------------------------------------------------|
 | 2    | B                | Se queda bloqueado por uso de datos de la conexión 1                                            |
-| 2      | D                | Se desbloquea por el commit de la conexión 1                                        |
+| 2      | D                | Se desbloquea por el commit de la conexión 11                                        |
 
 Mostrara el valor 9 solo
 
