@@ -91,7 +91,7 @@ SELECT valor FROM punts WHERE id = 100; -- Connexió 0
 | 2      | D           | Desbloquejat perque la transacció de l'usuari 1 ha finalitzar                                         |
 
 
-MUestra valor 7 porque se hace el update de la conexión 2 una vez finalizada la 1era
+Muestra valor 7 porque se hace el update de la conexión 2 una vez finalizada la 1era
 
 11. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
 
