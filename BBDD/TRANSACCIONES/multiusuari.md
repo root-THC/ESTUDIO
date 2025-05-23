@@ -38,7 +38,7 @@ COMMIT; -- Connexió 1
 SELECT valor FROM punts WHERE id = 80; -- Connexió 0
 ```
 
-Usuari Blocat/Desblocat Motiu
+Usuari | Blocat/Desblocat Motiu
 
 
 
