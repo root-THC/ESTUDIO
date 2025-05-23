@@ -68,6 +68,8 @@ SELECT valor FROM punts WHERE id = 91; -- Connexió 0
 | 2      | B                | Ús de dades de l'usuari 1                                         |
 |        | Deadlock         | L'usuari 2 provoca *deadlock* i es desfan les operacions dins la transacció |
 
+Mostrara el valor 9 solo
+
 10. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
 
 ```
