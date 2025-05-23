@@ -37,11 +37,12 @@ COMMIT; -- Connexió 1
 
 SELECT valor FROM punts WHERE id = 80; -- Connexió 0
 ```
+| Usuari | Blocat/Desblocat | Motiu                                                             |
+|--------|------------------|--------------------------------------------------------------------|
+| 1      | B                | Ús de dades de l'usuari 2                                         |
+| 2      | B                | Ús de dades de l'usuari 1                                         |
+|        | Deadlock         | L'usuari 2 provoca *deadlock* i es desfan les operacions dins la transacció |
 
-Usuari | Blocat/Desblocat | Motiu
- 1      |  B              | Us d dades de l'usuari 2
-2       |  B              | Us de dades de l'usuari 1
-        |      Deadlock   | Usuario 2 provoca deadlock y se deshacen las operaciones de dentro de la transacción
 
 Por lo tanto muestra el 4 que es el update que se hace en la conexión 1 
 
