@@ -115,6 +115,9 @@ COMMIT; -- Connexió 1
 SELECT valor FROM punts WHERE id = 111; -- Connexió 0
 ```
 
+
+
+
 12. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
 
 ```
