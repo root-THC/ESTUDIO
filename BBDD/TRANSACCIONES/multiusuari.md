@@ -89,7 +89,7 @@ SELECT valor FROM punts WHERE id = 100; -- Connexió 0
 | Usuari | Blocat/Desblocat | Motiu                                                             |
 |--------|------------------|--------------------------------------------------------------------|
 | 2      | B                | Ús de dades de l'usuari 1                                         |
-| 2      | D           | Desbloquejat perque la transacció de l'usuari 1 ha finalitzar                                         |
+| 2      | D           | Desbloquejat perque la transacció de l'usuari 1 ha finalitzat                                         |
 
 
 Muestra valor 7 porque se hace el update de la conexión 2 una vez finalizada la 1era
