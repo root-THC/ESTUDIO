@@ -11,7 +11,7 @@ DELETE FROM punts; -- Connexió 1
 
 SELECT COUNT(*) FROM punts; -- Connexió 2
 ```
-Como el SELECT es temporal 
+Como el SELECT es temporal mostrara 1 
 
 
 
