@@ -1,0 +1,122 @@
+# Transacciones (Multiusuari)
+
+7. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+DELETE FROM punts; -- Connexió 0
+INSERT INTO punts (id, valor) VALUES (70,5); -- Connexió 0
+
+BEGIN; -- Connexió 1
+DELETE FROM punts; -- Connexió 1
+
+SELECT COUNT(*) FROM punts; -- Connexió 2
+```
+Como el SELECT es temporal no mostrará nada primero haces un insert el cual añade la fila y luego abres una 
+transacción por lo tanto 
+
+
+
+8. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+INSERT INTO punts (id, valor) VALUES (80,5); -- Connexió 0
+INSERT INTO punts (id, valor) VALUES (81,9); -- Connexió 0
+
+BEGIN; -- Connexió 1
+UPDATE punts SET valor = 4 WHERE id = 80; -- Connexió 1
+
+BEGIN; -- Connexió 2
+UPDATE punts SET valor = 8 WHERE id = 81; -- Connexió 2
+
+UPDATE punts SET valor = 10 WHERE id = 81; -- Connexió 1
+
+UPDATE punts SET valor = 6 WHERE id = 80; -- Connexió 2
+COMMIT; -- Connexió 2
+
+COMMIT; -- Connexió 1
+
+SELECT valor FROM punts WHERE id = 80; -- Connexió 0
+```
+
+
+9. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+INSERT INTO punts (id, valor) VALUES (90,5); -- Connexió 0
+
+BEGIN; -- Connexió 1
+DELETE FROM punts; -- Connexió 1
+
+BEGIN; -- Connexió 2
+INSERT INTO punts (id, valor) VALUES (91,9); -- Connexió 2
+COMMIT; -- Connexió 2
+
+COMMIT; -- Connexió 1
+
+SELECT valor FROM punts WHERE id = 91; -- Connexió 0
+```
+
+10. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+INSERT INTO punts (id, valor) VALUES (100,5); -- Connexió 0
+
+BEGIN; -- Connexió 1
+UPDATE punts SET valor = 6 WHERE id = 100; -- Connexió 1
+
+BEGIN; -- Connexió 2
+UPDATE punts SET valor = 7 WHERE id = 100; -- Connexió 2
+COMMIT; -- Connexió 2
+
+COMMIT; -- Connexió 1
+
+SELECT valor FROM punts WHERE id = 100; -- Connexió 0
+```
+
+11. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+INSERT INTO punts (id, valor) VALUES (110,5); -- Connexió 0
+INSERT INTO punts (id, valor) VALUES (111,5); -- Connexió 0
+
+BEGIN; -- Connexió 1
+UPDATE punts SET valor = 6 WHERE id = 110; -- Connexió 1
+
+BEGIN; -- Connexió 2
+UPDATE punts SET valor = 7 WHERE id = 110; -- Connexió 2
+UPDATE punts SET valor = 7 WHERE id = 111; -- Connexió 2
+SAVEPOINT a; -- Connexió 2
+UPDATE punts SET valor = 8 WHERE id = 110; -- Connexió 2
+ROLLBACK TO a; -- Connexió 2
+COMMIT; -- Connexió 2
+
+COMMIT; -- Connexió 1
+
+SELECT valor FROM punts WHERE id = 111; -- Connexió 0
+```
+
+12. Analitzant les següents sentències explica quins canvis es realitzen i on es realitzen. Finalment digues quin valor s'obtindrà amb l'últim SELECT. Tenint en compte que cada sentència s'executa en una connexió determinada.
+
+```
+INSERT INTO punts (id, valor) VALUES (120,5); -- Connexió 0
+INSERT INTO punts (id, valor) VALUES (121,5); -- Connexió 0
+
+BEGIN; -- Connexió 1
+UPDATE punts SET valor = 6 WHERE id = 121; -- Connexió 1
+SAVEPOINT a;
+UPDATE punts SET valor = 9 WHERE id = 120; -- Connexió 1
+
+BEGIN; -- Connexió 2
+UPDATE punts SET valor = 7 WHERE id = 120; -- Connexió 2
+
+ROLLBACK TO a; -- Connexió 1
+
+SAVEPOINT a; -- Connexió 2
+UPDATE punts SET valor = 8 WHERE id = 120; -- Connexió 2
+ROLLBACK TO a; -- Connexió 2
+COMMIT; -- Connexió 2
+
+COMMIT; -- Connexió 1
+
+SELECT valor FROM punts WHERE id = 121; -- Connexió 0
+```
