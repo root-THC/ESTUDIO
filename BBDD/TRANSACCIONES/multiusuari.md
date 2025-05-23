@@ -135,7 +135,7 @@ SAVEPOINT a;
 UPDATE punts SET valor = 9 WHERE id = 120; -- Connexió 1
 
 BEGIN; -- Connexió 2
-UPDATE punts SET valor = 7 WHERE id = 120; -- Connexió 2
+--UPDATE punts SET valor = 7 WHERE id = 120; -- Connexió 2
 
 ROLLBACK TO a; -- Connexió 1
 
