@@ -875,4 +875,5 @@ FROM emp;
 psql -U admin template1 -h ipcompañero
 
 
-### `CONFIGURACIÓN `
+### `CONFIGURACIÓN`
+
