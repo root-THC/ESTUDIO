@@ -875,4 +875,4 @@ FROM emp;
 psql -U admin template1 -h ipcompañero
 
 
-### `CONEXIÓN PARA REMOTA`
+### `CONFIGURACIÓN `
