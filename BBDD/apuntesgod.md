@@ -879,4 +879,4 @@ psql -U admin template1 -h ipcompañero
 
 Directorio /var/lib/postgresql/data/postgresql.conf
 
-Hay que fijarse en la linea listen_addresses y la de port 
+Hay que fijarse en la linea listen_addresses y la de port las descomentamos 
