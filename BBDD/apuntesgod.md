@@ -877,5 +877,5 @@ psql -U admin template1 -h ipcompañero
 
 ### `CONFIGURACIÓN POSTGRE SQL`
 
-/var/lib/postgresql/data/postgresql.conf
+Directorio /var/lib/postgresql/data/postgresql.conf
 
