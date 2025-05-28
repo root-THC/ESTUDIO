@@ -804,7 +804,8 @@ CREATE OR REPLACE view emp30
 AS
 SELECT empno, ename , sal, deptno
 FROM emp
-WHERE deptno = 30;
+WHERE deptno = 30
+WITH ;
 
 
 ## Funciones Útiles en SQL
