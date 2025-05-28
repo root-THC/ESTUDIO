@@ -810,6 +810,7 @@ WITH LOCAL CHECK OPTION;
 El with local check option asegura que los valores que añadamos asegure que luego lo podamos ver la vista
 
 
+El union es para 
 
 CREATE OR REPLACE VIEW alumne AS SELECT * FROM n2i 
 UNION
