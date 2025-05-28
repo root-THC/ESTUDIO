@@ -787,7 +787,7 @@ scott=> INSERT INTO emp30
 scott-> VALUES (7666,'richi',9999,30);
 
 Si no contiene datos porque deja hacer el select?
-
+Porque es una vista simple 
 
 
 
