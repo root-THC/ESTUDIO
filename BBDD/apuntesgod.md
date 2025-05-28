@@ -783,7 +783,8 @@ WHERE deptno = 30;
 
 SELECT * FROM emp30;
 
-
+scott=> INSERT INTO emp30 
+scott-> VALUES (7666,'richi',9999,30);
 
 
 
