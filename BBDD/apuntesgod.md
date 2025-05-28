@@ -776,6 +776,10 @@ $$LANGUAGE PLPGSQL;
 Es un objeto que te permite limitar lo que ve el usuario y no contiene datos
 
 CREATE view emp30
+AS
+SELECT empno, ename , sal, deptno
+FROM emp
+WHERE deptno = 30;
 
 
 
