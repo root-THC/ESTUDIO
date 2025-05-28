@@ -879,6 +879,8 @@ psql -U admin template1 -h ipcompañero
 
 Directorio /var/lib/postgresql/data/postgresql.conf
 
+SHOW config_file;
+
 Hay que fijarse en la linea listen_addresses y la de port las descomentamos :
 
 Cualquier cambio que hagamos en el archivo .conf y reiniciamos el contenedor.
