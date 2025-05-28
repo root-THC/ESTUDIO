@@ -807,7 +807,7 @@ FROM emp
 WHERE deptno = 30
 WITH LOCAL CHECK OPTION;
 
-El with local c
+El with local check option
 
 
 ## Funciones Útiles en SQL
