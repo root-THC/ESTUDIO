@@ -805,7 +805,7 @@ AS
 SELECT empno, ename , sal, deptno
 FROM emp
 WHERE deptno = 30
-WITH ;
+WITH LOCAL CHECK OPTION;
 
 
 ## Funciones Útiles en SQL
