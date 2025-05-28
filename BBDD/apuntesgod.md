@@ -810,7 +810,7 @@ WITH LOCAL CHECK OPTION;
 El with local check option asegura que los valores que añadamos asegure que luego lo podamos ver la vista
 
 
-El union es para unir los valores de los 2 campos en una unica tabla 
+El union es para unir los valores de los 2 campos en una unica tabla tienen que tener el mismo numero de tablas y mismo tipo
 
 CREATE OR REPLACE VIEW alumne AS SELECT * FROM n2i 
 UNION
