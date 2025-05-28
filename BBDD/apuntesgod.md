@@ -770,7 +770,10 @@ END;
 $$LANGUAGE PLPGSQL;
 ```
 
-## PROGRAMACIÓN SQL
+## VISTAS
+
+
+
 
 
 
