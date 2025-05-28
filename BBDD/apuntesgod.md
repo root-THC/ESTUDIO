@@ -885,4 +885,4 @@ Hay que fijarse en la linea listen_addresses y la de port las descomentamos :
 
 Cualquier cambio que hagamos en el archivo .conf y reiniciamos el contenedor.
 
-pg_hba.conf dice con que metodo de autenticación radius, trust  voy a acceder al sistema gestor.
+pg_hba.conf dice con que metodo de autenticación radius, trust password etc... voy a acceder al sistema gestor.
