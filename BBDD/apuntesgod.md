@@ -773,7 +773,7 @@ $$LANGUAGE PLPGSQL;
 ## VISTAS
 
 
-Es un objeto que te permite limitar lo que ve el usuario
+Es un objeto que te permite limitar lo que ve el usuario y no contiene datos
 
 
 
