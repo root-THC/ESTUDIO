@@ -807,7 +807,7 @@ FROM emp
 WHERE deptno = 30
 WITH LOCAL CHECK OPTION;
 
- Esto es para 
+Esto es para 
 
 
 ## Funciones Útiles en SQL
