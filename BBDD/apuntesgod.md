@@ -811,7 +811,9 @@ El with local check option asegura que los valores que añadamos asegure que lue
 
 
 
-
+CREATE OR REPLACE VIEW alumne AS SELECT * FROM n2i 
+UNION
+SELECT * FROM n2j;
 
 
 ## Funciones Útiles en SQL
