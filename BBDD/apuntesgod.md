@@ -781,6 +781,7 @@ SELECT empno, ename , sal, deptno
 FROM emp
 WHERE deptno = 30;
 
+SELECT 
 
 
 
