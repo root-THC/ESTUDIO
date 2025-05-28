@@ -797,7 +797,7 @@ COMPLEJA : CON CAMPOS CALCULADOS O TIENE MAS DE UN TABLA
 scott=> INSERT INTO emp30 
 scott-> VALUES (7777,'alex',9999,10);
 
-Deja insertar por ser simple 
+Deja insertar por ser vista simple 
 
 
 
