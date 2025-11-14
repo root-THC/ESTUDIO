@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/pincoya-black');
+.logo {
+  display: flex;         
+  align-items: center;  
+  justify-content: center;  
+  gap: 30px;             
+}
+.logo img {
+  width: 300px;            
+  height: 200px;
+  object-fit: contain;
+}
+header {
+  background: #164A84;
+  border-style: solid;
+  border-color: black;
+  text-align: center;      
+  color: white;
+  width: 100%;
+  font-family: 'Pincoyablack', sans-serif;
+  font-size: 35px;
+   text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #164A84;
+  border-style: solid;
+  border-top: none;
+
+}
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Pincoyablack', sans-serif;
+  color: white;
+
+    
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+    text-shadow:
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px  1px 0 black,
+      1px  1px 0 black;
+}
+
+
+article section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;  
+  justify-items: center;
+}
+article section figure {
+  display: flex;
+  align-items: center;
+}
+
+article section figure img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: auto;
+}
+article section figure figcaption {
+  font-family: 'Pincoyablack', sans-serif;
+  font-size: 30px;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+   text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
